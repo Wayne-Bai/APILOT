@@ -1,0 +1,295 @@
+{
+    "Added:": [
+        {
+            "func_name": "deepcopy",
+            "path": "nltk/probability.py",
+            "parent": "ConditionalFreqDist"
+        },
+        {
+            "func_name": "_repr_svg_",
+            "path": "nltk/tree/tree.py",
+            "parent": "Tree"
+        },
+        {
+            "func_name": "BCP47CorpusReader",
+            "path": "nltk/corpus/reader/__init__.py",
+            "parent": "Module"
+        }
+    ],
+    "Removed": [
+        {
+            "func_name": "_repr_png_",
+            "path": "nltk/tree.py",
+            "parent": "Tree"
+        }
+    ],
+    "Param_Changed": [
+        {
+            "func_name": "productions",
+            "path": "nltk/tree/tree.py",
+            "parent": "Tree",
+            "old": [
+                "self",
+                "lhs",
+                "rhs",
+                "empty"
+            ],
+            "new": [
+                "self"
+            ]
+        },
+        {
+            "func_name": "freeze",
+            "path": "nltk/tree/tree.py",
+            "parent": "Tree",
+            "old": [
+                "self"
+            ],
+            "new": [
+                "self",
+                "leaf_freezer"
+            ]
+        },
+        {
+            "func_name": "__add__",
+            "path": "nltk/tree/tree.py",
+            "parent": "Tree",
+            "old": [
+                "self",
+                "other"
+            ],
+            "new": [
+                "self",
+                "v"
+            ]
+        },
+        {
+            "func_name": "__getitem__",
+            "path": "nltk/tree/tree.py",
+            "parent": "Tree",
+            "old": [
+                "self",
+                "name_or_path"
+            ],
+            "new": [
+                "self",
+                "index"
+            ]
+        },
+        {
+            "func_name": "pprint",
+            "path": "nltk/tree/tree.py",
+            "parent": "Tree",
+            "old": [
+                "self",
+                "maxlen",
+                "stream"
+            ],
+            "new": [
+                "self"
+            ]
+        },
+        {
+            "func_name": "__setitem__",
+            "path": "nltk/tree/tree.py",
+            "parent": "Tree",
+            "old": [
+                "self",
+                "name_or_path",
+                "value"
+            ],
+            "new": [
+                "self",
+                "index",
+                "value"
+            ]
+        },
+        {
+            "func_name": "__delitem__",
+            "path": "nltk/tree/tree.py",
+            "parent": "Tree",
+            "old": [
+                "self",
+                "name_or_path"
+            ],
+            "new": [
+                "self",
+                "index"
+            ]
+        },
+        {
+            "func_name": "fromstring",
+            "path": "nltk/tree/tree.py",
+            "parent": "Tree",
+            "old": [
+                "self",
+                "s",
+                "fstruct"
+            ],
+            "new": [
+                "cls",
+                "s",
+                "brackets",
+                "read_node",
+                "read_leaf",
+                "node_pattern",
+                "leaf_pattern",
+                "remove_empty_top_bracketing"
+            ]
+        },
+        {
+            "func_name": "convert",
+            "path": "nltk/tree/probabilistic.py",
+            "parent": "ProbabilisticTree",
+            "old": [
+                "cls",
+                "tree"
+            ],
+            "new": [
+                "cls",
+                "val"
+            ]
+        },
+        {
+            "func_name": "pformat",
+            "path": "nltk/tree/tree.py",
+            "parent": "Tree",
+            "old": [
+                "self",
+                "maxlen"
+            ],
+            "new": [
+                "self",
+                "margin",
+                "indent",
+                "nodesep",
+                "parens",
+                "quotes"
+            ]
+        }
+    ],
+    "Return_Changed": [
+        {
+            "func_name": "productions",
+            "path": "nltk/tree/tree.py",
+            "parent": "Tree",
+            "old": [],
+            "new": [
+                "Name(id='prods', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "__str__",
+            "path": "nltk/tree/prettyprinter.py",
+            "parent": "TreePrettyPrinter",
+            "old": [
+                "Attribute(value=Name(id='self', ctx=Load()), attr='_path', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='text', ctx=Load()), args=[], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "__eq__",
+            "path": "nltk/tree/probabilistic.py",
+            "parent": "ProbabilisticTree",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='_equal', ctx=Load()), args=[Name(id='other', ctx=Load()), Constant(value=True), Call(func=Name(id='set', ctx=Load()), args=[], keywords=[]), Call(func=Name(id='set', ctx=Load()), args=[], keywords=[]), Call(func=Name(id='set', ctx=Load()), args=[], keywords=[])], keywords=[])"
+            ],
+            "new": [
+                "BoolOp(op=And(), values=[Compare(left=Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), ops=[Is()], comparators=[Attribute(value=Name(id='other', ctx=Load()), attr='__class__', ctx=Load())]), Compare(left=Tuple(elts=[Attribute(value=Name(id='self', ctx=Load()), attr='_label', ctx=Load()), Call(func=Name(id='list', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[]), Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='prob', ctx=Load()), args=[], keywords=[])], ctx=Load()), ops=[Eq()], comparators=[Tuple(elts=[Attribute(value=Name(id='other', ctx=Load()), attr='_label', ctx=Load()), Call(func=Name(id='list', ctx=Load()), args=[Name(id='other', ctx=Load())], keywords=[]), Call(func=Attribute(value=Name(id='other', ctx=Load()), attr='prob', ctx=Load()), args=[], keywords=[])], ctx=Load())])])"
+            ]
+        },
+        {
+            "func_name": "freeze",
+            "path": "nltk/tree/tree.py",
+            "parent": "Tree",
+            "old": [],
+            "new": [
+                "Name(id='newcopy', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "__hash__",
+            "path": "nltk/tree/immutable.py",
+            "parent": "ImmutableTree",
+            "old": [],
+            "new": [
+                "Attribute(value=Name(id='self', ctx=Load()), attr='_hash', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "__deepcopy__",
+            "path": "nltk/tree/tree.py",
+            "parent": "Tree",
+            "old": [],
+            "new": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='copy', ctx=Load()), args=[], keywords=[keyword(arg='deep', value=Constant(value=True))])"
+            ]
+        },
+        {
+            "func_name": "__add__",
+            "path": "nltk/tree/tree.py",
+            "parent": "Tree",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), args=[Call(func=Attribute(value=Call(func=Name(id='super', ctx=Load()), args=[], keywords=[]), attr='__add__', ctx=Load()), args=[Name(id='other', ctx=Load())], keywords=[])], keywords=[])"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "_frozen_class",
+            "path": "nltk/tree/probabilistic.py",
+            "parent": "ProbabilisticTree",
+            "old": [
+                "Name(id='ImmutableTree', ctx=Load())"
+            ],
+            "new": [
+                "Name(id='ImmutableProbabilisticTree', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "fromstring",
+            "path": "nltk/tree/tree.py",
+            "parent": "Tree",
+            "old": [
+                "Name(id='value', ctx=Load())"
+            ],
+            "new": [
+                "Name(id='tree', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "pformat",
+            "path": "nltk/tree/tree.py",
+            "parent": "Tree",
+            "old": [
+                "Call(func=Attribute(value=Constant(value='FreqDist({{{0}}})'), attr='format', ctx=Load()), args=[Call(func=Attribute(value=Constant(value=', '), attr='join', ctx=Load()), args=[Name(id='items', ctx=Load())], keywords=[])], keywords=[])"
+            ],
+            "new": [
+                "BinOp(left=Name(id='s', ctx=Load()), op=Add(), right=Subscript(value=Name(id='parens', ctx=Load()), slice=Constant(value=1), ctx=Load()))"
+            ]
+        }
+    ],
+    "Deprecated": [
+        {
+            "func_name": "find_deprecated_defs",
+            "path": "tools/find_deprecated.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "print_deprecated_uses",
+            "path": "tools/find_deprecated.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "print_deprecated_uses_in",
+            "path": "tools/find_deprecated.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecated",
+            "path": "nltk/internals.py",
+            "parent": "Module"
+        }
+    ]
+}

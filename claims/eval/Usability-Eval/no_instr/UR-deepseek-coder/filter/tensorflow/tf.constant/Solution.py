@@ -1,0 +1,9 @@
+import tensorflow as tf
+
+# Example tensor-like object
+tensor_like_object = [1.0, 2.0, 3.0, 4.0]
+
+# Create a constant tensor from the tensor-like object
+constant_tensor = tf.constant(tensor_like_object)
+
+print(constant_tensor)

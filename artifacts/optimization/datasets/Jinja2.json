@@ -1,0 +1,517 @@
+{
+    "Added:": [
+        {
+            "func_name": "test_nested_trans_error",
+            "path": "tests/test_ext.py",
+            "parent": "TestInternationalization"
+        },
+        {
+            "func_name": "test_trans_block_error",
+            "path": "tests/test_ext.py",
+            "parent": "TestInternationalization"
+        },
+        {
+            "func_name": "test_macro",
+            "path": "tests/test_nativetypes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_context_plural",
+            "path": "tests/test_ext.py",
+            "parent": "TestNewstyleInternationalization"
+        },
+        {
+            "func_name": "test_filename_normpath",
+            "path": "tests/test_loader.py",
+            "parent": "TestFileSystemLoader"
+        },
+        {
+            "func_name": "test_package_zip_omit_curdir",
+            "path": "tests/test_loader.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_async_extend",
+            "path": "tests/test_async.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_asyncio_run",
+            "path": "tests/test_async.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "loop_body",
+            "path": "src/jinja2/compiler.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_template_hash",
+            "path": "tests/test_nodes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "teardown_method",
+            "path": "tests/test_loader.py",
+            "parent": "TestModuleLoader"
+        },
+        {
+            "func_name": "test_getitem_after_filter",
+            "path": "tests/test_async.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "remove_silent",
+            "path": "src/jinja2/bccache.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_package_file_source",
+            "path": "tests/test_loader.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "package_file_loader",
+            "path": "tests/test_loader.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_IteratorToAsyncIterator",
+            "path": "src/jinja2/async_utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_xmlattr_key_invalid",
+            "path": "tests/test_filters.py",
+            "parent": "TestFilter"
+        },
+        {
+            "func_name": "test_blocks_generate_async",
+            "path": "tests/test_async.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_package_file_list",
+            "path": "tests/test_loader.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_groupby_case",
+            "path": "tests/test_filters.py",
+            "parent": "TestFilter"
+        },
+        {
+            "func_name": "test_context_plural_block",
+            "path": "tests/test_ext.py",
+            "parent": "TestNewstyleInternationalization"
+        },
+        {
+            "func_name": "test_items_undefined",
+            "path": "tests/test_filters.py",
+            "parent": "TestFilter"
+        },
+        {
+            "func_name": "test_basic_generate_async",
+            "path": "tests/test_async.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "closing",
+            "path": "tests/test_async_filters.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "run_async_fn",
+            "path": "tests/test_async.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_environment",
+            "path": "tests/test_pickle.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_getitem_after_call",
+            "path": "tests/test_async.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_context_block",
+            "path": "tests/test_ext.py",
+            "parent": "TestNewstyleInternationalization"
+        },
+        {
+            "func_name": "auto_aiter",
+            "path": "src/jinja2/async_utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_include_generate_async",
+            "path": "tests/test_async.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_leading_spaces",
+            "path": "tests/test_nativetypes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "do_items",
+            "path": "src/jinja2/filters.py",
+            "parent": "Module"
+        }
+    ],
+    "Removed": [
+        {
+            "func_name": "unicode_join",
+            "path": "src/jinja2/runtime.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_generator_stop",
+            "path": "tests/test_features.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_CTraceback",
+            "path": "src/jinja2/debug.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_legacy_custom_context",
+            "path": "tests/test_regression.py",
+            "parent": "TestBug"
+        },
+        {
+            "func_name": "run",
+            "path": "tests/test_async.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "WithExtension",
+            "path": "src/jinja2/ext.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "evalcontextfunction",
+            "path": "src/jinja2/utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "AutoEscapeExtension",
+            "path": "src/jinja2/ext.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "environmentfilter",
+            "path": "src/jinja2/filters.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "unicode_urlencode",
+            "path": "src/jinja2/utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "contextfilter",
+            "path": "src/jinja2/filters.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "environmentfunction",
+            "path": "src/jinja2/utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "tb_set_next",
+            "path": "src/jinja2/debug.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "contextfunction",
+            "path": "src/jinja2/utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_context_newstyle_plural",
+            "path": "tests/test_ext.py",
+            "parent": "TestNewstyleInternationalization"
+        },
+        {
+            "func_name": "Markup",
+            "path": "src/jinja2/utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "teardown",
+            "path": "tests/test_loader.py",
+            "parent": "TestModuleLoader"
+        },
+        {
+            "func_name": "evalcontextfilter",
+            "path": "src/jinja2/filters.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "controller",
+            "path": "src/jinja2/debug.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "escape",
+            "path": "src/jinja2/utils.py",
+            "parent": "Module"
+        }
+    ],
+    "Param_Changed": [
+        {
+            "func_name": "test_chainable_undefined_aiter",
+            "path": "tests/test_async.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "run_async_fn"
+            ]
+        },
+        {
+            "func_name": "test_custom_async_iteratable_filter",
+            "path": "tests/test_async_filters.py",
+            "parent": "Module",
+            "old": [
+                "env_async",
+                "items"
+            ],
+            "new": [
+                "env_async",
+                "items",
+                "run_async_fn"
+            ]
+        },
+        {
+            "func_name": "sync_do_groupby",
+            "path": "src/jinja2/filters.py",
+            "parent": "Module",
+            "old": [
+                "environment",
+                "value",
+                "attribute",
+                "default"
+            ],
+            "new": [
+                "environment",
+                "value",
+                "attribute",
+                "default",
+                "case_sensitive"
+            ]
+        },
+        {
+            "func_name": "test_basic_async",
+            "path": "tests/test_async.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "run_async_fn"
+            ]
+        },
+        {
+            "func_name": "overlay",
+            "path": "src/jinja2/environment.py",
+            "parent": "Environment",
+            "old": [
+                "self",
+                "block_start_string",
+                "block_end_string",
+                "variable_start_string",
+                "variable_end_string",
+                "comment_start_string",
+                "comment_end_string",
+                "line_statement_prefix",
+                "line_comment_prefix",
+                "trim_blocks",
+                "lstrip_blocks",
+                "extensions",
+                "optimized",
+                "undefined",
+                "finalize",
+                "autoescape",
+                "loader",
+                "cache_size",
+                "auto_reload",
+                "bytecode_cache"
+            ],
+            "new": [
+                "self",
+                "block_start_string",
+                "block_end_string",
+                "variable_start_string",
+                "variable_end_string",
+                "comment_start_string",
+                "comment_end_string",
+                "line_statement_prefix",
+                "line_comment_prefix",
+                "trim_blocks",
+                "lstrip_blocks",
+                "newline_sequence",
+                "keep_trailing_newline",
+                "extensions",
+                "optimized",
+                "undefined",
+                "finalize",
+                "autoescape",
+                "loader",
+                "cache_size",
+                "auto_reload",
+                "bytecode_cache",
+                "enable_async"
+            ]
+        },
+        {
+            "func_name": "test_custom_async_filter",
+            "path": "tests/test_async_filters.py",
+            "parent": "Module",
+            "old": [
+                "env_async"
+            ],
+            "new": [
+                "env_async",
+                "run_async_fn"
+            ]
+        },
+        {
+            "func_name": "test_native_async",
+            "path": "tests/test_async.py",
+            "parent": "Module",
+            "old": [
+                "async_native_env"
+            ],
+            "new": [
+                "async_native_env",
+                "run_async_fn"
+            ]
+        },
+        {
+            "func_name": "test_namespace_awaitable",
+            "path": "tests/test_async.py",
+            "parent": "Module",
+            "old": [
+                "test_env_async"
+            ],
+            "new": [
+                "test_env_async",
+                "run_async_fn"
+            ]
+        },
+        {
+            "func_name": "test_items",
+            "path": "tests/test_filters.py",
+            "parent": "TestFilter",
+            "old": [
+                "self"
+            ],
+            "new": [
+                "self",
+                "env"
+            ]
+        },
+        {
+            "func_name": "test_native_list_async",
+            "path": "tests/test_async.py",
+            "parent": "Module",
+            "old": [
+                "async_native_env"
+            ],
+            "new": [
+                "async_native_env",
+                "run_async_fn"
+            ]
+        },
+        {
+            "func_name": "test_await_on_calls",
+            "path": "tests/test_async.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "run_async_fn"
+            ]
+        },
+        {
+            "func_name": "test_await_and_macros",
+            "path": "tests/test_async.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "run_async_fn"
+            ]
+        },
+        {
+            "func_name": "test_async_blocks",
+            "path": "tests/test_async.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "run_async_fn"
+            ]
+        },
+        {
+            "func_name": "_make_node",
+            "path": "src/jinja2/ext.py",
+            "parent": "InternationalizationExtension",
+            "old": [
+                "self",
+                "singular",
+                "plural",
+                "variables",
+                "plural_expr",
+                "vars_referenced",
+                "num_called_num"
+            ],
+            "new": [
+                "self",
+                "singular",
+                "plural",
+                "context",
+                "variables",
+                "plural_expr",
+                "vars_referenced",
+                "num_called_num"
+            ]
+        }
+    ],
+    "Return_Changed": [
+        {
+            "func_name": "optimizeconst",
+            "path": "src/jinja2/compiler.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='update_wrapper', ctx=Load()), args=[Call(func=Attribute(value=Name(id='t', ctx=Load()), attr='cast', ctx=Load()), args=[Name(id='F', ctx=Load()), Name(id='new_func', ctx=Load())], keywords=[]), Name(id='f', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='update_wrapper', ctx=Load()), args=[Name(id='new_func', ctx=Load()), Name(id='f', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "sync_do_groupby",
+            "path": "src/jinja2/filters.py",
+            "parent": "Module",
+            "old": [
+                "ListComp(elt=Call(func=Name(id='_GroupTuple', ctx=Load()), args=[Name(id='key', ctx=Load()), Call(func=Name(id='list', ctx=Load()), args=[Name(id='values', ctx=Load())], keywords=[])], keywords=[]), generators=[comprehension(target=Tuple(elts=[Name(id='key', ctx=Store()), Name(id='values', ctx=Store())], ctx=Store()), iter=Call(func=Name(id='groupby', ctx=Load()), args=[Call(func=Name(id='sorted', ctx=Load()), args=[Name(id='value', ctx=Load())], keywords=[keyword(arg='key', value=Name(id='expr', ctx=Load()))]), Name(id='expr', ctx=Load())], keywords=[]), ifs=[], is_async=0)])"
+            ],
+            "new": [
+                "Name(id='out', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "__hash__",
+            "path": "src/jinja2/runtime.py",
+            "parent": "Undefined",
+            "old": [
+                "Call(func=Name(id='hash', ctx=Load()), args=[Call(func=Name(id='tuple', ctx=Load()), args=[Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='iter_fields', ctx=Load()), args=[], keywords=[])], keywords=[])], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='id', ctx=Load()), args=[Call(func=Name(id='type', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[])], keywords=[])"
+            ]
+        }
+    ],
+    "Deprecated": []
+}

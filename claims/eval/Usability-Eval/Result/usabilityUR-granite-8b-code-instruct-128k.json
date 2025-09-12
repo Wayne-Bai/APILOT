@@ -1,0 +1,359 @@
+{
+    "urllib3": {
+        "latest_version": "2.2.3",
+        "latest_version_rate": {
+            "origin": 0.7857142857142857,
+            "filter": 0.7857142857142857
+        },
+        "nearest_version": "1.26.7",
+        "nearest_version_rate": {
+            "origin": 0.7857142857142857,
+            "filter": 0.7857142857142857
+        },
+        "old_version": "1.26.5",
+        "old_version_rate": {
+            "origin": 0,
+            "filter": 0
+        }
+    },
+    "joblib": {
+        "latest_version": "1.4.2",
+        "latest_version_rate": {
+            "origin": 1.0,
+            "filter": 1.0
+        },
+        "nearest_version": "1.1.0",
+        "nearest_version_rate": {
+            "origin": 1.0,
+            "filter": 1.0
+        },
+        "old_version": "0.15.0",
+        "old_version_rate": {
+            "origin": 0,
+            "filter": 0
+        }
+    },
+    "pillow": {
+        "latest_version": "10.4.0",
+        "latest_version_rate": {
+            "origin": 0.1111111111111111,
+            "filter": 0.1111111111111111
+        },
+        "nearest_version": "8.3.2",
+        "nearest_version_rate": {
+            "origin": 0.1111111111111111,
+            "filter": 0.1111111111111111
+        },
+        "old_version": "5.2.0",
+        "old_version_rate": {
+            "origin": 0,
+            "filter": 0
+        }
+    },
+    "nltk": {
+        "latest_version": "3.9.1",
+        "latest_version_rate": {
+            "origin": 1.0,
+            "filter": 1.0
+        },
+        "nearest_version": "3.6.3",
+        "nearest_version_rate": {
+            "origin": 1.0,
+            "filter": 1.0
+        },
+        "old_version": "3.6",
+        "old_version_rate": {
+            "origin": 0,
+            "filter": 0
+        }
+    },
+    "tornado": {
+        "latest_version": "6.4.1",
+        "latest_version_rate": {
+            "origin": 0.7,
+            "filter": 0.7
+        },
+        "nearest_version": "6.2b1",
+        "nearest_version_rate": {
+            "origin": 0.7,
+            "filter": 0.7
+        },
+        "old_version": "6.0.2",
+        "old_version_rate": {
+            "origin": 0,
+            "filter": 0
+        }
+    },
+    "cryptography": {
+        "latest_version": "43.0.3",
+        "latest_version_rate": {
+            "origin": 0.4666666666666667,
+            "filter": 0.4666666666666667
+        },
+        "nearest_version": "3.4.8",
+        "nearest_version_rate": {
+            "origin": 0.4666666666666667,
+            "filter": 0.4666666666666667
+        },
+        "old_version": "2.2.2",
+        "old_version_rate": {
+            "origin": 0,
+            "filter": 0
+        }
+    },
+    "tensorflow": {
+        "latest_version": "2.13.1",
+        "latest_version_rate": {
+            "origin": 0.0,
+            "filter": 0.0
+        },
+        "nearest_version": "2.9.0rc0",
+        "nearest_version_rate": {
+            "origin": 0.0,
+            "filter": 0.0
+        },
+        "old_version": "2.9.0rc0",
+        "old_version_rate": {
+            "origin": 0,
+            "filter": 0
+        }
+    },
+    "numpy": {
+        "latest_version": "1.24.4",
+        "latest_version_rate": {
+            "origin": 0.9117647058823529,
+            "filter": 0.9117647058823529
+        },
+        "nearest_version": "1.21.2",
+        "nearest_version_rate": {
+            "origin": 0.9117647058823529,
+            "filter": 0.9117647058823529
+        },
+        "old_version": "1.17.0",
+        "old_version_rate": {
+            "origin": 0,
+            "filter": 0
+        }
+    },
+    "pysaml2": {
+        "latest_version": "7.3.1",
+        "latest_version_rate": {
+            "origin": 0.0,
+            "filter": 0.0
+        },
+        "nearest_version": "7.1.0",
+        "nearest_version_rate": {
+            "origin": 0.0,
+            "filter": 0.0
+        },
+        "old_version": "6.4.1",
+        "old_version_rate": {
+            "origin": 0,
+            "filter": 0
+        }
+    },
+    "werkzeug": {
+        "latest_version": "3.0.6",
+        "latest_version_rate": {
+            "origin": 0.3888888888888889,
+            "filter": 0.3888888888888889
+        },
+        "nearest_version": "2.0.2",
+        "nearest_version_rate": {
+            "origin": 0.4444444444444444,
+            "filter": 0.4444444444444444
+        },
+        "old_version": "2.0.0rc4",
+        "old_version_rate": {
+            "origin": 0,
+            "filter": 0
+        }
+    },
+    "pandas": {
+        "latest_version": "2.0.3",
+        "latest_version_rate": {
+            "origin": 0.5324675324675324,
+            "filter": 0.5454545454545454
+        },
+        "nearest_version": "1.3.3",
+        "nearest_version_rate": {
+            "origin": 0.5194805194805194,
+            "filter": 0.5324675324675324
+        },
+        "old_version": "0.25.0",
+        "old_version_rate": {
+            "origin": 0,
+            "filter": 0
+        }
+    },
+    "flask": {
+        "latest_version": "3.0.3",
+        "latest_version_rate": {
+            "origin": 0.4,
+            "filter": 0.4
+        },
+        "nearest_version": "2.0.2",
+        "nearest_version_rate": {
+            "origin": 0.0,
+            "filter": 0.0
+        },
+        "old_version": "1.0.4",
+        "old_version_rate": {
+            "origin": 0,
+            "filter": 0
+        }
+    },
+    "torch": {
+        "latest_version": "2.5.1",
+        "latest_version_rate": {
+            "origin": 0.8666666666666667,
+            "filter": 0.8666666666666667
+        },
+        "nearest_version": "1.9.1",
+        "nearest_version_rate": {
+            "origin": 0.8666666666666667,
+            "filter": 0.8666666666666667
+        },
+        "old_version": "1.9.0",
+        "old_version_rate": {
+            "origin": 0,
+            "filter": 0
+        }
+    },
+    "plone": {
+        "latest_version": "6.1.0a5",
+        "latest_version_rate": {
+            "origin": 1.0,
+            "filter": 1.0
+        },
+        "nearest_version": "6.0.0rc2",
+        "nearest_version_rate": {
+            "origin": 1.0,
+            "filter": 1.0
+        },
+        "old_version": "6.0.0rc2",
+        "old_version_rate": {
+            "origin": 0,
+            "filter": 0
+        }
+    },
+    "pyyaml": {
+        "latest_version": "6.0.2",
+        "latest_version_rate": {
+            "origin": 0.0,
+            "filter": 0.0
+        },
+        "nearest_version": "6.0b1",
+        "nearest_version_rate": {
+            "origin": 0.0,
+            "filter": 0.0
+        },
+        "old_version": "5.4b1",
+        "old_version_rate": {
+            "origin": 0,
+            "filter": 0
+        }
+    },
+    "scipy": {
+        "latest_version": "1.10.1",
+        "latest_version_rate": {
+            "origin": 0.8863636363636364,
+            "filter": 0.8863636363636364
+        },
+        "nearest_version": "1.7.1",
+        "nearest_version_rate": {
+            "origin": 0.8409090909090909,
+            "filter": 0.8409090909090909
+        },
+        "old_version": "1.3.3",
+        "old_version_rate": {
+            "origin": 0,
+            "filter": 0
+        }
+    },
+    "mitmproxy": {
+        "latest_version": "8.0.0",
+        "latest_version_rate": {
+            "origin": 1.0,
+            "filter": 1.0
+        },
+        "nearest_version": "7.0.3",
+        "nearest_version_rate": {
+            "origin": 1.0,
+            "filter": 1.0
+        },
+        "old_version": "7.0.0",
+        "old_version_rate": {
+            "origin": 0,
+            "filter": 0
+        }
+    },
+    "scikit-learn": {
+        "latest_version": "1.3.2",
+        "latest_version_rate": {
+            "origin": 0.45714285714285713,
+            "filter": 0.45714285714285713
+        },
+        "nearest_version": "1.0",
+        "nearest_version_rate": {
+            "origin": 0.5,
+            "filter": 0.5
+        },
+        "old_version": "0.22",
+        "old_version_rate": {
+            "origin": 0,
+            "filter": 0
+        }
+    },
+    "jinja2": {
+        "latest_version": "3.1.4",
+        "latest_version_rate": {
+            "origin": 0.375,
+            "filter": 0.375
+        },
+        "nearest_version": "3.0.2",
+        "nearest_version_rate": {
+            "origin": 0.5,
+            "filter": 0.5
+        },
+        "old_version": "2.11.0",
+        "old_version_rate": {
+            "origin": 0,
+            "filter": 0
+        }
+    },
+    "networkx": {
+        "latest_version": "3.1",
+        "latest_version_rate": {
+            "origin": 0.7377049180327869,
+            "filter": 0.7377049180327869
+        },
+        "nearest_version": "2.6.3",
+        "nearest_version_rate": {
+            "origin": 0.819672131147541,
+            "filter": 0.819672131147541
+        },
+        "old_version": "2.4",
+        "old_version_rate": {
+            "origin": 0,
+            "filter": 0
+        }
+    },
+    "seaborn": {
+        "latest_version": "0.13.2",
+        "latest_version_rate": {
+            "origin": 0.0,
+            "filter": 0.0
+        },
+        "nearest_version": "0.11.2",
+        "nearest_version_rate": {
+            "origin": 0.0,
+            "filter": 0.0
+        },
+        "old_version": "0.10.0rc0",
+        "old_version_rate": {
+            "origin": 0,
+            "filter": 0
+        }
+    }
+}

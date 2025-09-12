@@ -1,0 +1,11 @@
+import tensorflow as tf
+
+# Create a tensor
+a = tf.constant([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print("Original Tensor:")
+print(a)
+
+# Perform transposition
+a_transposed = tf.transpose(a)
+print("\nTransposed Tensor:")
+print(a_transposed)

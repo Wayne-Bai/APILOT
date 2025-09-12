@@ -1,0 +1,88 @@
+{
+    "Added:": [],
+    "Removed": [],
+    "Param_Changed": [],
+    "Return_Changed": [],
+    "Deprecated": [
+        {
+            "func_name": "test_deprecated_rcsetup_attributes",
+            "path": "lib/matplotlib/tests/test_backend_registry.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_auto_papersize_deprecation",
+            "path": "lib/matplotlib/tests/test_backend_ps.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecation_selector_visible_attribute",
+            "path": "lib/matplotlib/tests/test_widgets.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecation",
+            "path": "lib/matplotlib/tests/test_rcparams.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_no_deprecation_on_empty_data",
+            "path": "lib/matplotlib/tests/test_category.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecated_apis",
+            "path": "lib/matplotlib/tests/test_contour.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_classproperty_deprecation",
+            "path": "lib/matplotlib/tests/test_api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecate_privatize_attribute",
+            "path": "lib/matplotlib/tests/test_api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecation_alternative",
+            "path": "lib/matplotlib/tests/test_api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_generate_deprecation_warning",
+            "path": "lib/matplotlib/_api/deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "warn_deprecated",
+            "path": "lib/matplotlib/_api/deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecated",
+            "path": "lib/matplotlib/_api/deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecate_method_override",
+            "path": "lib/matplotlib/_api/deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "suppress_matplotlib_deprecation_warning",
+            "path": "lib/matplotlib/_api/deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecate",
+            "path": "lib/matplotlib/_api/deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "skip_deprecated",
+            "path": "doc/sphinxext/skip_deprecated.py",
+            "parent": "Module"
+        }
+    ]
+}

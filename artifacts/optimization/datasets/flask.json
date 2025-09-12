@@ -1,0 +1,1963 @@
+{
+    "Added:": [
+        {
+            "func_name": "handle_400",
+            "path": "tests/typing/typing_error_handler.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "app_before1",
+            "path": "tests/test_blueprints.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_copy_environ",
+            "path": "src/flask/testing.py",
+            "parent": "FlaskClient"
+        },
+        {
+            "func_name": "_untag_scan",
+            "path": "src/flask/json/tag.py",
+            "parent": "TaggedJSONSerializer"
+        },
+        {
+            "func_name": "teardown_sync",
+            "path": "tests/typing/typing_app_decorators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_from_prefixed_env_custom_prefix",
+            "path": "tests/test_config.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "template_string",
+            "path": "tests/test_blueprints.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "from_list",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_stream",
+            "path": "src/flask/templating.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_merge_blueprint_funcs",
+            "path": "src/flask/sansio/blueprints.py",
+            "parent": "Blueprint"
+        },
+        {
+            "func_name": "test_from_prefixed_env_nested",
+            "path": "tests/test_config.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "handle_custom",
+            "path": "tests/typing/typing_error_handler.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "DefaultJSONProvider",
+            "path": "src/flask/json/provider.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "FlaskTask",
+            "path": "examples/celery/src/task_app/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "hello_iterator",
+            "path": "tests/typing/typing_route.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_prepare_response_obj",
+            "path": "src/flask/json/provider.py",
+            "parent": "JSONProvider"
+        },
+        {
+            "func_name": "test_simple_stream",
+            "path": "tests/test_templating.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "create_namespace",
+            "path": "tests/test_instance_config.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "result",
+            "path": "examples/celery/src/task_app/views.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "from_prefixed_env",
+            "path": "src/flask/config.py",
+            "parent": "Config"
+        },
+        {
+            "func_name": "__init_subclass__",
+            "path": "src/flask/views.py",
+            "parent": "MethodView"
+        },
+        {
+            "func_name": "test_app_aborter_class",
+            "path": "tests/test_helpers.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_app_cli_has_app_context",
+            "path": "tests/test_cli.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "parse_args",
+            "path": "src/flask/cli.py",
+            "parent": "FlaskGroup"
+        },
+        {
+            "func_name": "test_session_refresh_vary",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_default",
+            "path": "src/flask/json/provider.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "tuple_status",
+            "path": "tests/typing/typing_route.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_check_setup_finished",
+            "path": "src/flask/sansio/scaffold.py",
+            "parent": "Scaffold"
+        },
+        {
+            "func_name": "redirect",
+            "path": "src/flask/sansio/app.py",
+            "parent": "App"
+        },
+        {
+            "func_name": "test_session_path",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_from_prefixed_env",
+            "path": "tests/test_config.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_host",
+            "path": "tests/test_cli.py",
+            "parent": "TestRoutes"
+        },
+        {
+            "func_name": "tuple_headers",
+            "path": "tests/typing/typing_route.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "process",
+            "path": "examples/celery/src/task_app/views.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "StatusJSON",
+            "path": "tests/typing/typing_route.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "show",
+            "path": "tests/typing/typing_route.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_config_from_file_toml",
+            "path": "tests/test_config.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_url_for_with_self",
+            "path": "tests/test_helpers.py",
+            "parent": "TestUrlFor"
+        },
+        {
+            "func_name": "child_ctx",
+            "path": "tests/test_blueprints.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_nesting_subdomains",
+            "path": "tests/test_blueprints.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_appgroup_app_context",
+            "path": "tests/test_cli.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "hello_json_dict",
+            "path": "tests/typing/typing_route.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_init_once",
+            "path": "tests/test_views.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "handle_accept_base",
+            "path": "tests/typing/typing_error_handler.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_flaskgroup_app_context",
+            "path": "tests/test_cli.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "return_template_stream",
+            "path": "tests/typing/typing_route.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "stream_template_string",
+            "path": "src/flask/templating.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "block",
+            "path": "examples/celery/src/task_app/views.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "JSONProvider",
+            "path": "src/flask/json/provider.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "hello_str",
+            "path": "tests/typing/typing_route.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "hello_generator_expression",
+            "path": "tests/typing/typing_route.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "My900Error",
+            "path": "tests/test_helpers.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "app_teardown1",
+            "path": "tests/test_blueprints.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_redirect_no_app",
+            "path": "tests/test_helpers.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "app_teardown2",
+            "path": "tests/test_blueprints.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_param_cb",
+            "path": "tests/test_cli.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "typed_dict",
+            "path": "tests/typing/typing_route.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "modules_tmp_path_prefix",
+            "path": "tests/conftest.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "MyAborter",
+            "path": "tests/test_helpers.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "abort",
+            "path": "src/flask/helpers.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "RenderTemplateView",
+            "path": "tests/typing/typing_route.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "hello_bytes",
+            "path": "tests/typing/typing_route.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "response",
+            "path": "src/flask/json/provider.py",
+            "parent": "JSONProvider"
+        },
+        {
+            "func_name": "from_blueprint",
+            "path": "src/flask/sansio/blueprints.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "parent_teardown1",
+            "path": "tests/test_blueprints.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "after_sync",
+            "path": "tests/typing/typing_app_decorators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "celery_init_app",
+            "path": "examples/celery/src/task_app/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_flaskgroup_nested",
+            "path": "tests/test_cli.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "App",
+            "path": "src/flask/sansio/app.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "hello_json",
+            "path": "tests/typing/typing_route.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "hello_json_list",
+            "path": "tests/typing/typing_route.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "b",
+            "path": "tests/test_blueprints.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "CustomProvider",
+            "path": "tests/test_json.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "before_sync",
+            "path": "tests/typing/typing_app_decorators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "return_template",
+            "path": "tests/typing/typing_route.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_set_debug",
+            "path": "src/flask/cli.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_set_app",
+            "path": "src/flask/cli.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_uninstalled_namespace_paths",
+            "path": "tests/test_instance_config.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "dotenv_not_available",
+            "path": "tests/test_cli.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "CountInit",
+            "path": "tests/test_views.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_empty_name_not_allowed",
+            "path": "tests/test_blueprints.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_run_exclude_patterns",
+            "path": "tests/test_cli.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_request_from_builder_args",
+            "path": "src/flask/testing.py",
+            "parent": "FlaskClient"
+        },
+        {
+            "func_name": "test_child_and_parent_subdomain",
+            "path": "tests/test_blueprints.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "stream_template",
+            "path": "src/flask/templating.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "parent_teardown2",
+            "path": "tests/test_blueprints.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "parent_before2",
+            "path": "tests/test_blueprints.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_no_setup_after_first_request",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_get_werkzeug_version",
+            "path": "src/flask/testing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "hello_generator",
+            "path": "tests/typing/typing_route.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "handle_multiple",
+            "path": "tests/typing/typing_error_handler.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "make_context",
+            "path": "src/flask/cli.py",
+            "parent": "FlaskGroup"
+        },
+        {
+            "func_name": "ignored",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_redirect_with_app",
+            "path": "tests/test_helpers.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "parent_before1",
+            "path": "tests/test_blueprints.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_nested_callback_order",
+            "path": "tests/test_blueprints.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "user",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "child_before1",
+            "path": "tests/test_blueprints.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "parent_ctx",
+            "path": "tests/test_blueprints.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_abort_with_app",
+            "path": "tests/test_helpers.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "app_before2",
+            "path": "tests/test_blueprints.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "child_teardown1",
+            "path": "tests/test_blueprints.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "make_aborter",
+            "path": "src/flask/sansio/app.py",
+            "parent": "App"
+        },
+        {
+            "func_name": "tuple_status_enum",
+            "path": "tests/typing/typing_route.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_lazy_sha1",
+            "path": "src/flask/sessions.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_config_from_file_json",
+            "path": "tests/test_config.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_env_file_callback",
+            "path": "src/flask/cli.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "child_teardown2",
+            "path": "tests/test_blueprints.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_trap_bad_request_key_error",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "a",
+            "path": "tests/test_blueprints.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "child_before2",
+            "path": "tests/test_blueprints.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_abort_no_app",
+            "path": "tests/test_helpers.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "modules_tmp_path",
+            "path": "tests/conftest.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_path_is_relative_to",
+            "path": "src/flask/sansio/scaffold.py",
+            "parent": "Module"
+        }
+    ],
+    "Removed": [
+        {
+            "func_name": "yyy_get_post",
+            "path": "tests/test_cli.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_session_ip_warning",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_config_from_file",
+            "path": "tests/test_config.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_flaskgroup",
+            "path": "tests/test_cli.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_lookup_app_object",
+            "path": "src/flask/globals.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_jsonify_prettyprint",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "get_and_assert",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "MyDecoder",
+            "path": "tests/test_json.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "auto_pop",
+            "path": "src/flask/ctx.py",
+            "parent": "RequestContext"
+        },
+        {
+            "func_name": "_lookup_req_object",
+            "path": "src/flask/globals.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "signal",
+            "path": "src/flask/signals.py",
+            "parent": "Namespace"
+        },
+        {
+            "func_name": "teardown_handler",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_test_client_calls_teardown_handlers",
+            "path": "tests/test_testing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_modified_url_encoding",
+            "path": "tests/test_json.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "bad_load",
+            "path": "tests/test_cli.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ModifiedRequest",
+            "path": "tests/test_json.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "install_egg",
+            "path": "tests/conftest.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_session_using_server_name_port_and_path",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "preserve_context_on_exception",
+            "path": "src/flask/app.py",
+            "parent": "Flask"
+        },
+        {
+            "func_name": "send",
+            "path": "src/flask/signals.py",
+            "parent": "_FakeSignal"
+        },
+        {
+            "func_name": "is_ip",
+            "path": "src/flask/helpers.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_session_localhost_warning",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_session_using_server_name_and_port",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_main_module_paths",
+            "path": "tests/test_instance_config.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "try_trigger_before_first_request_functions",
+            "path": "src/flask/app.py",
+            "parent": "Flask"
+        },
+        {
+            "func_name": "call_factory",
+            "path": "src/flask/cli.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_FakeSignal",
+            "path": "src/flask/signals.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "safe_join",
+            "path": "src/flask/helpers.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__delete__",
+            "path": "src/flask/helpers.py",
+            "parent": "locked_cached_property"
+        },
+        {
+            "func_name": "broken",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "fail_func",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_is_setup_finished",
+            "path": "src/flask/scaffold.py",
+            "parent": "Scaffold"
+        },
+        {
+            "func_name": "explain_ignored_app_run",
+            "path": "src/flask/debughelpers.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_before_first_request_functions",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "invoke_no_routes",
+            "path": "tests/test_cli.py",
+            "parent": "TestRoutes"
+        },
+        {
+            "func_name": "test_click_7_deprecated",
+            "path": "tests/test_cli.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "aaa_post",
+            "path": "tests/test_cli.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "UnacceptableCustomException",
+            "path": "tests/test_user_error_handler.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_dump_arg_defaults",
+            "path": "src/flask/json/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "DispatchingApp",
+            "path": "src/flask/cli.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_matching_loader_thinks_module_is_package",
+            "path": "src/flask/scaffold.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "get_env",
+            "path": "src/flask/helpers.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "MyEncoder",
+            "path": "tests/test_json.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "iscoroutinefunction",
+            "path": "src/flask/app.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_flush_bg_loading_exception",
+            "path": "src/flask/cli.py",
+            "parent": "DispatchingApp"
+        },
+        {
+            "func_name": "test_send_file_max_age",
+            "path": "tests/test_config.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_load_arg_defaults",
+            "path": "src/flask/json/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "success_func",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_find_app",
+            "path": "src/flask/globals.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_debug_mode_complains_after_first_request",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "modules_tmpdir",
+            "path": "tests/conftest.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_egg_installed_paths",
+            "path": "tests/test_instance_config.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "total_seconds",
+            "path": "src/flask/helpers.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "copy_environ",
+            "path": "src/flask/testing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "templates_auto_reload",
+            "path": "src/flask/app.py",
+            "parent": "Flask"
+        },
+        {
+            "func_name": "test_session_using_server_name",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "BadExc",
+            "path": "tests/test_cli.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "JSONEncoder",
+            "path": "src/flask/json/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_lazy_load_error",
+            "path": "tests/test_cli.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_load_unlocked",
+            "path": "src/flask/cli.py",
+            "parent": "DispatchingApp"
+        },
+        {
+            "func_name": "test_get_env",
+            "path": "tests/test_helpers.py",
+            "parent": "TestHelpers"
+        },
+        {
+            "func_name": "_load_app",
+            "path": "src/flask/cli.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_load_in_background",
+            "path": "src/flask/cli.py",
+            "parent": "DispatchingApp"
+        },
+        {
+            "func_name": "htmlsafe_dump",
+            "path": "src/flask/json/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_error_handler_unknown_code",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "before_app_first_request",
+            "path": "src/flask/blueprints.py",
+            "parent": "Blueprint"
+        },
+        {
+            "func_name": "test_blueprint_json_customization",
+            "path": "tests/test_json.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "remember",
+            "path": "tests/test_testing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "got_first_request",
+            "path": "src/flask/app.py",
+            "parent": "Flask"
+        },
+        {
+            "func_name": "test_trapping_of_bad_request_key_errors",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_preserve_remembers_exception",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_async_runtime_error",
+            "path": "tests/test_async.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "before_first_request",
+            "path": "src/flask/app.py",
+            "parent": "Flask"
+        },
+        {
+            "func_name": "test_preserve_only_once",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_before_first_request_functions_concurrent",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "apprunner",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "JSONDecoder",
+            "path": "src/flask/json/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "htmlsafe_dumps",
+            "path": "src/flask/json/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ErrorHandlerCallable",
+            "path": "src/flask/typing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "MethodViewType",
+            "path": "src/flask/views.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "working",
+            "path": "tests/test_basic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "from_json",
+            "path": "src/flask/config.py",
+            "parent": "Config"
+        },
+        {
+            "func_name": "test_appgroup",
+            "path": "tests/test_cli.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "propagate_exceptions",
+            "path": "src/flask/app.py",
+            "parent": "Flask"
+        },
+        {
+            "func_name": "locked_cached_property",
+            "path": "src/flask/helpers.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "modules_tmpdir_prefix",
+            "path": "tests/conftest.py",
+            "parent": "Module"
+        }
+    ],
+    "Param_Changed": [
+        {
+            "func_name": "test_routing_redirect_debugging",
+            "path": "tests/test_basic.py",
+            "parent": "Module",
+            "old": [
+                "app",
+                "client"
+            ],
+            "new": [
+                "monkeypatch",
+                "app",
+                "client"
+            ]
+        },
+        {
+            "func_name": "g",
+            "path": "tests/test_reqctx.py",
+            "parent": "Module",
+            "old": [
+                "self"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "test_environ_base_default",
+            "path": "tests/test_testing.py",
+            "parent": "Module",
+            "old": [
+                "app",
+                "client",
+                "app_ctx"
+            ],
+            "new": [
+                "app",
+                "client"
+            ]
+        },
+        {
+            "func_name": "run_command",
+            "path": "src/flask/cli.py",
+            "parent": "Module",
+            "old": [
+                "info",
+                "host",
+                "port",
+                "reload",
+                "debugger",
+                "eager_loading",
+                "with_threads",
+                "cert",
+                "extra_files"
+            ],
+            "new": [
+                "info",
+                "host",
+                "port",
+                "reload",
+                "debugger",
+                "with_threads",
+                "cert",
+                "extra_files",
+                "exclude_patterns"
+            ]
+        },
+        {
+            "func_name": "__call__",
+            "path": "src/flask/app.py",
+            "parent": "Flask",
+            "old": [
+                "self",
+                "error"
+            ],
+            "new": [
+                "self",
+                "environ",
+                "start_response"
+            ]
+        },
+        {
+            "func_name": "app_ctx",
+            "path": "tests/test_blueprints.py",
+            "parent": "Module",
+            "old": [
+                "app"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "test_get_debug_flag",
+            "path": "tests/test_helpers.py",
+            "parent": "TestHelpers",
+            "old": [
+                "self",
+                "monkeypatch",
+                "debug",
+                "expected_flag",
+                "expected_default_flag"
+            ],
+            "new": [
+                "self",
+                "monkeypatch",
+                "debug",
+                "expect"
+            ]
+        },
+        {
+            "func_name": "dump",
+            "path": "src/flask/json/__init__.py",
+            "parent": "Module",
+            "old": [
+                "obj",
+                "fp",
+                "app"
+            ],
+            "new": [
+                "obj",
+                "fp"
+            ]
+        },
+        {
+            "func_name": "test_exception_propagation",
+            "path": "tests/test_basic.py",
+            "parent": "Module",
+            "old": [
+                "app",
+                "client"
+            ],
+            "new": [
+                "app",
+                "client",
+                "key"
+            ]
+        },
+        {
+            "func_name": "test_installed_module_paths",
+            "path": "tests/test_instance_config.py",
+            "parent": "Module",
+            "old": [
+                "modules_tmpdir",
+                "modules_tmpdir_prefix",
+                "purge_module",
+                "site_packages",
+                "limit_loader"
+            ],
+            "new": [
+                "modules_tmp_path",
+                "modules_tmp_path_prefix",
+                "purge_module",
+                "site_packages",
+                "limit_loader"
+            ]
+        },
+        {
+            "func_name": "_find_package_path",
+            "path": "src/flask/sansio/scaffold.py",
+            "parent": "Module",
+            "old": [
+                "root_mod_name"
+            ],
+            "new": [
+                "import_name"
+            ]
+        },
+        {
+            "func_name": "send_file",
+            "path": "src/flask/helpers.py",
+            "parent": "Module",
+            "old": [
+                "path_or_file",
+                "mimetype",
+                "as_attachment",
+                "download_name",
+                "attachment_filename",
+                "conditional",
+                "etag",
+                "add_etags",
+                "last_modified",
+                "max_age",
+                "cache_timeout"
+            ],
+            "new": [
+                "path_or_file",
+                "mimetype",
+                "as_attachment",
+                "download_name",
+                "conditional",
+                "etag",
+                "last_modified",
+                "max_age"
+            ]
+        },
+        {
+            "func_name": "get",
+            "path": "src/flask/sansio/scaffold.py",
+            "parent": "Scaffold",
+            "old": [
+                "self",
+                "name",
+                "default"
+            ],
+            "new": [
+                "self",
+                "rule"
+            ]
+        },
+        {
+            "func_name": "show_server_banner",
+            "path": "src/flask/cli.py",
+            "parent": "Module",
+            "old": [
+                "env",
+                "debug",
+                "app_import_path",
+                "eager_loading"
+            ],
+            "new": [
+                "debug",
+                "app_import_path"
+            ]
+        },
+        {
+            "func_name": "__get__",
+            "path": "src/flask/config.py",
+            "parent": "ConfigAttribute",
+            "old": [
+                "self",
+                "obj",
+                "type"
+            ],
+            "new": [
+                "self",
+                "obj",
+                "owner"
+            ]
+        },
+        {
+            "func_name": "test_jsonify_no_prettyprint",
+            "path": "tests/test_basic.py",
+            "parent": "Module",
+            "old": [
+                "app",
+                "req_ctx"
+            ],
+            "new": [
+                "app",
+                "compact"
+            ]
+        },
+        {
+            "func_name": "test_uninstalled_module_paths",
+            "path": "tests/test_instance_config.py",
+            "parent": "Module",
+            "old": [
+                "modules_tmpdir",
+                "purge_module"
+            ],
+            "new": [
+                "modules_tmp_path",
+                "purge_module"
+            ]
+        },
+        {
+            "func_name": "test_installed_package_paths",
+            "path": "tests/test_instance_config.py",
+            "parent": "Module",
+            "old": [
+                "limit_loader",
+                "modules_tmpdir",
+                "modules_tmpdir_prefix",
+                "purge_module",
+                "monkeypatch"
+            ],
+            "new": [
+                "limit_loader",
+                "modules_tmp_path",
+                "modules_tmp_path_prefix",
+                "purge_module",
+                "monkeypatch"
+            ]
+        },
+        {
+            "func_name": "site_packages",
+            "path": "tests/conftest.py",
+            "parent": "Module",
+            "old": [
+                "modules_tmpdir",
+                "monkeypatch"
+            ],
+            "new": [
+                "modules_tmp_path",
+                "monkeypatch"
+            ]
+        },
+        {
+            "func_name": "_render",
+            "path": "src/flask/templating.py",
+            "parent": "Module",
+            "old": [
+                "template",
+                "context",
+                "app"
+            ],
+            "new": [
+                "app",
+                "template",
+                "context"
+            ]
+        },
+        {
+            "func_name": "test_explicit_instance_paths",
+            "path": "tests/test_instance_config.py",
+            "parent": "Module",
+            "old": [
+                "modules_tmpdir"
+            ],
+            "new": [
+                "modules_tmp_path"
+            ]
+        },
+        {
+            "func_name": "create_app",
+            "path": "examples/celery/src/task_app/__init__.py",
+            "parent": "Module",
+            "old": [
+                "test_config"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "load",
+            "path": "src/flask/json/__init__.py",
+            "parent": "Module",
+            "old": [
+                "fp",
+                "app"
+            ],
+            "new": [
+                "fp"
+            ]
+        },
+        {
+            "func_name": "find_app_by_string",
+            "path": "src/flask/cli.py",
+            "parent": "Module",
+            "old": [
+                "script_info",
+                "module",
+                "app_name"
+            ],
+            "new": [
+                "module",
+                "app_name"
+            ]
+        },
+        {
+            "func_name": "test_name_with_import_error",
+            "path": "tests/test_helpers.py",
+            "parent": "TestNoImports",
+            "old": [
+                "self",
+                "modules_tmpdir"
+            ],
+            "new": [
+                "self",
+                "modules_tmp_path"
+            ]
+        },
+        {
+            "func_name": "test_environ_base_modified",
+            "path": "tests/test_testing.py",
+            "parent": "Module",
+            "old": [
+                "app",
+                "client",
+                "app_ctx"
+            ],
+            "new": [
+                "app",
+                "client"
+            ]
+        },
+        {
+            "func_name": "send_from_directory",
+            "path": "src/flask/helpers.py",
+            "parent": "Module",
+            "old": [
+                "directory",
+                "path",
+                "filename"
+            ],
+            "new": [
+                "directory",
+                "path"
+            ]
+        },
+        {
+            "func_name": "default",
+            "path": "tests/test_json.py",
+            "parent": "Module",
+            "old": [
+                "self",
+                "o"
+            ],
+            "new": [
+                "o"
+            ]
+        },
+        {
+            "func_name": "test_appcontext_tearing_down_signal",
+            "path": "tests/test_signals.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "app",
+                "client"
+            ]
+        },
+        {
+            "func_name": "_find_error_handler",
+            "path": "src/flask/sansio/app.py",
+            "parent": "App",
+            "old": [
+                "self",
+                "e"
+            ],
+            "new": [
+                "self",
+                "e",
+                "blueprints"
+            ]
+        },
+        {
+            "func_name": "_prepare_send_file_kwargs",
+            "path": "src/flask/helpers.py",
+            "parent": "Module",
+            "old": [
+                "download_name",
+                "attachment_filename",
+                "etag",
+                "add_etags",
+                "max_age",
+                "cache_timeout"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "test_sort",
+            "path": "tests/test_cli.py",
+            "parent": "TestRoutes",
+            "old": [
+                "self",
+                "invoke"
+            ],
+            "new": [
+                "self",
+                "app",
+                "invoke"
+            ]
+        },
+        {
+            "func_name": "find_best_app",
+            "path": "src/flask/cli.py",
+            "parent": "Module",
+            "old": [
+                "script_info",
+                "module"
+            ],
+            "new": [
+                "module"
+            ]
+        },
+        {
+            "func_name": "record_teardown",
+            "path": "tests/test_signals.py",
+            "parent": "Module",
+            "old": [
+                "sender"
+            ],
+            "new": [
+                "sender",
+                "exc"
+            ]
+        },
+        {
+            "func_name": "locate_app",
+            "path": "src/flask/cli.py",
+            "parent": "Module",
+            "old": [
+                "script_info",
+                "module_name",
+                "app_name",
+                "raise_if_not_found"
+            ],
+            "new": [
+                "module_name",
+                "app_name",
+                "raise_if_not_found"
+            ]
+        },
+        {
+            "func_name": "inner",
+            "path": "tests/conftest.py",
+            "parent": "Module",
+            "old": [
+                "name",
+                "base"
+            ],
+            "new": [
+                "name"
+            ]
+        },
+        {
+            "func_name": "test_no_routes",
+            "path": "tests/test_cli.py",
+            "parent": "TestRoutes",
+            "old": [
+                "self",
+                "invoke_no_routes"
+            ],
+            "new": [
+                "self",
+                "runner"
+            ]
+        },
+        {
+            "func_name": "test_prefix_package_paths",
+            "path": "tests/test_instance_config.py",
+            "parent": "Module",
+            "old": [
+                "limit_loader",
+                "modules_tmpdir",
+                "modules_tmpdir_prefix",
+                "purge_module",
+                "site_packages"
+            ],
+            "new": [
+                "limit_loader",
+                "modules_tmp_path",
+                "modules_tmp_path_prefix",
+                "purge_module",
+                "site_packages"
+            ]
+        },
+        {
+            "func_name": "test_appcontext_signals",
+            "path": "tests/test_signals.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "app",
+                "client"
+            ]
+        },
+        {
+            "func_name": "test_from_pyfile_weird_encoding",
+            "path": "tests/test_config.py",
+            "parent": "Module",
+            "old": [
+                "tmpdir",
+                "encoding"
+            ],
+            "new": [
+                "tmp_path",
+                "encoding"
+            ]
+        },
+        {
+            "func_name": "app",
+            "path": "src/flask/cli.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "environ",
+                "start_response"
+            ]
+        },
+        {
+            "func_name": "from_file",
+            "path": "src/flask/config.py",
+            "parent": "Config",
+            "old": [
+                "self",
+                "filename",
+                "load",
+                "silent"
+            ],
+            "new": [
+                "self",
+                "filename",
+                "load",
+                "silent",
+                "text"
+            ]
+        },
+        {
+            "func_name": "decorator",
+            "path": "src/flask/sansio/scaffold.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "f"
+            ]
+        },
+        {
+            "func_name": "test_uninstalled_package_paths",
+            "path": "tests/test_instance_config.py",
+            "parent": "Module",
+            "old": [
+                "modules_tmpdir",
+                "purge_module"
+            ],
+            "new": [
+                "modules_tmp_path",
+                "purge_module"
+            ]
+        },
+        {
+            "func_name": "wrapper",
+            "path": "src/flask/sansio/blueprints.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "state"
+            ]
+        }
+    ],
+    "Return_Changed": [
+        {
+            "func_name": "get_cookie_domain",
+            "path": "src/flask/sessions.py",
+            "parent": "SessionInterface",
+            "old": [
+                "Name(id='rv', ctx=Load())"
+            ],
+            "new": [
+                "Subscript(value=Attribute(value=Name(id='app', ctx=Load()), attr='config', ctx=Load()), slice=Constant(value='SESSION_COOKIE_DOMAIN'), ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "g",
+            "path": "tests/test_reqctx.py",
+            "parent": "Module",
+            "old": [
+                "Attribute(value=Attribute(value=Name(id='_app_ctx_stack', ctx=Load()), attr='top', ctx=Load()), attr='g', ctx=Load())"
+            ],
+            "new": [
+                "Constant(value=42)"
+            ]
+        },
+        {
+            "func_name": "__call__",
+            "path": "src/flask/app.py",
+            "parent": "Flask",
+            "old": [],
+            "new": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='wsgi_app', ctx=Load()), args=[Name(id='environ', ctx=Load()), Name(id='start_response', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "jsonify",
+            "path": "src/flask/json/__init__.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Attribute(value=Name(id='current_app', ctx=Load()), attr='response_class', ctx=Load()), args=[JoinedStr(values=[FormattedValue(value=Call(func=Name(id='dumps', ctx=Load()), args=[Name(id='data', ctx=Load())], keywords=[keyword(arg='indent', value=Name(id='indent', ctx=Load())), keyword(arg='separators', value=Name(id='separators', ctx=Load()))]), conversion=-1), Constant(value='\\n')])], keywords=[keyword(arg='mimetype', value=Subscript(value=Attribute(value=Name(id='current_app', ctx=Load()), attr='config', ctx=Load()), slice=Constant(value='JSONIFY_MIMETYPE'), ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='current_app', ctx=Load()), attr='json', ctx=Load()), attr='response', ctx=Load()), args=[Starred(value=Name(id='args', ctx=Load()), ctx=Load())], keywords=[keyword(value=Name(id='kwargs', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "app_ctx",
+            "path": "tests/test_blueprints.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "Call(func=Name(id='dict', ctx=Load()), args=[], keywords=[keyword(arg='key', value=Constant(value='app'))])"
+            ]
+        },
+        {
+            "func_name": "create_jinja_environment",
+            "path": "src/flask/sansio/app.py",
+            "parent": "App",
+            "old": [
+                "Name(id='rv', ctx=Load())"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "json_dumps",
+            "path": "src/flask/testing.py",
+            "parent": "EnvironBuilder",
+            "old": [
+                "Call(func=Name(id='json_dumps', ctx=Load()), args=[Name(id='obj', ctx=Load())], keywords=[keyword(value=Name(id='kwargs', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='app', ctx=Load()), attr='json', ctx=Load()), attr='dumps', ctx=Load()), args=[Name(id='obj', ctx=Load())], keywords=[keyword(value=Name(id='kwargs', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "get_command",
+            "path": "src/flask/cli.py",
+            "parent": "FlaskGroup",
+            "old": [],
+            "new": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='app', ctx=Load()), attr='cli', ctx=Load()), attr='get_command', ctx=Load()), args=[Name(id='ctx', ctx=Load()), Name(id='name', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "_find_package_path",
+            "path": "src/flask/sansio/scaffold.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='package_path', ctx=Load())"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "send_file",
+            "path": "src/flask/helpers.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='werkzeug', ctx=Load()), attr='utils', ctx=Load()), attr='send_file', ctx=Load()), args=[], keywords=[keyword(value=Call(func=Name(id='_prepare_send_file_kwargs', ctx=Load()), args=[], keywords=[keyword(arg='path_or_file', value=Name(id='path_or_file', ctx=Load())), keyword(arg='environ', value=Attribute(value=Name(id='request', ctx=Load()), attr='environ', ctx=Load())), keyword(arg='mimetype', value=Name(id='mimetype', ctx=Load())), keyword(arg='as_attachment', value=Name(id='as_attachment', ctx=Load())), keyword(arg='download_name', value=Name(id='download_name', ctx=Load())), keyword(arg='attachment_filename', value=Name(id='attachment_filename', ctx=Load())), keyword(arg='conditional', value=Name(id='conditional', ctx=Load())), keyword(arg='etag', value=Name(id='etag', ctx=Load())), keyword(arg='add_etags', value=Name(id='add_etags', ctx=Load())), keyword(arg='last_modified', value=Name(id='last_modified', ctx=Load())), keyword(arg='max_age', value=Name(id='max_age', ctx=Load())), keyword(arg='cache_timeout', value=Name(id='cache_timeout', ctx=Load()))]))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='werkzeug', ctx=Load()), attr='utils', ctx=Load()), attr='send_file', ctx=Load()), args=[], keywords=[keyword(value=Call(func=Name(id='_prepare_send_file_kwargs', ctx=Load()), args=[], keywords=[keyword(arg='path_or_file', value=Name(id='path_or_file', ctx=Load())), keyword(arg='environ', value=Attribute(value=Name(id='request', ctx=Load()), attr='environ', ctx=Load())), keyword(arg='mimetype', value=Name(id='mimetype', ctx=Load())), keyword(arg='as_attachment', value=Name(id='as_attachment', ctx=Load())), keyword(arg='download_name', value=Name(id='download_name', ctx=Load())), keyword(arg='conditional', value=Name(id='conditional', ctx=Load())), keyword(arg='etag', value=Name(id='etag', ctx=Load())), keyword(arg='last_modified', value=Name(id='last_modified', ctx=Load())), keyword(arg='max_age', value=Name(id='max_age', ctx=Load()))]))])"
+            ]
+        },
+        {
+            "func_name": "get",
+            "path": "src/flask/sansio/scaffold.py",
+            "parent": "Scaffold",
+            "old": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='__dict__', ctx=Load()), attr='get', ctx=Load()), args=[Name(id='name', ctx=Load()), Name(id='default', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='_method_route', ctx=Load()), args=[Constant(value='GET'), Name(id='rule', ctx=Load()), Name(id='options', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "group",
+            "path": "src/flask/cli.py",
+            "parent": "AppGroup",
+            "old": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='click', ctx=Load()), attr='Group', ctx=Load()), attr='group', ctx=Load()), args=[Name(id='self', ctx=Load()), Starred(value=Name(id='args', ctx=Load()), ctx=Load())], keywords=[keyword(value=Name(id='kwargs', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Call(func=Name(id='super', ctx=Load()), args=[], keywords=[]), attr='group', ctx=Load()), args=[Starred(value=Name(id='args', ctx=Load()), ctx=Load())], keywords=[keyword(value=Name(id='kwargs', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "url_for",
+            "path": "src/flask/helpers.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='rv', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='current_app', ctx=Load()), attr='url_for', ctx=Load()), args=[Name(id='endpoint', ctx=Load())], keywords=[keyword(arg='_anchor', value=Name(id='_anchor', ctx=Load())), keyword(arg='_method', value=Name(id='_method', ctx=Load())), keyword(arg='_scheme', value=Name(id='_scheme', ctx=Load())), keyword(arg='_external', value=Name(id='_external', ctx=Load())), keyword(value=Name(id='values', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "record_once",
+            "path": "src/flask/sansio/blueprints.py",
+            "parent": "Blueprint",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='record', ctx=Load()), args=[Call(func=Name(id='update_wrapper', ctx=Load()), args=[Name(id='wrapper', ctx=Load()), Name(id='func', ctx=Load())], keywords=[])], keywords=[])"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "get_send_file_max_age",
+            "path": "src/flask/app.py",
+            "parent": "Flask",
+            "old": [
+                "Call(func=Name(id='int', ctx=Load()), args=[Call(func=Attribute(value=Name(id='value', ctx=Load()), attr='total_seconds', ctx=Load()), args=[], keywords=[])], keywords=[])"
+            ],
+            "new": [
+                "Name(id='value', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "__repr__",
+            "path": "src/flask/sansio/scaffold.py",
+            "parent": "Scaffold",
+            "old": [
+                "Call(func=Attribute(value=Name(id='object', ctx=Load()), attr='__repr__', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "JoinedStr(values=[Constant(value='<'), FormattedValue(value=Attribute(value=Call(func=Name(id='type', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[]), attr='__name__', ctx=Load()), conversion=-1), Constant(value=' '), FormattedValue(value=Attribute(value=Name(id='self', ctx=Load()), attr='name', ctx=Load()), conversion=114), Constant(value='>')])"
+            ]
+        },
+        {
+            "func_name": "open",
+            "path": "src/flask/testing.py",
+            "parent": "FlaskClient",
+            "old": [
+                "Call(func=Attribute(value=Call(func=Name(id='super', ctx=Load()), args=[], keywords=[]), attr='open', ctx=Load()), args=[Name(id='request', ctx=Load())], keywords=[keyword(arg='as_tuple', value=Name(id='as_tuple', ctx=Load())), keyword(arg='buffered', value=Name(id='buffered', ctx=Load())), keyword(arg='follow_redirects', value=Name(id='follow_redirects', ctx=Load()))])"
+            ],
+            "new": [
+                "Name(id='response', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "loads",
+            "path": "src/flask/json/tag.py",
+            "parent": "TaggedJSONSerializer",
+            "old": [
+                "Call(func=Name(id='loads', ctx=Load()), args=[Name(id='value', ctx=Load())], keywords=[keyword(arg='object_hook', value=Attribute(value=Name(id='self', ctx=Load()), attr='untag', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='_untag_scan', ctx=Load()), args=[Call(func=Name(id='loads', ctx=Load()), args=[Name(id='value', ctx=Load())], keywords=[])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "view",
+            "path": "src/flask/views.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Call(func=Attribute(value=Name(id='current_app', ctx=Load()), attr='ensure_sync', ctx=Load()), args=[Attribute(value=Name(id='self', ctx=Load()), attr='dispatch_request', ctx=Load())], keywords=[]), args=[Starred(value=Name(id='args', ctx=Load()), ctx=Load())], keywords=[keyword(value=Name(id='kwargs', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Call(func=Attribute(value=Name(id='current_app', ctx=Load()), attr='ensure_sync', ctx=Load()), args=[Attribute(value=Name(id='self', ctx=Load()), attr='dispatch_request', ctx=Load())], keywords=[]), args=[], keywords=[keyword(value=Name(id='kwargs', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "get_debug_flag",
+            "path": "src/flask/helpers.py",
+            "parent": "Module",
+            "old": [
+                "Compare(left=Call(func=Attribute(value=Name(id='val', ctx=Load()), attr='lower', ctx=Load()), args=[], keywords=[]), ops=[NotIn()], comparators=[Tuple(elts=[Constant(value='0'), Constant(value='false'), Constant(value='no')], ctx=Load())])"
+            ],
+            "new": [
+                "Call(func=Name(id='bool', ctx=Load()), args=[BoolOp(op=And(), values=[Name(id='val', ctx=Load()), Compare(left=Call(func=Attribute(value=Name(id='val', ctx=Load()), attr='lower', ctx=Load()), args=[], keywords=[]), ops=[NotIn()], comparators=[Set(elts=[Constant(value='0'), Constant(value='false'), Constant(value='no')])])])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "get_cookie_name",
+            "path": "src/flask/sessions.py",
+            "parent": "SessionInterface",
+            "old": [
+                "Attribute(value=Name(id='app', ctx=Load()), attr='session_cookie_name', ctx=Load())"
+            ],
+            "new": [
+                "Subscript(value=Attribute(value=Name(id='app', ctx=Load()), attr='config', ctx=Load()), slice=Constant(value='SESSION_COOKIE_NAME'), ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "render_template_string",
+            "path": "src/flask/templating.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_render', ctx=Load()), args=[Call(func=Attribute(value=Attribute(value=Attribute(value=Name(id='ctx', ctx=Load()), attr='app', ctx=Load()), attr='jinja_env', ctx=Load()), attr='from_string', ctx=Load()), args=[Name(id='source', ctx=Load())], keywords=[]), Name(id='context', ctx=Load()), Attribute(value=Name(id='ctx', ctx=Load()), attr='app', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_render', ctx=Load()), args=[Name(id='app', ctx=Load()), Name(id='template', ctx=Load()), Name(id='context', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "has_request_context",
+            "path": "src/flask/ctx.py",
+            "parent": "Module",
+            "old": [
+                "Compare(left=Attribute(value=Name(id='_request_ctx_stack', ctx=Load()), attr='top', ctx=Load()), ops=[IsNot()], comparators=[Constant(value=None)])"
+            ],
+            "new": [
+                "Compare(left=Call(func=Attribute(value=Name(id='_cv_request', ctx=Load()), attr='get', ctx=Load()), args=[Constant(value=None)], keywords=[]), ops=[IsNot()], comparators=[Constant(value=None)])"
+            ]
+        },
+        {
+            "func_name": "default",
+            "path": "tests/test_json.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Attribute(value=Call(func=Name(id='super', ctx=Load()), args=[], keywords=[]), attr='default', ctx=Load()), args=[Name(id='o', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='DefaultJSONProvider', ctx=Load()), attr='default', ctx=Load()), args=[Name(id='o', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "select_jinja_autoescape",
+            "path": "src/flask/sansio/app.py",
+            "parent": "App",
+            "old": [
+                "Call(func=Attribute(value=Name(id='filename', ctx=Load()), attr='endswith', ctx=Load()), args=[Tuple(elts=[Constant(value='.html'), Constant(value='.htm'), Constant(value='.xml'), Constant(value='.xhtml')], ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='filename', ctx=Load()), attr='endswith', ctx=Load()), args=[Tuple(elts=[Constant(value='.html'), Constant(value='.htm'), Constant(value='.xml'), Constant(value='.xhtml'), Constant(value='.svg')], ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "render_template",
+            "path": "src/flask/templating.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_render', ctx=Load()), args=[Call(func=Attribute(value=Attribute(value=Attribute(value=Name(id='ctx', ctx=Load()), attr='app', ctx=Load()), attr='jinja_env', ctx=Load()), attr='get_or_select_template', ctx=Load()), args=[Name(id='template_name_or_list', ctx=Load())], keywords=[]), Name(id='context', ctx=Load()), Attribute(value=Name(id='ctx', ctx=Load()), attr='app', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_render', ctx=Load()), args=[Name(id='app', ctx=Load()), Name(id='template', ctx=Load()), Name(id='context', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "inner",
+            "path": "tests/conftest.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='egg_path', ctx=Load())"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "decorator",
+            "path": "src/flask/sansio/scaffold.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='stream_with_context', ctx=Load()), args=[Name(id='gen', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Name(id='f', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "has_app_context",
+            "path": "src/flask/ctx.py",
+            "parent": "Module",
+            "old": [
+                "Compare(left=Attribute(value=Name(id='_app_ctx_stack', ctx=Load()), attr='top', ctx=Load()), ops=[IsNot()], comparators=[Constant(value=None)])"
+            ],
+            "new": [
+                "Compare(left=Call(func=Attribute(value=Name(id='_cv_app', ctx=Load()), attr='get', ctx=Load()), args=[Constant(value=None)], keywords=[]), ops=[IsNot()], comparators=[Constant(value=None)])"
+            ]
+        },
+        {
+            "func_name": "wsgi_errors_stream",
+            "path": "src/flask/logging.py",
+            "parent": "Module",
+            "old": [
+                "IfExp(test=Name(id='request', ctx=Load()), body=Subscript(value=Attribute(value=Name(id='request', ctx=Load()), attr='environ', ctx=Load()), slice=Constant(value='wsgi.errors'), ctx=Load()), orelse=Attribute(value=Name(id='sys', ctx=Load()), attr='stderr', ctx=Load()))"
+            ],
+            "new": [
+                "Attribute(value=Name(id='sys', ctx=Load()), attr='stderr', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "load_dotenv",
+            "path": "src/flask/cli.py",
+            "parent": "Module",
+            "old": [
+                "Compare(left=Name(id='new_dir', ctx=Load()), ops=[IsNot()], comparators=[Constant(value=None)])"
+            ],
+            "new": [
+                "Name(id='loaded', ctx=Load())"
+            ]
+        }
+    ],
+    "Deprecated": []
+}

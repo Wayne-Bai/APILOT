@@ -1,0 +1,699 @@
+{
+    "Added:": [
+        {
+            "func_name": "test_repeated_slice",
+            "path": "h5py/tests/test_vds/test_virtual_source.py",
+            "parent": "TestVirtualSource"
+        },
+        {
+            "func_name": "H5ZClass2T",
+            "path": "h5py/tests/test_h5z.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "pytest_addoption",
+            "path": "h5py/tests/conftest.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_file_locking_external_link",
+            "path": "h5py/tests/test_file.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_compound_with_vlen_fields",
+            "path": "h5py/tests/test_attrs_data.py",
+            "parent": "TestScalar"
+        },
+        {
+            "func_name": "TestVisitLinks",
+            "path": "h5py/tests/test_group.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "visititems_links",
+            "path": "h5py/_hl/group.py",
+            "parent": "Group"
+        },
+        {
+            "func_name": "_run",
+            "path": "ci/upload_coverage.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_astype_wrapper_asarray",
+            "path": "h5py/tests/test_dataset.py",
+            "parent": "TestAstype"
+        },
+        {
+            "func_name": "test_chunk_iter",
+            "path": "h5py/tests/test_dataset.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "TestFileMetaBlockSize",
+            "path": "h5py/tests/test_file2.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_read_no_fill_value",
+            "path": "h5py/tests/test_dataset_getitem.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_unsupported_locking",
+            "path": "h5py/tests/test_file.py",
+            "parent": "TestFileLocking"
+        },
+        {
+            "func_name": "test_virtual_prefix_require",
+            "path": "h5py/tests/test_dataset.py",
+            "parent": "TestVirtualPrefix"
+        },
+        {
+            "func_name": "test_direct",
+            "path": "h5py/tests/test_file.py",
+            "parent": "TestDrivers"
+        },
+        {
+            "func_name": "test_2d_partial_slice",
+            "path": "h5py/tests/test_dataset.py",
+            "parent": "TestChunkIterator"
+        },
+        {
+            "func_name": "test_key_type",
+            "path": "h5py/tests/test_attribute_create.py",
+            "parent": "TestArray"
+        },
+        {
+            "func_name": "test_select_first_axis",
+            "path": "h5py/tests/test_dataset_getitem.py",
+            "parent": "TestBoolIndex"
+        },
+        {
+            "func_name": "fill_attrs2",
+            "path": "h5py/tests/test_attrs.py",
+            "parent": "TestTrackOrder"
+        },
+        {
+            "func_name": "test_too_small_pbs",
+            "path": "h5py/tests/test_file.py",
+            "parent": "TestPageBuffering"
+        },
+        {
+            "func_name": "test_visit_links",
+            "path": "h5py/tests/test_group.py",
+            "parent": "TestVisitLinks"
+        },
+        {
+            "func_name": "TestFileLocking",
+            "path": "h5py/tests/test_file.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "TestReadDirectChunkToOut",
+            "path": "h5py/tests/test_h5d_direct_chunk.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_track_order_overwrite_delete",
+            "path": "h5py/tests/test_attrs.py",
+            "parent": "TestTrackOrder"
+        },
+        {
+            "func_name": "test_reopen",
+            "path": "h5py/tests/test_file.py",
+            "parent": "TestFileLocking"
+        },
+        {
+            "func_name": "test_ros3_s3_fails",
+            "path": "h5py/tests/test_ros3.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_nesting_compound_with_vlen_fields",
+            "path": "h5py/tests/test_attrs_data.py",
+            "parent": "TestScalar"
+        },
+        {
+            "func_name": "test_register_filter",
+            "path": "h5py/tests/test_h5z.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_type",
+            "path": "h5py/tests/test_group.py",
+            "parent": "TestCreate"
+        },
+        {
+            "func_name": "test_ros3_s3uri",
+            "path": "h5py/tests/test_ros3.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_alignment_set_below_threshold",
+            "path": "h5py/tests/test_file_alignment.py",
+            "parent": "TestFileAlignment"
+        },
+        {
+            "func_name": "is_aligned",
+            "path": "h5py/tests/test_file_alignment.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_file_create_with_meta_block_size_4096",
+            "path": "h5py/tests/test_file2.py",
+            "parent": "TestFileMetaBlockSize"
+        },
+        {
+            "func_name": "test_fail_buffer_readonly",
+            "path": "h5py/tests/test_h5d_direct_chunk.py",
+            "parent": "TestReadDirectChunkToOut"
+        },
+        {
+            "func_name": "test_vlen_bytes_fillvalue",
+            "path": "h5py/tests/test_dataset.py",
+            "parent": "TestStrings"
+        },
+        {
+            "func_name": "test_compressed_data",
+            "path": "h5py/tests/test_h5d_direct_chunk.py",
+            "parent": "TestReadDirectChunkToOut"
+        },
+        {
+            "func_name": "test_vlen_compound_with_vlen_string",
+            "path": "h5py/tests/test_attrs_data.py",
+            "parent": "TestScalar"
+        },
+        {
+            "func_name": "test_check_page_buf_size",
+            "path": "h5py/tests/test_file.py",
+            "parent": "TestPageBuffering"
+        },
+        {
+            "func_name": "__get__",
+            "path": "h5py/_hl/base.py",
+            "parent": "cached_property"
+        },
+        {
+            "func_name": "test_only_with_page_strategy",
+            "path": "h5py/tests/test_file.py",
+            "parent": "TestPageBuffering"
+        },
+        {
+            "func_name": "cached_property",
+            "path": "h5py/_hl/base.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_open_nonpage_pbs",
+            "path": "h5py/tests/test_file.py",
+            "parent": "TestPageBuffering"
+        },
+        {
+            "func_name": "test_efile_prefix",
+            "path": "h5py/tests/test_h5p.py",
+            "parent": "TestDA"
+        },
+        {
+            "func_name": "visit_links",
+            "path": "h5py/_hl/group.py",
+            "parent": "Group"
+        },
+        {
+            "func_name": "test_ros3_temp_token",
+            "path": "h5py/tests/test_ros3.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_alignment_set_above_threshold",
+            "path": "h5py/tests/test_file_alignment.py",
+            "parent": "TestFileAlignment"
+        },
+        {
+            "func_name": "test_fixed_bytes_fillvalue",
+            "path": "h5py/tests/test_dataset.py",
+            "parent": "TestStrings"
+        },
+        {
+            "func_name": "TestPageBuffering",
+            "path": "h5py/tests/test_file.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_fixed_utf_8_fillvalue",
+            "path": "h5py/tests/test_dataset.py",
+            "parent": "TestStrings"
+        },
+        {
+            "func_name": "TestVirtualPrefix",
+            "path": "h5py/tests/test_dataset.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "failing_filter_callback",
+            "path": "h5py/tests/test_h5z.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_uncompressed_data",
+            "path": "h5py/tests/test_h5d_direct_chunk.py",
+            "parent": "TestReadDirectChunkToOut"
+        },
+        {
+            "func_name": "test_asstr_array_dtype",
+            "path": "h5py/tests/test_dataset.py",
+            "parent": "TestVlen"
+        },
+        {
+            "func_name": "test_fail_buffer_not_contiguous",
+            "path": "h5py/tests/test_h5d_direct_chunk.py",
+            "parent": "TestReadDirectChunkToOut"
+        },
+        {
+            "func_name": "test_descriptor_direct",
+            "path": "h5py/tests/test_h5f.py",
+            "parent": "TestFileID"
+        },
+        {
+            "func_name": "test_array_copy",
+            "path": "h5py/tests/test_dataset.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "open_dset",
+            "path": "h5py/_hl/dataset.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_contents_efile_prefix",
+            "path": "h5py/tests/test_dataset.py",
+            "parent": "TestExternal"
+        },
+        {
+            "func_name": "TestBoolIndex",
+            "path": "h5py/tests/test_dataset_getitem.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_nested_compound_vlen",
+            "path": "h5py/tests/test_dataset.py",
+            "parent": "TestCompound"
+        },
+        {
+            "func_name": "get_pr_azure_ci",
+            "path": "ci/upload_coverage.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_vlen_unicode_fillvalue",
+            "path": "h5py/tests/test_dataset.py",
+            "parent": "TestStrings"
+        },
+        {
+            "func_name": "has_direct_vfd_support",
+            "path": "setup_configure.py",
+            "parent": "HDF5LibWrapper"
+        },
+        {
+            "func_name": "test_array_copy_false",
+            "path": "h5py/tests/test_dataset.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_actual_pbs",
+            "path": "h5py/tests/test_file.py",
+            "parent": "TestPageBuffering"
+        },
+        {
+            "func_name": "test_get_unset_fill_value",
+            "path": "h5py/tests/test_dataset.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_file_create_with_meta_block_size_512",
+            "path": "h5py/tests/test_file2.py",
+            "parent": "TestFileMetaBlockSize"
+        },
+        {
+            "func_name": "is_scale",
+            "path": "h5py/_hl/dataset.py",
+            "parent": "Dataset"
+        },
+        {
+            "func_name": "test_is_scale",
+            "path": "h5py/tests/test_dimension_scales.py",
+            "parent": "TestDimensionsHighLevel"
+        },
+        {
+            "func_name": "test_dset_chunk_cache",
+            "path": "h5py/tests/test_dataset.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_require_shape",
+            "path": "h5py/tests/test_group.py",
+            "parent": "TestRequire"
+        },
+        {
+            "func_name": "test_multiprocess",
+            "path": "h5py/tests/test_file.py",
+            "parent": "TestFileLocking"
+        },
+        {
+            "func_name": "test_wrong_size",
+            "path": "h5py/tests/test_dataset_getitem.py",
+            "parent": "TestBoolIndex"
+        },
+        {
+            "func_name": "meta_block_size",
+            "path": "h5py/_hl/files.py",
+            "parent": "File"
+        },
+        {
+            "func_name": "test_dtype_complex32",
+            "path": "h5py/tests/test_dataset.py",
+            "parent": "TestDtype"
+        },
+        {
+            "func_name": "TestFileAlignment",
+            "path": "h5py/tests/test_file_alignment.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_smaller_pbs",
+            "path": "h5py/tests/test_file.py",
+            "parent": "TestPageBuffering"
+        },
+        {
+            "func_name": "dataset_name",
+            "path": "h5py/tests/test_file_alignment.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_create_expandable",
+            "path": "h5py/tests/test_dataset.py",
+            "parent": "TestExternal"
+        },
+        {
+            "func_name": "pytest_collection_modifyitems",
+            "path": "h5py/tests/conftest.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_no_alignment_set",
+            "path": "h5py/tests/test_file_alignment.py",
+            "parent": "TestFileAlignment"
+        },
+        {
+            "func_name": "test_fail_buffer_too_small",
+            "path": "h5py/tests/test_h5d_direct_chunk.py",
+            "parent": "TestReadDirectChunkToOut"
+        },
+        {
+            "func_name": "test_virtual_prefix_create",
+            "path": "h5py/tests/test_dataset.py",
+            "parent": "TestVirtualPrefix"
+        }
+    ],
+    "Removed": [
+        {
+            "func_name": "TestSwmrNotAvailable",
+            "path": "h5py/tests/test_dataset_swmr.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "finalize_options",
+            "path": "setup.py",
+            "parent": "test"
+        },
+        {
+            "func_name": "test_open_swmr_raises",
+            "path": "h5py/tests/test_dataset_swmr.py",
+            "parent": "TestSwmrNotAvailable"
+        },
+        {
+            "func_name": "test_file_locking",
+            "path": "h5py/tests/test_file.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_swmr_mode_false",
+            "path": "h5py/tests/test_dataset_swmr.py",
+            "parent": "TestSwmrNotAvailable"
+        },
+        {
+            "func_name": "test_astype_ctx",
+            "path": "h5py/tests/test_dataset.py",
+            "parent": "TestAstype"
+        },
+        {
+            "func_name": "TestROS3",
+            "path": "h5py/tests/test_file.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_refresh_raises",
+            "path": "h5py/tests/test_dataset_swmr.py",
+            "parent": "TestSwmrNotAvailable"
+        },
+        {
+            "func_name": "test_set_swmr_mode_raises",
+            "path": "h5py/tests/test_dataset_swmr.py",
+            "parent": "TestSwmrNotAvailable"
+        },
+        {
+            "func_name": "initialize_options",
+            "path": "setup.py",
+            "parent": "test"
+        },
+        {
+            "func_name": "test_flush_raises",
+            "path": "h5py/tests/test_dataset_swmr.py",
+            "parent": "TestSwmrNotAvailable"
+        },
+        {
+            "func_name": "test_file_locking_multiprocess",
+            "path": "h5py/tests/test_file.py",
+            "parent": "Module"
+        }
+    ],
+    "Param_Changed": [
+        {
+            "func_name": "__array__",
+            "path": "h5py/_hl/dataset.py",
+            "parent": "AstypeWrapper",
+            "old": [
+                "self",
+                "dtype"
+            ],
+            "new": [
+                "self",
+                "dtype",
+                "copy"
+            ]
+        },
+        {
+            "func_name": "make_fcpl",
+            "path": "h5py/_hl/files.py",
+            "parent": "Module",
+            "old": [
+                "track_order",
+                "fs_strategy",
+                "fs_persist",
+                "fs_threshold"
+            ],
+            "new": [
+                "track_order",
+                "fs_strategy",
+                "fs_persist",
+                "fs_threshold",
+                "fs_page_size"
+            ]
+        },
+        {
+            "func_name": "make_new_dset",
+            "path": "h5py/_hl/dataset.py",
+            "parent": "Module",
+            "old": [
+                "parent",
+                "shape",
+                "dtype",
+                "data",
+                "name",
+                "chunks",
+                "compression",
+                "shuffle",
+                "fletcher32",
+                "maxshape",
+                "compression_opts",
+                "fillvalue",
+                "scaleoffset",
+                "track_times",
+                "external",
+                "track_order",
+                "dcpl",
+                "allow_unknown_filter"
+            ],
+            "new": [
+                "parent",
+                "shape",
+                "dtype",
+                "data",
+                "name",
+                "chunks",
+                "compression",
+                "shuffle",
+                "fletcher32",
+                "maxshape",
+                "compression_opts",
+                "fillvalue",
+                "scaleoffset",
+                "track_times",
+                "external",
+                "track_order",
+                "dcpl",
+                "dapl",
+                "efile_prefix",
+                "virtual_prefix",
+                "allow_unknown_filter",
+                "rdcc_nslots",
+                "rdcc_nbytes",
+                "rdcc_w0"
+            ]
+        },
+        {
+            "func_name": "test_ros3",
+            "path": "h5py/tests/test_ros3.py",
+            "parent": "Module",
+            "old": [
+                "self"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "run_with_python",
+            "path": "ci/upload_coverage.py",
+            "parent": "Module",
+            "old": [
+                "args"
+            ],
+            "new": [
+                "args",
+                "timeout"
+            ]
+        },
+        {
+            "func_name": "make_fapl",
+            "path": "h5py/_hl/files.py",
+            "parent": "Module",
+            "old": [
+                "driver",
+                "libver",
+                "rdcc_nslots",
+                "rdcc_nbytes",
+                "rdcc_w0",
+                "locking"
+            ],
+            "new": [
+                "driver",
+                "libver",
+                "rdcc_nslots",
+                "rdcc_nbytes",
+                "rdcc_w0",
+                "locking",
+                "page_buf_size",
+                "min_meta_keep",
+                "min_raw_keep",
+                "alignment_threshold",
+                "alignment_interval",
+                "meta_block_size"
+            ]
+        },
+        {
+            "func_name": "assertArrayEqual",
+            "path": "h5py/tests/common.py",
+            "parent": "TestCase",
+            "old": [
+                "self",
+                "dset",
+                "arr",
+                "message",
+                "precision"
+            ],
+            "new": [
+                "self",
+                "dset",
+                "arr",
+                "message",
+                "precision",
+                "check_alignment"
+            ]
+        }
+    ],
+    "Return_Changed": [
+        {
+            "func_name": "__enter__",
+            "path": "h5py/_hl/dataset.py",
+            "parent": "CollectiveContext",
+            "old": [
+                "Name(id='self', ctx=Load())"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "__array__",
+            "path": "h5py/_hl/dataset.py",
+            "parent": "AstypeWrapper",
+            "old": [
+                "Name(id='arr', ctx=Load())"
+            ],
+            "new": [
+                "Name(id='data', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "label",
+            "path": "h5py/_hl/dims.py",
+            "parent": "DimensionProxy",
+            "old": [],
+            "new": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='_d', ctx=Load()), args=[Call(func=Attribute(value=Name(id='h5ds', ctx=Load()), attr='get_label', ctx=Load()), args=[Attribute(value=Name(id='self', ctx=Load()), attr='_id', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='_dimension', ctx=Load())], keywords=[])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "default_lapl",
+            "path": "h5py/_hl/base.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='lapl', ctx=Load())"
+            ],
+            "new": [
+                "Constant(value=None)"
+            ]
+        },
+        {
+            "func_name": "from_env",
+            "path": "setup_configure.py",
+            "parent": "BuildConfig",
+            "old": [
+                "Call(func=Name(id='cls', ctx=Load()), args=[Name(id='h5_inc', ctx=Load()), Name(id='h5_lib', ctx=Load()), Name(id='h5_macros', ctx=Load()), Name(id='h5_version', ctx=Load()), Name(id='mpi', ctx=Load()), Name(id='ros3', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='cls', ctx=Load()), args=[Name(id='h5_inc', ctx=Load()), Name(id='h5_lib', ctx=Load()), Name(id='h5_macros', ctx=Load()), Name(id='h5_version', ctx=Load()), Name(id='mpi', ctx=Load()), Name(id='ros3', ctx=Load()), Name(id='direct_vfd', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "as_dict",
+            "path": "setup_configure.py",
+            "parent": "BuildConfig",
+            "old": [
+                "Dict(keys=[Constant(value='hdf5_includedirs'), Constant(value='hdf5_libdirs'), Constant(value='hdf5_define_macros'), Constant(value='hdf5_version'), Constant(value='mpi'), Constant(value='ros3')], values=[Attribute(value=Name(id='self', ctx=Load()), attr='hdf5_includedirs', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='hdf5_libdirs', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='hdf5_define_macros', ctx=Load()), Call(func=Name(id='list', ctx=Load()), args=[Attribute(value=Name(id='self', ctx=Load()), attr='hdf5_version', ctx=Load())], keywords=[]), Attribute(value=Name(id='self', ctx=Load()), attr='mpi', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='ros3', ctx=Load())])"
+            ],
+            "new": [
+                "Dict(keys=[Constant(value='hdf5_includedirs'), Constant(value='hdf5_libdirs'), Constant(value='hdf5_define_macros'), Constant(value='hdf5_version'), Constant(value='mpi'), Constant(value='ros3'), Constant(value='direct_vfd'), Constant(value='msmpi'), Constant(value='msmpi_inc_dirs'), Constant(value='msmpi_lib_dirs')], values=[Attribute(value=Name(id='self', ctx=Load()), attr='hdf5_includedirs', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='hdf5_libdirs', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='hdf5_define_macros', ctx=Load()), Call(func=Name(id='list', ctx=Load()), args=[Attribute(value=Name(id='self', ctx=Load()), attr='hdf5_version', ctx=Load())], keywords=[]), Attribute(value=Name(id='self', ctx=Load()), attr='mpi', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='ros3', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='direct_vfd', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='msmpi', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='msmpi_inc_dirs', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='msmpi_lib_dirs', ctx=Load())])"
+            ]
+        }
+    ],
+    "Deprecated": []
+}

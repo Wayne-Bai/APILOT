@@ -1,0 +1,5 @@
+Version,Function Name,Modification Type (Add/Deprecated/Param/Return/Fix),Reason (PerforMance/S-Bug/NS-Bug),Modification Discription,Related Issue,Function Description,Function Link,,coplitot GC,gpt-turbo GC,GPT4,ChatGPT-4 GC
+3.8,TreebankWordDetokenizer,P,,Resolve TreebankWordDetokenizer inconsistency with end-of-string contractions,,The Treebank detokenizer uses the reverse regex operations corresponding to the Treebank tokenizer's regexes.,https://www.nltk.org/_modules/nltk/tokenize/treebank.html,,2/10,,,
+3.8,TweetTokenizer,P,,Allow TweetTokenizer to tokenize emoji flag sequences,,Tokenizer for tweets.,https://www.nltk.org/api/nltk.tokenize.casual.html,,2/9,,,
+3.8,information_content,P,,Make WordNet information_content() accept adjective satellites,,Calculate the Information Content value for a synset.,https://wn.readthedocs.io/en/latest/api/wn.ic.html#wn.ic.information_content,,1/9,,,
+3.8,synset_from_sense_key,P,,Resolve issue with WordNet’s synset_from_sense_key,,Retrieves synset based on a given sense_key.,https://www.nltk.org/api/nltk.corpus.reader.WordNetCorpusReader.html?highlight=wordnet,,4/10,,,

@@ -1,0 +1,21 @@
+# LLM-api/config.py
+
+# Replace the placeholder values with your actual API keys.
+
+# OpenAI API Key
+OPENAI_API_KEY = "YOUR_OPENAI_API_KEY_HERE"
+
+# Replicate API Token
+REPLICATE_API_TOKEN = "YOUR_REPLICATE_API_TOKEN_HERE"
+
+# Mistral API Key
+MISTRAL_API_KEY = "YOUR_MISTRAL_API_KEY_HERE"
+
+# DeepSeek API Key
+DEEPSEEK_API_KEY = "YOUR_DEEPSEEK_API_KEY_HERE"
+
+# Hugging Face API Key
+HUGGINGFACE_API_KEY = "YOUR_HUGGINGFACE_API_KEY_HERE"
+
+
+

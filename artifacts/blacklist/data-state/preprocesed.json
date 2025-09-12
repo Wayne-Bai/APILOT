@@ -1,0 +1,67 @@
+{
+    "RepoInfo": {
+        "name": "networkx",
+        "description": "Network Analysis in Python",
+        "language": "Python",
+        "stars": 13358,
+        "forks": 3100,
+        "url": "https://github.com/networkx/networkx"
+    },
+    "FunctionChanges": [
+        {
+            "File": "networkx/algorithms/tests/test_euler.py",
+            "Commit SHA": "fd76834e9b4265bd8afdf00202d649d8d3480cb7",
+            "Date": "2020-10-28 18:21:27",
+            "NewFunctions": [
+                {
+                    "function_name": "test_eulerian_path_straight_link",
+                    "parameters": "self"
+                },
+                {
+                    "function_name": "test_eulerian_path_multigraph",
+                    "parameters": "self"
+                },
+                {
+                    "function_name": "test_eulerian_path_eulerian_circuit",
+                    "parameters": "self"
+                }
+            ],
+            "DeprecatedFunctions": [],
+            "NewParameters": []
+        },
+        {
+            "File": "networkx/algorithms/tests/test_euler.py",
+            "Commit SHA": "fe86c89fa5b40c3b2107b4de0446b58bf5b82ed0",
+            "Date": "2020-10-29 20:26:58",
+            "NewFunctions": [
+                {
+                    "function_name": "test_eulerian_path_undirected",
+                    "parameters": "self"
+                },
+                {
+                    "function_name": "test_eulerian_path_multigraph_undirected",
+                    "parameters": "self"
+                }
+            ],
+            "DeprecatedFunctions": [],
+            "NewParameters": []
+        },
+        {
+            "File": "networkx/algorithms/tests/test_euler.py",
+            "Commit SHA": "073feb244fbddae4f4b07c20e65fcb1d7d3f91e4",
+            "Date": "2020-11-06 20:48:46",
+            "NewFunctions": [
+                {
+                    "function_name": "test_has_eulerian_path_not_weakly_connected",
+                    "parameters": "self"
+                },
+                {
+                    "function_name": "test_has_eulerian_path_unbalancedins_more_than_one",
+                    "parameters": "self"
+                }
+            ],
+            "DeprecatedFunctions": [],
+            "NewParameters": []
+        }
+    ]
+}

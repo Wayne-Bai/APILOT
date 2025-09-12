@@ -1,0 +1,707 @@
+{
+    "Added:": [
+        {
+            "func_name": "LinearOperatorInversion",
+            "path": "tensorflow/python/ops/linalg/linear_operator_inversion.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "setUp",
+            "path": "tensorflow/dtensor/python/tests/test_util.py",
+            "parent": "DTensorBaseTest"
+        },
+        {
+            "func_name": "FLAGS",
+            "path": "tensorflow/dtensor/python/tests/test_util.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "create_device_ids_array",
+            "path": "tensorflow/dtensor/python/tests/test_util.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_gpu_present",
+            "path": "tensorflow/dtensor/python/tests/test_util.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "tearDown",
+            "path": "tensorflow/dtensor/python/tests/test_util.py",
+            "parent": "DTensorBaseTest"
+        },
+        {
+            "func_name": "is_tpu_present",
+            "path": "tensorflow/dtensor/python/tests/test_util.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "list_local_logical_devices",
+            "path": "tensorflow/dtensor/python/tests/test_util.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "batch_slice",
+            "path": "tensorflow/python/ops/linalg/slicing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_linop_matmul",
+            "path": "tensorflow/python/ops/linalg/linear_operator.py",
+            "parent": "LinearOperator"
+        },
+        {
+            "func_name": "skipForDeviceType",
+            "path": "tensorflow/dtensor/python/tests/test_util.py",
+            "parent": "DTensorBaseTest"
+        },
+        {
+            "func_name": "assertDTensorEqual",
+            "path": "tensorflow/dtensor/python/tests/test_util.py",
+            "parent": "DTensorBaseTest"
+        },
+        {
+            "func_name": "operator",
+            "path": "tensorflow/python/ops/linalg/linear_operator_adjoint.py",
+            "parent": "LinearOperatorAdjoint"
+        },
+        {
+            "func_name": "setUpClass",
+            "path": "tensorflow/dtensor/python/tests/test_util.py",
+            "parent": "DTensorBaseTest"
+        },
+        {
+            "func_name": "_solve_matmul_internal",
+            "path": "tensorflow/python/ops/linalg/linear_operator_kronecker.py",
+            "parent": "LinearOperatorKronecker"
+        },
+        {
+            "func_name": "use_multi_device_mode",
+            "path": "tensorflow/dtensor/python/tests/test_util.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "DTensorBaseTest",
+            "path": "tensorflow/dtensor/python/tests/test_util.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "create_device_array",
+            "path": "tensorflow/dtensor/python/tests/test_util.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "create_device_list",
+            "path": "tensorflow/dtensor/python/tests/test_util.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "DTensorTestUtilBackend",
+            "path": "tensorflow/dtensor/python/tests/test_util.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "configTestMesh",
+            "path": "tensorflow/dtensor/python/tests/test_util.py",
+            "parent": "DTensorBaseTest"
+        },
+        {
+            "func_name": "_experimental_parameter_ndims_to_matrix_ndims",
+            "path": "tensorflow/python/ops/linalg/linear_operator_adjoint.py",
+            "parent": "LinearOperatorAdjoint"
+        },
+        {
+            "func_name": "_convert_variables_to_tensors",
+            "path": "tensorflow/python/ops/linalg/linear_operator.py",
+            "parent": "LinearOperator"
+        },
+        {
+            "func_name": "skipForTfrt",
+            "path": "tensorflow/dtensor/python/tests/test_util.py",
+            "parent": "DTensorBaseTest"
+        },
+        {
+            "func_name": "matrix",
+            "path": "tensorflow/python/ops/linalg/linear_operator_full_matrix.py",
+            "parent": "LinearOperatorFullMatrix"
+        },
+        {
+            "func_name": "reset_logical_devices",
+            "path": "tensorflow/dtensor/python/tests/test_util.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "DTENSOR_TEST_UTIL_BACKEND",
+            "path": "tensorflow/dtensor/python/tests/test_util.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "skipTest",
+            "path": "tensorflow/dtensor/python/tests/test_util.py",
+            "parent": "DTensorBaseTest"
+        },
+        {
+            "func_name": "_linop_solve",
+            "path": "tensorflow/python/ops/linalg/linear_operator.py",
+            "parent": "LinearOperator"
+        },
+        {
+            "func_name": "_linop_adjoint",
+            "path": "tensorflow/python/ops/linalg/linear_operator_adjoint.py",
+            "parent": "LinearOperatorAdjoint"
+        },
+        {
+            "func_name": "__getitem__",
+            "path": "tensorflow/python/ops/linalg/linear_operator.py",
+            "parent": "LinearOperator"
+        },
+        {
+            "func_name": "DEFAULT_TOL",
+            "path": "tensorflow/dtensor/python/tests/test_util.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_linop_inverse",
+            "path": "tensorflow/python/ops/linalg/linear_operator.py",
+            "parent": "LinearOperator"
+        },
+        {
+            "func_name": "reset_dtensor",
+            "path": "tensorflow/dtensor/python/tests/test_util.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "skipForPathways",
+            "path": "tensorflow/dtensor/python/tests/test_util.py",
+            "parent": "DTensorBaseTest"
+        },
+        {
+            "func_name": "tril",
+            "path": "tensorflow/python/ops/linalg/linear_operator_lower_triangular.py",
+            "parent": "LinearOperatorLowerTriangular"
+        },
+        {
+            "func_name": "is_tfrt_enabled",
+            "path": "tensorflow/dtensor/python/tests/test_util.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "product",
+            "path": "tensorflow/dtensor/python/tests/test_util.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_linop_cholesky",
+            "path": "tensorflow/python/ops/linalg/linear_operator.py",
+            "parent": "LinearOperator"
+        },
+        {
+            "func_name": "reset_context",
+            "path": "tensorflow/dtensor/python/tests/test_util.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "LinearOperatorAdjoint",
+            "path": "tensorflow/python/ops/linalg/linear_operator_adjoint.py",
+            "parent": "Module"
+        }
+    ],
+    "Removed": [],
+    "Param_Changed": [
+        {
+            "func_name": "_matmul",
+            "path": "tensorflow/python/ops/linalg/linear_operator_adjoint.py",
+            "parent": "LinearOperatorAdjoint",
+            "old": [
+                "a",
+                "b",
+                "transpose_a",
+                "transpose_b",
+                "adjoint_a",
+                "adjoint_b",
+                "a_is_sparse",
+                "b_is_sparse",
+                "output_type",
+                "name"
+            ],
+            "new": [
+                "self",
+                "x",
+                "adjoint",
+                "adjoint_arg"
+            ]
+        },
+        {
+            "func_name": "_solve",
+            "path": "tensorflow/python/ops/linalg/linear_operator_adjoint.py",
+            "parent": "LinearOperatorAdjoint",
+            "old": [
+                "matrix",
+                "rhs",
+                "adjoint",
+                "name"
+            ],
+            "new": [
+                "self",
+                "rhs",
+                "adjoint",
+                "adjoint_arg"
+            ]
+        },
+        {
+            "func_name": "_trace",
+            "path": "tensorflow/python/ops/linalg/linear_operator_adjoint.py",
+            "parent": "LinearOperatorAdjoint",
+            "old": [
+                "x",
+                "name"
+            ],
+            "new": [
+                "self"
+            ]
+        }
+    ],
+    "Return_Changed": [
+        {
+            "func_name": "_assert_self_adjoint",
+            "path": "tensorflow/python/ops/linalg/linear_operator_adjoint.py",
+            "parent": "LinearOperatorAdjoint",
+            "old": [
+                "Call(func=Attribute(value=Name(id='check_ops', ctx=Load()), attr='assert_equal', ctx=Load()), args=[Name(id='dense', ctx=Load()), Call(func=Attribute(value=Name(id='linalg', ctx=Load()), attr='adjoint', ctx=Load()), args=[Name(id='dense', ctx=Load())], keywords=[])], keywords=[keyword(arg='message', value=Constant(value='Matrix was not equal to its adjoint.'))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='operator', ctx=Load()), attr='assert_self_adjoint', ctx=Load()), args=[], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "_matmul",
+            "path": "tensorflow/python/ops/linalg/linear_operator_adjoint.py",
+            "parent": "LinearOperatorAdjoint",
+            "old": [
+                "Call(func=Attribute(value=Name(id='a', ctx=Load()), attr='matmul', ctx=Load()), args=[Name(id='b', ctx=Load())], keywords=[keyword(arg='adjoint', value=Name(id='adjoint_a', ctx=Load())), keyword(arg='adjoint_arg', value=Name(id='adjoint_b', ctx=Load())), keyword(arg='name', value=Name(id='name', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='operator', ctx=Load()), attr='matmul', ctx=Load()), args=[Name(id='x', ctx=Load())], keywords=[keyword(arg='adjoint', value=UnaryOp(op=Not(), operand=Name(id='adjoint', ctx=Load()))), keyword(arg='adjoint_arg', value=Name(id='adjoint_arg', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "_eigvals",
+            "path": "tensorflow/python/ops/linalg/linear_operator_adjoint.py",
+            "parent": "LinearOperatorAdjoint",
+            "old": [
+                "Call(func=Attribute(value=Name(id='linalg_ops', ctx=Load()), attr='self_adjoint_eigvals', ctx=Load()), args=[Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='to_dense', ctx=Load()), args=[], keywords=[])], keywords=[])"
+            ],
+            "new": [
+                "Name(id='eigvals', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "_to_dense",
+            "path": "tensorflow/python/ops/linalg/linear_operator_adjoint.py",
+            "parent": "LinearOperatorAdjoint",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='matmul', ctx=Load()), args=[Name(id='eye', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='linalg', ctx=Load()), attr='adjoint', ctx=Load()), args=[Call(func=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='operator', ctx=Load()), attr='to_dense', ctx=Load()), args=[], keywords=[])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "_solve",
+            "path": "tensorflow/python/ops/linalg/linear_operator_adjoint.py",
+            "parent": "LinearOperatorAdjoint",
+            "old": [
+                "Call(func=Attribute(value=Name(id='matrix', ctx=Load()), attr='solve', ctx=Load()), args=[Name(id='rhs', ctx=Load())], keywords=[keyword(arg='adjoint', value=Name(id='adjoint', ctx=Load())), keyword(arg='name', value=Name(id='name', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='operator', ctx=Load()), attr='solve', ctx=Load()), args=[Name(id='rhs', ctx=Load())], keywords=[keyword(arg='adjoint', value=UnaryOp(op=Not(), operand=Name(id='adjoint', ctx=Load()))), keyword(arg='adjoint_arg', value=Name(id='adjoint_arg', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "_shape",
+            "path": "tensorflow/python/ops/linalg/linear_operator_adjoint.py",
+            "parent": "LinearOperatorAdjoint",
+            "old": [],
+            "new": [
+                "Call(func=Attribute(value=Subscript(value=Name(id='shape', ctx=Load()), slice=Slice(upper=UnaryOp(op=USub(), operand=Constant(value=2))), ctx=Load()), attr='concatenate', ctx=Load()), args=[List(elts=[Subscript(value=Name(id='shape', ctx=Load()), slice=UnaryOp(op=USub(), operand=Constant(value=1)), ctx=Load()), Subscript(value=Name(id='shape', ctx=Load()), slice=UnaryOp(op=USub(), operand=Constant(value=2)), ctx=Load())], ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "_assert_positive_definite",
+            "path": "tensorflow/python/ops/linalg/linear_operator_adjoint.py",
+            "parent": "LinearOperatorAdjoint",
+            "old": [],
+            "new": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='operator', ctx=Load()), attr='assert_positive_definite', ctx=Load()), args=[], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "_determinant",
+            "path": "tensorflow/python/ops/linalg/linear_operator_adjoint.py",
+            "parent": "LinearOperatorAdjoint",
+            "old": [
+                "Call(func=Attribute(value=Name(id='linalg_ops', ctx=Load()), attr='matrix_determinant', ctx=Load()), args=[Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='to_dense', ctx=Load()), args=[], keywords=[])], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='math_ops', ctx=Load()), attr='conj', ctx=Load()), args=[Call(func=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='operator', ctx=Load()), attr='determinant', ctx=Load()), args=[], keywords=[])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "_trace",
+            "path": "tensorflow/python/ops/linalg/linear_operator_adjoint.py",
+            "parent": "LinearOperatorAdjoint",
+            "old": [
+                "Call(func=Attribute(value=Name(id='x', ctx=Load()), attr='trace', ctx=Load()), args=[Name(id='name', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='math_ops', ctx=Load()), attr='conj', ctx=Load()), args=[Call(func=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='operator', ctx=Load()), attr='trace', ctx=Load()), args=[], keywords=[])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "_assert_non_singular",
+            "path": "tensorflow/python/ops/linalg/linear_operator_adjoint.py",
+            "parent": "LinearOperatorAdjoint",
+            "old": [],
+            "new": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='operator', ctx=Load()), attr='assert_non_singular', ctx=Load()), args=[], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "_matvec",
+            "path": "tensorflow/python/ops/linalg/linear_operator_adjoint.py",
+            "parent": "LinearOperatorAdjoint",
+            "old": [
+                "Call(func=Attribute(value=Name(id='array_ops', ctx=Load()), attr='squeeze', ctx=Load()), args=[Name(id='y_mat', ctx=Load())], keywords=[keyword(arg='axis', value=UnaryOp(op=USub(), operand=Constant(value=1)))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='operator', ctx=Load()), attr='matvec', ctx=Load()), args=[Name(id='x', ctx=Load())], keywords=[keyword(arg='adjoint', value=UnaryOp(op=Not(), operand=Name(id='adjoint', ctx=Load())))])"
+            ]
+        },
+        {
+            "func_name": "_log_abs_determinant",
+            "path": "tensorflow/python/ops/linalg/linear_operator_adjoint.py",
+            "parent": "LinearOperatorAdjoint",
+            "old": [
+                "Name(id='log_abs_det', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='operator', ctx=Load()), attr='log_abs_determinant', ctx=Load()), args=[], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "_composite_tensor_fields",
+            "path": "tensorflow/python/ops/linalg/linear_operator_adjoint.py",
+            "parent": "LinearOperatorAdjoint",
+            "old": [
+                "Tuple(elts=[], ctx=Load())"
+            ],
+            "new": [
+                "Tuple(elts=[Constant(value='operator')], ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "_cond",
+            "path": "tensorflow/python/ops/linalg/linear_operator_adjoint.py",
+            "parent": "LinearOperatorAdjoint",
+            "old": [
+                "BinOp(left=Call(func=Attribute(value=Name(id='math_ops', ctx=Load()), attr='reduce_max', ctx=Load()), args=[Name(id='vals', ctx=Load())], keywords=[keyword(arg='axis', value=UnaryOp(op=USub(), operand=Constant(value=1)))]), op=Div(), right=Call(func=Attribute(value=Name(id='math_ops', ctx=Load()), attr='reduce_min', ctx=Load()), args=[Name(id='vals', ctx=Load())], keywords=[keyword(arg='axis', value=UnaryOp(op=USub(), operand=Constant(value=1)))]))"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='operator', ctx=Load()), attr='cond', ctx=Load()), args=[], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "is_numeric_tensor",
+            "path": "tensorflow/python/ops/check_ops.py",
+            "parent": "Module",
+            "old": [
+                "BoolOp(op=And(), values=[Call(func=Name(id='isinstance', ctx=Load()), args=[Name(id='tensor', ctx=Load()), Attribute(value=Name(id='ops', ctx=Load()), attr='Tensor', ctx=Load())], keywords=[]), Compare(left=Attribute(value=Name(id='tensor', ctx=Load()), attr='dtype', ctx=Load()), ops=[In()], comparators=[Name(id='NUMERIC_TYPES', ctx=Load())])])"
+            ],
+            "new": [
+                "BoolOp(op=And(), values=[Call(func=Name(id='isinstance', ctx=Load()), args=[Name(id='tensor', ctx=Load()), Attribute(value=Name(id='tensor_lib', ctx=Load()), attr='Tensor', ctx=Load())], keywords=[]), Compare(left=Attribute(value=Name(id='tensor', ctx=Load()), attr='dtype', ctx=Load()), ops=[In()], comparators=[Name(id='NUMERIC_TYPES', ctx=Load())])])"
+            ]
+        },
+        {
+            "func_name": "_shape_tensor",
+            "path": "tensorflow/python/ops/linalg/linear_operator_adjoint.py",
+            "parent": "LinearOperatorAdjoint",
+            "old": [],
+            "new": [
+                "Call(func=Attribute(value=Name(id='array_ops', ctx=Load()), attr='concat', ctx=Load()), args=[List(elts=[Subscript(value=Name(id='shape', ctx=Load()), slice=Slice(upper=UnaryOp(op=USub(), operand=Constant(value=2))), ctx=Load()), List(elts=[Subscript(value=Name(id='shape', ctx=Load()), slice=UnaryOp(op=USub(), operand=Constant(value=1)), ctx=Load()), Subscript(value=Name(id='shape', ctx=Load()), slice=UnaryOp(op=USub(), operand=Constant(value=2)), ctx=Load())], ctx=Load())], ctx=Load())], keywords=[keyword(arg='axis', value=UnaryOp(op=USub(), operand=Constant(value=1)))])"
+            ]
+        },
+        {
+            "func_name": "_solvevec",
+            "path": "tensorflow/python/ops/linalg/linear_operator_adjoint.py",
+            "parent": "LinearOperatorAdjoint",
+            "old": [
+                "Call(func=Attribute(value=Name(id='array_ops', ctx=Load()), attr='squeeze', ctx=Load()), args=[Name(id='solution_mat', ctx=Load())], keywords=[keyword(arg='axis', value=UnaryOp(op=USub(), operand=Constant(value=1)))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='operator', ctx=Load()), attr='solvevec', ctx=Load()), args=[Name(id='rhs', ctx=Load())], keywords=[keyword(arg='adjoint', value=UnaryOp(op=Not(), operand=Name(id='adjoint', ctx=Load())))])"
+            ]
+        }
+    ],
+    "Deprecated": [
+        {
+            "func_name": "test_contrib_layers_layer_norm_deprecation",
+            "path": "tensorflow/tools/compatibility/tf_upgrade_v2_test.py",
+            "parent": "TestUpgrade"
+        },
+        {
+            "func_name": "test_contrib_rnn_deprecation",
+            "path": "tensorflow/tools/compatibility/tf_upgrade_v2_test.py",
+            "parent": "TestUpgrade"
+        },
+        {
+            "func_name": "test_contrib_cudnn_rnn_deprecation",
+            "path": "tensorflow/tools/compatibility/tf_upgrade_v2_test.py",
+            "parent": "TestUpgrade"
+        },
+        {
+            "func_name": "_maybe_add_module_deprecation_warning",
+            "path": "tensorflow/tools/compatibility/ast_edits.py",
+            "parent": "_PastaEditVisitor"
+        },
+        {
+            "func_name": "set_deprecated",
+            "path": "tensorflow/tools/docs/doc_controls.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecated_internal_set_learning_phase",
+            "path": "tensorflow/python/keras/backend.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecated_internal_learning_phase_scope",
+            "path": "tensorflow/python/keras/backend.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecated_test_op",
+            "path": "tensorflow/python/tools/api/generator/create_python_api_test.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_log_deprecation",
+            "path": "tensorflow/python/util/deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_add_deprecated_function_notice_to_docstring",
+            "path": "tensorflow/python/util/deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_add_deprecated_arg_notice_to_docstring",
+            "path": "tensorflow/python/util/deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_add_deprecated_arg_value_notice_to_docstring",
+            "path": "tensorflow/python/util/deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_validate_deprecation_args",
+            "path": "tensorflow/python/util/deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecated_alias",
+            "path": "tensorflow/python/util/deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecated_endpoints",
+            "path": "tensorflow/python/util/deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecated",
+            "path": "tensorflow/python/util/deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecated_args",
+            "path": "tensorflow/python/util/deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecated_arg_values",
+            "path": "tensorflow/python/util/deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecated_argument_lookup",
+            "path": "tensorflow/python/util/deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecate_moved_module",
+            "path": "tensorflow/python/util/deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecated_wrapper",
+            "path": "tensorflow/python/util/deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecated_wrapper",
+            "path": "tensorflow/python/util/deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_get_deprecated_positional_arguments",
+            "path": "tensorflow/python/util/deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecated_wrapper",
+            "path": "tensorflow/python/util/deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecated_wrapper",
+            "path": "tensorflow/python/util/deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecated_once",
+            "path": "tensorflow/python/util/deprecation_test.py",
+            "parent": "DeprecationTest"
+        },
+        {
+            "func_name": "test_deprecated_init_class",
+            "path": "tensorflow/python/util/deprecation_test.py",
+            "parent": "DeprecationTest"
+        },
+        {
+            "func_name": "test_deprecated_new_class",
+            "path": "tensorflow/python/util/deprecation_test.py",
+            "parent": "DeprecationTest"
+        },
+        {
+            "func_name": "test_deprecated_enum",
+            "path": "tensorflow/python/util/deprecation_test.py",
+            "parent": "DeprecationTest"
+        },
+        {
+            "func_name": "test_deprecated_namedtuple",
+            "path": "tensorflow/python/util/deprecation_test.py",
+            "parent": "DeprecationTest"
+        },
+        {
+            "func_name": "test_strict_mode_deprecation",
+            "path": "tensorflow/python/util/deprecation_test.py",
+            "parent": "DeprecationTest"
+        },
+        {
+            "func_name": "test_deprecated_illegal_args",
+            "path": "tensorflow/python/util/deprecation_test.py",
+            "parent": "DeprecationTest"
+        },
+        {
+            "func_name": "test_deprecated_illegal_args",
+            "path": "tensorflow/python/util/deprecation_test.py",
+            "parent": "DeprecationTest"
+        },
+        {
+            "func_name": "test_deprecated_missing_args",
+            "path": "tensorflow/python/util/deprecation_test.py",
+            "parent": "DeprecatedArgsTest"
+        },
+        {
+            "func_name": "test_deprecated_args_once",
+            "path": "tensorflow/python/util/deprecation_test.py",
+            "parent": "DeprecatedArgsTest"
+        },
+        {
+            "func_name": "test_deprecated_multiple_args_once_each",
+            "path": "tensorflow/python/util/deprecation_test.py",
+            "parent": "DeprecatedArgsTest"
+        },
+        {
+            "func_name": "test_deprecated_illegal_args",
+            "path": "tensorflow/python/util/deprecation_test.py",
+            "parent": "DeprecationTest"
+        },
+        {
+            "func_name": "test_deprecated_arg_values_once",
+            "path": "tensorflow/python/util/deprecation_test.py",
+            "parent": "DeprecatedArgValuesTest"
+        },
+        {
+            "func_name": "test_deprecated_multiple_arg_values_once_each",
+            "path": "tensorflow/python/util/deprecation_test.py",
+            "parent": "DeprecatedArgValuesTest"
+        },
+        {
+            "func_name": "test_deprecated_arg_values_when_value_is_none",
+            "path": "tensorflow/python/util/deprecation_test.py",
+            "parent": "DeprecatedArgValuesTest"
+        },
+        {
+            "func_name": "contains_deprecation_decorator",
+            "path": "tensorflow/python/util/module_wrapper.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "has_deprecation_decorator",
+            "path": "tensorflow/python/util/module_wrapper.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_tfmw_add_deprecation_warning",
+            "path": "tensorflow/python/util/module_wrapper.py",
+            "parent": "TFModuleWrapper"
+        },
+        {
+            "func_name": "deprecated_graph_mode_only",
+            "path": "tensorflow/python/framework/test_util.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecated_graph_mode_only",
+            "path": "tensorflow/python/framework/test_util.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecated_graph_mode_only",
+            "path": "tensorflow/python/framework/test_util.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "run_all_in_deprecated_graph_mode_only",
+            "path": "tensorflow/python/framework/test_util.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecated_strategy_methods",
+            "path": "tensorflow/python/distribute/experimental/multi_worker_mirrored_strategy_test.py",
+            "parent": "StrategyDatasetTest"
+        },
+        {
+            "func_name": "test_deprecated_strategy_methods",
+            "path": "tensorflow/python/distribute/experimental/mirrored_strategy_test.py",
+            "parent": "StrategyDatasetTest"
+        },
+        {
+            "func_name": "substr_deprecated",
+            "path": "tensorflow/python/ops/string_ops.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "raise_trt_version_deprecated",
+            "path": "tensorflow/python/compiler/tensorrt/trt_convert.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_run_deprecated_conversion_binary",
+            "path": "tensorflow/lite/python/convert.py",
+            "parent": "Module"
+        }
+    ]
+}

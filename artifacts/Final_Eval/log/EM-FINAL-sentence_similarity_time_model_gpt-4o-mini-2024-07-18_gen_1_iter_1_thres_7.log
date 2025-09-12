@@ -1,0 +1,293 @@
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Return True iff G has an Eulerian path.An Eulerian path is a path in a graph which uses each edge of a graph exactly once. If source is specified, then this function checks whether an Eulerian path that starts at node source exists.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Determines the triadic census of a directed graph. The triadic census is a count of how many of the 16 possible types of triads are present in a directed graph. If a list of nodes is passed, then only those triads are taken into account which have elements of nodelist in them.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Compute harmonic centrality for nodes.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: ['harmonic_centrality']
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Returns a random graph using Barabási–Albert preferential attachment
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: ['barabasi_albert_graph']
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Returns a random graph using dual Barabási–Albert preferential attachment
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: ['dual_barabasi_albert_graph']
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Draw the nodes of the graph G.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: ['draw_networkx_nodes']
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Returns the quotient graph of G under the specified equivalence relation on nodes.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Compute the spectral_ordering of a graph. The spectral ordering of a graph is an ordering of its nodes where nodes in the same weakly connected components appear contiguous and ordered by their corresponding elements in the Fiedler vector of the component.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Returns the graph edge list as a Pandas DataFrame.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Returns the Binomial Tree of order n.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: ['binomial_tree']
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Returns the coverage and performance of a partition of G.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Generates community sets determined by label propagation
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: ['label_propagation_communities']
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Creates a directed prefix tree from a list of paths.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Find communities in G using greedy modularity maximization.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Returns subgraph communicability for all pairs of nodes in G.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Returns adjacency matrix of G.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Returns numeric mixing matrix for attribute.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Returns numeric mixing matrix for attribute.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Returns mixing matrix for attribute.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Returns mixing matrix for attribute.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Return the graph adjacency matrix as a NumPy matrix.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Return a graph from numpy matrix. The numpy matrix is interpreted as an adjacency matrix for the graph.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Returns True if and only if the given object is an iterator  object
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Return True if list is a list of ints.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Read graph in YAML format from path. YAML is a data serialization format designed for human readability and interaction with scripting languages
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Write graph G in YAML format to path. YAML is a data serialization format designed for human readability and interaction with scripting languages
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Read graph object in Python pickle format. Pickles are a serialized byte stream of a Python object. This format will preserve Python objects used as nodes or edges.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Write graph in Python pickle format. Pickles are a serialized byte stream of a Python object. This format will preserve Python objects used as nodes or edges.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Generates a networkx.DiGraph from shapefiles. Point geometries are translated into nodes, lines into edges. Coordinate tuples are used as keys. Attributes are preserved, line geometries are simplified into start and end coordinates. Accepts a single shapefile or directory of many shapefiles.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Generate edges for each line in geom and written as a helper for read_shp
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Writes a networkx.DiGraph to two shapefiles, edges and nodes. Nodes and edges are expected to have a Well Known Binary (Wkb) or Well Known Text (Wkt) key in order to generate geometries. Also acceptable are nodes with a numeric tuple key (x,y).
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Return the PageRank of the nodes in the graph. PageRank computes a ranking of the nodes in the graph G based on the structure of the incoming links. It was originally designed as an algorithm to rank web pages.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Return the PageRank of the nodes in the graph. PageRank computes a ranking of the nodes in the graph G based on the structure of the incoming links. It was originally designed as an algorithm to rank web pages.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Returns the graph edge list as a Pandas DataFrame.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Returns data in JIT JSON format.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Read a graph from JIT JSON.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Consume the iterator entirely.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Return True if obj is iterable with a well-defined len().
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Returns the performance of a partition. The performance of a partition is the ratio of the number of intra-community edges plus inter-community non-edges with the total number of potential edges.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Returns the coverage of a partition. The coverage of a partition is the ratio of the number of intra-community edges to the total number of edges in the graph.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Generate a unique node label.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Create an empty Generator object
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Opens filename using system’s default program.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Returns the HITS hub matrix.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Return the HITS authority matrix.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Consistently ordered variants of the default base classes. The Ordered (Di/Multi/MultiDi) Graphs give a consistent order for reporting of nodes and edges. The order of node reporting agrees with node adding, but for edges, the order is not necessarily the order that the edges were added. The Ordered (Di/Multi/MultiDi) Graphs give a consistent order for reporting of nodes and edges. The order of node reporting agrees with node adding, but for edges, the order is not necessarily the order that the edges were added.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Read and write NetworkX graphs in YAML format.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Decorator to preserve the numpy.random state during a function.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Assert that two numbers (or two ordered sequences of numbers) are equal to each other within some tolerance.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.453969 seconds
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Return adjacency matrix of graph as a numpy matrix.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Calculate SimRank of nodes in G using matrices with numpy.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Returns numeric mixing matrix for attribute.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Compute the average degree connectivity of graph. The average degree connectivity is the average nearest neighbor degree of nodes with degree k.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Return a dictionary of scaled positions keyed by node
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Returns the Google matrix of the graph.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: ['google_matrix']
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Returns the attribute matrix using attributes from G as a numpy array.If only G is passed in, then the adjacency matrix is constructed.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Decorator to generate a numpy.random.RandomState instance.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Return the graph adjacency matrix as a SciPy sparse matrix.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: ['to_scipy_sparse_matrix']
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Return a graph from scipy sparse matrix adjacency list.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: ['from_scipy_sparse_matrix']
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Return the small graph described by graph_description.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Return a small undirected graph described by graph_description.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Return the graph adjacency matrix as a NumPy recarray.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Print short summary of information for the graph G or the node n.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Computing a minimum-weight maximal matching of G.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: ['min_weight_matching']
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Find communities in G using greedy modularity maximization.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: ['greedy_modularity_communities']
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Compute requested extreme distance metric of undirected graph G
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Convert a dictionary of numbers to a 1d numpy array with optional mapping.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Convert a dictionary of dictionaries to a 2d numpy array with optional mapping.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Compute the shortest path lengths to target from all reachable nodes.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []
+INFO:root:Package Name: networkx
+INFO:root:Function Description: Compute shortest paths in the graph.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:First Generation Issued Functions: []

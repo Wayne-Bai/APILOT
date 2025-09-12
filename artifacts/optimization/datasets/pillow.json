@@ -1,0 +1,64 @@
+{
+    "Added:": [
+        {
+            "func_name": "TypeGuard",
+            "path": "src/PIL/_typing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__class_getitem__",
+            "path": "src/PIL/_typing.py",
+            "parent": "TypeGuard"
+        },
+        {
+            "func_name": "SupportsRead",
+            "path": "src/PIL/_typing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "read",
+            "path": "src/PIL/_typing.py",
+            "parent": "SupportsRead"
+        },
+        {
+            "func_name": "StrOrBytesPath",
+            "path": "src/PIL/_typing.py",
+            "parent": "Module"
+        }
+    ],
+    "Removed": [],
+    "Param_Changed": [],
+    "Return_Changed": [],
+    "Deprecated": [
+        {
+            "func_name": "test_deprecation",
+            "path": "Tests/test_imagecms.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_eval_deprecated",
+            "path": "Tests/test_imagemath_unsafe_eval.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_psfile_deprecation",
+            "path": "Tests/test_file_eps.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecated",
+            "path": "Tests/test_image_access.py",
+            "parent": "TestImageGetPixel"
+        },
+        {
+            "func_name": "test_pad_deprecation",
+            "path": "Tests/test_file_iptc.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecate",
+            "path": "src/PIL/_deprecate.py",
+            "parent": "Module"
+        }
+    ]
+}

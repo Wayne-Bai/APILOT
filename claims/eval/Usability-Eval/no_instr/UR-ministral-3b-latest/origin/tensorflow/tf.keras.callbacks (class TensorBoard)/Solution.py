@@ -1,0 +1,33 @@
+from tensorflow.keras import Model, layers
+import tensorflow as tf
+from tensorflow import keras
+
+print(tf.__version__)
+
+# Sample data
+mnist = keras.datasets.mnist
+(x_train, y_train), (x_test, y_test) = mnist.load_data()
+
+# Normalize data
+x_train, x_test = x_train / 255.0, x_test / 255.0
+
+# Add extra dimensions for model
+x_train = x_train[..., tf.newaxis]
+x_test = x_test[..., tf.newaxis]
+
+# Define Model
+def create_model():
+    model = keras.Sequential()
+    model.add(layers.Conv2D(32, (3, 3), activation='relu', input_shape=(28, 28, 1)))
+    model.add(layers.MaxPooling2D((2, 2)))
+    model.add(layers.Conv2D(64, (3, 3), activation='relu'))
+    model.add(layers.MaxPooling2D((2, 2)))
+    model.add(layers.Conv2D(64, (3, 3), activation='relu'))
+    model.add(layers.Flatten())
+    model.add(layers.Dense(64, activation='relu'))
+    model.add(layers.Dense(10, activation='softmax'))
+
+    return model
+
+model = create_model()
+model.summary()

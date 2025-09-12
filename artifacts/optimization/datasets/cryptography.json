@@ -1,0 +1,430 @@
+{
+    "Added:": [
+        {
+            "func_name": "__init__",
+            "path": "src/cryptography/hazmat/primitives/serialization/pkcs12.py",
+            "parent": "PKCS12KeyAndCertificates"
+        },
+        {
+            "func_name": "Store",
+            "path": "src/cryptography/x509/verification.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ChaCha20Poly1305",
+            "path": "src/cryptography/hazmat/primitives/ciphers/aead.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "BLAKE2b",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SHA512_224",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SSHPrivateKeyTypes",
+            "path": "src/cryptography/hazmat/primitives/serialization/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Poly1305",
+            "path": "src/cryptography/hazmat/primitives/poly1305.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "HMAC",
+            "path": "src/cryptography/hazmat/primitives/hmac.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "additional_certs",
+            "path": "src/cryptography/hazmat/primitives/serialization/pkcs12.py",
+            "parent": "PKCS12KeyAndCertificates"
+        },
+        {
+            "func_name": "load_key_and_certificates",
+            "path": "src/cryptography/hazmat/primitives/serialization/pkcs12.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "VerifiedClient",
+            "path": "src/cryptography/x509/verification.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "MSCertificateTemplate",
+            "path": "src/cryptography/x509/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "key",
+            "path": "src/cryptography/hazmat/primitives/serialization/pkcs12.py",
+            "parent": "PKCS12KeyAndCertificates"
+        },
+        {
+            "func_name": "AESOCB3",
+            "path": "src/cryptography/hazmat/primitives/ciphers/aead.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "rsa_key_512",
+            "path": "tests/x509/test_x509_crlbuilder.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "verification",
+            "path": "src/cryptography/x509/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SSHCertPublicKeyTypes",
+            "path": "src/cryptography/hazmat/primitives/serialization/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "block_size",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "HashAlgorithm"
+        },
+        {
+            "func_name": "ClientVerifier",
+            "path": "src/cryptography/x509/verification.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SHAKE256",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SHAKE128",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "PublicKeyAlgorithmOID",
+            "path": "src/cryptography/x509/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SHA3_512",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "PKCS12Certificate",
+            "path": "src/cryptography/hazmat/primitives/serialization/pkcs12.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ExtendableOutputFunction",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "algorithm",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "HashContext"
+        },
+        {
+            "func_name": "load_pkcs12",
+            "path": "src/cryptography/hazmat/primitives/serialization/pkcs12.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SHA3_384",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "OCSPAcceptableResponses",
+            "path": "src/cryptography/x509/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SSHCertificateBuilder",
+            "path": "src/cryptography/hazmat/primitives/serialization/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "AESGCMSIV",
+            "path": "src/cryptography/hazmat/primitives/ciphers/aead.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "MD5",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__eq__",
+            "path": "src/cryptography/hazmat/primitives/serialization/pkcs12.py",
+            "parent": "PKCS12KeyAndCertificates"
+        },
+        {
+            "func_name": "SHA512_256",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "HashAlgorithm",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "PKCS12PrivateKeyTypes",
+            "path": "src/cryptography/hazmat/primitives/serialization/pkcs12.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "copy",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "HashContext"
+        },
+        {
+            "func_name": "Attribute",
+            "path": "src/cryptography/x509/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "finalize",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "HashContext"
+        },
+        {
+            "func_name": "SHA1",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SSHCertificateType",
+            "path": "src/cryptography/hazmat/primitives/serialization/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Subject",
+            "path": "src/cryptography/x509/verification.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "rsa_key_2048",
+            "path": "tests/x509/test_x509_crlbuilder.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ServerVerifier",
+            "path": "src/cryptography/x509/verification.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__hash__",
+            "path": "src/cryptography/hazmat/primitives/serialization/pkcs12.py",
+            "parent": "PKCS12KeyAndCertificates"
+        },
+        {
+            "func_name": "AESSIV",
+            "path": "src/cryptography/hazmat/primitives/ciphers/aead.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "cert",
+            "path": "src/cryptography/hazmat/primitives/serialization/pkcs12.py",
+            "parent": "PKCS12KeyAndCertificates"
+        },
+        {
+            "func_name": "name",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "HashAlgorithm"
+        },
+        {
+            "func_name": "PolicyBuilder",
+            "path": "src/cryptography/x509/verification.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SHA3_256",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "PKCS12KeyAndCertificates",
+            "path": "src/cryptography/hazmat/primitives/serialization/pkcs12.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "serialize_key_and_certificates",
+            "path": "src/cryptography/hazmat/primitives/serialization/pkcs12.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SSHCertificate",
+            "path": "src/cryptography/hazmat/primitives/serialization/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "PBES",
+            "path": "src/cryptography/hazmat/primitives/serialization/pkcs12.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "BLAKE2s",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "AESCCM",
+            "path": "src/cryptography/hazmat/primitives/ciphers/aead.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SHA256",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Attributes",
+            "path": "src/cryptography/x509/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "VerificationError",
+            "path": "src/cryptography/x509/verification.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SHA3_224",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SSHCertPrivateKeyTypes",
+            "path": "src/cryptography/hazmat/primitives/serialization/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "CMAC",
+            "path": "src/cryptography/hazmat/primitives/cmac.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "digest_size",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "HashAlgorithm"
+        },
+        {
+            "func_name": "SHA512",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "load_pem_x509_certificates",
+            "path": "src/cryptography/x509/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SHA384",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SHA224",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__repr__",
+            "path": "src/cryptography/hazmat/primitives/serialization/pkcs12.py",
+            "parent": "PKCS12KeyAndCertificates"
+        },
+        {
+            "func_name": "Hash",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "load_ssh_public_identity",
+            "path": "src/cryptography/hazmat/primitives/serialization/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_KeySerializationEncryption",
+            "path": "src/cryptography/hazmat/primitives/serialization/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SM3",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "HashContext",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "update",
+            "path": "src/cryptography/hazmat/primitives/hashes.py",
+            "parent": "HashContext"
+        },
+        {
+            "func_name": "SSHPublicKeyTypes",
+            "path": "src/cryptography/hazmat/primitives/serialization/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "AESGCM",
+            "path": "src/cryptography/hazmat/primitives/ciphers/aead.py",
+            "parent": "Module"
+        }
+    ],
+    "Removed": [
+        {
+            "func_name": "_GENERAL_NAMES",
+            "path": "src/cryptography/x509/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_SIG_OIDS_TO_HASH",
+            "path": "src/cryptography/x509/__init__.py",
+            "parent": "Module"
+        }
+    ],
+    "Param_Changed": [],
+    "Return_Changed": [],
+    "Deprecated": [
+        {
+            "func_name": "test_inspect_deprecated_module",
+            "path": "tests/test_utils.py",
+            "parent": "TestDeprecated"
+        },
+        {
+            "func_name": "test_deprecated",
+            "path": "tests/test_warnings.py",
+            "parent": "TestDeprecated"
+        },
+        {
+            "func_name": "test_deleting_deprecated_members",
+            "path": "tests/test_warnings.py",
+            "parent": "TestDeprecated"
+        },
+        {
+            "func_name": "test_deprecated_generate_private_key_with_curve_class",
+            "path": "tests/hazmat/primitives/test_ec.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecated_ciphers_import_with_warning",
+            "path": "tests/hazmat/primitives/test_ciphers.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecated",
+            "path": "src/cryptography/utils.py",
+            "parent": "Module"
+        }
+    ]
+}

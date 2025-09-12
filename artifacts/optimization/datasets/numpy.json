@@ -1,0 +1,3946 @@
+{
+    "Added:": [
+        {
+            "func_name": "_place",
+            "path": "numpy/_core/multiarray.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "build_and_import_extension",
+            "path": "numpy/testing/_private/extbuild.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "local",
+            "path": "numpy/_utils/_pep440.py",
+            "parent": "LegacyVersion"
+        },
+        {
+            "func_name": "_no_nep50_warning",
+            "path": "numpy/_core/_ufunc_config.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "vector_norm",
+            "path": "numpy/linalg/_linalg.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "polycompanion",
+            "path": "numpy/polynomial/polynomial.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "function_base",
+            "path": "numpy/core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "isstring_or_stringarray",
+            "path": "numpy/f2py/auxfuncs.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "bitwise_count",
+            "path": "numpy/_core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_CopyMode",
+            "path": "numpy/_globals.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "getuseblocks",
+            "path": "numpy/f2py/auxfuncs.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "asinh",
+            "path": "numpy/_core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "IS_WASM",
+            "path": "numpy/testing/_private/utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "getlimits",
+            "path": "numpy/core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "einsumfunc",
+            "path": "numpy/core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "getdimension",
+            "path": "numpy/f2py/auxfuncs.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_prerelease",
+            "path": "numpy/_utils/_pep440.py",
+            "parent": "LegacyVersion"
+        },
+        {
+            "func_name": "normalize_axis_tuple",
+            "path": "numpy/lib/_array_utils_impl.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_dtype_ctypes",
+            "path": "numpy/core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "npyio",
+            "path": "numpy/lib/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_dtype",
+            "path": "numpy/core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "base_version",
+            "path": "numpy/_utils/_pep440.py",
+            "parent": "LegacyVersion"
+        },
+        {
+            "func_name": "defchararray",
+            "path": "numpy/core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "opt_func_info",
+            "path": "numpy/lib/introspect.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "atan",
+            "path": "numpy/_core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "symbol",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase"
+        },
+        {
+            "func_name": "unique_values",
+            "path": "numpy/lib/_arraysetops_impl.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "fromnumeric",
+            "path": "numpy/core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "pow",
+            "path": "numpy/_core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "mixins",
+            "path": "numpy/lib/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "isattr_value",
+            "path": "numpy/f2py/auxfuncs.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "arrayprint",
+            "path": "numpy/core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_call_as_normal",
+            "path": "numpy/lib/_function_base_impl.py",
+            "parent": "vectorize"
+        },
+        {
+            "func_name": "ischaracter_or_characterarray",
+            "path": "numpy/f2py/auxfuncs.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "introspect",
+            "path": "numpy/lib/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_NestedSequence",
+            "path": "numpy/_typing/_nested_sequence.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "unique_counts",
+            "path": "numpy/lib/_arraysetops_impl.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "matrix_transpose",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "vecdot",
+            "path": "numpy/_core/numeric.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "mT",
+            "path": "numpy/ma/core.py",
+            "parent": "MaskedArray"
+        },
+        {
+            "func_name": "acosh",
+            "path": "numpy/_core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "bitwise_right_shift",
+            "path": "numpy/_core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "atanh",
+            "path": "numpy/_core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "from_dlpack",
+            "path": "numpy/_core/numeric.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "find_duplicate",
+            "path": "numpy/_core/records.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "bitwise_invert",
+            "path": "numpy/_core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "umath",
+            "path": "numpy/core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "NOGIL_BUILD",
+            "path": "numpy/testing/_private/utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "IS_EDITABLE",
+            "path": "numpy/testing/_private/utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_init_stage_2",
+            "path": "numpy/lib/_function_base_impl.py",
+            "parent": "vectorize"
+        },
+        {
+            "func_name": "_SUPPORTS_SVE",
+            "path": "numpy/testing/_private/utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_internal",
+            "path": "numpy/core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "isdtype",
+            "path": "numpy/_core/numerictypes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "show_runtime",
+            "path": "numpy/lib/_utils_impl.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "get_handler_name",
+            "path": "numpy/_core/multiarray.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "DTypePromotionError",
+            "path": "numpy/exceptions.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "scimath",
+            "path": "numpy/lib/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_multiarray_umath",
+            "path": "numpy/core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "astype",
+            "path": "numpy/_core/numeric.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "acos",
+            "path": "numpy/_core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "unique_all",
+            "path": "numpy/lib/_arraysetops_impl.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "svdvals",
+            "path": "numpy/linalg/_linalg.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "LegacyVersion",
+            "path": "numpy/_utils/_pep440.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "exec_mod_from_location",
+            "path": "numpy/distutils/misc_util.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "bitwise_left_shift",
+            "path": "numpy/_core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_OLD_PROMOTION",
+            "path": "numpy/testing/_private/utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "trapezoid",
+            "path": "numpy/lib/_function_base_impl.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "VERSION_PATTERN",
+            "path": "numpy/_utils/_pep440.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "overrides",
+            "path": "numpy/core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "permute_dims",
+            "path": "numpy/_core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_get_promotion_state",
+            "path": "numpy/_core/numeric.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_postrelease",
+            "path": "numpy/_utils/_pep440.py",
+            "parent": "LegacyVersion"
+        },
+        {
+            "func_name": "ischaracterarray",
+            "path": "numpy/f2py/auxfuncs.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "format_float",
+            "path": "numpy/polynomial/polyutils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "get_f2py_modulename",
+            "path": "numpy/f2py/auxfuncs.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "atan2",
+            "path": "numpy/_core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "numerictypes",
+            "path": "numpy/core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "InvalidVersion",
+            "path": "numpy/_utils/_pep440.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_format_term",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase"
+        },
+        {
+            "func_name": "get_handler_version",
+            "path": "numpy/_core/multiarray.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ischaracter",
+            "path": "numpy/f2py/auxfuncs.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "array_utils",
+            "path": "numpy/lib/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "records",
+            "path": "numpy/core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "compile_extension_module",
+            "path": "numpy/testing/_private/extbuild.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "IS_PYSTON",
+            "path": "numpy/testing/_private/utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "matrix_norm",
+            "path": "numpy/linalg/_linalg.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "concat",
+            "path": "numpy/_core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "pd_NA",
+            "path": "numpy/_core/tests/_natype.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "shape_base",
+            "path": "numpy/core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__bool__",
+            "path": "numpy/_globals.py",
+            "parent": "_CopyMode"
+        },
+        {
+            "func_name": "_set_promotion_state",
+            "path": "numpy/_core/numeric.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "asin",
+            "path": "numpy/_core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "sanitize_cxx_flags",
+            "path": "numpy/distutils/misc_util.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "process_f2cmap_dict",
+            "path": "numpy/f2py/auxfuncs.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "isint1",
+            "path": "numpy/f2py/auxfuncs.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "multiarray",
+            "path": "numpy/core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "IS_MUSL",
+            "path": "numpy/testing/_private/utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "numeric",
+            "path": "numpy/core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "stride_tricks",
+            "path": "numpy/lib/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_NoValue",
+            "path": "numpy/_globals.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "public",
+            "path": "numpy/_utils/_pep440.py",
+            "parent": "LegacyVersion"
+        },
+        {
+            "func_name": "chararray",
+            "path": "numpy/_core/defchararray.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "unique_inverse",
+            "path": "numpy/lib/_arraysetops_impl.py",
+            "parent": "Module"
+        }
+    ],
+    "Removed": [
+        {
+            "func_name": "_insert",
+            "path": "numpy/core/multiarray.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "bench",
+            "path": "numpy/testing/_private/nosetester.py",
+            "parent": "NoseTester"
+        },
+        {
+            "func_name": "compile",
+            "path": "numpy/f2py/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_show_system_info",
+            "path": "numpy/testing/_private/nosetester.py",
+            "parent": "NoseTester"
+        },
+        {
+            "func_name": "SHIFT_OVERFLOW",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "next",
+            "path": "tools/npy_tempita/compat3.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "safe_eval",
+            "path": "numpy/lib/utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "PINF",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SHIFT_DIVIDEBYZERO",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ERR_RAISE",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "set_string_function",
+            "path": "numpy/core/arrayprint.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "b",
+            "path": "tools/npy_tempita/compat3.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "set_numeric_ops",
+            "path": "numpy/core/numeric.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__args__",
+            "path": "numpy/typing/_generic_alias.py",
+            "parent": "_GenericAlias"
+        },
+        {
+            "func_name": "_interpret_if",
+            "path": "tools/npy_tempita/__init__.py",
+            "parent": "Template"
+        },
+        {
+            "func_name": "fastCopyAndTranspose",
+            "path": "numpy/core/numeric.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "recfromcsv",
+            "path": "numpy/lib/npyio.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "basestring_",
+            "path": "tools/npy_tempita/compat3.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "rec",
+            "path": "numpy/core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "asfarray",
+            "path": "numpy/lib/type_check.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "PyCapsule",
+            "path": "numpy/array_api/_typing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_interpret_code",
+            "path": "tools/npy_tempita/__init__.py",
+            "parent": "Template"
+        },
+        {
+            "func_name": "SupportsDLPack",
+            "path": "numpy/array_api/_typing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_interpret_inherit",
+            "path": "tools/npy_tempita/__init__.py",
+            "parent": "Template"
+        },
+        {
+            "func_name": "__subclasscheck__",
+            "path": "numpy/typing/_generic_alias.py",
+            "parent": "_GenericAlias"
+        },
+        {
+            "func_name": "who",
+            "path": "numpy/lib/utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SHIFT_INVALID",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "maximum_sctype",
+            "path": "numpy/core/numerictypes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ERR_DEFAULT",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "NAN",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "FPE_INVALID",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "get_package_name",
+            "path": "numpy/testing/_private/nosetester.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "from_filename",
+            "path": "tools/npy_tempita/__init__.py",
+            "parent": "Template"
+        },
+        {
+            "func_name": "_eval",
+            "path": "tools/npy_tempita/__init__.py",
+            "parent": "Template"
+        },
+        {
+            "func_name": "ERR_IGNORE",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "recfromtxt",
+            "path": "numpy/lib/npyio.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "sub_html",
+            "path": "tools/npy_tempita/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_interpret",
+            "path": "tools/npy_tempita/__init__.py",
+            "parent": "Template"
+        },
+        {
+            "func_name": "__origin__",
+            "path": "numpy/typing/_generic_alias.py",
+            "parent": "_GenericAlias"
+        },
+        {
+            "func_name": "RankWarning",
+            "path": "numpy/polynomial/polyutils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "emath",
+            "path": "numpy/lib/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Dtype",
+            "path": "numpy/array_api/_typing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecate",
+            "path": "numpy/lib/utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_needs_refcount",
+            "path": "numpy/testing/_private/decorators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "seterrobj",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "char",
+            "path": "numpy/core/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ERR_CALL",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "issubsctype",
+            "path": "numpy/lib/utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "msort",
+            "path": "numpy/lib/function_base.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "raises",
+            "path": "numpy/testing/_private/utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecated",
+            "path": "numpy/testing/_private/decorators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ERR_WARN",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test",
+            "path": "numpy/testing/_private/nosetester.py",
+            "parent": "NoseTester"
+        },
+        {
+            "func_name": "alen",
+            "path": "numpy/core/fromnumeric.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "disp",
+            "path": "numpy/lib/function_base.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_repr",
+            "path": "tools/npy_tempita/__init__.py",
+            "parent": "Template"
+        },
+        {
+            "func_name": "issctype",
+            "path": "numpy/core/numerictypes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_exec",
+            "path": "tools/npy_tempita/__init__.py",
+            "parent": "Template"
+        },
+        {
+            "func_name": "sctype2char",
+            "path": "numpy/core/numerictypes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "UFUNC_BUFSIZE_DEFAULT",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "knownfailureif",
+            "path": "numpy/testing/_private/decorators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__parameters__",
+            "path": "numpy/typing/_generic_alias.py",
+            "parent": "_GenericAlias"
+        },
+        {
+            "func_name": "add_newdoc_ufunc",
+            "path": "numpy/lib/function_base.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "NaN",
+            "path": "numpy/core/numeric.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "skipif",
+            "path": "numpy/testing/_private/decorators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "TemplateError",
+            "path": "tools/npy_tempita/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "cumproduct",
+            "path": "numpy/core/fromnumeric.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__dir__",
+            "path": "numpy/typing/_generic_alias.py",
+            "parent": "_GenericAlias"
+        },
+        {
+            "func_name": "run_module_suite",
+            "path": "numpy/testing/_private/nosetester.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__mro_entries__",
+            "path": "numpy/typing/_generic_alias.py",
+            "parent": "_GenericAlias"
+        },
+        {
+            "func_name": "bunch",
+            "path": "tools/npy_tempita/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_GenericAlias",
+            "path": "numpy/typing/_generic_alias.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "html",
+            "path": "tools/npy_tempita/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "quote_args",
+            "path": "numpy/distutils/misc_util.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "FPE_UNDERFLOW",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Inf",
+            "path": "numpy/core/numeric.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "NINF",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "PY3",
+            "path": "tools/npy_tempita/compat3.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "DataSource",
+            "path": "numpy/lib/npyio.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "mini",
+            "path": "numpy/ma/core.py",
+            "parent": "MaskedArray"
+        },
+        {
+            "func_name": "_test_argv",
+            "path": "numpy/testing/_private/nosetester.py",
+            "parent": "NoseTester"
+        },
+        {
+            "func_name": "FPE_OVERFLOW",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "looper",
+            "path": "tools/npy_tempita/_looper.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "sub",
+            "path": "tools/npy_tempita/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "slow",
+            "path": "numpy/testing/_private/decorators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "obj2sctype",
+            "path": "numpy/core/numerictypes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Array",
+            "path": "numpy/array_api/_typing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SupportsBufferProtocol",
+            "path": "numpy/array_api/_typing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "find_common_type",
+            "path": "numpy/core/numerictypes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_fastCopyAndTranspose",
+            "path": "numpy/core/multiarray.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "setastest",
+            "path": "numpy/testing/_private/decorators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_UFUNC_API",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "issubclass_",
+            "path": "numpy/lib/utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SHIFT_UNDERFLOW",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__instancecheck__",
+            "path": "numpy/typing/_generic_alias.py",
+            "parent": "_GenericAlias"
+        },
+        {
+            "func_name": "_get_custom_doctester",
+            "path": "numpy/testing/_private/nosetester.py",
+            "parent": "NoseTester"
+        },
+        {
+            "func_name": "asscalar",
+            "path": "numpy/lib/type_check.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "FLOATING_POINT_SUPPORT",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ERR_LOG",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "nbytes",
+            "path": "numpy/core/numerictypes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "parametrize",
+            "path": "numpy/testing/_private/decorators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "NZERO",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "get_array_wrap",
+            "path": "numpy/lib/shape_base.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "math",
+            "path": "numpy/lib/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__html__",
+            "path": "tools/npy_tempita/__init__.py",
+            "parent": "html"
+        },
+        {
+            "func_name": "iteritems",
+            "path": "tools/npy_tempita/compat3.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__init_subclass__",
+            "path": "numpy/typing/__init__.py",
+            "parent": "NBitBase"
+        },
+        {
+            "func_name": "_numpy_tester",
+            "path": "numpy/testing/_private/nosetester.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "source",
+            "path": "numpy/lib/utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "sctypes",
+            "path": "numpy/core/numerictypes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Template",
+            "path": "tools/npy_tempita/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_interpret_for",
+            "path": "tools/npy_tempita/__init__.py",
+            "parent": "Template"
+        },
+        {
+            "func_name": "PZERO",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_interpret_codes",
+            "path": "tools/npy_tempita/__init__.py",
+            "parent": "Template"
+        },
+        {
+            "func_name": "import_nose",
+            "path": "numpy/testing/_private/nosetester.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ERR_PRINT",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "NoseTester",
+            "path": "numpy/testing/_private/nosetester.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "lookfor",
+            "path": "numpy/lib/utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_add_line_info",
+            "path": "tools/npy_tempita/__init__.py",
+            "parent": "Template"
+        },
+        {
+            "func_name": "Infinity",
+            "path": "numpy/core/numeric.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "geterrobj",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "FPE_DIVIDEBYZERO",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "HTMLTemplate",
+            "path": "tools/npy_tempita/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_unicode",
+            "path": "tools/npy_tempita/compat3.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "prepare_test_args",
+            "path": "numpy/testing/_private/nosetester.py",
+            "parent": "NoseTester"
+        },
+        {
+            "func_name": "Device",
+            "path": "numpy/array_api/_typing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "infty",
+            "path": "numpy/core/numeric.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "UFUNC_PYVALS_NAME",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_add_newdoc_ufunc",
+            "path": "numpy/core/umath.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecate_with_doc",
+            "path": "numpy/lib/utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "mat",
+            "path": "numpy/matrixlib/defmatrix.py",
+            "parent": "Module"
+        }
+    ],
+    "Param_Changed": [
+        {
+            "func_name": "put",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "indices",
+                "values",
+                "mode"
+            ],
+            "new": [
+                "a",
+                "ind",
+                "v",
+                "mode"
+            ]
+        },
+        {
+            "func_name": "quantile",
+            "path": "numpy/lib/_function_base_impl.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "q",
+                "axis",
+                "out",
+                "overwrite_input",
+                "interpolation",
+                "keepdims"
+            ],
+            "new": [
+                "a",
+                "q",
+                "axis",
+                "out",
+                "overwrite_input",
+                "method",
+                "keepdims"
+            ]
+        },
+        {
+            "func_name": "histogramdd",
+            "path": "numpy/lib/_histograms_impl.py",
+            "parent": "Module",
+            "old": [
+                "sample",
+                "bins",
+                "range",
+                "normed",
+                "weights",
+                "density"
+            ],
+            "new": [
+                "sample",
+                "bins",
+                "range",
+                "density",
+                "weights"
+            ]
+        },
+        {
+            "func_name": "convolve",
+            "path": "numpy/_core/numeric.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "v",
+                "mode",
+                "propagate_mask"
+            ],
+            "new": [
+                "a",
+                "v",
+                "mode"
+            ]
+        },
+        {
+            "func_name": "percentile",
+            "path": "numpy/lib/_function_base_impl.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "q",
+                "axis",
+                "out",
+                "overwrite_input",
+                "interpolation",
+                "keepdims"
+            ],
+            "new": [
+                "a",
+                "q",
+                "axis",
+                "out",
+                "overwrite_input",
+                "method",
+                "keepdims"
+            ]
+        },
+        {
+            "func_name": "cumprod",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [
+                "self",
+                "axis",
+                "dtype",
+                "out"
+            ],
+            "new": [
+                "a",
+                "axis",
+                "dtype",
+                "out"
+            ]
+        },
+        {
+            "func_name": "__array__",
+            "path": "numpy/lib/_arrayterator_impl.py",
+            "parent": "Arrayterator",
+            "old": [
+                "self",
+                "t"
+            ],
+            "new": [
+                "self",
+                "dtype",
+                "copy"
+            ]
+        },
+        {
+            "func_name": "join",
+            "path": "numpy/_core/defchararray.py",
+            "parent": "chararray",
+            "old": [
+                "sep",
+                "seq"
+            ],
+            "new": [
+                "self",
+                "seq"
+            ]
+        },
+        {
+            "func_name": "basis",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase",
+            "old": [
+                "cls",
+                "deg",
+                "domain",
+                "window"
+            ],
+            "new": [
+                "cls",
+                "deg",
+                "domain",
+                "window",
+                "symbol"
+            ]
+        },
+        {
+            "func_name": "rfftfreq",
+            "path": "numpy/fft/_helper.py",
+            "parent": "Module",
+            "old": [
+                "n",
+                "d"
+            ],
+            "new": [
+                "n",
+                "d",
+                "device"
+            ]
+        },
+        {
+            "func_name": "resize",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [
+                "x",
+                "new_shape"
+            ],
+            "new": [
+                "a",
+                "new_shape"
+            ]
+        },
+        {
+            "func_name": "fromroots",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase",
+            "old": [
+                "cls",
+                "roots",
+                "domain",
+                "window"
+            ],
+            "new": [
+                "cls",
+                "roots",
+                "domain",
+                "window",
+                "symbol"
+            ]
+        },
+        {
+            "func_name": "_repr_latex_scalar",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase",
+            "old": [
+                "x"
+            ],
+            "new": [
+                "x",
+                "parens"
+            ]
+        },
+        {
+            "func_name": "outer",
+            "path": "numpy/_core/numeric.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "b"
+            ],
+            "new": [
+                "a",
+                "b",
+                "out"
+            ]
+        },
+        {
+            "func_name": "ifft",
+            "path": "numpy/fft/_pocketfft.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "n",
+                "axis",
+                "norm"
+            ],
+            "new": [
+                "a",
+                "n",
+                "axis",
+                "norm",
+                "out"
+            ]
+        },
+        {
+            "func_name": "fftn",
+            "path": "numpy/fft/_pocketfft.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "s",
+                "axes",
+                "norm"
+            ],
+            "new": [
+                "a",
+                "s",
+                "axes",
+                "norm",
+                "out"
+            ]
+        },
+        {
+            "func_name": "irfftn",
+            "path": "numpy/fft/_pocketfft.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "s",
+                "axes",
+                "norm"
+            ],
+            "new": [
+                "a",
+                "s",
+                "axes",
+                "norm",
+                "out"
+            ]
+        },
+        {
+            "func_name": "fft2",
+            "path": "numpy/fft/_pocketfft.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "s",
+                "axes",
+                "norm"
+            ],
+            "new": [
+                "a",
+                "s",
+                "axes",
+                "norm",
+                "out"
+            ]
+        },
+        {
+            "func_name": "__contains__",
+            "path": "numpy/_typing/_nested_sequence.py",
+            "parent": "_NestedSequence",
+            "old": [
+                "self",
+                "value"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "histogram",
+            "path": "numpy/lib/_histograms_impl.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "bins",
+                "range",
+                "normed",
+                "weights",
+                "density"
+            ],
+            "new": [
+                "a",
+                "bins",
+                "range",
+                "density",
+                "weights"
+            ]
+        },
+        {
+            "func_name": "__getattribute__",
+            "path": "numpy/_core/records.py",
+            "parent": "record",
+            "old": [
+                "self",
+                "name"
+            ],
+            "new": [
+                "self",
+                "attr"
+            ]
+        },
+        {
+            "func_name": "ifftn",
+            "path": "numpy/fft/_pocketfft.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "s",
+                "axes",
+                "norm"
+            ],
+            "new": [
+                "a",
+                "s",
+                "axes",
+                "norm",
+                "out"
+            ]
+        },
+        {
+            "func_name": "identity",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase",
+            "old": [
+                "cls",
+                "domain",
+                "window"
+            ],
+            "new": [
+                "cls",
+                "domain",
+                "window",
+                "symbol"
+            ]
+        },
+        {
+            "func_name": "fromrecords",
+            "path": "numpy/_core/records.py",
+            "parent": "Module",
+            "old": [
+                "reclist",
+                "dtype",
+                "shape",
+                "formats",
+                "names",
+                "titles",
+                "aligned",
+                "byteorder",
+                "fill_value",
+                "mask"
+            ],
+            "new": [
+                "recList",
+                "dtype",
+                "shape",
+                "formats",
+                "names",
+                "titles",
+                "aligned",
+                "byteorder"
+            ]
+        },
+        {
+            "func_name": "assert_array_equal",
+            "path": "numpy/testing/_private/utils.py",
+            "parent": "Module",
+            "old": [
+                "x",
+                "y",
+                "err_msg",
+                "verbose"
+            ],
+            "new": [
+                "actual",
+                "desired",
+                "err_msg",
+                "verbose"
+            ]
+        },
+        {
+            "func_name": "ndim",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [
+                "obj"
+            ],
+            "new": [
+                "a"
+            ]
+        },
+        {
+            "func_name": "fftfreq",
+            "path": "numpy/fft/_helper.py",
+            "parent": "Module",
+            "old": [
+                "n",
+                "d"
+            ],
+            "new": [
+                "n",
+                "d",
+                "device"
+            ]
+        },
+        {
+            "func_name": "irfft",
+            "path": "numpy/fft/_pocketfft.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "n",
+                "axis",
+                "norm"
+            ],
+            "new": [
+                "a",
+                "n",
+                "axis",
+                "norm",
+                "out"
+            ]
+        },
+        {
+            "func_name": "nanmin",
+            "path": "numpy/lib/_nanfunctions_impl.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "axis",
+                "out",
+                "keepdims"
+            ],
+            "new": [
+                "a",
+                "axis",
+                "out",
+                "keepdims",
+                "initial",
+                "where"
+            ]
+        },
+        {
+            "func_name": "argsort",
+            "path": "numpy/_core/defchararray.py",
+            "parent": "chararray",
+            "old": [
+                "a",
+                "axis",
+                "kind",
+                "order",
+                "endwith",
+                "fill_value"
+            ],
+            "new": [
+                "self",
+                "axis",
+                "kind",
+                "order"
+            ]
+        },
+        {
+            "func_name": "nanquantile",
+            "path": "numpy/lib/_nanfunctions_impl.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "q",
+                "axis",
+                "out",
+                "overwrite_input",
+                "interpolation",
+                "keepdims"
+            ],
+            "new": [
+                "a",
+                "q",
+                "axis",
+                "out",
+                "overwrite_input",
+                "method",
+                "keepdims"
+            ]
+        },
+        {
+            "func_name": "fit",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase",
+            "old": [
+                "cls",
+                "x",
+                "y",
+                "deg",
+                "domain",
+                "rcond",
+                "full",
+                "w",
+                "window"
+            ],
+            "new": [
+                "cls",
+                "x",
+                "y",
+                "deg",
+                "domain",
+                "rcond",
+                "full",
+                "w",
+                "window",
+                "symbol"
+            ]
+        },
+        {
+            "func_name": "rfftn",
+            "path": "numpy/fft/_pocketfft.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "s",
+                "axes",
+                "norm"
+            ],
+            "new": [
+                "a",
+                "s",
+                "axes",
+                "norm",
+                "out"
+            ]
+        },
+        {
+            "func_name": "ifft2",
+            "path": "numpy/fft/_pocketfft.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "s",
+                "axes",
+                "norm"
+            ],
+            "new": [
+                "a",
+                "s",
+                "axes",
+                "norm",
+                "out"
+            ]
+        },
+        {
+            "func_name": "__init__",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase",
+            "old": [
+                "self",
+                "coef",
+                "domain",
+                "window"
+            ],
+            "new": [
+                "self",
+                "coef",
+                "domain",
+                "window",
+                "symbol"
+            ]
+        },
+        {
+            "func_name": "argpartition",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [
+                "self"
+            ],
+            "new": [
+                "a",
+                "kth",
+                "axis",
+                "kind",
+                "order"
+            ]
+        },
+        {
+            "func_name": "histogram2d",
+            "path": "numpy/lib/_twodim_base_impl.py",
+            "parent": "Module",
+            "old": [
+                "x",
+                "y",
+                "bins",
+                "range",
+                "normed",
+                "weights",
+                "density"
+            ],
+            "new": [
+                "x",
+                "y",
+                "bins",
+                "range",
+                "density",
+                "weights"
+            ]
+        },
+        {
+            "func_name": "nanargmin",
+            "path": "numpy/lib/_nanfunctions_impl.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "axis"
+            ],
+            "new": [
+                "a",
+                "axis",
+                "out"
+            ]
+        },
+        {
+            "func_name": "fromtextfile",
+            "path": "numpy/ma/mrecords.py",
+            "parent": "Module",
+            "old": [
+                "fname",
+                "delimitor",
+                "commentchar",
+                "missingchar",
+                "varnames",
+                "vartypes"
+            ],
+            "new": [
+                "fname",
+                "delimiter",
+                "commentchar",
+                "missingchar",
+                "varnames",
+                "vartypes"
+            ]
+        },
+        {
+            "func_name": "size",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [
+                "obj",
+                "axis"
+            ],
+            "new": [
+                "a",
+                "axis"
+            ]
+        },
+        {
+            "func_name": "nansum",
+            "path": "numpy/lib/_nanfunctions_impl.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "axis",
+                "dtype",
+                "out",
+                "keepdims"
+            ],
+            "new": [
+                "a",
+                "axis",
+                "dtype",
+                "out",
+                "keepdims",
+                "initial",
+                "where"
+            ]
+        },
+        {
+            "func_name": "correlate",
+            "path": "numpy/_core/numeric.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "v",
+                "mode",
+                "propagate_mask"
+            ],
+            "new": [
+                "a",
+                "v",
+                "mode"
+            ]
+        },
+        {
+            "func_name": "rsplit",
+            "path": "numpy/_core/defchararray.py",
+            "parent": "chararray",
+            "old": [
+                "a",
+                "sep",
+                "maxsplit"
+            ],
+            "new": [
+                "self",
+                "sep",
+                "maxsplit"
+            ]
+        },
+        {
+            "func_name": "cholesky",
+            "path": "numpy/linalg/_linalg.py",
+            "parent": "Module",
+            "old": [
+                "a"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "rfft2",
+            "path": "numpy/fft/_pocketfft.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "s",
+                "axes",
+                "norm"
+            ],
+            "new": [
+                "a",
+                "s",
+                "axes",
+                "norm",
+                "out"
+            ]
+        },
+        {
+            "func_name": "splitlines",
+            "path": "numpy/_core/defchararray.py",
+            "parent": "chararray",
+            "old": [
+                "a",
+                "keepends"
+            ],
+            "new": [
+                "self",
+                "keepends"
+            ]
+        },
+        {
+            "func_name": "count",
+            "path": "numpy/_typing/_nested_sequence.py",
+            "parent": "_NestedSequence",
+            "old": [
+                "self",
+                "axis",
+                "keepdims"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "nanpercentile",
+            "path": "numpy/lib/_nanfunctions_impl.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "q",
+                "axis",
+                "out",
+                "overwrite_input",
+                "interpolation",
+                "keepdims"
+            ],
+            "new": [
+                "a",
+                "q",
+                "axis",
+                "out",
+                "overwrite_input",
+                "method",
+                "keepdims"
+            ]
+        },
+        {
+            "func_name": "reshape",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "new_shape",
+                "order"
+            ],
+            "new": [
+                "shape"
+            ]
+        },
+        {
+            "func_name": "nonzero",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [
+                "self"
+            ],
+            "new": [
+                "a"
+            ]
+        },
+        {
+            "func_name": "__reversed__",
+            "path": "numpy/_typing/_nested_sequence.py",
+            "parent": "_NestedSequence",
+            "old": [
+                "self"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "nanmax",
+            "path": "numpy/lib/_nanfunctions_impl.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "axis",
+                "out",
+                "keepdims"
+            ],
+            "new": [
+                "a",
+                "axis",
+                "out",
+                "keepdims",
+                "initial",
+                "where"
+            ]
+        },
+        {
+            "func_name": "parse",
+            "path": "numpy/f2py/symbolic.py",
+            "parent": "Expr",
+            "old": [
+                "s"
+            ],
+            "new": [
+                "s",
+                "language"
+            ]
+        },
+        {
+            "func_name": "irfft2",
+            "path": "numpy/fft/_pocketfft.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "s",
+                "axes",
+                "norm"
+            ],
+            "new": [
+                "a",
+                "s",
+                "axes",
+                "norm",
+                "out"
+            ]
+        },
+        {
+            "func_name": "round",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [
+                "self",
+                "decimals",
+                "out"
+            ],
+            "new": [
+                "a",
+                "decimals",
+                "out"
+            ]
+        },
+        {
+            "func_name": "choose",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [
+                "indices",
+                "choices",
+                "out",
+                "mode"
+            ],
+            "new": [
+                "a",
+                "choices",
+                "out",
+                "mode"
+            ]
+        },
+        {
+            "func_name": "partition",
+            "path": "numpy/_core/strings.py",
+            "parent": "Module",
+            "old": [
+                "self"
+            ],
+            "new": [
+                "a",
+                "sep"
+            ]
+        },
+        {
+            "func_name": "ihfft",
+            "path": "numpy/fft/_pocketfft.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "n",
+                "axis",
+                "norm"
+            ],
+            "new": [
+                "a",
+                "n",
+                "axis",
+                "norm",
+                "out"
+            ]
+        },
+        {
+            "func_name": "sort",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "axis",
+                "kind",
+                "order",
+                "endwith",
+                "fill_value"
+            ],
+            "new": [
+                "a",
+                "axis",
+                "kind",
+                "order"
+            ]
+        },
+        {
+            "func_name": "trace",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [
+                "self",
+                "offset",
+                "axis1",
+                "axis2",
+                "dtype",
+                "out"
+            ],
+            "new": [
+                "a",
+                "offset",
+                "axis1",
+                "axis2",
+                "dtype",
+                "out"
+            ]
+        },
+        {
+            "func_name": "assert_array_almost_equal",
+            "path": "numpy/testing/_private/utils.py",
+            "parent": "Module",
+            "old": [
+                "x",
+                "y",
+                "decimal",
+                "err_msg",
+                "verbose"
+            ],
+            "new": [
+                "actual",
+                "desired",
+                "decimal",
+                "err_msg",
+                "verbose"
+            ]
+        },
+        {
+            "func_name": "compress",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [
+                "self",
+                "condition",
+                "axis",
+                "out"
+            ],
+            "new": [
+                "condition",
+                "a",
+                "axis",
+                "out"
+            ]
+        },
+        {
+            "func_name": "rfft",
+            "path": "numpy/fft/_pocketfft.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "n",
+                "axis",
+                "norm"
+            ],
+            "new": [
+                "a",
+                "n",
+                "axis",
+                "norm",
+                "out"
+            ]
+        },
+        {
+            "func_name": "__array_wrap__",
+            "path": "numpy/_core/defchararray.py",
+            "parent": "chararray",
+            "old": [
+                "self",
+                "obj",
+                "context"
+            ],
+            "new": [
+                "self",
+                "arr",
+                "context",
+                "return_scalar"
+            ]
+        },
+        {
+            "func_name": "fromarrays",
+            "path": "numpy/_core/records.py",
+            "parent": "Module",
+            "old": [
+                "arraylist",
+                "dtype",
+                "shape",
+                "formats",
+                "names",
+                "titles",
+                "aligned",
+                "byteorder",
+                "fill_value"
+            ],
+            "new": [
+                "arrayList",
+                "dtype",
+                "shape",
+                "formats",
+                "names",
+                "titles",
+                "aligned",
+                "byteorder"
+            ]
+        },
+        {
+            "func_name": "allclose",
+            "path": "numpy/_core/numeric.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "b",
+                "masked_equal",
+                "rtol",
+                "atol"
+            ],
+            "new": [
+                "a",
+                "b",
+                "rtol",
+                "atol",
+                "equal_nan"
+            ]
+        },
+        {
+            "func_name": "nanprod",
+            "path": "numpy/lib/_nanfunctions_impl.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "axis",
+                "dtype",
+                "out",
+                "keepdims"
+            ],
+            "new": [
+                "a",
+                "axis",
+                "dtype",
+                "out",
+                "keepdims",
+                "initial",
+                "where"
+            ]
+        },
+        {
+            "func_name": "nanargmax",
+            "path": "numpy/lib/_nanfunctions_impl.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "axis"
+            ],
+            "new": [
+                "a",
+                "axis",
+                "out"
+            ]
+        },
+        {
+            "func_name": "fft",
+            "path": "numpy/fft/_pocketfft.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "n",
+                "axis",
+                "norm"
+            ],
+            "new": [
+                "a",
+                "n",
+                "axis",
+                "norm",
+                "out"
+            ]
+        },
+        {
+            "func_name": "index",
+            "path": "numpy/_typing/_nested_sequence.py",
+            "parent": "_NestedSequence",
+            "old": [
+                "a",
+                "sub",
+                "start",
+                "end"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "cumsum",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [
+                "self",
+                "axis",
+                "dtype",
+                "out"
+            ],
+            "new": [
+                "a",
+                "axis",
+                "dtype",
+                "out"
+            ]
+        },
+        {
+            "func_name": "hfft",
+            "path": "numpy/fft/_pocketfft.py",
+            "parent": "Module",
+            "old": [
+                "a",
+                "n",
+                "axis",
+                "norm"
+            ],
+            "new": [
+                "a",
+                "n",
+                "axis",
+                "norm",
+                "out"
+            ]
+        },
+        {
+            "func_name": "tostring",
+            "path": "numpy/f2py/symbolic.py",
+            "parent": "RelOp",
+            "old": [
+                "self",
+                "parent_precedence",
+                "language"
+            ],
+            "new": [
+                "self",
+                "language"
+            ]
+        }
+    ],
+    "Return_Changed": [
+        {
+            "func_name": "get_printoptions",
+            "path": "numpy/_core/arrayprint.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Attribute(value=Name(id='_format_options', ctx=Load()), attr='copy', ctx=Load()), args=[], keywords=[])"
+            ],
+            "new": [
+                "Name(id='opts', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "put",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "Call(func=Name(id='put', ctx=Load()), args=[Name(id='ind', ctx=Load()), Name(id='v', ctx=Load())], keywords=[keyword(arg='mode', value=Name(id='mode', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "quantile",
+            "path": "numpy/lib/_function_base_impl.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_quantile_unchecked', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='q', ctx=Load()), Name(id='axis', ctx=Load()), Name(id='out', ctx=Load()), Name(id='overwrite_input', ctx=Load()), Name(id='interpolation', ctx=Load()), Name(id='keepdims', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_quantile_unchecked', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='q', ctx=Load()), Name(id='axis', ctx=Load()), Name(id='out', ctx=Load()), Name(id='overwrite_input', ctx=Load()), Name(id='method', ctx=Load()), Name(id='keepdims', ctx=Load()), Name(id='weights', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "__repr__",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase",
+            "old": [
+                "JoinedStr(values=[FormattedValue(value=Name(id='name', ctx=Load()), conversion=-1), Constant(value='('), FormattedValue(value=Name(id='coef', ctx=Load()), conversion=-1), Constant(value=', domain='), FormattedValue(value=Name(id='domain', ctx=Load()), conversion=-1), Constant(value=', window='), FormattedValue(value=Name(id='window', ctx=Load()), conversion=-1), Constant(value=')')])"
+            ],
+            "new": [
+                "JoinedStr(values=[FormattedValue(value=Name(id='name', ctx=Load()), conversion=-1), Constant(value='('), FormattedValue(value=Name(id='coef', ctx=Load()), conversion=-1), Constant(value=', domain='), FormattedValue(value=Name(id='domain', ctx=Load()), conversion=-1), Constant(value=', window='), FormattedValue(value=Name(id='window', ctx=Load()), conversion=-1), Constant(value=\", symbol='\"), FormattedValue(value=Attribute(value=Name(id='self', ctx=Load()), attr='symbol', ctx=Load()), conversion=-1), Constant(value=\"')\")])"
+            ]
+        },
+        {
+            "func_name": "convolve",
+            "path": "numpy/_core/numeric.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_convolve_or_correlate', ctx=Load()), args=[Attribute(value=Name(id='np', ctx=Load()), attr='convolve', ctx=Load()), Name(id='a', ctx=Load()), Name(id='v', ctx=Load()), Name(id='mode', ctx=Load()), Name(id='propagate_mask', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='multiarray', ctx=Load()), attr='correlate', ctx=Load()), args=[Name(id='a', ctx=Load()), Subscript(value=Name(id='v', ctx=Load()), slice=Slice(step=UnaryOp(op=USub(), operand=Constant(value=1))), ctx=Load()), Name(id='mode', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "qr",
+            "path": "numpy/linalg/_linalg.py",
+            "parent": "Module",
+            "old": [
+                "Tuple(elts=[Call(func=Name(id='wrap', ctx=Load()), args=[Name(id='q', ctx=Load())], keywords=[]), Call(func=Name(id='wrap', ctx=Load()), args=[Name(id='r', ctx=Load())], keywords=[])], ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Name(id='QRResult', ctx=Load()), args=[Call(func=Name(id='wrap', ctx=Load()), args=[Name(id='q', ctx=Load())], keywords=[]), Call(func=Name(id='wrap', ctx=Load()), args=[Name(id='r', ctx=Load())], keywords=[])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "percentile",
+            "path": "numpy/lib/_function_base_impl.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_quantile_unchecked', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='q', ctx=Load()), Name(id='axis', ctx=Load()), Name(id='out', ctx=Load()), Name(id='overwrite_input', ctx=Load()), Name(id='interpolation', ctx=Load()), Name(id='keepdims', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_quantile_unchecked', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='q', ctx=Load()), Name(id='axis', ctx=Load()), Name(id='out', ctx=Load()), Name(id='overwrite_input', ctx=Load()), Name(id='method', ctx=Load()), Name(id='keepdims', ctx=Load()), Name(id='weights', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "_str_term_ascii",
+            "path": "numpy/polynomial/polynomial.py",
+            "parent": "Polynomial",
+            "old": [
+                "JoinedStr(values=[Constant(value=' '), FormattedValue(value=Name(id='arg_str', ctx=Load()), conversion=-1), Constant(value='**'), FormattedValue(value=Name(id='i', ctx=Load()), conversion=-1)])"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "cumprod",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='result', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Name(id='_wrapfunc', ctx=Load()), args=[Name(id='a', ctx=Load()), Constant(value='cumprod')], keywords=[keyword(arg='axis', value=Name(id='axis', ctx=Load())), keyword(arg='dtype', value=Name(id='dtype', ctx=Load())), keyword(arg='out', value=Name(id='out', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "__rmul__",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), args=[Name(id='coef', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='domain', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='window', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), args=[Name(id='coef', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='domain', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='window', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='symbol', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "__array__",
+            "path": "numpy/lib/_arrayterator_impl.py",
+            "parent": "Arrayterator",
+            "old": [],
+            "new": [
+                "Subscript(value=Attribute(value=Name(id='self', ctx=Load()), attr='var', ctx=Load()), slice=Name(id='slice_', ctx=Load()), ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "slogdet",
+            "path": "numpy/linalg/_linalg.py",
+            "parent": "Module",
+            "old": [
+                "Tuple(elts=[Name(id='sign', ctx=Load()), Name(id='logdet', ctx=Load())], ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Name(id='SlogdetResult', ctx=Load()), args=[Name(id='sign', ctx=Load()), Name(id='logdet', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "join",
+            "path": "numpy/_core/defchararray.py",
+            "parent": "chararray",
+            "old": [
+                "Call(func=Name(id='_to_string_or_unicode_array', ctx=Load()), args=[Call(func=Name(id='_vec_string', ctx=Load()), args=[Name(id='sep', ctx=Load()), Name(id='object_', ctx=Load()), Constant(value='join'), Tuple(elts=[Name(id='seq', ctx=Load())], ctx=Load())], keywords=[])], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='join', ctx=Load()), args=[Name(id='self', ctx=Load()), Name(id='seq', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "basis",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase",
+            "old": [
+                "Call(func=Name(id='cls', ctx=Load()), args=[BinOp(left=BinOp(left=List(elts=[Constant(value=0)], ctx=Load()), op=Mult(), right=Name(id='ideg', ctx=Load())), op=Add(), right=List(elts=[Constant(value=1)], ctx=Load())), Name(id='domain', ctx=Load()), Name(id='window', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='cls', ctx=Load()), args=[BinOp(left=BinOp(left=List(elts=[Constant(value=0)], ctx=Load()), op=Mult(), right=Name(id='ideg', ctx=Load())), op=Add(), right=List(elts=[Constant(value=1)], ctx=Load())), Name(id='domain', ctx=Load()), Name(id='window', ctx=Load()), Name(id='symbol', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "rstrip",
+            "path": "numpy/_core/strings.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_vec_string', ctx=Load()), args=[Name(id='a_arr', ctx=Load()), Attribute(value=Name(id='a_arr', ctx=Load()), attr='dtype', ctx=Load()), Constant(value='rstrip'), Tuple(elts=[Name(id='chars', ctx=Load())], ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_rstrip_chars', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='chars', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "masked_invalid",
+            "path": "numpy/ma/core.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='result', ctx=Load())"
+            ],
+            "new": [
+                "Name(id='res', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "transpose",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "Call(func=Name(id='_wrapfunc', ctx=Load()), args=[Name(id='a', ctx=Load()), Constant(value='transpose'), Name(id='axes', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "resize",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='result', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Name(id='reshape', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='new_shape', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "smallest_normal",
+            "path": "numpy/_core/getlimits.py",
+            "parent": "finfo",
+            "old": [
+                "Subscript(value=Attribute(value=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='machar', ctx=Load()), attr='smallest_normal', ctx=Load()), attr='flat', ctx=Load()), slice=Constant(value=0), ctx=Load())"
+            ],
+            "new": [
+                "Subscript(value=Attribute(value=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='_machar', ctx=Load()), attr='smallest_normal', ctx=Load()), attr='flat', ctx=Load()), slice=Constant(value=0), ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "__mul__",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), args=[Name(id='coef', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='domain', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='window', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), args=[Name(id='coef', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='domain', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='window', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='symbol', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "fromroots",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase",
+            "old": [
+                "Call(func=Name(id='cls', ctx=Load()), args=[Name(id='coef', ctx=Load())], keywords=[keyword(arg='domain', value=Name(id='domain', ctx=Load())), keyword(arg='window', value=Name(id='window', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Name(id='cls', ctx=Load()), args=[Name(id='coef', ctx=Load())], keywords=[keyword(arg='domain', value=Name(id='domain', ctx=Load())), keyword(arg='window', value=Name(id='window', ctx=Load())), keyword(arg='symbol', value=Name(id='symbol', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "_repr_latex_scalar",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase",
+            "old": [
+                "Call(func=Attribute(value=Constant(value='\\\\text{{{}}}'), attr='format', ctx=Load()), args=[Name(id='x', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Constant(value='\\\\text{{{}}}'), attr='format', ctx=Load()), args=[Call(func=Attribute(value=Name(id='pu', ctx=Load()), attr='format_float', ctx=Load()), args=[Name(id='x', ctx=Load())], keywords=[keyword(arg='parens', value=Name(id='parens', ctx=Load()))])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "outer",
+            "path": "numpy/_core/numeric.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='masked_array', ctx=Load()), args=[Name(id='d', ctx=Load())], keywords=[keyword(arg='mask', value=Name(id='m', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Name(id='multiply', ctx=Load()), args=[Subscript(value=Call(func=Attribute(value=Name(id='a', ctx=Load()), attr='ravel', ctx=Load()), args=[], keywords=[]), slice=Tuple(elts=[Slice(), Name(id='newaxis', ctx=Load())], ctx=Load()), ctx=Load()), Subscript(value=Call(func=Attribute(value=Name(id='b', ctx=Load()), attr='ravel', ctx=Load()), args=[], keywords=[]), slice=Tuple(elts=[Name(id='newaxis', ctx=Load()), Slice()], ctx=Load()), ctx=Load()), Name(id='out', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "fftn",
+            "path": "numpy/fft/_pocketfft.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_raw_fftnd', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='s', ctx=Load()), Name(id='axes', ctx=Load()), Name(id='fft', ctx=Load()), Name(id='norm', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_raw_fftnd', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='s', ctx=Load()), Name(id='axes', ctx=Load()), Name(id='fft', ctx=Load()), Name(id='norm', ctx=Load())], keywords=[keyword(arg='out', value=Name(id='out', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "isclose",
+            "path": "numpy/_core/numeric.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "Subscript(value=Name(id='result', ctx=Load()), slice=Tuple(elts=[], ctx=Load()), ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "fft2",
+            "path": "numpy/fft/_pocketfft.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_raw_fftnd', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='s', ctx=Load()), Name(id='axes', ctx=Load()), Name(id='fft', ctx=Load()), Name(id='norm', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_raw_fftnd', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='s', ctx=Load()), Name(id='axes', ctx=Load()), Name(id='fft', ctx=Load()), Name(id='norm', ctx=Load())], keywords=[keyword(arg='out', value=Name(id='out', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "encode",
+            "path": "numpy/_core/strings.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_to_string_or_unicode_array', ctx=Load()), args=[Call(func=Name(id='_vec_string', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='object_', ctx=Load()), Constant(value='encode'), Call(func=Name(id='_clean_args', ctx=Load()), args=[Name(id='encoding', ctx=Load()), Name(id='errors', ctx=Load())], keywords=[])], keywords=[])], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_to_bytes_or_str_array', ctx=Load()), args=[Call(func=Name(id='_vec_string', ctx=Load()), args=[Name(id='a', ctx=Load()), Attribute(value=Name(id='np', ctx=Load()), attr='object_', ctx=Load()), Constant(value='encode'), Call(func=Name(id='_clean_args', ctx=Load()), args=[Name(id='encoding', ctx=Load()), Name(id='errors', ctx=Load())], keywords=[])], keywords=[]), Call(func=Attribute(value=Name(id='np', ctx=Load()), attr='bytes_', ctx=Load()), args=[Constant(value=b'')], keywords=[])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "ediff1d",
+            "path": "numpy/lib/_arraysetops_impl.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='result', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='conv', ctx=Load()), attr='wrap', ctx=Load()), args=[Name(id='result', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "__contains__",
+            "path": "numpy/_typing/_nested_sequence.py",
+            "parent": "_NestedSequence",
+            "old": [
+                "Compare(left=Name(id='value', ctx=Load()), ops=[In()], comparators=[Attribute(value=Name(id='self', ctx=Load()), attr='__container', ctx=Load())])"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "histogram",
+            "path": "numpy/lib/_histograms_impl.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "Tuple(elts=[Name(id='n', ctx=Load()), Name(id='bin_edges', ctx=Load())], ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "__getattribute__",
+            "path": "numpy/_core/records.py",
+            "parent": "record",
+            "old": [
+                "Call(func=Name(id='getattr', ctx=Load()), args=[Attribute(value=Name(id='self', ctx=Load()), attr='__origin__', ctx=Load()), Name(id='name', ctx=Load())], keywords=[])"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "deriv",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), args=[Name(id='coef', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='domain', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='window', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), args=[Name(id='coef', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='domain', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='window', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='symbol', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "array_equal",
+            "path": "numpy/_core/numeric.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='bool', ctx=Load()), args=[Call(func=Attribute(value=Call(func=Name(id='asarray', ctx=Load()), args=[Compare(left=Subscript(value=Name(id='a1', ctx=Load()), slice=UnaryOp(op=Invert(), operand=Name(id='a1nan', ctx=Load())), ctx=Load()), ops=[Eq()], comparators=[Subscript(value=Name(id='a2', ctx=Load()), slice=UnaryOp(op=Invert(), operand=Name(id='a1nan', ctx=Load())), ctx=Load())])], keywords=[]), attr='all', ctx=Load()), args=[], keywords=[])], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='builtins', ctx=Load()), attr='bool', ctx=Load()), args=[Call(func=Attribute(value=Compare(left=Subscript(value=Name(id='a1', ctx=Load()), slice=UnaryOp(op=Invert(), operand=Name(id='a1nan', ctx=Load())), ctx=Load()), ops=[Eq()], comparators=[Subscript(value=Name(id='a2', ctx=Load()), slice=UnaryOp(op=Invert(), operand=Name(id='a1nan', ctx=Load())), ctx=Load())]), attr='all', ctx=Load()), args=[], keywords=[])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "ifftn",
+            "path": "numpy/fft/_pocketfft.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_raw_fftnd', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='s', ctx=Load()), Name(id='axes', ctx=Load()), Name(id='ifft', ctx=Load()), Name(id='norm', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_raw_fftnd', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='s', ctx=Load()), Name(id='axes', ctx=Load()), Name(id='ifft', ctx=Load()), Name(id='norm', ctx=Load())], keywords=[keyword(arg='out', value=Name(id='out', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "allpath",
+            "path": "numpy/distutils/misc_util.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='os', ctx=Load()), attr='path', ctx=Load()), attr='join', ctx=Load()), args=[Starred(value=Name(id='splitted', ctx=Load()), ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='os', ctx=Load()), attr='path', ctx=Load()), attr='join', ctx=Load()), args=[Starred(value=Name(id='split', ctx=Load()), ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "diagflat",
+            "path": "numpy/lib/_twodim_base_impl.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='wrap', ctx=Load()), args=[Name(id='res', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='conv', ctx=Load()), attr='wrap', ctx=Load()), args=[Name(id='res', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "identity",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase",
+            "old": [
+                "Call(func=Name(id='cls', ctx=Load()), args=[Name(id='coef', ctx=Load()), Name(id='domain', ctx=Load()), Name(id='window', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='cls', ctx=Load()), args=[Name(id='coef', ctx=Load()), Name(id='domain', ctx=Load()), Name(id='window', ctx=Load()), Name(id='symbol', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "isstringarray",
+            "path": "numpy/f2py/auxfuncs.py",
+            "parent": "Module",
+            "old": [
+                "BoolOp(op=And(), values=[Call(func=Name(id='isarray', ctx=Load()), args=[Name(id='var', ctx=Load())], keywords=[]), Call(func=Name(id='_isstring', ctx=Load()), args=[Name(id='var', ctx=Load())], keywords=[])])"
+            ],
+            "new": [
+                "BoolOp(op=And(), values=[Call(func=Name(id='isstring_or_stringarray', ctx=Load()), args=[Name(id='var', ctx=Load())], keywords=[]), Call(func=Name(id='isarray', ctx=Load()), args=[Name(id='var', ctx=Load())], keywords=[])])"
+            ]
+        },
+        {
+            "func_name": "decode",
+            "path": "numpy/_core/strings.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_to_string_or_unicode_array', ctx=Load()), args=[Call(func=Name(id='_vec_string', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='object_', ctx=Load()), Constant(value='decode'), Call(func=Name(id='_clean_args', ctx=Load()), args=[Name(id='encoding', ctx=Load()), Name(id='errors', ctx=Load())], keywords=[])], keywords=[])], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_to_bytes_or_str_array', ctx=Load()), args=[Call(func=Name(id='_vec_string', ctx=Load()), args=[Name(id='a', ctx=Load()), Attribute(value=Name(id='np', ctx=Load()), attr='object_', ctx=Load()), Constant(value='decode'), Call(func=Name(id='_clean_args', ctx=Load()), args=[Name(id='encoding', ctx=Load()), Name(id='errors', ctx=Load())], keywords=[])], keywords=[]), Call(func=Attribute(value=Name(id='np', ctx=Load()), attr='str_', ctx=Load()), args=[Constant(value='')], keywords=[])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "fromrecords",
+            "path": "numpy/_core/records.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='mrec', ctx=Load())"
+            ],
+            "new": [
+                "Name(id='res', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "ndim",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Attribute(value=Name(id='np', ctx=Load()), attr='ndim', ctx=Load()), args=[Call(func=Name(id='getdata', ctx=Load()), args=[Name(id='obj', ctx=Load())], keywords=[])], keywords=[])"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "apply_along_axis",
+            "path": "numpy/lib/_shape_base_impl.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "Call(func=Attribute(value=Name(id='conv', ctx=Load()), attr='wrap', ctx=Load()), args=[Name(id='res', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "rindex",
+            "path": "numpy/_core/strings.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_vec_string', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='int_', ctx=Load()), Constant(value='rindex'), BinOp(left=List(elts=[Name(id='sub', ctx=Load()), Name(id='start', ctx=Load())], ctx=Load()), op=Add(), right=Call(func=Name(id='_clean_args', ctx=Load()), args=[Name(id='end', ctx=Load())], keywords=[]))], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_rindex_ufunc', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='sub', ctx=Load()), Name(id='start', ctx=Load()), Name(id='end', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "rpartition",
+            "path": "numpy/_core/strings.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_to_string_or_unicode_array', ctx=Load()), args=[Call(func=Name(id='_vec_string', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='object_', ctx=Load()), Constant(value='rpartition'), Tuple(elts=[Name(id='sep', ctx=Load())], ctx=Load())], keywords=[])], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_rpartition_index', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='sep', ctx=Load()), Name(id='pos', ctx=Load())], keywords=[keyword(arg='out', value=Tuple(elts=[Subscript(value=Name(id='out', ctx=Load()), slice=Constant(value='f0'), ctx=Load()), Subscript(value=Name(id='out', ctx=Load()), slice=Constant(value='f1'), ctx=Load()), Subscript(value=Name(id='out', ctx=Load()), slice=Constant(value='f2'), ctx=Load())], ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "argsort",
+            "path": "numpy/_core/defchararray.py",
+            "parent": "chararray",
+            "old": [],
+            "new": [
+                "Call(func=Attribute(value=Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__array__', ctx=Load()), args=[], keywords=[]), attr='argsort', ctx=Load()), args=[Name(id='axis', ctx=Load()), Name(id='kind', ctx=Load()), Name(id='order', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "nanquantile",
+            "path": "numpy/lib/_nanfunctions_impl.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_nanquantile_unchecked', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='q', ctx=Load()), Name(id='axis', ctx=Load()), Name(id='out', ctx=Load()), Name(id='overwrite_input', ctx=Load()), Name(id='interpolation', ctx=Load()), Name(id='keepdims', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_nanquantile_unchecked', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='q', ctx=Load()), Name(id='axis', ctx=Load()), Name(id='out', ctx=Load()), Name(id='overwrite_input', ctx=Load()), Name(id='method', ctx=Load()), Name(id='keepdims', ctx=Load()), Name(id='weights', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "median",
+            "path": "numpy/lib/_function_base_impl.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "Call(func=Name(id='_ureduce', ctx=Load()), args=[Name(id='a', ctx=Load())], keywords=[keyword(arg='func', value=Name(id='_median', ctx=Load())), keyword(arg='keepdims', value=Name(id='keepdims', ctx=Load())), keyword(arg='axis', value=Name(id='axis', ctx=Load())), keyword(arg='out', value=Name(id='out', ctx=Load())), keyword(arg='overwrite_input', value=Name(id='overwrite_input', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "truncate",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), args=[Name(id='coef', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='domain', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='window', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), args=[Name(id='coef', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='domain', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='window', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='symbol', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "ifft2",
+            "path": "numpy/fft/_pocketfft.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_raw_fftnd', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='s', ctx=Load()), Name(id='axes', ctx=Load()), Name(id='ifft', ctx=Load()), Name(id='norm', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_raw_fftnd', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='s', ctx=Load()), Name(id='axes', ctx=Load()), Name(id='ifft', ctx=Load()), Name(id='norm', ctx=Load())], keywords=[keyword(arg='out', value=Constant(value=None))])"
+            ]
+        },
+        {
+            "func_name": "__neg__",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), args=[UnaryOp(op=USub(), operand=Attribute(value=Name(id='self', ctx=Load()), attr='coef', ctx=Load())), Attribute(value=Name(id='self', ctx=Load()), attr='domain', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='window', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), args=[UnaryOp(op=USub(), operand=Attribute(value=Name(id='self', ctx=Load()), attr='coef', ctx=Load())), Attribute(value=Name(id='self', ctx=Load()), attr='domain', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='window', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='symbol', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "strip",
+            "path": "numpy/_core/strings.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_vec_string', ctx=Load()), args=[Name(id='a_arr', ctx=Load()), Attribute(value=Name(id='a_arr', ctx=Load()), attr='dtype', ctx=Load()), Constant(value='strip'), Call(func=Name(id='_clean_args', ctx=Load()), args=[Name(id='chars', ctx=Load())], keywords=[])], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_strip_chars', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='chars', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "zfill",
+            "path": "numpy/_core/strings.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_vec_string', ctx=Load()), args=[Name(id='a_arr', ctx=Load()), Tuple(elts=[Attribute(value=Attribute(value=Name(id='a_arr', ctx=Load()), attr='dtype', ctx=Load()), attr='type', ctx=Load()), Name(id='size', ctx=Load())], ctx=Load()), Constant(value='zfill'), Tuple(elts=[Name(id='width_arr', ctx=Load())], ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_zfill', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='width', ctx=Load())], keywords=[keyword(arg='out', value=Name(id='out', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "__setattr__",
+            "path": "numpy/_core/records.py",
+            "parent": "record",
+            "old": [
+                "Name(id='obj', ctx=Load())"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "argpartition",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Attribute(value=Call(func=Name(id='super', ctx=Load()), args=[], keywords=[]), attr='argpartition', ctx=Load()), args=[Starred(value=Name(id='args', ctx=Load()), ctx=Load())], keywords=[keyword(value=Name(id='kwargs', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Name(id='_wrapfunc', ctx=Load()), args=[Name(id='a', ctx=Load()), Constant(value='argpartition'), Name(id='kth', ctx=Load())], keywords=[keyword(arg='axis', value=Name(id='axis', ctx=Load())), keyword(arg='kind', value=Name(id='kind', ctx=Load())), keyword(arg='order', value=Name(id='order', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "isstring",
+            "path": "numpy/f2py/auxfuncs.py",
+            "parent": "Module",
+            "old": [
+                "BoolOp(op=And(), values=[Call(func=Name(id='_isstring', ctx=Load()), args=[Name(id='var', ctx=Load())], keywords=[]), UnaryOp(op=Not(), operand=Call(func=Name(id='isarray', ctx=Load()), args=[Name(id='var', ctx=Load())], keywords=[]))])"
+            ],
+            "new": [
+                "BoolOp(op=And(), values=[Call(func=Name(id='isstring_or_stringarray', ctx=Load()), args=[Name(id='var', ctx=Load())], keywords=[]), UnaryOp(op=Not(), operand=Call(func=Name(id='isarray', ctx=Load()), args=[Name(id='var', ctx=Load())], keywords=[]))])"
+            ]
+        },
+        {
+            "func_name": "size",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Attribute(value=Name(id='np', ctx=Load()), attr='size', ctx=Load()), args=[Call(func=Name(id='getdata', ctx=Load()), args=[Name(id='obj', ctx=Load())], keywords=[]), Name(id='axis', ctx=Load())], keywords=[])"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "nansum",
+            "path": "numpy/lib/_nanfunctions_impl.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Attribute(value=Name(id='np', ctx=Load()), attr='sum', ctx=Load()), args=[Name(id='a', ctx=Load())], keywords=[keyword(arg='axis', value=Name(id='axis', ctx=Load())), keyword(arg='dtype', value=Name(id='dtype', ctx=Load())), keyword(arg='out', value=Name(id='out', ctx=Load())), keyword(arg='keepdims', value=Name(id='keepdims', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='np', ctx=Load()), attr='sum', ctx=Load()), args=[Name(id='a', ctx=Load())], keywords=[keyword(arg='axis', value=Name(id='axis', ctx=Load())), keyword(arg='dtype', value=Name(id='dtype', ctx=Load())), keyword(arg='out', value=Name(id='out', ctx=Load())), keyword(arg='keepdims', value=Name(id='keepdims', ctx=Load())), keyword(arg='initial', value=Name(id='initial', ctx=Load())), keyword(arg='where', value=Name(id='where', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "place",
+            "path": "numpy/lib/_function_base_impl.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_insert', ctx=Load()), args=[Name(id='arr', ctx=Load()), Name(id='mask', ctx=Load()), Name(id='vals', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_place', ctx=Load()), args=[Name(id='arr', ctx=Load()), Name(id='mask', ctx=Load()), Name(id='vals', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "correlate",
+            "path": "numpy/_core/numeric.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_convolve_or_correlate', ctx=Load()), args=[Attribute(value=Name(id='np', ctx=Load()), attr='correlate', ctx=Load()), Name(id='a', ctx=Load()), Name(id='v', ctx=Load()), Name(id='mode', ctx=Load()), Name(id='propagate_mask', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='multiarray', ctx=Load()), attr='correlate2', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='v', ctx=Load()), Name(id='mode', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "rjust",
+            "path": "numpy/_core/strings.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_vec_string', ctx=Load()), args=[Name(id='a_arr', ctx=Load()), Tuple(elts=[Attribute(value=Attribute(value=Name(id='a_arr', ctx=Load()), attr='dtype', ctx=Load()), attr='type', ctx=Load()), Name(id='size', ctx=Load())], ctx=Load()), Constant(value='rjust'), Tuple(elts=[Name(id='width_arr', ctx=Load()), Name(id='fillchar', ctx=Load())], ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_rjust', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='width', ctx=Load()), Name(id='fillchar', ctx=Load())], keywords=[keyword(arg='out', value=Name(id='out', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "rsplit",
+            "path": "numpy/_core/defchararray.py",
+            "parent": "chararray",
+            "old": [
+                "Call(func=Name(id='_vec_string', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='object_', ctx=Load()), Constant(value='rsplit'), BinOp(left=List(elts=[Name(id='sep', ctx=Load())], ctx=Load()), op=Add(), right=Call(func=Name(id='_clean_args', ctx=Load()), args=[Name(id='maxsplit', ctx=Load())], keywords=[]))], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='rsplit', ctx=Load()), args=[Name(id='self', ctx=Load()), Name(id='sep', ctx=Load()), Name(id='maxsplit', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "gradient",
+            "path": "numpy/lib/_function_base_impl.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "Call(func=Name(id='tuple', ctx=Load()), args=[Name(id='outvals', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "ljust",
+            "path": "numpy/_core/strings.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_vec_string', ctx=Load()), args=[Name(id='a_arr', ctx=Load()), Tuple(elts=[Attribute(value=Attribute(value=Name(id='a_arr', ctx=Load()), attr='dtype', ctx=Load()), attr='type', ctx=Load()), Name(id='size', ctx=Load())], ctx=Load()), Constant(value='ljust'), Tuple(elts=[Name(id='width_arr', ctx=Load()), Name(id='fillchar', ctx=Load())], ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_ljust', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='width', ctx=Load()), Name(id='fillchar', ctx=Load())], keywords=[keyword(arg='out', value=Name(id='out', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "expandtabs",
+            "path": "numpy/_core/strings.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_to_string_or_unicode_array', ctx=Load()), args=[Call(func=Name(id='_vec_string', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='object_', ctx=Load()), Constant(value='expandtabs'), Tuple(elts=[Name(id='tabsize', ctx=Load())], ctx=Load())], keywords=[])], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_expandtabs', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='tabsize', ctx=Load())], keywords=[keyword(arg='out', value=Name(id='out', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "rfft2",
+            "path": "numpy/fft/_pocketfft.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='rfftn', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='s', ctx=Load()), Name(id='axes', ctx=Load()), Name(id='norm', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='rfftn', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='s', ctx=Load()), Name(id='axes', ctx=Load()), Name(id='norm', ctx=Load())], keywords=[keyword(arg='out', value=Name(id='out', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "lstrip",
+            "path": "numpy/_core/strings.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_vec_string', ctx=Load()), args=[Name(id='a_arr', ctx=Load()), Attribute(value=Name(id='a_arr', ctx=Load()), attr='dtype', ctx=Load()), Constant(value='lstrip'), Tuple(elts=[Name(id='chars', ctx=Load())], ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_lstrip_chars', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='chars', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "l_or",
+            "path": "numpy/f2py/auxfuncs.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='eval', ctx=Load()), args=[BinOp(left=Constant(value='%s:%s'), op=Mod(), right=Tuple(elts=[Name(id='l', ctx=Load()), Call(func=Attribute(value=Constant(value=' or '), attr='join', ctx=Load()), args=[Name(id='l2', ctx=Load())], keywords=[])], ctx=Load()))], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='eval', ctx=Load()), args=[BinOp(left=Constant(value='%s:%s'), op=Mod(), right=Tuple(elts=[Name(id='l1', ctx=Load()), Call(func=Attribute(value=Constant(value=' or '), attr='join', ctx=Load()), args=[Name(id='l2', ctx=Load())], keywords=[])], ctx=Load()))], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "find",
+            "path": "numpy/_core/strings.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_vec_string', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='int_', ctx=Load()), Constant(value='find'), BinOp(left=List(elts=[Name(id='sub', ctx=Load()), Name(id='start', ctx=Load())], ctx=Load()), op=Add(), right=Call(func=Name(id='_clean_args', ctx=Load()), args=[Name(id='end', ctx=Load())], keywords=[]))], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_find_ufunc', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='sub', ctx=Load()), Name(id='start', ctx=Load()), Name(id='end', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "splitlines",
+            "path": "numpy/_core/defchararray.py",
+            "parent": "chararray",
+            "old": [
+                "Call(func=Name(id='_vec_string', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='object_', ctx=Load()), Constant(value='splitlines'), Call(func=Name(id='_clean_args', ctx=Load()), args=[Name(id='keepends', ctx=Load())], keywords=[])], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='splitlines', ctx=Load()), args=[Name(id='self', ctx=Load()), Name(id='keepends', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "__rsub__",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), args=[Name(id='coef', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='domain', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='window', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), args=[Name(id='coef', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='domain', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='window', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='symbol', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "count",
+            "path": "numpy/_typing/_nested_sequence.py",
+            "parent": "_NestedSequence",
+            "old": [
+                "Call(func=Attribute(value=UnaryOp(op=Invert(), operand=Name(id='m', ctx=Load())), attr='sum', ctx=Load()), args=[], keywords=[keyword(arg='axis', value=Name(id='axis', ctx=Load())), keyword(arg='dtype', value=Attribute(value=Name(id='np', ctx=Load()), attr='intp', ctx=Load())), keyword(value=Name(id='kwargs', ctx=Load()))])"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "nanpercentile",
+            "path": "numpy/lib/_nanfunctions_impl.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_nanquantile_unchecked', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='q', ctx=Load()), Name(id='axis', ctx=Load()), Name(id='out', ctx=Load()), Name(id='overwrite_input', ctx=Load()), Name(id='interpolation', ctx=Load()), Name(id='keepdims', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_nanquantile_unchecked', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='q', ctx=Load()), Name(id='axis', ctx=Load()), Name(id='out', ctx=Load()), Name(id='overwrite_input', ctx=Load()), Name(id='method', ctx=Load()), Name(id='keepdims', ctx=Load()), Name(id='weights', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "reshape",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "Call(func=Name(id='_wrapfunc', ctx=Load()), args=[Name(id='a', ctx=Load()), Constant(value='reshape'), Name(id='shape', ctx=Load())], keywords=[keyword(arg='order', value=Name(id='order', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "nonzero",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Attribute(value=Call(func=Name(id='narray', ctx=Load()), args=[Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='filled', ctx=Load()), args=[Constant(value=0)], keywords=[])], keywords=[keyword(arg='copy', value=Constant(value=False))]), attr='nonzero', ctx=Load()), args=[], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_wrapfunc', ctx=Load()), args=[Name(id='a', ctx=Load()), Constant(value='nonzero')], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "geterrcall",
+            "path": "numpy/_core/_ufunc_config.py",
+            "parent": "Module",
+            "old": [
+                "Subscript(value=Call(func=Attribute(value=Name(id='umath', ctx=Load()), attr='geterrobj', ctx=Load()), args=[], keywords=[]), slice=Constant(value=2), ctx=Load())"
+            ],
+            "new": [
+                "Subscript(value=Call(func=Name(id='_get_extobj_dict', ctx=Load()), args=[], keywords=[]), slice=Constant(value='call'), ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "_repr_latex_",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase",
+            "old": [
+                "JoinedStr(values=[Constant(value='$x \\\\mapsto '), FormattedValue(value=Name(id='body', ctx=Load()), conversion=-1), Constant(value='$')])"
+            ],
+            "new": [
+                "JoinedStr(values=[Constant(value='$'), FormattedValue(value=Attribute(value=Name(id='self', ctx=Load()), attr='symbol', ctx=Load()), conversion=-1), Constant(value=' \\\\mapsto '), FormattedValue(value=Name(id='body', ctx=Load()), conversion=-1), Constant(value='$')])"
+            ]
+        },
+        {
+            "func_name": "__reversed__",
+            "path": "numpy/_typing/_nested_sequence.py",
+            "parent": "_NestedSequence",
+            "old": [
+                "Call(func=Name(id='reversed', ctx=Load()), args=[Call(func=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='__container', ctx=Load()), attr='keys', ctx=Load()), args=[], keywords=[])], keywords=[])"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "gentitle",
+            "path": "numpy/f2py/auxfuncs.py",
+            "parent": "Module",
+            "old": [
+                "BinOp(left=Constant(value='/*%s %s %s*/'), op=Mod(), right=Tuple(elts=[BinOp(left=Name(id='l', ctx=Load()), op=Mult(), right=Constant(value='*')), Name(id='name', ctx=Load()), BinOp(left=Name(id='l', ctx=Load()), op=Mult(), right=Constant(value='*'))], ctx=Load()))"
+            ],
+            "new": [
+                "BinOp(left=Constant(value='/*%s %s %s*/'), op=Mod(), right=Tuple(elts=[BinOp(left=Name(id='ln', ctx=Load()), op=Mult(), right=Constant(value='*')), Name(id='name', ctx=Load()), BinOp(left=Name(id='ln', ctx=Load()), op=Mult(), right=Constant(value='*'))], ctx=Load()))"
+            ]
+        },
+        {
+            "func_name": "loadtxt",
+            "path": "numpy/lib/_npyio_impl.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "Name(id='arr', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "parse",
+            "path": "numpy/f2py/symbolic.py",
+            "parent": "Expr",
+            "old": [
+                "Call(func=Name(id='fromstring', ctx=Load()), args=[Name(id='s', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='fromstring', ctx=Load()), args=[Name(id='s', ctx=Load())], keywords=[keyword(arg='language', value=Name(id='language', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "irfft2",
+            "path": "numpy/fft/_pocketfft.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='irfftn', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='s', ctx=Load()), Name(id='axes', ctx=Load()), Name(id='norm', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='irfftn', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='s', ctx=Load()), Name(id='axes', ctx=Load()), Name(id='norm', ctx=Load())], keywords=[keyword(arg='out', value=Constant(value=None))])"
+            ]
+        },
+        {
+            "func_name": "round",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='out', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Name(id='_wrapfunc', ctx=Load()), args=[Name(id='a', ctx=Load()), Constant(value='round')], keywords=[keyword(arg='decimals', value=Name(id='decimals', ctx=Load())), keyword(arg='out', value=Name(id='out', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "choose",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='d', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Name(id='_wrapfunc', ctx=Load()), args=[Name(id='a', ctx=Load()), Constant(value='choose'), Name(id='choices', ctx=Load())], keywords=[keyword(arg='out', value=Name(id='out', ctx=Load())), keyword(arg='mode', value=Name(id='mode', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "ptp",
+            "path": "numpy/matrixlib/defmatrix.py",
+            "parent": "matrix",
+            "old": [
+                "Call(func=Attribute(value=Call(func=Attribute(value=Attribute(value=Name(id='N', ctx=Load()), attr='ndarray', ctx=Load()), attr='ptp', ctx=Load()), args=[Name(id='self', ctx=Load()), Name(id='axis', ctx=Load()), Name(id='out', ctx=Load())], keywords=[]), attr='_align', ctx=Load()), args=[Name(id='axis', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Call(func=Attribute(value=Name(id='N', ctx=Load()), attr='ptp', ctx=Load()), args=[Name(id='self', ctx=Load()), Name(id='axis', ctx=Load()), Name(id='out', ctx=Load())], keywords=[]), attr='_align', ctx=Load()), args=[Name(id='axis', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "__radd__",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), args=[Name(id='coef', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='domain', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='window', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), args=[Name(id='coef', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='domain', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='window', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='symbol', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "partition",
+            "path": "numpy/_core/strings.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Attribute(value=Call(func=Name(id='super', ctx=Load()), args=[], keywords=[]), attr='partition', ctx=Load()), args=[Starred(value=Name(id='args', ctx=Load()), ctx=Load())], keywords=[keyword(value=Name(id='kwargs', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Name(id='_partition_index', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='sep', ctx=Load()), Name(id='pos', ctx=Load())], keywords=[keyword(arg='out', value=Tuple(elts=[Subscript(value=Name(id='out', ctx=Load()), slice=Constant(value='f0'), ctx=Load()), Subscript(value=Name(id='out', ctx=Load()), slice=Constant(value='f1'), ctx=Load()), Subscript(value=Name(id='out', ctx=Load()), slice=Constant(value='f2'), ctx=Load())], ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "ihfft",
+            "path": "numpy/fft/_pocketfft.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='output', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Name(id='conjugate', ctx=Load()), args=[Name(id='out', ctx=Load())], keywords=[keyword(arg='out', value=Name(id='out', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "center",
+            "path": "numpy/_core/strings.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_vec_string', ctx=Load()), args=[Name(id='a_arr', ctx=Load()), Tuple(elts=[Attribute(value=Attribute(value=Name(id='a_arr', ctx=Load()), attr='dtype', ctx=Load()), attr='type', ctx=Load()), Name(id='size', ctx=Load())], ctx=Load()), Constant(value='center'), Tuple(elts=[Name(id='width_arr', ctx=Load()), Name(id='fillchar', ctx=Load())], ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_center', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='width', ctx=Load()), Name(id='fillchar', ctx=Load())], keywords=[keyword(arg='out', value=Name(id='out', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "trapz",
+            "path": "numpy/lib/_function_base_impl.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='ret', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Name(id='trapezoid', ctx=Load()), args=[Name(id='y', ctx=Load())], keywords=[keyword(arg='x', value=Name(id='x', ctx=Load())), keyword(arg='dx', value=Name(id='dx', ctx=Load())), keyword(arg='axis', value=Name(id='axis', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "delete",
+            "path": "numpy/lib/_function_base_impl.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "Call(func=Attribute(value=Name(id='conv', ctx=Load()), attr='wrap', ctx=Load()), args=[Name(id='new', ctx=Load())], keywords=[keyword(arg='to_scalar', value=Constant(value=False))])"
+            ]
+        },
+        {
+            "func_name": "eig",
+            "path": "numpy/linalg/_linalg.py",
+            "parent": "Module",
+            "old": [
+                "Tuple(elts=[Call(func=Attribute(value=Name(id='w', ctx=Load()), attr='astype', ctx=Load()), args=[Name(id='result_t', ctx=Load())], keywords=[keyword(arg='copy', value=Constant(value=False))]), Call(func=Name(id='wrap', ctx=Load()), args=[Name(id='vt', ctx=Load())], keywords=[])], ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Name(id='EigResult', ctx=Load()), args=[Call(func=Attribute(value=Name(id='w', ctx=Load()), attr='astype', ctx=Load()), args=[Name(id='result_t', ctx=Load())], keywords=[keyword(arg='copy', value=Constant(value=False))]), Call(func=Name(id='wrap', ctx=Load()), args=[Name(id='vt', ctx=Load())], keywords=[])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "trim",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), args=[Name(id='coef', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='domain', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='window', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), args=[Name(id='coef', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='domain', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='window', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='symbol', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "cyg2win32",
+            "path": "numpy/distutils/misc_util.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Attribute(value=Name(id='subprocess', ctx=Load()), attr='check_output', ctx=Load()), args=[List(elts=[Constant(value='/usr/bin/cygpath'), Constant(value='--windows'), Name(id='path', ctx=Load())], ctx=Load())], keywords=[keyword(arg='universal_newlines', value=Constant(value=True))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='subprocess', ctx=Load()), attr='check_output', ctx=Load()), args=[List(elts=[Constant(value='/usr/bin/cygpath'), Constant(value='--windows'), Name(id='path', ctx=Load())], ctx=Load())], keywords=[keyword(arg='text', value=Constant(value=True))])"
+            ]
+        },
+        {
+            "func_name": "rfind",
+            "path": "numpy/_core/strings.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_vec_string', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='int_', ctx=Load()), Constant(value='rfind'), BinOp(left=List(elts=[Name(id='sub', ctx=Load()), Name(id='start', ctx=Load())], ctx=Load()), op=Add(), right=Call(func=Name(id='_clean_args', ctx=Load()), args=[Name(id='end', ctx=Load())], keywords=[]))], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_rfind_ufunc', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='sub', ctx=Load()), Name(id='start', ctx=Load()), Name(id='end', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "broadcast_arrays",
+            "path": "numpy/lib/_stride_tricks_impl.py",
+            "parent": "Module",
+            "old": [
+                "ListComp(elt=Call(func=Name(id='_broadcast_to', ctx=Load()), args=[Name(id='array', ctx=Load()), Name(id='shape', ctx=Load())], keywords=[keyword(arg='subok', value=Name(id='subok', ctx=Load())), keyword(arg='readonly', value=Constant(value=False))]), generators=[comprehension(target=Name(id='array', ctx=Store()), iter=Name(id='args', ctx=Load()), ifs=[], is_async=0)])"
+            ],
+            "new": [
+                "Call(func=Name(id='tuple', ctx=Load()), args=[GeneratorExp(elt=Call(func=Name(id='_broadcast_to', ctx=Load()), args=[Name(id='array', ctx=Load()), Name(id='shape', ctx=Load())], keywords=[keyword(arg='subok', value=Name(id='subok', ctx=Load())), keyword(arg='readonly', value=Constant(value=False))]), generators=[comprehension(target=Name(id='array', ctx=Store()), iter=Name(id='args', ctx=Load()), ifs=[], is_async=0)])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "eigh",
+            "path": "numpy/linalg/_linalg.py",
+            "parent": "Module",
+            "old": [
+                "Tuple(elts=[Name(id='w', ctx=Load()), Call(func=Name(id='wrap', ctx=Load()), args=[Name(id='vt', ctx=Load())], keywords=[])], ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Name(id='EighResult', ctx=Load()), args=[Name(id='w', ctx=Load()), Call(func=Name(id='wrap', ctx=Load()), args=[Name(id='vt', ctx=Load())], keywords=[])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "convert",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase",
+            "old": [
+                "Call(func=Name(id='self', ctx=Load()), args=[Call(func=Attribute(value=Name(id='kind', ctx=Load()), attr='identity', ctx=Load()), args=[Name(id='domain', ctx=Load())], keywords=[keyword(arg='window', value=Name(id='window', ctx=Load()))])], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='self', ctx=Load()), args=[Call(func=Attribute(value=Name(id='kind', ctx=Load()), attr='identity', ctx=Load()), args=[Name(id='domain', ctx=Load())], keywords=[keyword(arg='window', value=Name(id='window', ctx=Load())), keyword(arg='symbol', value=Attribute(value=Name(id='self', ctx=Load()), attr='symbol', ctx=Load()))])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "integ",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), args=[Name(id='coef', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='domain', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='window', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), args=[Name(id='coef', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='domain', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='window', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='symbol', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "compress",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='_new', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Name(id='_wrapfunc', ctx=Load()), args=[Name(id='a', ctx=Load()), Constant(value='compress'), Name(id='condition', ctx=Load())], keywords=[keyword(arg='axis', value=Name(id='axis', ctx=Load())), keyword(arg='out', value=Name(id='out', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "__reduce__",
+            "path": "numpy/ma/mrecords.py",
+            "parent": "MaskedRecords",
+            "old": [
+                "Tuple(elts=[Name(id='cls', ctx=Load()), Tuple(elts=[Attribute(value=Name(id='self', ctx=Load()), attr='__origin__', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='__args__', ctx=Load())], ctx=Load())], ctx=Load())"
+            ],
+            "new": [
+                "Tuple(elts=[Name(id='_mrreconstruct', ctx=Load()), Tuple(elts=[Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='_baseclass', ctx=Load()), Tuple(elts=[Constant(value=0)], ctx=Load()), Constant(value='b')], ctx=Load()), Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__getstate__', ctx=Load()), args=[], keywords=[])], ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "startswith",
+            "path": "numpy/_core/strings.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_vec_string', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='bool_', ctx=Load()), Constant(value='startswith'), BinOp(left=List(elts=[Name(id='prefix', ctx=Load()), Name(id='start', ctx=Load())], ctx=Load()), op=Add(), right=Call(func=Name(id='_clean_args', ctx=Load()), args=[Name(id='end', ctx=Load())], keywords=[]))], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_startswith_ufunc', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='prefix', ctx=Load()), Name(id='start', ctx=Load()), Name(id='end', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "nanmedian",
+            "path": "numpy/lib/_nanfunctions_impl.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "Call(func=Attribute(value=Name(id='fnb', ctx=Load()), attr='_ureduce', ctx=Load()), args=[Name(id='a', ctx=Load())], keywords=[keyword(arg='func', value=Name(id='_nanmedian', ctx=Load())), keyword(arg='keepdims', value=Name(id='keepdims', ctx=Load())), keyword(arg='axis', value=Name(id='axis', ctx=Load())), keyword(arg='out', value=Name(id='out', ctx=Load())), keyword(arg='overwrite_input', value=Name(id='overwrite_input', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "__array_wrap__",
+            "path": "numpy/_core/defchararray.py",
+            "parent": "chararray",
+            "old": [
+                "Name(id='result', ctx=Load())"
+            ],
+            "new": [
+                "Name(id='arr', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "in1d",
+            "path": "numpy/lib/_arraysetops_impl.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "Call(func=Name(id='_in1d', ctx=Load()), args=[Name(id='ar1', ctx=Load()), Name(id='ar2', ctx=Load()), Name(id='assume_unique', ctx=Load()), Name(id='invert', ctx=Load())], keywords=[keyword(arg='kind', value=Name(id='kind', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "__sub__",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), args=[Name(id='coef', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='domain', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='window', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), args=[Name(id='coef', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='domain', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='window', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='symbol', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "allclose",
+            "path": "numpy/_core/numeric.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Attribute(value=Name(id='np', ctx=Load()), attr='all', ctx=Load()), args=[Name(id='d', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='builtins', ctx=Load()), attr='bool', ctx=Load()), args=[Name(id='res', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "insert",
+            "path": "numpy/lib/_function_base_impl.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='new', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='conv', ctx=Load()), attr='wrap', ctx=Load()), args=[Name(id='new', ctx=Load())], keywords=[keyword(arg='to_scalar', value=Constant(value=False))])"
+            ]
+        },
+        {
+            "func_name": "nanprod",
+            "path": "numpy/lib/_nanfunctions_impl.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Attribute(value=Name(id='np', ctx=Load()), attr='prod', ctx=Load()), args=[Name(id='a', ctx=Load())], keywords=[keyword(arg='axis', value=Name(id='axis', ctx=Load())), keyword(arg='dtype', value=Name(id='dtype', ctx=Load())), keyword(arg='out', value=Name(id='out', ctx=Load())), keyword(arg='keepdims', value=Name(id='keepdims', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='np', ctx=Load()), attr='prod', ctx=Load()), args=[Name(id='a', ctx=Load())], keywords=[keyword(arg='axis', value=Name(id='axis', ctx=Load())), keyword(arg='dtype', value=Name(id='dtype', ctx=Load())), keyword(arg='out', value=Name(id='out', ctx=Load())), keyword(arg='keepdims', value=Name(id='keepdims', ctx=Load())), keyword(arg='initial', value=Name(id='initial', ctx=Load())), keyword(arg='where', value=Name(id='where', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "_str_term_unicode",
+            "path": "numpy/polynomial/polynomial.py",
+            "parent": "Polynomial",
+            "old": [
+                "JoinedStr(values=[Constant(value='\u00b7'), FormattedValue(value=Name(id='arg_str', ctx=Load()), conversion=-1), FormattedValue(value=Call(func=Attribute(value=Name(id='i', ctx=Load()), attr='translate', ctx=Load()), args=[Attribute(value=Name(id='cls', ctx=Load()), attr='_superscript_mapping', ctx=Load())], keywords=[]), conversion=-1)])"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "kaiser",
+            "path": "numpy/lib/_function_base_impl.py",
+            "parent": "Module",
+            "old": [
+                "BinOp(left=Call(func=Name(id='i0', ctx=Load()), args=[BinOp(left=Name(id='beta', ctx=Load()), op=Mult(), right=Call(func=Name(id='sqrt', ctx=Load()), args=[BinOp(left=Constant(value=1), op=Sub(), right=BinOp(left=BinOp(left=BinOp(left=Name(id='n', ctx=Load()), op=Sub(), right=Name(id='alpha', ctx=Load())), op=Div(), right=Name(id='alpha', ctx=Load())), op=Pow(), right=Constant(value=2.0)))], keywords=[]))], keywords=[]), op=Div(), right=Call(func=Name(id='i0', ctx=Load()), args=[Call(func=Name(id='float', ctx=Load()), args=[Name(id='beta', ctx=Load())], keywords=[])], keywords=[]))"
+            ],
+            "new": [
+                "BinOp(left=Call(func=Name(id='i0', ctx=Load()), args=[BinOp(left=Name(id='beta', ctx=Load()), op=Mult(), right=Call(func=Name(id='sqrt', ctx=Load()), args=[BinOp(left=Constant(value=1), op=Sub(), right=BinOp(left=BinOp(left=BinOp(left=Name(id='n', ctx=Load()), op=Sub(), right=Name(id='alpha', ctx=Load())), op=Div(), right=Name(id='alpha', ctx=Load())), op=Pow(), right=Constant(value=2.0)))], keywords=[]))], keywords=[]), op=Div(), right=Call(func=Name(id='i0', ctx=Load()), args=[Name(id='beta', ctx=Load())], keywords=[]))"
+            ]
+        },
+        {
+            "func_name": "kron",
+            "path": "numpy/lib/_shape_base_impl.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='result', ctx=Load())"
+            ],
+            "new": [
+                "IfExp(test=UnaryOp(op=Not(), operand=Name(id='is_any_mat', ctx=Load())), body=Name(id='result', ctx=Load()), orelse=Call(func=Name(id='matrix', ctx=Load()), args=[Name(id='result', ctx=Load())], keywords=[keyword(arg='copy', value=Constant(value=False))]))"
+            ]
+        },
+        {
+            "func_name": "array_equiv",
+            "path": "numpy/_core/numeric.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='bool', ctx=Load()), args=[Call(func=Attribute(value=Call(func=Name(id='asarray', ctx=Load()), args=[Compare(left=Name(id='a1', ctx=Load()), ops=[Eq()], comparators=[Name(id='a2', ctx=Load())])], keywords=[]), attr='all', ctx=Load()), args=[], keywords=[])], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='builtins', ctx=Load()), attr='bool', ctx=Load()), args=[Call(func=Attribute(value=Compare(left=Name(id='a1', ctx=Load()), ops=[Eq()], comparators=[Name(id='a2', ctx=Load())]), attr='all', ctx=Load()), args=[], keywords=[])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "isin",
+            "path": "numpy/lib/_arraysetops_impl.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Attribute(value=Call(func=Name(id='in1d', ctx=Load()), args=[Name(id='element', ctx=Load()), Name(id='test_elements', ctx=Load())], keywords=[keyword(arg='assume_unique', value=Name(id='assume_unique', ctx=Load())), keyword(arg='invert', value=Name(id='invert', ctx=Load()))]), attr='reshape', ctx=Load()), args=[Attribute(value=Name(id='element', ctx=Load()), attr='shape', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Call(func=Name(id='_in1d', ctx=Load()), args=[Name(id='element', ctx=Load()), Name(id='test_elements', ctx=Load())], keywords=[keyword(arg='assume_unique', value=Name(id='assume_unique', ctx=Load())), keyword(arg='invert', value=Name(id='invert', ctx=Load())), keyword(arg='kind', value=Name(id='kind', ctx=Load()))]), attr='reshape', ctx=Load()), args=[Attribute(value=Name(id='element', ctx=Load()), attr='shape', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "index",
+            "path": "numpy/_typing/_nested_sequence.py",
+            "parent": "_NestedSequence",
+            "old": [
+                "Call(func=Name(id='_vec_string', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='int_', ctx=Load()), Constant(value='index'), BinOp(left=List(elts=[Name(id='sub', ctx=Load()), Name(id='start', ctx=Load())], ctx=Load()), op=Add(), right=Call(func=Name(id='_clean_args', ctx=Load()), args=[Name(id='end', ctx=Load())], keywords=[]))], keywords=[])"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "l_and",
+            "path": "numpy/f2py/auxfuncs.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='eval', ctx=Load()), args=[BinOp(left=Constant(value='%s:%s'), op=Mod(), right=Tuple(elts=[Name(id='l', ctx=Load()), Call(func=Attribute(value=Constant(value=' and '), attr='join', ctx=Load()), args=[Name(id='l2', ctx=Load())], keywords=[])], ctx=Load()))], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='eval', ctx=Load()), args=[BinOp(left=Constant(value='%s:%s'), op=Mod(), right=Tuple(elts=[Name(id='l1', ctx=Load()), Call(func=Attribute(value=Constant(value=' and '), attr='join', ctx=Load()), args=[Name(id='l2', ctx=Load())], keywords=[])], ctx=Load()))], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "cumsum",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='result', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Name(id='_wrapfunc', ctx=Load()), args=[Name(id='a', ctx=Load()), Constant(value='cumsum')], keywords=[keyword(arg='axis', value=Name(id='axis', ctx=Load())), keyword(arg='dtype', value=Name(id='dtype', ctx=Load())), keyword(arg='out', value=Name(id='out', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "endswith",
+            "path": "numpy/_core/strings.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_vec_string', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='bool_', ctx=Load()), Constant(value='endswith'), BinOp(left=List(elts=[Name(id='suffix', ctx=Load()), Name(id='start', ctx=Load())], ctx=Load()), op=Add(), right=Call(func=Name(id='_clean_args', ctx=Load()), args=[Name(id='end', ctx=Load())], keywords=[]))], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_endswith_ufunc', ctx=Load()), args=[Name(id='a', ctx=Load()), Name(id='suffix', ctx=Load()), Name(id='start', ctx=Load()), Name(id='end', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "__add__",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), args=[Name(id='coef', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='domain', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='window', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), args=[Name(id='coef', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='domain', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='window', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='symbol', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "copy",
+            "path": "numpy/polynomial/_polybase.py",
+            "parent": "ABCPolyBase",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), args=[Attribute(value=Name(id='self', ctx=Load()), attr='coef', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='domain', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='window', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__class__', ctx=Load()), args=[Attribute(value=Name(id='self', ctx=Load()), attr='coef', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='domain', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='window', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='symbol', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "take",
+            "path": "numpy/_core/fromnumeric.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Attribute(value=Name(id='a', ctx=Load()), attr='take', ctx=Load()), args=[Name(id='indices', ctx=Load())], keywords=[keyword(arg='axis', value=Name(id='axis', ctx=Load())), keyword(arg='out', value=Name(id='out', ctx=Load())), keyword(arg='mode', value=Name(id='mode', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Name(id='_wrapfunc', ctx=Load()), args=[Name(id='a', ctx=Load()), Constant(value='take'), Name(id='indices', ctx=Load())], keywords=[keyword(arg='axis', value=Name(id='axis', ctx=Load())), keyword(arg='out', value=Name(id='out', ctx=Load())), keyword(arg='mode', value=Name(id='mode', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "tostring",
+            "path": "numpy/f2py/symbolic.py",
+            "parent": "RelOp",
+            "old": [
+                "Name(id='r', ctx=Load())"
+            ],
+            "new": [
+                "Subscript(value=Dict(keys=[Attribute(value=Name(id='RelOp', ctx=Load()), attr='EQ', ctx=Load()), Attribute(value=Name(id='RelOp', ctx=Load()), attr='NE', ctx=Load()), Attribute(value=Name(id='RelOp', ctx=Load()), attr='LT', ctx=Load()), Attribute(value=Name(id='RelOp', ctx=Load()), attr='LE', ctx=Load()), Attribute(value=Name(id='RelOp', ctx=Load()), attr='GT', ctx=Load()), Attribute(value=Name(id='RelOp', ctx=Load()), attr='GE', ctx=Load())], values=[Constant(value='=='), Constant(value='!='), Constant(value='<'), Constant(value='<='), Constant(value='>'), Constant(value='>=')]), slice=Name(id='self', ctx=Load()), ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "getbufsize",
+            "path": "numpy/_core/_ufunc_config.py",
+            "parent": "Module",
+            "old": [
+                "Subscript(value=Call(func=Attribute(value=Name(id='umath', ctx=Load()), attr='geterrobj', ctx=Load()), args=[], keywords=[]), slice=Constant(value=0), ctx=Load())"
+            ],
+            "new": [
+                "Subscript(value=Call(func=Name(id='_get_extobj_dict', ctx=Load()), args=[], keywords=[]), slice=Constant(value='bufsize'), ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "isfileobj",
+            "path": "numpy/compat/py3k.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='isinstance', ctx=Load()), args=[Name(id='f', ctx=Load()), Tuple(elts=[Attribute(value=Name(id='io', ctx=Load()), attr='FileIO', ctx=Load()), Attribute(value=Name(id='io', ctx=Load()), attr='BufferedReader', ctx=Load()), Attribute(value=Name(id='io', ctx=Load()), attr='BufferedWriter', ctx=Load())], ctx=Load())], keywords=[])"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "setdiff1d",
+            "path": "numpy/lib/_arraysetops_impl.py",
+            "parent": "Module",
+            "old": [
+                "Subscript(value=Name(id='ar1', ctx=Load()), slice=Call(func=Name(id='in1d', ctx=Load()), args=[Name(id='ar1', ctx=Load()), Name(id='ar2', ctx=Load())], keywords=[keyword(arg='assume_unique', value=Constant(value=True)), keyword(arg='invert', value=Constant(value=True))]), ctx=Load())"
+            ],
+            "new": [
+                "Subscript(value=Name(id='ar1', ctx=Load()), slice=Call(func=Name(id='_in1d', ctx=Load()), args=[Name(id='ar1', ctx=Load()), Name(id='ar2', ctx=Load())], keywords=[keyword(arg='assume_unique', value=Constant(value=True)), keyword(arg='invert', value=Constant(value=True))]), ctx=Load())"
+            ]
+        }
+    ],
+    "Deprecated": [
+        {
+            "func_name": "is_deprecated",
+            "path": "tools/refguide_check.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecation",
+            "path": "vendored-meson/meson/mesonbuild/mlog.py",
+            "parent": "_Logger"
+        },
+        {
+            "func_name": "_check_generated_pc_deprecation",
+            "path": "vendored-meson/meson/mesonbuild/modules/pkgconfig.py",
+            "parent": "DependenciesHelper"
+        },
+        {
+            "func_name": "_deprecate_argsort_axis",
+            "path": "numpy/ma/core.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_mask_row_cols_axis_deprecation",
+            "path": "numpy/ma/tests/test_extras.py",
+            "parent": "TestCompressFunctions"
+        },
+        {
+            "func_name": "_deprecate_shape_0_as_None",
+            "path": "numpy/_core/records.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecated",
+            "path": "numpy/_core/tests/test_array_coercion.py",
+            "parent": "TestSpecialAttributeLookupFailure"
+        },
+        {
+            "func_name": "assert_deprecated",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "_DeprecationTestCase"
+        },
+        {
+            "func_name": "assert_not_deprecated",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "_DeprecationTestCase"
+        },
+        {
+            "func_name": "test_deprecation_dtype_attribute_is_dtype",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "TestDTypeAttributeIsDTypeDeprecation"
+        },
+        {
+            "func_name": "test_assert_deprecated",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "TestTestDeprecated"
+        },
+        {
+            "func_name": "test_deprecate_unparsable_data_file",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "TestFromStringAndFileInvalidData"
+        },
+        {
+            "func_name": "test_deprecate_unparsable_string",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "TestFromStringAndFileInvalidData"
+        },
+        {
+            "func_name": "test_not_deprecated",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "TestDTypeCoercion"
+        },
+        {
+            "func_name": "test_deprecated",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "BuiltInRoundComplexDType"
+        },
+        {
+            "func_name": "test_not_deprecated",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "TestDTypeCoercion"
+        },
+        {
+            "func_name": "test_empty_index_broadcast_not_deprecated",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "TestIncorrectAdvancedIndexWithEmptyResult"
+        },
+        {
+            "func_name": "test_deprecated",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "BuiltInRoundComplexDType"
+        },
+        {
+            "func_name": "test_deprecated",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "BuiltInRoundComplexDType"
+        },
+        {
+            "func_name": "test_not_deprecated",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "TestDTypeCoercion"
+        },
+        {
+            "func_name": "test_deprecated",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "BuiltInRoundComplexDType"
+        },
+        {
+            "func_name": "test_deprecated",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "BuiltInRoundComplexDType"
+        },
+        {
+            "func_name": "test_deprecated",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "BuiltInRoundComplexDType"
+        },
+        {
+            "func_name": "test_not_deprecated",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "TestDTypeCoercion"
+        },
+        {
+            "func_name": "test_deprecated",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "BuiltInRoundComplexDType"
+        },
+        {
+            "func_name": "test_not_deprecated",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "TestDTypeCoercion"
+        },
+        {
+            "func_name": "test_deprecated_module",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "TestMachAr"
+        },
+        {
+            "func_name": "test_deprecated",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "BuiltInRoundComplexDType"
+        },
+        {
+            "func_name": "test_use_none_is_deprecated",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "TestArrayFinalizeNone"
+        },
+        {
+            "func_name": "test_deprecated_warning",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "TestLoadtxtParseIntsViaFloat"
+        },
+        {
+            "func_name": "test_deprecated_raised",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "TestLoadtxtParseIntsViaFloat"
+        },
+        {
+            "func_name": "test_deprecated_scalar",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "TestPyIntConversion"
+        },
+        {
+            "func_name": "test_deprecated_none",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "TestDeprecatedFinfo"
+        },
+        {
+            "func_name": "test_deprecated_np_lib_math",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "TestMathAlias"
+        },
+        {
+            "func_name": "test_lib_functions_deprecation_call",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "TestLibImports"
+        },
+        {
+            "func_name": "test_deprecated",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "BuiltInRoundComplexDType"
+        },
+        {
+            "func_name": "test_deprecated",
+            "path": "numpy/_core/tests/test_deprecations.py",
+            "parent": "BuiltInRoundComplexDType"
+        },
+        {
+            "func_name": "deprecate",
+            "path": "numpy/lib/_utils_impl.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecate_with_doc",
+            "path": "numpy/lib/_utils_impl.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecated_empty",
+            "path": "numpy/lib/tests/test_function_base.py",
+            "parent": "TestSelect"
+        },
+        {
+            "func_name": "test_non_bool_deprecation",
+            "path": "numpy/lib/tests/test_function_base.py",
+            "parent": "TestSelect"
+        },
+        {
+            "func_name": "test_random_integers_deprecated",
+            "path": "numpy/random/tests/test_randomstate.py",
+            "parent": "TestRandomDist"
+        },
+        {
+            "func_name": "test_random_integers_deprecated",
+            "path": "numpy/random/tests/test_random.py",
+            "parent": "TestRandomDist"
+        }
+    ]
+}

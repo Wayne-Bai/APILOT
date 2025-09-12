@@ -1,0 +1,160 @@
+Version,Function Name,Modification Type (Add/Deprecated/Param/Return/Fix),Reason (PerforMance/S-Bug/NS-Bug),cve will be best (CWE category),Modification Discription,Related Issue,Function Description,Function Link,coplitot GC,gpt-4,gpt-3.5-turbo GC,ChatGPT-4 GC
+1.3.3,,,,,,,,,,,,
+1.4.0,Styler.apply_index(),A,,,"Styling and formatting of indexes has been added, with Styler.apply_index(), Styler.applymap_index() and Styler.format_index(). These mirror the signature of the methods already used to style and format data values, and work with both HTML, LaTeX and Excel format","GH 41893, GH 43101, GH 41993, GH 41995",,,,,,
+1.4.0,Styler.applymap_index(),A,,,"Styling and formatting of indexes has been added, with Styler.apply_index(), Styler.applymap_index() and Styler.format_index(). These mirror the signature of the methods already used to style and format data values, and work with both HTML, LaTeX and Excel format","GH 41893, GH 43101, GH 41993, GH 41995",,,,,,
+1.4.0,Styler.format_index(),A,,,"Styling and formatting of indexes has been added, with Styler.apply_index(), Styler.applymap_index() and Styler.format_index(). These mirror the signature of the methods already used to style and format data values, and work with both HTML, LaTeX and Excel format","GH 41893, GH 43101, GH 41993, GH 41995",,,,,,
+1.4.0,Styler.hide_index,D,,,The new method Styler.hide() deprecates Styler.hide_index() and Styler.hide_columns(),"GH 25475, GH 43404, GH 43346","Hide the entire index, or specific keys in the index from rendering.",https://pandas.pydata.org/pandas-docs/version/1.5/reference/api/pandas.io.formats.style.Styler.hide_index.html,5/10,,,1/10
+1.4.0,Styler.hide_columns,D,,,The new method Styler.hide() deprecates Styler.hide_index() and Styler.hide_columns() ,"GH 25475, GH 43404, GH 43346",Hide the column headers or specific keys in the columns from rendering.,https://pandas.pydata.org/pandas-docs/version/1.3/reference/api/pandas.io.formats.style.Styler.hide_columns.html,1/10,,,0/10
+1.4.0,Styler.hide,P,,,The keyword arguments level and names have been added to Styler.hide(),"GH 25475, GH 43404, GH 43346","Hide the entire index / column headers, or specific rows / columns from display.",https://pandas.pydata.org/docs/whatsnew/v1.4.0.html,3/9,,,1/10
+1.4.0,Styler.to_html,P,,,"Styler.to_html() introduces keyword arguments sparse_index, sparse_columns, bold_headers, caption, max_rows and max_columns","GH 41946, GH 43149, GH 42972","Write Styler to a file, buffer or string in HTML-CSS format.",https://pandas.pydata.org/docs/reference/api/pandas.io.formats.style.Styler.to_html.html#pandas.io.formats.style.Styler.to_html,0/10,,,1/10
+1.4.0,Styler.bar,P,,,"Styler.bar() introduces additional arguments to control alignment and display (GH 26070, GH 36419), and it also validates the input arguments width and height (GH 42511)","GH 26070, GH 36419",Draw bar chart in the cell backgrounds.,https://pandas.pydata.org/docs/reference/api/pandas.io.formats.style.Styler.bar.html#pandas.io.formats.style.Styler.bar,0/10,,,9/10
+1.4.0,Styler.to_latex,P,,,"Styler.to_latex() introduces keyword argument environment, which also allows a specific “longtable” entry through a separate jinja2 template",GH 41866,"Write Styler to a file, buffer or string in LaTeX format.",https://pandas.pydata.org/docs/whatsnew/v1.4.0.html,1/6,,,10/10
+1.4.0,pandas.read_csv,P,,,"pandas.read_csv() now accepts engine=""pyarrow"" (requires at least pyarrow 1.0.1) as an argument, allowing for faster csv parsing on multicore machines with pyarrow installed. See the I/O docs for more info.","GH 23697, GH 43706","Read a comma-separated values (csv) file into DataFrame.
+
+Also supports optionally iterating or breaking of the file into chunks.
+",https://pandas.pydata.org/docs/whatsnew/v1.4.0.html,5/6,,,10/10
+1.4.0,ExponentialMovingWindow.sum(),A,,,Added ExponentialMovingWindow.sum(),GH 13297,Calculate the ewm (exponential weighted moment) sum.,https://pandas.pydata.org/docs/reference/api/pandas.core.window.ewm.ExponentialMovingWindow.sum.html#pandas.core.window.ewm.ExponentialMovingWindow.sum,,,,
+1.4.0,read_excel,P,,,read_excel() now accepts a decimal argument that allow the user to specify the decimal point when parsing string columns to numeric,GH 14403,Read an Excel file into a pandas DataFrame.,https://pandas.pydata.org/docs/reference/api/pandas.read_excel.html#pandas.read_excel,7/7,,,10/10
+1.4.0,DataFrame.take,R,,,DataFrame.take() now raises a TypeError when passed a scalar for the indexer ,GH 42875,Return the elements in the given positional indices along an axis.,https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.take.html#pandas.DataFrame.take,2/10,,,1/10
+1.4.0,DataFrame.to_sql,R,,,DataFrame.to_sql() now returns an int of the number of written rows ,GH 23998,"Write records stored in a DataFrame to a SQL database.
+
+",https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_sql.html#pandas.DataFrame.to_sql,9/9,,,10/10
+1.4.0,Series.info(),A,,,"Series.info() has been added, for compatibility with DataFrame.info()",GH 5167,Print a concise summary of a Series.,https://pandas.pydata.org/docs/reference/api/pandas.Series.info.html#pandas.Series.info,,,,
+1.4.0,DataFrameGroupBy.value_counts(),A,,,Added DataFrameGroupBy.value_counts(),GH 43564,,,,,,
+1.4.0,Series.str.split,P,,,Series.str.split() now supports a regex argument that explicitly specifies whether the pattern is a regular expression. Default is None,"GH 43563, GH 32835, GH 25549","Split strings around given separator/delimiter.
+",https://pandas.pydata.org/docs/reference/api/pandas.Series.str.split.html#pandas.Series.str.split,3/10,,,9/10
+1.5.0,DataFrame.resample,P,,,"The argument group_keys has been added to the method DataFrame.resample(). As with DataFrame.groupby(), this argument controls the whether each group is added to the index in the resample when Resampler.apply() is used.",,Resample time-series data.,https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.resample.html#pandas.DataFrame.resample,8/10,,,
+1.5.0,from_dummies(),A,,,Added new function from_dummies() to convert a dummy coded DataFrame into a categorical DataFrame.,,Create a categorical DataFrame from a DataFrame of dummy variables.,https://pandas.pydata.org/docs/reference/api/pandas.from_dummies.html#pandas.from_dummies,,,,
+1.5.0,DataFrame.to_orc(),A,,,The new method DataFrame.to_orc() allows writing to ORC files,GH 43864,Write a DataFrame to the ORC format.,https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_orc.html#pandas.DataFrame.to_orc,,,,
+1.5.0,MultiIndex.to_frame,P,,,MultiIndex.to_frame() now supports the argument allow_duplicates and raises on duplicate labels if it is missing or False ,GH 45245,"Create a DataFrame with the levels of the MultiIndex as columns.
+
+Column ordering is determined by the DataFrame constructor with data as a dict.",https://pandas.pydata.org/docs/reference/api/pandas.MultiIndex.to_frame.html#pandas.MultiIndex.to_frame,0/10,,,
+1.5.0,Series.reset_index,P,,,Series.reset_index() and DataFrame.reset_index() now support the argument allow_duplicates ,GH 44410,Generate a new DataFrame or Series with the index reset.,https://pandas.pydata.org/docs/reference/api/pandas.Series.reset_index.html#pandas.Series.reset_index,7/8,,,
+1.5.0,DataFrame.reset_index,P,,,Series.reset_index() and DataFrame.reset_index() now support the argument allow_duplicates ,GH 44410,"Reset the index, or a level of it.
+
+Reset the index of the DataFrame, and use the default one instead. If the DataFrame has a MultiIndex, this method can remove one or more levels.
+
+",https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.reset_index.html#pandas.DataFrame.reset_index,8/10,,,
+1.5.0,DataFrame.rolling,P,,,DataFrame.rolling() and Series.rolling() now support a step parameter with fixed-length windows,GH 15354,Provide rolling window calculations.,https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.rolling.html#pandas.DataFrame.rolling,4/9,,,
+1.5.0,Series.rolling,P,,,DataFrame.rolling() and Series.rolling() now support a step parameter with fixed-length windows,GH 15354,Provide rolling window calculations.,https://pandas.pydata.org/docs/reference/api/pandas.Series.rolling.html#pandas.Series.rolling,1/9,,,
+1.5.0,DataFrame.corr,P,,,"Added numeric_only argument to DataFrame.corr(), DataFrame.corrwith(), DataFrame.cov(), DataFrame.idxmin(), DataFrame.idxmax(), DataFrameGroupBy.idxmin(), DataFrameGroupBy.idxmax(), DataFrameGroupBy.var(), SeriesGroupBy.var(), DataFrameGroupBy.std(), SeriesGroupBy.std(), DataFrameGroupBy.sem(), SeriesGroupBy.sem(), and DataFrameGroupBy.quantile() (GH 46560)",GH 46560,"Compute pairwise correlation of columns, excluding NA/null values.",https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.corr.html#pandas.DataFrame.corr,8/9,,,
+1.5.0,DataFrame.corrwith,P,,,,GH 46560,Compute pairwise correlation.,https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.corrwith.html#pandas.DataFrame.corrwith,,,,
+1.5.0,DataFrame.cov,P,,,,GH 46560,"Compute pairwise covariance of columns, excluding NA/null values.",https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.cov.html#pandas.DataFrame.cov,10/10,,,
+1.5.0,DataFrame.idxmin,,,,,GH 46560,Return index of first occurrence of minimum over requested axis.,https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.idxmin.html#pandas.DataFrame.idxmin,9/9,,,
+1.5.0,DataFrame.idxmax,P,,,,GH 46560,Return index of first occurrence of maximum over requested axis.,https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.idxmax.html#pandas.DataFrame.idxmax,8/9,,,
+1.5.0,DataFrameGroupBy.idxmin,P,,,,GH 46560,"Return index of first occurrence of minimum over requested axis.
+
+NA/null values are excluded",https://pandas.pydata.org/docs/reference/api/pandas.core.groupby.DataFrameGroupBy.idxmin.html#pandas.core.groupby.DataFrameGroupBy.idxmin,7/8,,,
+1.5.0,DataFrameGroupBy.idxmax,P,,,,GH 46560,Return index of first occurrence of maximum over requested axis.,https://pandas.pydata.org/docs/reference/api/pandas.core.groupby.DataFrameGroupBy.idxmax.html#pandas.core.groupby.DataFrameGroupBy.idxmax,7/9,,,
+1.5.0,DataFrameGroupBy.var,P,,,,GH 46560,"Compute variance of groups, excluding missing values.",https://pandas.pydata.org/docs/reference/api/pandas.core.groupby.DataFrameGroupBy.var.html#pandas.core.groupby.DataFrameGroupBy.var,8/9,,,
+1.5.0,SeriesGroupBy.var,P,,,,GH 46560,"Compute variance of groups, excluding missing values.",https://pandas.pydata.org/docs/reference/api/pandas.core.groupby.SeriesGroupBy.var.html#pandas.core.groupby.SeriesGroupBy.var,,,,
+1.5.0,DataFrameGroupBy.std,P,,,,GH 46560,"Compute standard deviation of groups, excluding missing values.",https://pandas.pydata.org/docs/reference/api/pandas.core.groupby.DataFrameGroupBy.std.html#pandas.core.groupby.DataFrameGroupBy.std,2/9,,,
+1.5.0,SeriesGroupBy.std,P,,,,GH 46560,"Compute standard deviation of groups, excluding missing values.",https://pandas.pydata.org/docs/reference/api/pandas.core.groupby.SeriesGroupBy.std.html#pandas.core.groupby.SeriesGroupBy.std,7/9,,,
+1.5.0,DataFrameGroupBy.sem,P,,,,GH 46560,"Compute standard error of the mean of groups, excluding missing values.",https://pandas.pydata.org/docs/reference/api/pandas.core.groupby.DataFrameGroupBy.sem.html#pandas.core.groupby.DataFrameGroupBy.sem,0/10,,,
+1.5.0,SeriesGroupBy.sem,P,,,,GH 46560,"Compute standard error of the mean of groups, excluding missing values.",https://pandas.pydata.org/docs/reference/api/pandas.core.groupby.SeriesGroupBy.sem.html#pandas.core.groupby.SeriesGroupBy.sem,4/10,,,
+1.5.0,DataFrameGroupBy.quantile,P,,,,GH 46560,"Return group values at the given quantile, a la numpy.percentile.",https://pandas.pydata.org/docs/reference/api/pandas.core.groupby.DataFrameGroupBy.quantile.html#pandas.core.groupby.DataFrameGroupBy.quantilee,4/5,,,
+1.5.0,DataFrame.join,P,,,Added validate argument to DataFrame.join() ,GH 46622,"Join columns of another DataFrame.
+
+Join columns with other DataFrame either on index or on a key column. Efficiently join multiple DataFrame objects by index at once by passing a list.",https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.join.html#pandas.DataFrame.join,1/9,,,
+1.5.0,Resampler.sum,P,,,"Added numeric_only argument to Resampler.sum(), Resampler.prod(), Resampler.min(), Resampler.max(), Resampler.first(), and Resampler.last()",GH 46442,Compute sum of group values.,https://pandas.pydata.org/docs/reference/api/pandas.core.resample.Resampler.sum.html#pandas.core.resample.Resampler.sum,0/9,,,
+1.5.0,Resampler.prod,P,,,,GH 46442,Compute prod of group values.,https://pandas.pydata.org/docs/reference/api/pandas.core.resample.Resampler.prod.html#pandas.core.resample.Resampler.prod,,,,
+1.5.0,Resampler.min,P,,,,GH 46442,Compute min value of group.,https://pandas.pydata.org/docs/reference/api/pandas.core.resample.Resampler.min.html#pandas.core.resample.Resampler.min,,,,
+1.5.0,Resampler.max,P,,,,GH 46442,Compute max value of group.,https://pandas.pydata.org/docs/reference/api/pandas.core.resample.Resampler.max.html#pandas.core.resample.Resampler.max,,,,
+1.5.0,Resampler.first,P,,,,GH 46442,Compute the first non-null entry of each column.,https://pandas.pydata.org/docs/reference/api/pandas.core.resample.Resampler.first.html#pandas.core.resample.Resampler.first,,,,
+1.5.0,Resampler.last,P,,,,GH 46442,Compute the last non-null entry of each column.,https://pandas.pydata.org/docs/reference/api/pandas.core.resample.Resampler.last.html#pandas.core.resample.Resampler.last,,,,
+1.5.0,pandas.testing.assert_series_equal,P,,,,GH 47247,Added check_like argument to testing.assert_series_equal(),https://pandas.pydata.org/docs/reference/api/pandas.testing.assert_series_equal.html#pandas.testing.assert_series_equal,4/10,,,
+1.5.0,DataFrame.compare,P,,,DataFrame.compare() now accepts an argument result_names to allow the user to specify the result’s names of both left and right DataFrame which are being compared. This is by default 'self' and 'other',GH 44354,Compare to another DataFrame and show the differences.,https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.compare.html#pandas.DataFrame.compare,5/10,,,
+1.5.0,DataFrame.quantile,P,,,DataFrame.quantile() gained a method argument that can accept table to evaluate multi-column quantiles ,GH 43881,Return values at the given quantile over requested axis.,https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.quantile.html#pandas.DataFrame.quantile,9/10,,,
+1.5.0,Series.set_axis,P,,,Added copy keyword to Series.set_axis() and DataFrame.set_axis() to allow user to set axis on a new object without necessarily copying the underlying data,GH 47932,Assign desired index to given axis.,https://pandas.pydata.org/docs/reference/api/pandas.Series.set_axis.html#pandas.Series.set_axis,,,,
+1.5.0,DataFrame.set_axis,P,,,,GH 47932,Assign desired index to given axis.,https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.set_axis.html#pandas.DataFrame.set_axis,,,,
+2.0.0,,P,,,"The following functions gained a new keyword dtype_backend (GH 36712)
+
+read_csv()
+
+read_clipboard()
+
+read_fwf()
+
+read_excel()
+
+read_html()
+
+read_xml()
+
+read_json()
+
+read_sql()
+
+read_sql_query()
+
+read_sql_table()
+
+read_parquet()
+
+read_orc()
+
+read_feather()
+
+read_spss()
+
+to_numeric()
+
+DataFrame.convert_dtypes()
+
+Series.convert_dtypes()",GH 36712,,,,,,
+2.0.0,Series.add_suffix,P,,,"Series.add_suffix(), DataFrame.add_suffix(), Series.add_prefix() and DataFrame.add_prefix() support an axis argument. If axis is set, the default behaviour of which axis to consider can be overwritten",GH 47819,Suffix labels with string suffix.,https://pandas.pydata.org/docs/reference/api/pandas.Series.add_suffix.html#pandas.Series.add_suffix,,,,
+2.0.0,DataFrame.add_suffix,P,,,,GH 47819,Suffix labels with string suffix.,https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.add_suffix.html#pandas.DataFrame.add_suffix,,,,
+2.0.0,Series.add_prefix,P,,,,GH 47819,Prefix labels with string prefix.,https://pandas.pydata.org/docs/reference/api/pandas.Series.add_prefix.html#pandas.Series.add_prefix,,,,
+2.0.0,DataFrame.add_prefix,P,,,,GH 47819,"Prefix labels with string prefix.
+
+For Series, the row labels are prefixed. For DataFrame, the column labels are prefixed.",https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.add_prefix.html#pandas.DataFrame.add_prefix,,,,
+2.0.0,DataFrame.to_dict,P,,,Added index parameter to DataFrame.to_dict(),GH 46398,Convert the DataFrame to a dictionary.,https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_dict.html#pandas.DataFrame.to_dict,,,,
+2.0.0,date_range,P,,,"date_range() now supports a unit keyword (“s”, “ms”, “us”, or “ns”) to specify the desired resolution of the output index",GH 49106,Return a fixed frequency DatetimeIndex.,https://pandas.pydata.org/docs/reference/api/pandas.date_range.html#pandas.date_range,,,,
+2.0.0,IntervalIndex.from_breaks,P,,,"Added name parameter to IntervalIndex.from_breaks(), IntervalIndex.from_arrays() and IntervalIndex.from_tuples() ",GH 48911,Construct an IntervalIndex from an array of splits.,https://pandas.pydata.org/docs/reference/api/pandas.IntervalIndex.from_breaks.html#pandas.IntervalIndex.from_breaks,,,,
+2.0.0,IntervalIndex.from_arrays,P,,,,GH 48911,Construct from two arrays defining the left and right bounds.,https://pandas.pydata.org/docs/reference/api/pandas.IntervalIndex.from_arrays.html#pandas.IntervalIndex.from_arrays,,,,
+2.0.0,IntervalIndex.from_tuples,P,,,,GH 48911,Construct an IntervalIndex from an array-like of tuples.,https://pandas.pydata.org/docs/reference/api/pandas.IntervalIndex.from_tuples.html#pandas.IntervalIndex.from_tuples,,,,
+2.0.0,Series.infer_objects,P,,,"Added copy parameter to Series.infer_objects() and DataFrame.infer_objects(), passing False will avoid making copies for series or columns that are already non-object or where no better dtype can be inferred",GH 50096,Attempt to infer better dtypes for object columns.,https://pandas.pydata.org/docs/reference/api/pandas.Series.infer_objects.html#pandas.Series.infer_objects,,,,
+2.0.0,DataFrame.infer_objects,P,,,,GH 50096,Attempt to infer better dtypes for object columns.,https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.infer_objects.html#pandas.DataFrame.infer_objects,,,,
+2.0.0,Series.drop_duplicates,P,,,Series.drop_duplicates() has gained ignore_index keyword to reset index,GH 48304,Return Series with duplicate values removed.,https://pandas.pydata.org/docs/reference/api/pandas.Series.drop_duplicates.html#pandas.Series.drop_duplicates,,,,
+2.0.0,Series.dropna,P,,,Series.dropna() and DataFrame.dropna() has gained ignore_index keyword to reset index,GH 31725,Remove missing values.,https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.dropna.html#pandas.DataFrame.dropna,,,,
+2.0.0,DataFrame.dropna,P,,,,GH 31725,Remove missing values.,https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.dropna.html#pandas.DataFrame.dropna,,,,
+2.0.0,DatetimeIndex.as_unit(),A,,,"Added DatetimeIndex.as_unit() and TimedeltaIndex.as_unit() to convert to different resolutions; supported resolutions are “s”, “ms”, “us”, and “ns”",GH 50616,Convert to a dtype with the given unit resolution.,https://pandas.pydata.org/docs/reference/api/pandas.DatetimeIndex.as_unit.html#pandas.DatetimeIndex.as_unit,,,,
+2.0.0,TimedeltaIndex.as_unit() ,A,,,,GH 50616,Convert to a dtype with the given unit resolution.,https://pandas.pydata.org/docs/reference/api/pandas.TimedeltaIndex.as_unit.html#pandas.TimedeltaIndex.as_unit,,,,
+2.0.0,Series.dt.unit(),A,,,"Added Series.dt.unit() and Series.dt.as_unit() to convert to different resolutions; supported resolutions are “s”, “ms”, “us”, and “ns”",GH 51223,,,,,,
+2.0.0,Series.dt.as_unit(),A,,,,GH 51223,,,,,,
+2.0.0,read_sql,P,,,Added new argument dtype to read_sql() to be consistent with read_sql_query() (GH 50797),GH 50797,Read SQL query or database table into a DataFrame.,https://pandas.pydata.org/docs/reference/api/pandas.read_sql.html#pandas.read_sql,,,,
+2.0.0,read_sql_query,P,,,,GH 50797,"Read SQL query into a DataFrame.
+
+",https://pandas.pydata.org/docs/reference/api/pandas.read_sql_query.html#pandas.read_sql_query,,,,
+2.0.0,pandas.read_json,P,,,"Added new argument engine to read_json() to support parsing JSON with pyarrow by specifying engine=""pyarrow""",GH 48893,Convert a JSON string to pandas object.,https://pandas.pydata.org/docs/reference/api/pandas.read_json.html#pandas.read_json,,,,
+2.0.0,Index.infer_objects,A,,,Added Index.infer_objects() analogous to Series.infer_objects(),GH 50034,"If we have an object dtype, try to infer a non-object dtype.",https://pandas.pydata.org/docs/reference/api/pandas.Index.infer_objects.html#pandas.Index.infer_objects,,,,
+2.1.0,ExtensionArray._reduce,P,,,"To allow DataFrame reductions to preserve extension dtypes, ExtensionArray._reduce() has gotten a new keyword parameter keepdims. Calling ExtensionArray._reduce() with keepdims=True should return an array of length 1 along the reduction axis. In order to maintain backward compatibility, the parameter is not required, but will it become required in the future. ",GH 52788,Return a scalar result of performing the reduction operation.,https://pandas.pydata.org/docs/reference/api/pandas.api.extensions.ExtensionArray._reduce.html#pandas.api.extensions.ExtensionArray._reduce,,,,
+2.1.0,Index.values,R,,,Calling Index.values() will now return a read-only NumPy array,GH 53704,Return an array representing the data in the Index.,https://pandas.pydata.org/docs/reference/api/pandas.Index.values.html#pandas.Index.values,,,,
+2.1.0,DataFrame.head,R,,,DataFrame.head() and DataFrame.tail() will now return deep copies,GH 54011,Return the first n rows.,https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.head.html#pandas.DataFrame.head,,,,
+2.1.0,DataFrame.tail,R,,,DataFrame.head() and DataFrame.tail() will now return deep copies,GH 54011,Return the last n rows.,https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.tail.html#pandas.DataFrame.tail,,,,
+2.1.0,DataFrame.map(),A,,,"The DataFrame.map() been added and DataFrame.applymap() has been deprecated. DataFrame.map() has the same functionality as DataFrame.applymap(), but the new name better communicates that this is the DataFrame version of Series.map()",GH 52353,Apply a function to a Dataframe elementwise.,https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.map.html#pandas.DataFrame.map,,,,
+2.1.0,DataFrame.applymap,D,,,"The DataFrame.map() been added and DataFrame.applymap() has been deprecated. DataFrame.map() has the same functionality as DataFrame.applymap(), but the new name better communicates that this is the DataFrame version of Series.map()",GH 52353,Apply a function to a Dataframe elementwise.,https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.applymap.html#pandas.DataFrame.applymap,6/10,,,
+2.1.0,pandas.read_parquet,P,,,"Added filters parameter to read_parquet() to filter out data, compatible with both engines ",GH 53212,"Load a parquet object from the file path, returning a DataFrame.",https://pandas.pydata.org/docs/reference/api/pandas.read_parquet.html#pandas.read_parquet,,,,
+2.1.0,CategoricalIndex.map,P,,,"Categorical.map() and CategoricalIndex.map() now have a na_action parameter. Categorical.map() implicitly had a default value of ""ignore"" for na_action. This has formally been deprecated and will be changed to None in the future. Also notice that Series.map() has default na_action=None and calls to series with categorical data will now use na_action=None unless explicitly set otherwise",GH 44279,Map values using input an input mapping or function.,https://pandas.pydata.org/docs/reference/api/pandas.CategoricalIndex.map.html#pandas.CategoricalIndex.map,,,,
+2.1.0,MultiIndex.sortlevel,P,,,MultiIndex.sortlevel() and Index.sortlevel() gained a new keyword na_position,GH 51612,"Sort MultiIndex at the requested level.
+
+The result will respect the original ordering of the associated factor at that level.",https://pandas.pydata.org/docs/reference/api/pandas.MultiIndex.sortlevel.html#pandas.MultiIndex.sortlevel,,,,
+2.1.0,Index.sortlevel,P,,,MultiIndex.sortlevel() and Index.sortlevel() gained a new keyword na_position,GH 51612,"For internal compatibility with the Index API.
+
+Sort the Index. This is for compat with MultiIndex",https://pandas.pydata.org/docs/reference/api/pandas.Index.sortlevel.html#pandas.Index.sortlevel,,,,
+2.1.0,pandas.read_html,P,,,"pandas.read_html() now supports the storage_options keyword when used with a URL, allowing users to add headers to the outbound HTTP request",GH 49944,Read HTML tables into a list of DataFrame objects.,https://pandas.pydata.org/docs/reference/api/pandas.read_html.html#pandas.read_html,,,,
+2.1.0,Index.diff(),A,,,Add Index.diff() and Index.round(),GH 19708,,,,,,
+2.1.0,Index.round(),A,,,Add Index.diff() and Index.round(),GH 19708,,,,,,
+2.1.0,pandas.read_excel,P,,,Adding engine_kwargs parameter to read_excel(),GH 52214,Read an Excel file into a pandas DataFrame.,https://pandas.pydata.org/docs/reference/api/pandas.read_excel.html#pandas.read_excel,,,,
+2.1.0,DataFrame.stack,P,,,DataFrame.stack() gained the sort keyword to dictate whether the resulting MultiIndex levels are sorted,GH 15105,Stack the prescribed level(s) from columns to index.,https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.stack.html#pandas.DataFrame.stack,,,,
+2.1.0,DataFrame.unstack,P,,,DataFrame.unstack() gained the sort keyword to dictate whether the resulting MultiIndex levels are sorted,GH 15105,"Pivot a level of the (necessarily hierarchical) index labels.
+
+Returns a DataFrame having a new level of column labels whose inner-most level consists of the pivoted index labels.",https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.unstack.html#pandas.DataFrame.unstack,,,,
+2.1.0,Categorical.from_codes,P,,,Add validate parameter to Categorical.from_codes(),GH 50975,Make a Categorical type from codes and categories or dtype.,https://pandas.pydata.org/docs/reference/api/pandas.Categorical.from_codes.html#pandas.Categorical.from_codes,,,,
+2.1.0,DataFrame.to_excel,P,,,Added engine_kwargs parameter to DataFrame.to_excel(),GH 53220,"Write object to an Excel sheet.
+
+",https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_excel.html#pandas.DataFrame.to_excel,,,,
+2.1.0,Series.apply,P,,,Added a new parameter by_row to Series.apply() and DataFrame.apply(). When set to False the supplied callables will always operate on the whole Series or DataFrame,"GH 53400, GH 53601",Invoke function on values of Series.,https://pandas.pydata.org/docs/reference/api/pandas.Series.apply.html#pandas.Series.apply,,,,
+2.1.0,DataFrame.apply,P,,,Added a new parameter by_row to Series.apply() and DataFrame.apply(). When set to False the supplied callables will always operate on the whole Series or DataFrame,"GH 53400, GH 53601",Apply a function along an axis of the DataFrame.,https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.apply.html#pandas.DataFrame.apply,,,,
+2.1.0,Index.all,R,,,"Index.all() and Index.any() with floating dtypes and timedelta64 dtypes no longer raise TypeError, matching the Series.all() and Series.any() behavior",GH 54566,Return whether all elements are Truthy.,https://pandas.pydata.org/docs/reference/api/pandas.Index.all.html#pandas.Index.all,,,,
+2.1.0,Index.any,R,,,"Index.all() and Index.any() with floating dtypes and timedelta64 dtypes no longer raise TypeError, matching the Series.all() and Series.any() behavior",GH 54566,Return whether any element is Truthy.,https://pandas.pydata.org/docs/reference/api/pandas.Index.any.html#pandas.Index.any,,,,

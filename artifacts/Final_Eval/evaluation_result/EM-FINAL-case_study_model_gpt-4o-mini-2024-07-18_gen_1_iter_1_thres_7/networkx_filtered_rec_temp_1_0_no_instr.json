@@ -1,0 +1,2984 @@
+[
+    {
+        "Package": "networkx",
+        "Instruction": "Return True iff G has an Eulerian path.An Eulerian path is a path in a graph which uses each edge of a graph exactly once. If source is specified, then this function checks whether an Eulerian path that starts at node source exists.",
+        "Function Name": "has_eulerian_path",
+        "Function Description": "Return True iff G has an Eulerian path.An Eulerian path is a path in a graph which uses each edge of a graph exactly once. If source is specified, then this function checks whether an Eulerian path that starts at node source exists.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef has_eulerian_path(G, source=None):\n    if not isinstance(G, nx.Graph):\n        raise ValueError(\"Input must be a NetworkX graph.\")\n\n    # Count the number of vertices with odd degree\n    odd_degree_count = sum(1 for v in G.nodes() if G.degree[v] % 2 == 1)\n\n    if odd_degree_count > 2:\n        return False  # More than 2 vertices with odd degree means no Eulerian path\n\n    if source is not None:\n        if G.degree[source] % 2 == 0:\n            return False  # Source must have odd degree to start an Eulerian path\n        return odd_degree_count == 1  # Only one odd degree vertex allows Eulerian path starting at source\n    else:\n        return odd_degree_count in [0, 2]  # No odd degree or exactly two odd degree vertices\n\n# Example of usage:\n# G = nx.Graph()\n# G.add_edges_from([(0, 1), (1, 2), (2, 0), (1, 3)])\n# print(has_eulerian_path(G, source=1))\n",
+                "functions": [
+                    [
+                        "isinstance",
+                        null
+                    ],
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "ValueError",
+                        null
+                    ],
+                    [
+                        "sum",
+                        null
+                    ],
+                    [
+                        "nodes",
+                        null
+                    ],
+                    [
+                        "degree",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Determines the triadic census of a directed graph. The triadic census is a count of how many of the 16 possible types of triads are present in a directed graph. If a list of nodes is passed, then only those triads are taken into account which have elements of nodelist in them.",
+        "Function Name": "triadic_census",
+        "Function Description": "Determines the triadic census of a directed graph. The triadic census is a count of how many of the 16 possible types of triads are present in a directed graph. If a list of nodes is passed, then only those triads are taken into account which have elements of nodelist in them.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef triadic_census_digraph(G, nodelist=None):\n    if nodelist is not None:\n        G = G.subgraph(nodelist)\n    \n    census = {i: 0 for i in range(16)}\n    \n    for u in G.nodes():\n        for v in G.nodes():\n            if u != v:\n                for w in G.nodes():\n                    if w != u and w != v:\n                        triad = (u, v, w)\n                        adj = [G.has_edge(u, v), G.has_edge(v, u),\n                               G.has_edge(v, w), G.has_edge(w, v),\n                               G.has_edge(w, u), G.has_edge(u, w)]\n                        code = (\n                            adj[0] * 8 + adj[1] * 4 +\n                            adj[2] * 2 + adj[3] * 1 +\n                            adj[4] * 1 + adj[5] * 1\n                        )\n                        census[code] += 1\n\n    return census\n\n# Example usage\n# G = nx.DiGraph()\n# G.add_edges_from([(1, 2), (2, 3), (3, 1)])\n# print(triadic_census_digraph(G))\n",
+                "functions": [
+                    [
+                        "subgraph",
+                        null
+                    ],
+                    [
+                        "range",
+                        null
+                    ],
+                    [
+                        "nodes",
+                        null
+                    ],
+                    [
+                        "has_edge",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Compute harmonic centrality for nodes.",
+        "Function Name": "harmonic_centrality",
+        "Function Description": "Compute harmonic centrality for nodes.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef harmonic_centrality(G):\n    # Compute the harmonic centrality for each node in the graph\n    centrality = {}\n    for node in G.nodes():\n        # Use the single-source shortest path length to calculate harmonic centrality\n        lengths = nx.single_source_shortest_path_length(G, node)\n        harmonic_sum = sum(1 / length for length in lengths.values() if length > 0)\n        centrality[node] = harmonic_sum\n    \n    # Normalize by dividing by (number of nodes - 1) for the harmonic mean\n    if len(G) > 1:\n        for node in centrality:\n            centrality[node] /= (len(G) - 1)\n    \n    return centrality\n\n# Example usage\nG = nx.Graph()\nG.add_edges_from([(1, 2), (1, 3), (2, 4), (3, 4), (4, 5)])\ncentrality = harmonic_centrality(G)\nprint(centrality)\n",
+                "functions": [
+                    [
+                        "nodes",
+                        null
+                    ],
+                    [
+                        "single_source_shortest_path_length",
+                        null
+                    ],
+                    [
+                        "sum",
+                        null
+                    ],
+                    [
+                        "values",
+                        null
+                    ],
+                    [
+                        "len",
+                        null
+                    ],
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "harmonic_centrality",
+                        "harmonic_centrality"
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": [
+            "harmonic_centrality"
+        ]
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Returns a random graph using Barab\u00e1si\u2013Albert preferential attachment",
+        "Function Name": "barabasi_albert_graph",
+        "Function Description": "Returns a random graph using Barab\u00e1si\u2013Albert preferential attachment",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\n# Parameters for the Barab\u00e1si\u2013Albert model\nn = 100  # Number of nodes\nm = 2    # Number of edges to attach from a new node to existing nodes\n\n# Generate a random graph using the Barab\u00e1si\u2013Albert model\ngraph = nx.barabasi_albert_graph(n, m)\n\n# Optionally, you can visualize the graph (requires matplotlib)\nimport matplotlib.pyplot as plt\n\nnx.draw(graph, with_labels=True)\nplt.show()\n",
+                "functions": [
+                    [
+                        "barabasi_albert_graph",
+                        null
+                    ],
+                    [
+                        "draw",
+                        null
+                    ],
+                    [
+                        "show",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": [
+            "barabasi_albert_graph"
+        ]
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Returns a random graph using dual Barab\u00e1si\u2013Albert preferential attachment",
+        "Function Name": "dual_barabasi_albert_graph",
+        "Function Description": "Returns a random graph using dual Barab\u00e1si\u2013Albert preferential attachment",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef dual_barabasi_albert_graph(n, m):\n    \"\"\"\n    Generates a random graph using dual Barab\u00e1si\u2013Albert preferential attachment.\n    \n    Parameters:\n    n (int): The number of nodes in the graph.\n    m (int): The number of edges to attach from a new node to existing nodes.\n    \n    Returns:\n    G (networkx.Graph): A graph generated using dual Barab\u00e1si\u2013Albert model.\n    \"\"\"\n    # Create an empty graph\n    G = nx.Graph()\n    \n    # Add the initial nodes\n    G.add_nodes_from(range(m))\n    \n    # Connect the initial nodes\n    G.add_edges_from([(i, j) for i in range(m) for j in range(i + 1, m)])\n    \n    # Lists to hold the degree of each node\n    degrees = [G.degree(i) for i in range(m)]\n    \n    # Add new nodes with preferential attachment\n    for new_node in range(m, n):\n        # Calculate the probability of attaching to each existing node\n        total_degree = sum(degrees)\n        probabilities = [degree / total_degree for degree in degrees]\n        \n        # Select m existing nodes to connect to based on the probabilities\n        targets = np.random.choice(range(len(G)), size=m, p=probabilities)\n        \n        # Add edges in pairs, avoiding self-loops and duplicates\n        for target in set(targets):\n            G.add_edge(new_node, target)\n        \n        # Update degrees list\n        degrees.append(0)\n        for target in targets:\n            degrees[target] += 1\n            degrees[-1] += 1\n    \n    return G\n\n# Example usage\nn = 100  # Number of nodes\nm = 2    # Number of edges to attach\nrandom_graph = dual_barabasi_albert_graph(n, m)\n",
+                "functions": [
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_nodes_from",
+                        null
+                    ],
+                    [
+                        "range",
+                        "Graph"
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "degree",
+                        null
+                    ],
+                    [
+                        "sum",
+                        null
+                    ],
+                    [
+                        "choice",
+                        null
+                    ],
+                    [
+                        "random",
+                        "np"
+                    ],
+                    [
+                        "len",
+                        "np"
+                    ],
+                    [
+                        "set",
+                        null
+                    ],
+                    [
+                        "add_edge",
+                        null
+                    ],
+                    [
+                        "append",
+                        null
+                    ],
+                    [
+                        "dual_barabasi_albert_graph",
+                        "dual_barabasi_albert_graph"
+                    ]
+                ]
+            }
+        },
+        "banned_functions": [
+            "dual_barabasi_albert_graph"
+        ]
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Draw the nodes of the graph G.",
+        "Function Name": "draw_networkx_nodes",
+        "Function Description": "Draw the nodes of the graph G.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport matplotlib.pyplot as plt\n\n# Create a sample graph G\nG = nx.Graph()\nG.add_edges_from([(1, 2), (1, 3), (2, 4), (3, 4), (4, 5)])\n\n# Draw the nodes of the graph G\npos = nx.spring_layout(G)  # Positions for all nodes\nnx.draw_networkx_nodes(G, pos, node_size=700)\nnx.draw_networkx_edges(G, pos)\nnx.draw_networkx_labels(G, pos)\n\n# Show the plot\nplt.title(\"Graph G\")\nplt.show()\n",
+                "functions": [
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "spring_layout",
+                        null
+                    ],
+                    [
+                        "draw_networkx_nodes",
+                        null
+                    ],
+                    [
+                        "draw_networkx_edges",
+                        null
+                    ],
+                    [
+                        "draw_networkx_labels",
+                        null
+                    ],
+                    [
+                        "title",
+                        null
+                    ],
+                    [
+                        "show",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": [
+            "draw_networkx_nodes"
+        ]
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Returns the quotient graph of G under the specified equivalence relation on nodes.",
+        "Function Name": "quotient_graph",
+        "Function Description": "Returns the quotient graph of G under the specified equivalence relation on nodes.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef quotient_graph(G, equivalence_relation):\n    # Create a new graph for the quotient\n    Q = nx.Graph()\n    \n    # Create a mapping from nodes in G to their equivalence classes\n    node_class_map = {}\n    \n    for class_id, nodes in enumerate(equivalence_relation):\n        # Create a representative for the class\n        representative = nodes[0]\n        # Map each node in the class to the representative\n        for node in nodes:\n            node_class_map[node] = representative\n        \n        # Add the representative node to the quotient graph\n        Q.add_node(representative)\n    \n    # Add edges based on the original graph's edges\n    for u, v in G.edges():\n        class_u = node_class_map[u]\n        class_v = node_class_map[v]\n        if class_u != class_v:\n            # Create an edge between the equivalence classes\n            Q.add_edge(class_u, class_v)\n    \n    return Q\n",
+                "functions": [
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "enumerate",
+                        null
+                    ],
+                    [
+                        "add_node",
+                        null
+                    ],
+                    [
+                        "edges",
+                        null
+                    ],
+                    [
+                        "add_edge",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Compute the spectral_ordering of a graph. The spectral ordering of a graph is an ordering of its nodes where nodes in the same weakly connected components appear contiguous and ordered by their corresponding elements in the Fiedler vector of the component.",
+        "Function Name": "spectral_ordering",
+        "Function Description": "Compute the spectral_ordering of a graph. The spectral ordering of a graph is an ordering of its nodes where nodes in the same weakly connected components appear contiguous and ordered by their corresponding elements in the Fiedler vector of the component.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport numpy as np\n\ndef spectral_ordering(G):\n    # Ensure the graph is directed\n    if not G.is_directed():\n        raise ValueError(\"The graph must be directed.\")\n\n    # Get weakly connected components\n    components = list(nx.weakly_connected_components(G))\n    ordered_nodes = []\n\n    for component in components:\n        subgraph = G.subgraph(component)\n        \n        # Compute the Laplacian matrix\n        L = nx.laplacian_matrix(subgraph).A\n        \n        # Compute the eigenvalues and eigenvectors\n        eigenvalues, eigenvectors = np.linalg.eig(L)\n        \n        # Get the index of the second smallest eigenvalue (Fiedler vector)\n        fiedler_index = np.argsort(eigenvalues)[1]\n        fiedler_vector = eigenvectors[:, fiedler_index]\n        \n        # Sort the nodes by the corresponding elements in the Fiedler vector\n        sorted_nodes = [node for _, node in sorted(zip(fiedler_vector, component))]\n        ordered_nodes.extend(sorted_nodes)\n    \n    return ordered_nodes\n\n# Example usage\n# G = nx.DiGraph()  # Create a directed graph\n# Add edges to G\n# ordered = spectral_ordering(G)\n# print(ordered)\n",
+                "functions": [
+                    [
+                        "is_directed",
+                        null
+                    ],
+                    [
+                        "ValueError",
+                        null
+                    ],
+                    [
+                        "list",
+                        null
+                    ],
+                    [
+                        "weakly_connected_components",
+                        null
+                    ],
+                    [
+                        "subgraph",
+                        null
+                    ],
+                    [
+                        "A",
+                        null
+                    ],
+                    [
+                        "laplacian_matrix",
+                        null
+                    ],
+                    [
+                        "eig",
+                        null
+                    ],
+                    [
+                        "linalg",
+                        "np"
+                    ],
+                    [
+                        "argsort",
+                        null
+                    ],
+                    [
+                        "sorted",
+                        null
+                    ],
+                    [
+                        "zip",
+                        null
+                    ],
+                    [
+                        "extend",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Returns the graph edge list as a Pandas DataFrame.",
+        "Function Name": "to_pandas_edgelist",
+        "Function Description": "Returns the graph edge list as a Pandas DataFrame.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport pandas as pd\n\ndef graph_to_edge_list(graph):\n    # Generate edge list from the graph\n    edge_list = graph.edges(data=True)\n    \n    # Convert edge list to a Pandas DataFrame\n    df_edge_list = pd.DataFrame(edge_list, columns=['Source', 'Target', 'Attributes'])\n    \n    return df_edge_list\n\n# Example usage:\n# G = nx.Graph()\n# G.add_edges_from([(1, 2, {'weight': 4}), (2, 3, {'weight': 5})])\n# df = graph_to_edge_list(G)\n# print(df)\n",
+                "functions": [
+                    [
+                        "edges",
+                        null
+                    ],
+                    [
+                        "DataFrame",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Returns the Binomial Tree of order n.",
+        "Function Name": "binomial_tree",
+        "Function Description": "Returns the Binomial Tree of order n.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef binomial_tree(n):\n    \"\"\"Returns a binomial tree of order n as a NetworkX graph.\"\"\"\n    G = nx.Graph()\n    \n    # Create the binomial tree\n    def add_edges(v, order):\n        if order == 0:\n            G.add_node(v)\n            return v\n        else:\n            left_child = add_edges(2 * v + 1, order - 1)\n            right_child = add_edges(2 * v + 2, order - 1)\n            G.add_node(v)\n            G.add_edge(v, left_child)\n            G.add_edge(v, right_child)\n            return v\n    \n    add_edges(0, n)\n    return G\n\n# Example usage:\nn = 3  # Order of the binomial tree\nB = binomial_tree(n)\nprint(nx.info(B))\n",
+                "functions": [
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_node",
+                        null
+                    ],
+                    [
+                        "add_edges",
+                        "add_edges"
+                    ],
+                    [
+                        "add_edge",
+                        null
+                    ],
+                    [
+                        "binomial_tree",
+                        "binomial_tree"
+                    ],
+                    [
+                        "print",
+                        null
+                    ],
+                    [
+                        "info",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": [
+            "binomial_tree"
+        ]
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Returns the coverage and performance of a partition of G.",
+        "Function Name": "partition_quality",
+        "Function Description": "Returns the coverage and performance of a partition of G.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef partition_coverage_performance(G, partition):\n    \"\"\"\n    Calculate the coverage and performance of a given partition of the graph G.\n    \n    Parameters:\n    G (networkx.Graph): The input graph.\n    partition (list of sets): A list where each set represents a partition of the graph.\n    \n    Returns:\n    tuple: A tuple containing coverage and performance metrics.\n    \"\"\"\n    \n    total_nodes = G.number_of_nodes()\n    total_edges = G.number_of_edges()\n    \n    coverage = 0\n    performance = 0\n    \n    for part in partition:\n        subgraph = G.subgraph(part)\n        coverage += len(part) / total_nodes  # Coverage based on node participation\n        performance += subgraph.number_of_edges() / total_edges if total_edges > 0 else 0 # Performance based on edges in subgraph\n    \n    return coverage / len(partition), performance / len(partition)\n\n# Example usage\nif __name__ == \"__main__\":\n    G = nx.Graph()\n    G.add_edges_from([(1, 2), (1, 3), (2, 4), (3, 4), (5, 6)])\n    \n    partition = [{1, 2}, {3, 4}, {5, 6}]\n    coverage, performance = partition_coverage_performance(G, partition)\n    print(f\"Coverage: {coverage}, Performance: {performance}\")\n",
+                "functions": [
+                    [
+                        "number_of_nodes",
+                        null
+                    ],
+                    [
+                        "number_of_edges",
+                        null
+                    ],
+                    [
+                        "subgraph",
+                        null
+                    ],
+                    [
+                        "len",
+                        null
+                    ],
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "partition_coverage_performance",
+                        "partition_coverage_performance"
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Generates community sets determined by label propagation",
+        "Function Name": "label_propagation_communities",
+        "Function Description": "Generates community sets determined by label propagation",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef label_propagation_community_detection(graph):\n    # Use the label propagation algorithm to detect communities\n    communities = nx.label_propagation_communities(graph)\n    # Convert generator to a list of sets\n    return [set(comm) for comm in communities]\n\n# Example usage\nif __name__ == \"__main__\":\n    # Create a sample graph\n    G = nx.Graph()\n    G.add_edges_from([(1, 2), (1, 3), (2, 3), (3, 4), (5, 6), (6, 7), (7, 5)])\n    \n    # Get communities\n    communities = label_propagation_community_detection(G)\n    print(\"Detected communities:\", communities)\n",
+                "functions": [
+                    [
+                        "label_propagation_communities",
+                        null
+                    ],
+                    [
+                        "set",
+                        null
+                    ],
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "label_propagation_community_detection",
+                        "label_propagation_community_detection"
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": [
+            "label_propagation_communities"
+        ]
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Creates a directed prefix tree from a list of paths.",
+        "Function Name": "prefix_tree",
+        "Function Description": "Creates a directed prefix tree from a list of paths.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef create_prefix_tree(paths):\n    # Create a directed graph\n    prefix_tree = nx.DiGraph()\n    \n    # Add paths to the prefix tree\n    for path in paths:\n        # Split the path and create edges in the directed graph\n        nodes = path.split('/')\n        for i in range(len(nodes)):\n            # Create an edge from the current node to the next node\n            if i < len(nodes) - 1:\n                prefix_tree.add_edge(nodes[i], nodes[i + 1])\n                \n    return prefix_tree\n\n# Example usage\npaths = ['a/b/c', 'a/b/d', 'a/e/f']\nprefix_tree = create_prefix_tree(paths)\n\n# Print the edges of the prefix tree\nprint(prefix_tree.edges())\n",
+                "functions": [
+                    [
+                        "DiGraph",
+                        null
+                    ],
+                    [
+                        "split",
+                        null
+                    ],
+                    [
+                        "range",
+                        null
+                    ],
+                    [
+                        "len",
+                        null
+                    ],
+                    [
+                        "add_edge",
+                        null
+                    ],
+                    [
+                        "create_prefix_tree",
+                        "create_prefix_tree"
+                    ],
+                    [
+                        "print",
+                        null
+                    ],
+                    [
+                        "edges",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Find communities in G using greedy modularity maximization.",
+        "Function Name": "naive_greedy_modularity_communities",
+        "Function Description": "Find communities in G using greedy modularity maximization.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\n# Create a graph (example)\nG = nx.Graph()\n\n# Add edges to the graph\nG.add_edges_from([\n    (1, 2),\n    (1, 3),\n    (2, 3),\n    (3, 4),\n    (4, 5),\n    (5, 6),\n    (4, 6),\n    (6, 7),\n    (7, 8),\n    (8, 5)\n])\n\n# Find communities using greedy modularity maximization\ncommunities = nx.algorithms.community.greedy_modularity_communities(G)\n\n# Convert to a list of communities\ncommunity_list = [list(community) for community in communities]\n\n# Print the communities\nprint(community_list)\n",
+                "functions": [
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "greedy_modularity_communities",
+                        null
+                    ],
+                    [
+                        "algorithms",
+                        "Module"
+                    ],
+                    [
+                        "community",
+                        null
+                    ],
+                    [
+                        "list",
+                        null
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Returns subgraph communicability for all pairs of nodes in G.",
+        "Function Name": "communicability_betweeness_centrality",
+        "Function Description": "Returns subgraph communicability for all pairs of nodes in G.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef subgraph_communicability(G):\n    subgraph_comm = nx.algorithms.communicability.communication(G)\n    return subgraph_comm\n\n# Example usage:\nG = nx.Graph()\nG.add_edges_from([(1, 2), (2, 3), (3, 1)])\nresult = subgraph_communicability(G)\nprint(result)\n",
+                "functions": [
+                    [
+                        "communication",
+                        null
+                    ],
+                    [
+                        "algorithms",
+                        "Module"
+                    ],
+                    [
+                        "communicability",
+                        null
+                    ],
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "subgraph_communicability",
+                        "subgraph_communicability"
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Returns adjacency matrix of G.",
+        "Function Name": "adjacency_matrix",
+        "Function Description": "Returns adjacency matrix of G.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef get_adjacency_matrix(graph):\n    return nx.to_numpy_array(graph)\n\n# Example usage:\nG = nx.Graph()\nG.add_edges_from([(1, 2), (1, 3), (2, 4)])\nadjacency_matrix = get_adjacency_matrix(G)\nprint(adjacency_matrix)\n",
+                "functions": [
+                    [
+                        "to_numpy_array",
+                        null
+                    ],
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "get_adjacency_matrix",
+                        "get_adjacency_matrix"
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Returns numeric mixing matrix for attribute.",
+        "Function Name": "numeric_mixing_matrix",
+        "Function Description": "Returns numeric mixing matrix for attribute.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport numpy as np\n\ndef compute_mixing_matrix(G, attribute):\n    \"\"\"\n    Calculate the mixing matrix for a given attribute in a graph.\n\n    Parameters:\n    G (networkx.Graph): The input graph.\n    attribute (str): The attribute to compute the mixing matrix for.\n\n    Returns:\n    np.ndarray: The mixing matrix.\n    \"\"\"\n    # Get the set of unique values for the specified attribute\n    values = set(nx.get_node_attributes(G, attribute).values())\n    value_to_index = {value: idx for idx, value in enumerate(values)}\n    \n    # Initialize the mixing matrix\n    mixing_matrix = np.zeros((len(values), len(values)))\n\n    # Iterate over all edges and fill in the mixing matrix\n    for u, v in G.edges():\n        attr_u = G.nodes[u].get(attribute)\n        attr_v = G.nodes[v].get(attribute)\n        if attr_u is not None and attr_v is not None:\n            i = value_to_index[attr_u]\n            j = value_to_index[attr_v]\n            mixing_matrix[i, j] += 1\n\n    return mixing_matrix\n",
+                "functions": [
+                    [
+                        "set",
+                        null
+                    ],
+                    [
+                        "values",
+                        null
+                    ],
+                    [
+                        "get_node_attributes",
+                        null
+                    ],
+                    [
+                        "enumerate",
+                        null
+                    ],
+                    [
+                        "zeros",
+                        null
+                    ],
+                    [
+                        "len",
+                        "np"
+                    ],
+                    [
+                        "edges",
+                        null
+                    ],
+                    [
+                        "get",
+                        null
+                    ],
+                    [
+                        "nodes",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Returns numeric mixing matrix for attribute.",
+        "Function Name": "numeric_mixing_matrix",
+        "Function Description": "Returns numeric mixing matrix for attribute.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport numpy as np\n\ndef numeric_mixing_matrix(graph, attribute):\n    # Get the list of unique attribute values\n    unique_values = set(nx.get_node_attributes(graph, attribute).values())\n    \n    # Initialize the mixing matrix\n    mixing_matrix = np.zeros((len(unique_values), len(unique_values)))\n\n    # Create a mapping of attribute values to indices\n    value_to_index = {value: idx for idx, value in enumerate(unique_values)}\n\n    # Iterate through all edges to populate the mixing matrix\n    for u, v in graph.edges():\n        attr_u = graph.nodes[u][attribute]\n        attr_v = graph.nodes[v][attribute]\n        \n        mixing_matrix[value_to_index[attr_u], value_to_index[attr_v]] += 1\n        \n    return mixing_matrix\n",
+                "functions": [
+                    [
+                        "set",
+                        null
+                    ],
+                    [
+                        "values",
+                        null
+                    ],
+                    [
+                        "get_node_attributes",
+                        null
+                    ],
+                    [
+                        "zeros",
+                        null
+                    ],
+                    [
+                        "len",
+                        "np"
+                    ],
+                    [
+                        "enumerate",
+                        null
+                    ],
+                    [
+                        "edges",
+                        null
+                    ],
+                    [
+                        "nodes",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Returns mixing matrix for attribute.",
+        "Function Name": "degree_mixing_matrix",
+        "Function Description": "Returns mixing matrix for attribute.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport numpy as np\n\ndef mixing_matrix(G, attribute):\n    # Get the unique values of the specified attribute\n    attributes = nx.get_node_attributes(G, attribute)\n    unique_attributes = set(attributes.values())\n    \n    # Create a mapping from attribute values to indices\n    attr_to_index = {attr: idx for idx, attr in enumerate(unique_attributes)}\n    \n    # Initialize the mixing matrix\n    size = len(unique_attributes)\n    mixing_matrix = np.zeros((size, size))\n\n    # Fill the mixing matrix\n    for u, v in G.edges:\n        attr_u = attributes[u]\n        attr_v = attributes[v]\n        mixing_matrix[attr_to_index[attr_u], attr_to_index[attr_v]] += 1\n        mixing_matrix[attr_to_index[attr_v], attr_to_index[attr_u]] += 1  # for undirected graph\n\n    return mixing_matrix\n\n# Example usage:\n# G = nx.Graph()\n# G.add_nodes_from([(1, {'color': 'red'}), (2, {'color': 'blue'}), (3, {'color': 'red'})])\n# G.add_edges_from([(1, 2), (1, 3), (2, 3)])\n# matrix = mixing_matrix(G, 'color')\n# print(matrix)\n",
+                "functions": [
+                    [
+                        "get_node_attributes",
+                        null
+                    ],
+                    [
+                        "set",
+                        null
+                    ],
+                    [
+                        "values",
+                        null
+                    ],
+                    [
+                        "enumerate",
+                        null
+                    ],
+                    [
+                        "len",
+                        null
+                    ],
+                    [
+                        "zeros",
+                        null
+                    ],
+                    [
+                        "edges",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Returns mixing matrix for attribute.",
+        "Function Name": "degree_mixing_matrix",
+        "Function Description": "Returns mixing matrix for attribute.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport numpy as np\n\ndef mixing_matrix(graph, attribute):\n    \"\"\"Returns the mixing matrix for a given attribute in a graph.\"\"\"\n    # Get unique values of the attribute\n    unique_values = set(nx.get_node_attributes(graph, attribute).values())\n    mixing_matrix = np.zeros((len(unique_values), len(unique_values)))\n\n    # Create a mapping from attribute values to indices\n    value_to_index = {val: i for i, val in enumerate(unique_values)}\n\n    # Iterate through edges to fill the mixing matrix\n    for u, v in graph.edges():\n        attr_u = graph.nodes[u].get(attribute)\n        attr_v = graph.nodes[v].get(attribute)\n        if attr_u is not None and attr_v is not None:\n            mixing_matrix[value_to_index[attr_u], value_to_index[attr_v]] += 1\n    \n    return mixing_matrix\n\n# Example usage\nG = nx.Graph()\nG.add_node(1, type='A')\nG.add_node(2, type='B')\nG.add_node(3, type='A')\nG.add_edge(1, 2)\nG.add_edge(1, 3)\nG.add_edge(2, 3)\n\nmatrix = mixing_matrix(G, 'type')\nprint(matrix)\n",
+                "functions": [
+                    [
+                        "set",
+                        null
+                    ],
+                    [
+                        "values",
+                        null
+                    ],
+                    [
+                        "get_node_attributes",
+                        null
+                    ],
+                    [
+                        "zeros",
+                        null
+                    ],
+                    [
+                        "len",
+                        "np"
+                    ],
+                    [
+                        "enumerate",
+                        null
+                    ],
+                    [
+                        "edges",
+                        null
+                    ],
+                    [
+                        "get",
+                        null
+                    ],
+                    [
+                        "nodes",
+                        null
+                    ],
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_node",
+                        null
+                    ],
+                    [
+                        "add_edge",
+                        null
+                    ],
+                    [
+                        "mixing_matrix",
+                        "zeros"
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Return the graph adjacency matrix as a NumPy matrix.",
+        "Function Name": "to_numpy_matrix",
+        "Function Description": "Return the graph adjacency matrix as a NumPy matrix.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport numpy as np\n\n# Create a sample graph\nG = nx.Graph()\nG.add_edges_from([(1, 2), (1, 3), (2, 4)])\n\n# Get the adjacency matrix as a NumPy matrix\nadjacency_matrix = nx.to_numpy_array(G)\n\nprint(adjacency_matrix)\n",
+                "functions": [
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "to_numpy_array",
+                        null
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Return a graph from numpy matrix. The numpy matrix is interpreted as an adjacency matrix for the graph.",
+        "Function Name": "from_numpy_matrix",
+        "Function Description": "Return a graph from numpy matrix. The numpy matrix is interpreted as an adjacency matrix for the graph.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport numpy as np\n\ndef graph_from_adjacency_matrix(adj_matrix):\n    # Create a graph from the adjacency matrix\n    G = nx.from_numpy_array(adj_matrix)\n    return G\n\n# Example usage\nif __name__ == \"__main__\":\n    # Example adjacency matrix\n    adj_matrix = np.array([[0, 1, 0], \n                            [1, 0, 1], \n                            [0, 1, 0]])\n    \n    graph = graph_from_adjacency_matrix(adj_matrix)\n    print(graph.edges())\n",
+                "functions": [
+                    [
+                        "from_numpy_array",
+                        null
+                    ],
+                    [
+                        "array",
+                        null
+                    ],
+                    [
+                        "graph_from_adjacency_matrix",
+                        "graph_from_adjacency_matrix"
+                    ],
+                    [
+                        "print",
+                        null
+                    ],
+                    [
+                        "edges",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Returns True if and only if the given object is an iterator  object",
+        "Function Name": "networkx.utils.misc.is_iterator",
+        "Function Description": "Returns True if and only if the given object is an iterator  object",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef is_iterator(obj):\n    \"\"\"Returns True if and only if the given object is an iterator.\"\"\"\n    return hasattr(obj, '__iter__') and not hasattr(obj, '__len__')\n\n# Example usage\nmy_list = [1, 2, 3]\nmy_iterator = iter(my_list)\n\nprint(is_iterator(my_list))       # Output: False\nprint(is_iterator(my_iterator))   # Output: True\n",
+                "functions": [
+                    [
+                        "hasattr",
+                        null
+                    ],
+                    [
+                        "iter",
+                        null
+                    ],
+                    [
+                        "print",
+                        null
+                    ],
+                    [
+                        "is_iterator",
+                        "is_iterator"
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Return True if list is a list of ints.",
+        "Function Name": "networkx.utils.misc.is_list_of_ints",
+        "Function Description": "Return True if list is a list of ints.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef is_list_of_ints(lst):\n    return isinstance(lst, list) and all(isinstance(i, int) for i in lst)\n\n# Example usage\nexample_list = [1, 2, 3]\nprint(is_list_of_ints(example_list))  # Output: True\n",
+                "functions": [
+                    [
+                        "isinstance",
+                        null
+                    ],
+                    [
+                        "all",
+                        null
+                    ],
+                    [
+                        "print",
+                        null
+                    ],
+                    [
+                        "is_list_of_ints",
+                        "is_list_of_ints"
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Read graph in YAML format from path. YAML is a data serialization format designed for human readability and interaction with scripting languages",
+        "Function Name": "read_yaml",
+        "Function Description": "Read graph in YAML format from path. YAML is a data serialization format designed for human readability and interaction with scripting languages",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport yaml\n\ndef read_graph_from_yaml(file_path):\n    with open(file_path, 'r') as file:\n        data = yaml.safe_load(file)\n    \n    G = nx.Graph()\n    \n    # Assuming the YAML has nodes and edges listed\n    for node in data.get('nodes', []):\n        G.add_node(node)\n        \n    for edge in data.get('edges', []):\n        G.add_edge(edge[0], edge[1])\n    \n    return G\n\n# Example usage\n# graph = read_graph_from_yaml('path/to/your/graph.yaml')\n",
+                "functions": [
+                    [
+                        "open",
+                        null
+                    ],
+                    [
+                        "safe_load",
+                        null
+                    ],
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "get",
+                        null
+                    ],
+                    [
+                        "add_node",
+                        null
+                    ],
+                    [
+                        "add_edge",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Write graph G in YAML format to path. YAML is a data serialization format designed for human readability and interaction with scripting languages",
+        "Function Name": "write_yaml",
+        "Function Description": "Write graph G in YAML format to path. YAML is a data serialization format designed for human readability and interaction with scripting languages",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport yaml\n\ndef write_graph_to_yaml(G, path):\n    # Convert the graph G to a dictionary representation\n    graph_dict = {\n        \"nodes\": list(G.nodes(data=True)),\n        \"edges\": list(G.edges(data=True))\n    }\n    \n    # Write the dictionary to a YAML file\n    with open(path, 'w') as yaml_file:\n        yaml.dump(graph_dict, yaml_file, default_flow_style=False)\n\n# Example usage:\nif __name__ == \"__main__\":\n    # Create a sample graph\n    G = nx.Graph()\n    G.add_edge(1, 2, weight=4.2)\n    G.add_edge(2, 3, weight=3.5)\n    \n    # Define the path to save YAML\n    path = 'graph.yaml'\n    \n    # Write the graph to YAML\n    write_graph_to_yaml(G, path)\n",
+                "functions": [
+                    [
+                        "list",
+                        null
+                    ],
+                    [
+                        "nodes",
+                        null
+                    ],
+                    [
+                        "edges",
+                        null
+                    ],
+                    [
+                        "open",
+                        null
+                    ],
+                    [
+                        "dump",
+                        null
+                    ],
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_edge",
+                        null
+                    ],
+                    [
+                        "write_graph_to_yaml",
+                        "write_graph_to_yaml"
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Read graph object in Python pickle format. Pickles are a serialized byte stream of a Python object. This format will preserve Python objects used as nodes or edges.",
+        "Function Name": "read_gpickle",
+        "Function Description": "Read graph object in Python pickle format. Pickles are a serialized byte stream of a Python object. This format will preserve Python objects used as nodes or edges.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport pickle\n\n# Function to read a graph from a pickle file\ndef read_graph_from_pickle(file_path):\n    with open(file_path, 'rb') as f:\n        graph = pickle.load(f)\n    return graph\n\n# Example usage\ngraph = read_graph_from_pickle('path_to_pickle_file.pkl')\n",
+                "functions": [
+                    [
+                        "open",
+                        null
+                    ],
+                    [
+                        "load",
+                        null
+                    ],
+                    [
+                        "read_graph_from_pickle",
+                        "read_graph_from_pickle"
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Write graph in Python pickle format. Pickles are a serialized byte stream of a Python object. This format will preserve Python objects used as nodes or edges.",
+        "Function Name": "write_gpickle",
+        "Function Description": "Write graph in Python pickle format. Pickles are a serialized byte stream of a Python object. This format will preserve Python objects used as nodes or edges.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport pickle\n\n# Create a sample graph\nG = nx.Graph()\nG.add_edges_from([(1, 2), (2, 3), (3, 4)])\nG.nodes[1]['data'] = 'Node 1'\nG.nodes[2]['data'] = 'Node 2'\nG.nodes[3]['data'] = 'Node 3'\nG.nodes[4]['data'] = 'Node 4'\n\n# Serialize the graph to a pickle file\nwith open('graph.pkl', 'wb') as f:\n    pickle.dump(G, f)\n",
+                "functions": [
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "nodes",
+                        null
+                    ],
+                    [
+                        "open",
+                        null
+                    ],
+                    [
+                        "dump",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Generates a networkx.DiGraph from shapefiles. Point geometries are translated into nodes, lines into edges. Coordinate tuples are used as keys. Attributes are preserved, line geometries are simplified into start and end coordinates. Accepts a single shapefile or directory of many shapefiles.",
+        "Function Name": "read_shp",
+        "Function Description": "Generates a networkx.DiGraph from shapefiles. Point geometries are translated into nodes, lines into edges. Coordinate tuples are used as keys. Attributes are preserved, line geometries are simplified into start and end coordinates. Accepts a single shapefile or directory of many shapefiles.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport geopandas as gpd\nimport os\n\ndef shapefile_to_digraph(shapefile):\n    # Read the shapefile using geopandas\n    gdf = gpd.read_file(shapefile)\n    \n    # Create a directed graph\n    digraph = nx.DiGraph()\n\n    for _, row in gdf.iterrows():\n        geom = row.geometry\n        \n        if geom.geom_type == 'Point':\n            # Use the coordinates of the point as node key\n            coord = (geom.x, geom.y)\n            digraph.add_node(coord, **row.drop(labels='geometry').to_dict())\n        \n        elif geom.geom_type == 'LineString' or geom.geom_type == 'MultiLineString':\n            if geom.geom_type == 'MultiLineString':\n                lines = geom.geoms\n            else:\n                lines = [geom]\n            \n            for line in lines:\n                start_coord = (line.coords[0])\n                end_coord = (line.coords[-1])\n                \n                # Add edge from start to end coordinates\n                digraph.add_edge(start_coord, end_coord, **row.drop(labels='geometry').to_dict())\n    \n    return digraph\n\ndef read_shapefiles(directory):\n    di_graph = nx.DiGraph()\n    \n    for filename in os.listdir(directory):\n        if filename.endswith('.shp'):\n            shapefile_path = os.path.join(directory, filename)\n            digraph = shapefile_to_digraph(shapefile_path)\n            di_graph = nx.compose(di_graph, digraph)\n    \n    return di_graph\n\n# Example usage\n# graph = read_shapefiles('path_to_your_directory_or_shapefile')\n",
+                "functions": [
+                    [
+                        "read_file",
+                        null
+                    ],
+                    [
+                        "DiGraph",
+                        null
+                    ],
+                    [
+                        "iterrows",
+                        null
+                    ],
+                    [
+                        "geometry",
+                        null
+                    ],
+                    [
+                        "geom_type",
+                        null
+                    ],
+                    [
+                        "x",
+                        null
+                    ],
+                    [
+                        "y",
+                        null
+                    ],
+                    [
+                        "add_node",
+                        null
+                    ],
+                    [
+                        "to_dict",
+                        null
+                    ],
+                    [
+                        "drop",
+                        null
+                    ],
+                    [
+                        "geoms",
+                        null
+                    ],
+                    [
+                        "coords",
+                        null
+                    ],
+                    [
+                        "add_edge",
+                        null
+                    ],
+                    [
+                        "listdir",
+                        null
+                    ],
+                    [
+                        "endswith",
+                        null
+                    ],
+                    [
+                        "join",
+                        null
+                    ],
+                    [
+                        "path",
+                        "os"
+                    ],
+                    [
+                        "shapefile_to_digraph",
+                        "shapefile_to_digraph"
+                    ],
+                    [
+                        "compose",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Generate edges for each line in geom and written as a helper for read_shp",
+        "Function Name": "edges_from_line",
+        "Function Description": "Generate edges for each line in geom and written as a helper for read_shp",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef generate_edges_from_geom(geom):\n    edges = []\n    for line in geom:\n        points = line.coords\n        for i in range(len(points) - 1):\n            edges.append((points[i], points[i + 1]))\n    return edges\n\ndef read_shp_and_generate_edges(shp_file):\n    import geopandas as gpd\n    gdf = gpd.read_file(shp_file)\n    \n    all_edges = []\n    for geom in gdf.geometry:\n        edges = generate_edges_from_geom(geom)\n        all_edges.extend(edges)\n\n    return all_edges\n",
+                "functions": [
+                    [
+                        "coords",
+                        null
+                    ],
+                    [
+                        "range",
+                        null
+                    ],
+                    [
+                        "len",
+                        null
+                    ],
+                    [
+                        "append",
+                        null
+                    ],
+                    [
+                        "read_file",
+                        null
+                    ],
+                    [
+                        "geometry",
+                        null
+                    ],
+                    [
+                        "generate_edges_from_geom",
+                        "generate_edges_from_geom"
+                    ],
+                    [
+                        "extend",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Writes a networkx.DiGraph to two shapefiles, edges and nodes. Nodes and edges are expected to have a Well Known Binary (Wkb) or Well Known Text (Wkt) key in order to generate geometries. Also acceptable are nodes with a numeric tuple key (x,y).",
+        "Function Name": "write_shp",
+        "Function Description": "Writes a networkx.DiGraph to two shapefiles, edges and nodes. Nodes and edges are expected to have a Well Known Binary (Wkb) or Well Known Text (Wkt) key in order to generate geometries. Also acceptable are nodes with a numeric tuple key (x,y).",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport geopandas as gpd\nfrom shapely.geometry import Point, LineString\n\ndef write_graph_to_shapefiles(graph, node_shapefile, edge_shapefile):\n    # Prepare nodes data\n    nodes_data = []\n    for node, data in graph.nodes(data=True):\n        geometry = None\n        if 'Wkb' in data:\n            geometry = Point(Point(data['Wkb']))\n        elif 'Wkt' in data:\n            geometry = Point(Point(data['Wkt']))\n        elif isinstance(node, tuple) and len(node) == 2:\n            geometry = Point(node)\n\n        nodes_data.append({'geometry': geometry, **data})\n\n    nodes_gdf = gpd.GeoDataFrame(nodes_data, geometry='geometry')\n    nodes_gdf.set_crs(epsg=4326, inplace=True)  # Adjust CRS as needed\n    nodes_gdf.to_file(node_shapefile)\n\n    # Prepare edges data\n    edges_data = []\n    for u, v, data in graph.edges(data=True):\n        line = LineString([graph.nodes[u]['geometry'], graph.nodes[v]['geometry']])\n        edges_data.append({'geometry': line, **data})\n\n    edges_gdf = gpd.GeoDataFrame(edges_data, geometry='geometry')\n    edges_gdf.set_crs(epsg=4326, inplace=True)  # Adjust CRS as needed\n    edges_gdf.to_file(edge_shapefile)\n\n# Example usage:\n# Create a directed graph\nG = nx.DiGraph()\nG.add_node(1, Wkt=\"POINT(0 0)\")  # Using Wkt\nG.add_node(2, Wkb=(1, 1))        # Using numeric tuple\nG.add_edge(1, 2)\n\n# Write the graph to shapefiles\nwrite_graph_to_shapefiles(G, 'nodes.shp', 'edges.shp')\n",
+                "functions": [
+                    [
+                        "Point",
+                        "shapely.geometry"
+                    ],
+                    [
+                        "LineString",
+                        "shapely.geometry"
+                    ],
+                    [
+                        "nodes",
+                        null
+                    ],
+                    [
+                        "isinstance",
+                        null
+                    ],
+                    [
+                        "len",
+                        null
+                    ],
+                    [
+                        "append",
+                        null
+                    ],
+                    [
+                        "GeoDataFrame",
+                        null
+                    ],
+                    [
+                        "set_crs",
+                        null
+                    ],
+                    [
+                        "to_file",
+                        null
+                    ],
+                    [
+                        "edges",
+                        null
+                    ],
+                    [
+                        "DiGraph",
+                        null
+                    ],
+                    [
+                        "add_node",
+                        null
+                    ],
+                    [
+                        "add_edge",
+                        null
+                    ],
+                    [
+                        "write_graph_to_shapefiles",
+                        "write_graph_to_shapefiles"
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Return the PageRank of the nodes in the graph. PageRank computes a ranking of the nodes in the graph G based on the structure of the incoming links. It was originally designed as an algorithm to rank web pages.",
+        "Function Name": "pagerank_numpy",
+        "Function Description": "Return the PageRank of the nodes in the graph. PageRank computes a ranking of the nodes in the graph G based on the structure of the incoming links. It was originally designed as an algorithm to rank web pages.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\n# Create a directed graph\nG = nx.DiGraph()\n\n# Add nodes and edges to the graph\nG.add_edges_from([(1, 2), (1, 3), (2, 3), (3, 1), (2, 4)])\n\n# Compute PageRank\npagerank = nx.pagerank(G)\n\n# Print PageRank of each node\nprint(pagerank)\n",
+                "functions": [
+                    [
+                        "DiGraph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "pagerank",
+                        null
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Return the PageRank of the nodes in the graph. PageRank computes a ranking of the nodes in the graph G based on the structure of the incoming links. It was originally designed as an algorithm to rank web pages.",
+        "Function Name": "pagerank_scipy",
+        "Function Description": "Return the PageRank of the nodes in the graph. PageRank computes a ranking of the nodes in the graph G based on the structure of the incoming links. It was originally designed as an algorithm to rank web pages.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\n# Create a directed graph\nG = nx.DiGraph()\n\n# Add edges to the graph (example edges)\nG.add_edges_from([(1, 2), (1, 3), (2, 3), (3, 1), (3, 4)])\n\n# Compute PageRank\npagerank = nx.pagerank(G)\n\n# Output the PageRank of the nodes\nprint(pagerank)\n",
+                "functions": [
+                    [
+                        "DiGraph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "pagerank",
+                        null
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Returns the graph edge list as a Pandas DataFrame.",
+        "Function Name": "to_pandas_edgelist",
+        "Function Description": "Returns the graph edge list as a Pandas DataFrame.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport pandas as pd\n\n# Create a sample graph\nG = nx.Graph()\nG.add_edges_from([(1, 2), (2, 3), (3, 4)])\n\n# Convert the edge list to a Pandas DataFrame\nedge_list_df = pd.DataFrame(G.edges(data=True), columns=['Source', 'Target', 'Attributes'])\n\n# Display the DataFrame\nprint(edge_list_df)\n",
+                "functions": [
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "DataFrame",
+                        null
+                    ],
+                    [
+                        "edges",
+                        null
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Returns data in JIT JSON format.",
+        "Function Name": "jit_data",
+        "Function Description": "Returns data in JIT JSON format.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport json\n\ndef graph_to_jit_json(graph):\n    data = {\n        \"nodes\": [{\"id\": node} for node in graph.nodes()],\n        \"edges\": [{\"source\": u, \"target\": v} for u, v in graph.edges()]\n    }\n    return json.dumps(data)\n\n# Example usage\nG = nx.Graph()\nG.add_edges_from([(1, 2), (1, 3), (2, 4)])\n\njit_json = graph_to_jit_json(G)\nprint(jit_json)\n",
+                "functions": [
+                    [
+                        "nodes",
+                        null
+                    ],
+                    [
+                        "edges",
+                        null
+                    ],
+                    [
+                        "dumps",
+                        null
+                    ],
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "graph_to_jit_json",
+                        "graph_to_jit_json"
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Read a graph from JIT JSON.",
+        "Function Name": "git_graph",
+        "Function Description": "Read a graph from JIT JSON.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport json\n\ndef read_graph_from_jit_json(file_path):\n    with open(file_path, 'r') as file:\n        data = json.load(file)\n    \n    G = nx.Graph()\n    \n    # Assuming the JIT JSON follows a specific format with nodes and edges\n    nodes = data.get('nodes', [])\n    edges = data.get('edges', [])\n    \n    for node in nodes:\n        G.add_node(node['id'], **node.get('attributes', {}))\n    \n    for edge in edges:\n        G.add_edge(edge['source'], edge['target'], **edge.get('attributes', {}))\n    \n    return G\n\n# Example usage\n# graph = read_graph_from_jit_json('path_to_jit_json_file.json')\n",
+                "functions": [
+                    [
+                        "open",
+                        null
+                    ],
+                    [
+                        "load",
+                        null
+                    ],
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "get",
+                        null
+                    ],
+                    [
+                        "add_node",
+                        null
+                    ],
+                    [
+                        "add_edge",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Consume the iterator entirely.",
+        "Function Name": "consume",
+        "Function Description": "Consume the iterator entirely.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\n# Create a sample graph\nG = nx.Graph()\nG.add_edges_from([(1, 2), (2, 3), (3, 4)])\n\n# Create an iterator for the edges of the graph\nedges_iterator = iter(G.edges())\n\n# Consume the iterator entirely\nedges_list = list(edges_iterator)\n\n# Print the consumed edges\nprint(edges_list)\n",
+                "functions": [
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "iter",
+                        null
+                    ],
+                    [
+                        "edges",
+                        null
+                    ],
+                    [
+                        "list",
+                        null
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Return True if obj is iterable with a well-defined len().",
+        "Function Name": "iterable",
+        "Function Description": "Return True if obj is iterable with a well-defined len().",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef is_iterable_with_length(obj):\n    return hasattr(obj, '__iter__') and hasattr(obj, '__len__')\n\n# Example usage\nprint(is_iterable_with_length([1, 2, 3]))  # True\nprint(is_iterable_with_length(\"Hello\"))     # True\nprint(is_iterable_with_length(42))           # False\nprint(is_iterable_with_length({'a': 1}))     # True\nprint(is_iterable_with_length(nx.Graph()))    # True\n",
+                "functions": [
+                    [
+                        "hasattr",
+                        null
+                    ],
+                    [
+                        "print",
+                        null
+                    ],
+                    [
+                        "is_iterable_with_length",
+                        "is_iterable_with_length"
+                    ],
+                    [
+                        "Graph",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Returns the performance of a partition. The performance of a partition is the ratio of the number of intra-community edges plus inter-community non-edges with the total number of potential edges.",
+        "Function Name": "performance",
+        "Function Description": "Returns the performance of a partition. The performance of a partition is the ratio of the number of intra-community edges plus inter-community non-edges with the total number of potential edges.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef partition_performance(G, partition):\n    \"\"\"\n    Calculate the performance of a partition of a graph.\n    \n    Parameters:\n    G (networkx.Graph): The input graph.\n    partition (dict): A dictionary where keys are community labels and values are lists of nodes in that community.\n    \n    Returns:\n    float: The performance ratio of the partition.\n    \"\"\"\n    intra_edges = 0\n    inter_non_edges = 0\n    total_possible_edges = 0\n    \n    # Count the intra-community edges\n    for community, nodes in partition.items():\n        # Count the edges among nodes in the same community\n        intra_edges += G.subgraph(nodes).number_of_edges()\n    \n    # Count the inter-community non-edges\n    community_nodes = list(partition.values())\n    for i in range(len(community_nodes)):\n        for j in range(i + 1, len(community_nodes)):\n            nodes_i = set(community_nodes[i])\n            nodes_j = set(community_nodes[j])\n            potential_edges = len(nodes_i) * len(nodes_j)\n            inter_non_edges += potential_edges - len(list(G.edges(nodes_i.intersection(nodes_j))))\n    \n    # Calculate the total number of potential edges in the graph\n    total_possible_edges = (G.number_of_nodes() * (G.number_of_nodes() - 1)) / 2\n    \n    # Calculate the performance\n    performance = (intra_edges + inter_non_edges) / total_possible_edges if total_possible_edges > 0 else 0\n    \n    return performance\n",
+                "functions": [
+                    [
+                        "items",
+                        null
+                    ],
+                    [
+                        "number_of_edges",
+                        null
+                    ],
+                    [
+                        "subgraph",
+                        null
+                    ],
+                    [
+                        "list",
+                        null
+                    ],
+                    [
+                        "values",
+                        null
+                    ],
+                    [
+                        "range",
+                        null
+                    ],
+                    [
+                        "len",
+                        null
+                    ],
+                    [
+                        "set",
+                        null
+                    ],
+                    [
+                        "edges",
+                        null
+                    ],
+                    [
+                        "intersection",
+                        null
+                    ],
+                    [
+                        "number_of_nodes",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Returns the coverage of a partition. The coverage of a partition is the ratio of the number of intra-community edges to the total number of edges in the graph.",
+        "Function Name": "coverage",
+        "Function Description": "Returns the coverage of a partition. The coverage of a partition is the ratio of the number of intra-community edges to the total number of edges in the graph.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef partition_coverage(graph, partition):\n    \"\"\"\n    Calculate the coverage of a partition in a graph.\n\n    Parameters:\n    graph (nx.Graph): The input graph.\n    partition (dict): A dictionary where keys are community IDs and values are lists of nodes in that community.\n\n    Returns:\n    float: The coverage ratio of intra-community edges to total edges.\n    \"\"\"\n    total_edges = graph.number_of_edges()\n    intra_community_edges = 0\n\n    for community in partition.values():\n        # Count edges within the community\n        intra_community_edges += graph.subgraph(community).number_of_edges()\n    \n    if total_edges == 0:\n        return 0.0  # Avoid division by zero if there are no edges in the graph\n    \n    coverage = intra_community_edges / total_edges\n    return coverage\n",
+                "functions": [
+                    [
+                        "number_of_edges",
+                        null
+                    ],
+                    [
+                        "values",
+                        null
+                    ],
+                    [
+                        "subgraph",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Generate a unique node label.",
+        "Function Name": "generate_unique_node",
+        "Function Description": "Generate a unique node label.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef generate_unique_node_label(graph):\n    existing_labels = set(graph.nodes())\n    new_label = 1\n    \n    while str(new_label) in existing_labels:\n        new_label += 1\n    \n    return str(new_label)\n\n# Example usage\nG = nx.Graph()\nG.add_nodes_from(['1', '2', '3'])\nunique_label = generate_unique_node_label(G)\nprint(f\"Unique node label: {unique_label}\")\n\n# Adding the unique label to the graph\nG.add_node(unique_label)\n",
+                "functions": [
+                    [
+                        "set",
+                        null
+                    ],
+                    [
+                        "nodes",
+                        null
+                    ],
+                    [
+                        "str",
+                        null
+                    ],
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_nodes_from",
+                        null
+                    ],
+                    [
+                        "generate_unique_node_label",
+                        "generate_unique_node_label"
+                    ],
+                    [
+                        "print",
+                        null
+                    ],
+                    [
+                        "add_node",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Create an empty Generator object",
+        "Function Name": "empty_generator",
+        "Function Description": "Create an empty Generator object",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\n# Create an empty Generator object\nG = nx.DiGraph()  # or use nx.Graph() for an undirected graph\n",
+                "functions": [
+                    [
+                        "DiGraph",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Opens filename using system\u2019s default program.",
+        "Function Name": "default_opener",
+        "Function Description": "Opens filename using system\u2019s default program.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport os\nimport platform\n\ndef open_file_with_default_program(filename):\n    # Check the operating system and open the file accordingly\n    if platform.system() == 'Windows':\n        os.startfile(filename)\n    elif platform.system() == 'Darwin':  # macOS\n        os.system(f'open \"{filename}\"')\n    else:  # Assume Linux or other UNIX-like OS\n        os.system(f'xdg-open \"{filename}\"')\n\n# Example usage\nfilename = 'example.txt'  # Replace with your filename\nopen_file_with_default_program(filename)\n",
+                "functions": [
+                    [
+                        "system",
+                        null
+                    ],
+                    [
+                        "startfile",
+                        null
+                    ],
+                    [
+                        "open_file_with_default_program",
+                        "open_file_with_default_program"
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Returns the HITS hub matrix.",
+        "Function Name": "hub_matrix",
+        "Function Description": "Returns the HITS hub matrix.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef compute_hits_hub_matrix(graph):\n    # Compute HITS scores\n    hubs, authorities = nx.hits(graph)\n    \n    # Create hub matrix as a DataFrame for better visualization\n    hub_matrix = nx.to_numpy_array(graph, nodelist=hubs.keys())\n    \n    return hub_matrix\n\n# Example usage:\nif __name__ == \"__main__\":\n    G = nx.DiGraph()\n    G.add_edges_from([(1, 2), (2, 3), (3, 1), (2, 4)])\n    \n    hub_matrix = compute_hits_hub_matrix(G)\n    print(hub_matrix)\n",
+                "functions": [
+                    [
+                        "hits",
+                        null
+                    ],
+                    [
+                        "to_numpy_array",
+                        null
+                    ],
+                    [
+                        "keys",
+                        null
+                    ],
+                    [
+                        "DiGraph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "compute_hits_hub_matrix",
+                        "compute_hits_hub_matrix"
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Return the HITS authority matrix.",
+        "Function Name": "authority_matrix",
+        "Function Description": "Return the HITS authority matrix.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef compute_hits_authority_matrix(graph):\n    # Compute HITS scores\n    hubs, authorities = nx.hits(graph)\n\n    # Create authority matrix\n    authority_matrix = {node: authorities[node] for node in graph.nodes()}\n    \n    return authority_matrix\n\n# Example usage:\nif __name__ == \"__main__\":\n    # Create a sample directed graph\n    G = nx.DiGraph()\n    G.add_edges_from([(1, 2), (2, 3), (3, 1), (2, 1)])\n\n    # Compute the authority matrix\n    authority_matrix = compute_hits_authority_matrix(G)\n    print(authority_matrix)\n",
+                "functions": [
+                    [
+                        "hits",
+                        null
+                    ],
+                    [
+                        "nodes",
+                        null
+                    ],
+                    [
+                        "DiGraph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "compute_hits_authority_matrix",
+                        "compute_hits_authority_matrix"
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Consistently ordered variants of the default base classes. The Ordered (Di/Multi/MultiDi) Graphs give a consistent order for reporting of nodes and edges. The order of node reporting agrees with node adding, but for edges, the order is not necessarily the order that the edges were added. The Ordered (Di/Multi/MultiDi) Graphs give a consistent order for reporting of nodes and edges. The order of node reporting agrees with node adding, but for edges, the order is not necessarily the order that the edges were added.",
+        "Function Name": "Ordered",
+        "Function Description": "Consistently ordered variants of the default base classes. The Ordered (Di/Multi/MultiDi) Graphs give a consistent order for reporting of nodes and edges. The order of node reporting agrees with node adding, but for edges, the order is not necessarily the order that the edges were added. The Ordered (Di/Multi/MultiDi) Graphs give a consistent order for reporting of nodes and edges. The order of node reporting agrees with node adding, but for edges, the order is not necessarily the order that the edges were added.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\n# Create an ordered directed graph\nclass OrderedDiGraph(nx.DiGraph):\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n\n    def edges(self, *args, **kwargs):\n        # Return the edges in a consistent order\n        return sorted(super().edges(*args, **kwargs), key=lambda x: (self.nodes[x[0]]['order'], self.nodes[x[1]]['order']))\n\n    def add_node(self, node, **attr):\n        if 'order' not in attr:\n            attr['order'] = len(self.nodes)  # Assign an order based on current node count\n        super().add_node(node, **attr)\n\n# Example usage\nif __name__ == \"__main__\":\n    G = OrderedDiGraph()\n    G.add_node(1)\n    G.add_node(2)\n    G.add_node(3)\n    \n    G.add_edge(1, 2)\n    G.add_edge(2, 3)\n    \n    print(\"Nodes:\", G.nodes(data=True))\n    print(\"Edges:\", G.edges())\n",
+                "functions": [
+                    [
+                        "DiGraph",
+                        null
+                    ],
+                    [
+                        "__init__",
+                        null
+                    ],
+                    [
+                        "super",
+                        null
+                    ],
+                    [
+                        "sorted",
+                        null
+                    ],
+                    [
+                        "edges",
+                        null
+                    ],
+                    [
+                        "nodes",
+                        null
+                    ],
+                    [
+                        "len",
+                        null
+                    ],
+                    [
+                        "add_node",
+                        null
+                    ],
+                    [
+                        "OrderedDiGraph",
+                        "OrderedDiGraph"
+                    ],
+                    [
+                        "add_edge",
+                        null
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Read and write NetworkX graphs in YAML format.",
+        "Function Name": "nx_yaml",
+        "Function Description": "Read and write NetworkX graphs in YAML format.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport yaml\n\ndef read_graph_from_yaml(file_path):\n    with open(file_path, 'r') as file:\n        data = yaml.safe_load(file)\n        G = nx.parse_yaml(data)\n    return G\n\ndef write_graph_to_yaml(G, file_path):\n    data = nx.to_yaml(G)\n    with open(file_path, 'w') as file:\n        yaml.dump(data, file)\n\n# Example usage\n# Create a sample graph\nG = nx.Graph()\nG.add_edges_from([(1, 2), (2, 3), (3, 4)])\n\n# Write the graph to a YAML file\nwrite_graph_to_yaml(G, 'graph.yaml')\n\n# Read the graph from the YAML file\nloaded_graph = read_graph_from_yaml('graph.yaml')\n",
+                "functions": [
+                    [
+                        "open",
+                        null
+                    ],
+                    [
+                        "safe_load",
+                        null
+                    ],
+                    [
+                        "parse_yaml",
+                        null
+                    ],
+                    [
+                        "to_yaml",
+                        null
+                    ],
+                    [
+                        "dump",
+                        null
+                    ],
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "write_graph_to_yaml",
+                        "write_graph_to_yaml"
+                    ],
+                    [
+                        "read_graph_from_yaml",
+                        "read_graph_from_yaml"
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Decorator to preserve the numpy.random state during a function.",
+        "Function Name": "preserve_random_state",
+        "Function Description": "Decorator to preserve the numpy.random state during a function.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport numpy as np\nfrom functools import wraps\n\ndef preserve_numpy_random_state(func):\n    @wraps(func)\n    def wrapper(*args, **kwargs):\n        # Preserve the random state\n        original_state = np.random.get_state()\n        try:\n            return func(*args, **kwargs)\n        finally:\n            # Restore the original state\n            np.random.set_state(original_state)\n    return wrapper\n\n@preserve_numpy_random_state\ndef generate_random_graph(n, p):\n    \"\"\"Generates a random graph using Erd\u0151s\u2013R\u00e9nyi model.\"\"\"\n    random_graph = nx.erdos_renyi_graph(n, p)\n    return random_graph\n\n# Example usage:\nrandom_graph = generate_random_graph(10, 0.5)\nprint(random_graph.edges())\n",
+                "functions": [
+                    [
+                        "wraps",
+                        "functools"
+                    ],
+                    [
+                        "get_state",
+                        null
+                    ],
+                    [
+                        "random",
+                        "np"
+                    ],
+                    [
+                        "func",
+                        "func"
+                    ],
+                    [
+                        "set_state",
+                        null
+                    ],
+                    [
+                        "erdos_renyi_graph",
+                        null
+                    ],
+                    [
+                        "generate_random_graph",
+                        "generate_random_graph"
+                    ],
+                    [
+                        "print",
+                        null
+                    ],
+                    [
+                        "edges",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Assert that two numbers (or two ordered sequences of numbers) are equal to each other within some tolerance.",
+        "Function Name": "almost_equal",
+        "Function Description": "Assert that two numbers (or two ordered sequences of numbers) are equal to each other within some tolerance.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport numpy as np\n\ndef assert_equal_with_tolerance(a, b, tolerance=1e-5):\n    \"\"\"\n    Assert that two numbers (or two ordered sequences of numbers) are equal\n    to each other within some tolerance.\n    \n    Parameters:\n    a (float or list of floats): First number or sequence.\n    b (float or list of floats): Second number or sequence.\n    tolerance (float): The maximum allowed difference to consider the values equal.\n    \n    Raises:\n    AssertionError: If the numbers or sequences are not equal within the specified tolerance.\n    \"\"\"\n    a = np.array(a)\n    b = np.array(b)\n    \n    if np.all(np.abs(a - b) <= tolerance):\n        print(\"Values are equal within the specified tolerance.\")\n    else:\n        raise AssertionError(f\"Values are not equal within the specified tolerance. \"\n                             f\"Difference: {np.abs(a - b)}\")\n\n# Example usage:\nassert_equal_with_tolerance([1.0, 2.0, 3.0], [1.0, 2.0, 3.0 + 1e-6])\n",
+                "functions": [
+                    [
+                        "array",
+                        null
+                    ],
+                    [
+                        "all",
+                        null
+                    ],
+                    [
+                        "abs",
+                        null
+                    ],
+                    [
+                        "print",
+                        null
+                    ],
+                    [
+                        "AssertionError",
+                        null
+                    ],
+                    [
+                        "assert_equal_with_tolerance",
+                        "assert_equal_with_tolerance"
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Return adjacency matrix of graph as a numpy matrix.",
+        "Function Name": "adj_matrix",
+        "Function Description": "Return adjacency matrix of graph as a numpy matrix.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport numpy as np\n\n# Create a graph (example: a simple undirected graph)\nG = nx.Graph()\nG.add_edges_from([(1, 2), (2, 3), (3, 1), (3, 4)])\n\n# Get the adjacency matrix as a NumPy matrix\nadjacency_matrix = nx.to_numpy_array(G)\n\nprint(adjacency_matrix)\n",
+                "functions": [
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "to_numpy_array",
+                        null
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Calculate SimRank of nodes in G using matrices with numpy.",
+        "Function Name": "simrank_similarity_numpy",
+        "Function Description": "Calculate SimRank of nodes in G using matrices with numpy.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport numpy as np\n\ndef compute_simrank(G, C=0.8, max_iter=100, tol=1e-6):\n    nodes = list(G.nodes())\n    n = len(nodes)\n    \n    # Initialize the similarity matrix\n    S = np.zeros((n, n))\n    \n    # Create a mapping from node to index\n    node_to_index = {node: i for i, node in enumerate(nodes)}\n    \n    # Pre-compute neighbors for each node\n    neighbors = {node: set(G.neighbors(node)) for node in nodes}\n    \n    for iteration in range(max_iter):\n        S_prev = S.copy()\n        \n        for i in range(n):\n            for j in range(n):\n                if i != j:\n                    sim = 0.0\n                    for neighbor_i in neighbors[nodes[i]]:\n                        for neighbor_j in neighbors[nodes[j]]:\n                            if neighbor_i in node_to_index and neighbor_j in node_to_index:\n                                sim += S_prev[node_to_index[neighbor_i], node_to_index[neighbor_j]]\n                    S[i, j] = (C / (len(neighbors[nodes[i]]) * len(neighbors[nodes[j]]))) * sim if len(neighbors[nodes[i]]) > 0 and len(neighbors[nodes[j]]) > 0 else 0\n        \n        # Check for convergence\n        if np.linalg.norm(S - S_prev) < tol:\n            break\n            \n    return S\n\n# Example usage\nG = nx.Graph()\nG.add_edges_from([(1, 2), (1, 3), (2, 4), (3, 4)])\n\nsimrank_matrix = compute_simrank(G)\nprint(simrank_matrix)\n",
+                "functions": [
+                    [
+                        "list",
+                        null
+                    ],
+                    [
+                        "nodes",
+                        null
+                    ],
+                    [
+                        "len",
+                        null
+                    ],
+                    [
+                        "zeros",
+                        null
+                    ],
+                    [
+                        "enumerate",
+                        null
+                    ],
+                    [
+                        "set",
+                        null
+                    ],
+                    [
+                        "neighbors",
+                        null
+                    ],
+                    [
+                        "range",
+                        null
+                    ],
+                    [
+                        "copy",
+                        null
+                    ],
+                    [
+                        "norm",
+                        null
+                    ],
+                    [
+                        "linalg",
+                        "np"
+                    ],
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "compute_simrank",
+                        "compute_simrank"
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Returns numeric mixing matrix for attribute.",
+        "Function Name": "numeric_mixing_matrix",
+        "Function Description": "Returns numeric mixing matrix for attribute.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport numpy as np\n\ndef mixing_matrix(G, attribute):\n    # Get the unique nodes based on the given attribute\n    attribute_values = nx.get_node_attributes(G, attribute)\n    unique_values = set(attribute_values.values())\n\n    # Create a mapping for nodes to their attribute values\n    value_to_nodes = {value: [] for value in unique_values}\n    for node, value in attribute_values.items():\n        value_to_nodes[value].append(node)\n\n    # Initialize the mixing matrix\n    size = len(unique_values)\n    mix_matrix = np.zeros((size, size))\n\n    # Create a mapping for unique values to matrix indices\n    value_to_index = {value: idx for idx, value in enumerate(unique_values)}\n\n    # Fill in the mixing matrix\n    for src_value, src_nodes in value_to_nodes.items():\n        for tgt_value, tgt_nodes in value_to_nodes.items():\n            count = sum(1 for u in src_nodes for v in tgt_nodes if G.has_edge(u, v))\n            mix_matrix[value_to_index[src_value], value_to_index[tgt_value]] = count\n\n    return mix_matrix\n\n# Example usage:\n# G = nx.Graph()\n# G.add_nodes_from([\n#     (1, {'attribute': 'A'}),\n#     (2, {'attribute': 'A'}),\n#     (3, {'attribute': 'B'}),\n#     (4, {'attribute': 'B'})\n# ])\n# G.add_edges_from([(1, 3), (2, 3), (1, 4)])\n# matrix = mixing_matrix(G, 'attribute')\n# print(matrix)\n",
+                "functions": [
+                    [
+                        "get_node_attributes",
+                        null
+                    ],
+                    [
+                        "set",
+                        null
+                    ],
+                    [
+                        "values",
+                        null
+                    ],
+                    [
+                        "items",
+                        null
+                    ],
+                    [
+                        "append",
+                        null
+                    ],
+                    [
+                        "len",
+                        null
+                    ],
+                    [
+                        "zeros",
+                        null
+                    ],
+                    [
+                        "enumerate",
+                        null
+                    ],
+                    [
+                        "sum",
+                        null
+                    ],
+                    [
+                        "has_edge",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Compute the average degree connectivity of graph. The average degree connectivity is the average nearest neighbor degree of nodes with degree k.",
+        "Function Name": "k_nearest_neighbors",
+        "Function Description": "Compute the average degree connectivity of graph. The average degree connectivity is the average nearest neighbor degree of nodes with degree k.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef average_degree_connectivity(graph):\n    degrees = dict(graph.degree())\n    avg_degree_connectivity = {}\n    \n    for k in set(degrees.values()):\n        neighbors = [n for n in degrees if degrees[n] == k]\n        if neighbors:\n            avg_conn = sum(degrees[n] for n in graph.neighbors(neighbors[0])) / len(neighbors)\n            avg_degree_connectivity[k] = avg_conn\n    \n    return avg_degree_connectivity\n\n# Example usage\nG = nx.erdos_renyi_graph(100, 0.05)\navg_deg_conn = average_degree_connectivity(G)\nprint(avg_deg_conn)\n",
+                "functions": [
+                    [
+                        "dict",
+                        null
+                    ],
+                    [
+                        "degree",
+                        null
+                    ],
+                    [
+                        "set",
+                        null
+                    ],
+                    [
+                        "values",
+                        null
+                    ],
+                    [
+                        "sum",
+                        null
+                    ],
+                    [
+                        "neighbors",
+                        null
+                    ],
+                    [
+                        "len",
+                        null
+                    ],
+                    [
+                        "erdos_renyi_graph",
+                        null
+                    ],
+                    [
+                        "average_degree_connectivity",
+                        "average_degree_connectivity"
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Return a dictionary of scaled positions keyed by node",
+        "Function Name": "rescale_layout_dict",
+        "Function Description": "Return a dictionary of scaled positions keyed by node",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef get_scaled_positions(graph, scale_factor=1.0):\n    # Get the original positions of the nodes\n    pos = nx.spring_layout(graph)  # Using the spring layout as an example\n\n    # Scale the positions\n    scaled_pos = {node: (x * scale_factor, y * scale_factor) for node, (x, y) in pos.items()}\n    \n    return scaled_pos\n\n# Example usage:\n# Create a sample graph\nG = nx.Graph()\nG.add_edges_from([(1, 2), (1, 3), (2, 4)])\n\n# Get scaled positions\nscaled_positions = get_scaled_positions(G, scale_factor=2.0)\nprint(scaled_positions)\n",
+                "functions": [
+                    [
+                        "spring_layout",
+                        null
+                    ],
+                    [
+                        "items",
+                        null
+                    ],
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "get_scaled_positions",
+                        "get_scaled_positions"
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Returns the Google matrix of the graph.",
+        "Function Name": "google_matrix",
+        "Function Description": "Returns the Google matrix of the graph.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport numpy as np\n\ndef google_matrix(G, alpha=0.85):\n    if not nx.is_connected(G):\n        raise ValueError(\"The graph must be strongly connected to compute the Google matrix.\")\n    \n    n = len(G)\n    A = nx.adjacency_matrix(G).todense()\n    rows, cols = A.shape\n\n    # Create the transition matrix\n    D = np.array(A.sum(axis=1)).flatten()\n    M = A / D[:, None]\n    \n    # Handle dangling nodes (nodes with no outgoing links)\n    for i in range(rows):\n        if D[i] == 0:\n            M[i] = np.ones(cols) / n  # Distribute uniformly\n    \n    # Construct the Google matrix\n    G_matrix = alpha * M + (1 - alpha) * (np.ones((n, n)) / n)\n    \n    return G_matrix\n\n# Example usage\nG = nx.DiGraph()\nG.add_edges_from([(0, 1), (1, 2), (2, 0), (1, 3)])\ngoogle_mat = google_matrix(G)\nprint(google_mat)\n",
+                "functions": [
+                    [
+                        "is_connected",
+                        null
+                    ],
+                    [
+                        "ValueError",
+                        null
+                    ],
+                    [
+                        "len",
+                        null
+                    ],
+                    [
+                        "todense",
+                        null
+                    ],
+                    [
+                        "adjacency_matrix",
+                        null
+                    ],
+                    [
+                        "shape",
+                        null
+                    ],
+                    [
+                        "flatten",
+                        null
+                    ],
+                    [
+                        "array",
+                        null
+                    ],
+                    [
+                        "sum",
+                        null
+                    ],
+                    [
+                        "range",
+                        null
+                    ],
+                    [
+                        "ones",
+                        null
+                    ],
+                    [
+                        "DiGraph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "google_matrix",
+                        "google_matrix"
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": [
+            "google_matrix"
+        ]
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Returns the attribute matrix using attributes from G as a numpy array.If only G is passed in, then the adjacency matrix is constructed.",
+        "Function Name": "attr_matrix",
+        "Function Description": "Returns the attribute matrix using attributes from G as a numpy array.If only G is passed in, then the adjacency matrix is constructed.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport numpy as np\n\ndef attribute_matrix(G, include_attributes=True):\n    if include_attributes and G.number_of_nodes() > 0:\n        attribute_data = np.array([list(G.nodes[node].values()) for node in G.nodes()])\n        return attribute_data\n    else:\n        return nx.to_numpy_array(G)\n",
+                "functions": [
+                    [
+                        "number_of_nodes",
+                        null
+                    ],
+                    [
+                        "array",
+                        null
+                    ],
+                    [
+                        "list",
+                        "np"
+                    ],
+                    [
+                        "values",
+                        null
+                    ],
+                    [
+                        "nodes",
+                        null
+                    ],
+                    [
+                        "to_numpy_array",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Decorator to generate a numpy.random.RandomState instance.",
+        "Function Name": "random_state",
+        "Function Description": "Decorator to generate a numpy.random.RandomState instance.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport numpy as np\nfrom functools import wraps\n\ndef random_state_decorator(func):\n    @wraps(func)\n    def wrapper(*args, **kwargs):\n        # Create an instance of RandomState\n        random_state = np.random.RandomState()\n        # Pass the random_state to the decorated function\n        return func(random_state, *args, **kwargs)\n    return wrapper\n\n@random_state_decorator\ndef generate_graph(random_state, n_nodes):\n    # Generate a random graph using the given random state\n    G = nx.gnp_random_graph(n_nodes, random_state.uniform(0.1, 0.5))\n    return G\n\n# Example usage\ngraph = generate_graph(10)  # Generate a random graph with 10 nodes\n",
+                "functions": [
+                    [
+                        "wraps",
+                        "functools"
+                    ],
+                    [
+                        "RandomState",
+                        null
+                    ],
+                    [
+                        "random",
+                        "np"
+                    ],
+                    [
+                        "func",
+                        "func"
+                    ],
+                    [
+                        "gnp_random_graph",
+                        null
+                    ],
+                    [
+                        "uniform",
+                        null
+                    ],
+                    [
+                        "generate_graph",
+                        "generate_graph"
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Return the graph adjacency matrix as a SciPy sparse matrix.",
+        "Function Name": "to_scipy_sparse_matrix",
+        "Function Description": "Return the graph adjacency matrix as a SciPy sparse matrix.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nfrom scipy.sparse import csr_matrix\n\n# Create a sample graph\nG = nx.Graph()\nG.add_edges_from([(1, 2), (1, 3), (2, 4)])\n\n# Convert to adjacency matrix as a SciPy sparse matrix\nadjacency_matrix = nx.to_scipy_sparse_matrix(G, format='csr')\n\n# If you want to see the adjacency matrix\nprint(adjacency_matrix)\n",
+                "functions": [
+                    [
+                        "csr_matrix",
+                        "scipy.sparse"
+                    ],
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "to_scipy_sparse_matrix",
+                        null
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": [
+            "to_scipy_sparse_matrix"
+        ]
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Return a graph from scipy sparse matrix adjacency list.",
+        "Function Name": "from_scipy_sparse_matrix",
+        "Function Description": "Return a graph from scipy sparse matrix adjacency list.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport scipy.sparse as sp\n\ndef graph_from_sparse_matrix(sparse_matrix):\n    # Convert the sparse matrix to a NetworkX graph\n    graph = nx.from_scipy_sparse_matrix(sparse_matrix)\n    return graph\n",
+                "functions": [
+                    [
+                        "from_scipy_sparse_matrix",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": [
+            "from_scipy_sparse_matrix"
+        ]
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Return the small graph described by graph_description.",
+        "Function Name": "make_small_graph",
+        "Function Description": "Return the small graph described by graph_description.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef create_graph(graph_description):\n    # Create an empty graph\n    G = nx.Graph()\n    \n    # Add nodes and edges based on the description\n    for node in graph_description['nodes']:\n        G.add_node(node)\n    \n    for edge in graph_description['edges']:\n        G.add_edge(edge[0], edge[1])\n    \n    return G\n\n# Example usage:\ngraph_description = {\n    'nodes': [1, 2, 3],\n    'edges': [(1, 2), (2, 3), (1, 3)]\n}\n\nsmall_graph = create_graph(graph_description)\n",
+                "functions": [
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_node",
+                        null
+                    ],
+                    [
+                        "add_edge",
+                        null
+                    ],
+                    [
+                        "create_graph",
+                        "create_graph"
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Return a small undirected graph described by graph_description.",
+        "Function Name": "make_small_undirected_graph",
+        "Function Description": "Return a small undirected graph described by graph_description.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef create_graph(graph_description):\n    G = nx.Graph()\n    \n    # Add edges based on the graph description\n    for edge in graph_description:\n        G.add_edge(edge[0], edge[1])\n    \n    return G\n\n# Example usage\ngraph_description = [(1, 2), (2, 3), (1, 3)]\nG = create_graph(graph_description)\n\n# To visualize the graph (optional)\nimport matplotlib.pyplot as plt\n\nnx.draw(G, with_labels=True)\nplt.show()\n",
+                "functions": [
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_edge",
+                        null
+                    ],
+                    [
+                        "create_graph",
+                        "create_graph"
+                    ],
+                    [
+                        "draw",
+                        null
+                    ],
+                    [
+                        "show",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Return the graph adjacency matrix as a NumPy recarray.",
+        "Function Name": "to_numpy_recarray",
+        "Function Description": "Return the graph adjacency matrix as a NumPy recarray.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport numpy as np\n\ndef adjacency_matrix_as_recarray(graph):\n    # Get the adjacency matrix as a NumPy array\n    adj_matrix = nx.to_numpy_array(graph)\n    # Convert it to a NumPy recarray\n    recarray = np.rec.array(adj_matrix)\n    return recarray\n\n# Example usage:\nG = nx.Graph()\nG.add_edges_from([(1, 2), (1, 3), (2, 3)])\nadjacency_recarray = adjacency_matrix_as_recarray(G)\nprint(adjacency_recarray)\n",
+                "functions": [
+                    [
+                        "to_numpy_array",
+                        null
+                    ],
+                    [
+                        "array",
+                        null
+                    ],
+                    [
+                        "rec",
+                        "np"
+                    ],
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "adjacency_matrix_as_recarray",
+                        "adjacency_matrix_as_recarray"
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Print short summary of information for the graph G or the node n.",
+        "Function Name": "info",
+        "Function Description": "Print short summary of information for the graph G or the node n.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef print_graph_summary(G):\n    # Print general information about the graph G\n    print(\"Graph Summary:\")\n    print(\"Number of nodes:\", G.number_of_nodes())\n    print(\"Number of edges:\", G.number_of_edges())\n    print(\"Nodes:\", list(G.nodes()))\n    print(\"Edges:\", list(G.edges()))\n\ndef print_node_summary(G, n):\n    if n in G:\n        # Print information about a specific node n\n        print(f\"Node {n} Summary:\")\n        print(\"Degree:\", G.degree[n])\n        print(\"Neighbors:\", list(G.neighbors(n)))\n    else:\n        print(f\"Node {n} is not in the graph.\")\n\n# Example usage\nif __name__ == \"__main__\":\n    G = nx.Graph()\n    G.add_edges_from([(1, 2), (1, 3), (2, 3), (3, 4)])\n    \n    print_graph_summary(G)\n    print_node_summary(G, 1)\n",
+                "functions": [
+                    [
+                        "print",
+                        null
+                    ],
+                    [
+                        "number_of_nodes",
+                        null
+                    ],
+                    [
+                        "number_of_edges",
+                        null
+                    ],
+                    [
+                        "list",
+                        null
+                    ],
+                    [
+                        "nodes",
+                        null
+                    ],
+                    [
+                        "edges",
+                        null
+                    ],
+                    [
+                        "degree",
+                        null
+                    ],
+                    [
+                        "neighbors",
+                        null
+                    ],
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "print_graph_summary",
+                        "print_graph_summary"
+                    ],
+                    [
+                        "print_node_summary",
+                        "print_node_summary"
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Computing a minimum-weight maximal matching of G.",
+        "Function Name": "min_weight_matching",
+        "Function Description": "Computing a minimum-weight maximal matching of G.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\n# Create a new graph\nG = nx.Graph()\n\n# Add edges along with their weights\nG.add_edges_from([\n    (1, 2, {'weight': 3}),\n    (1, 3, {'weight': 1}),\n    (2, 3, {'weight': 2}),\n    (2, 4, {'weight': 5}),\n    (3, 4, {'weight': 4}),\n])\n\n# Compute minimum-weight maximal matching\nmatching = nx.algorithms.matching.min_weight_matching(G, maxcardinality=True)\n\n# Print the matching\nprint(\"Minimum-weight maximal matching:\", matching)\n",
+                "functions": [
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "min_weight_matching",
+                        null
+                    ],
+                    [
+                        "algorithms",
+                        "Module"
+                    ],
+                    [
+                        "matching",
+                        null
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": [
+            "min_weight_matching"
+        ]
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Find communities in G using greedy modularity maximization.",
+        "Function Name": "greedy_modularity_communities",
+        "Function Description": "Find communities in G using greedy modularity maximization.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\n# Create a graph (example)\nG = nx.erdos_renyi_graph(n=100, p=0.05)\n\n# Find communities using greedy modularity maximization\ncommunities = nx.algorithms.community.greedy_modularity_communities(G)\n\n# Convert communities from generator to list\ncommunity_list = [list(community) for community in communities]\n\n# Output the communities\nprint(community_list)\n",
+                "functions": [
+                    [
+                        "erdos_renyi_graph",
+                        null
+                    ],
+                    [
+                        "greedy_modularity_communities",
+                        null
+                    ],
+                    [
+                        "algorithms",
+                        "Module"
+                    ],
+                    [
+                        "community",
+                        null
+                    ],
+                    [
+                        "list",
+                        null
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": [
+            "greedy_modularity_communities"
+        ]
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Compute requested extreme distance metric of undirected graph G",
+        "Function Name": "extrema_bounding",
+        "Function Description": "Compute requested extreme distance metric of undirected graph G",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef extreme_distance_metric(G):\n    # Calculate the all pairs shortest path lengths\n    shortest_path_lengths = dict(nx.all_pairs_shortest_path_length(G))\n    \n    extreme_distances = []\n    \n    for node, lengths in shortest_path_lengths.items():\n        max_distance = max(lengths.values())  # maximum distance from this node\n        min_distance = min(lengths.values())  # minimum distance from this node\n        extreme_distances.append((node, max_distance, min_distance))\n    \n    return extreme_distances\n\n# Example of how to use the function\nif __name__ == \"__main__\":\n    G = nx.Graph()\n    # Add edges for an example graph\n    G.add_edges_from([(1, 2), (1, 3), (2, 4), (3, 4), (4, 5)])\n    \n    result = extreme_distance_metric(G)\n    print(result)\n",
+                "functions": [
+                    [
+                        "dict",
+                        null
+                    ],
+                    [
+                        "all_pairs_shortest_path_length",
+                        null
+                    ],
+                    [
+                        "items",
+                        null
+                    ],
+                    [
+                        "max",
+                        null
+                    ],
+                    [
+                        "values",
+                        null
+                    ],
+                    [
+                        "min",
+                        null
+                    ],
+                    [
+                        "append",
+                        null
+                    ],
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "extreme_distance_metric",
+                        "extreme_distance_metric"
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Convert a dictionary of numbers to a 1d numpy array with optional mapping.",
+        "Function Name": "dict_to_numpy_array1",
+        "Function Description": "Convert a dictionary of numbers to a 1d numpy array with optional mapping.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport numpy as np\n\ndef dict_to_numpy_array(input_dict, key_mapping=None):\n    \"\"\"\n    Convert a dictionary of numbers to a 1D numpy array with optional mapping.\n\n    Parameters:\n    input_dict (dict): A dictionary with numeric values.\n    key_mapping (dict, optional): A dictionary used to map keys from the input_dict to new keys. \n\n    Returns:\n    np.ndarray: A 1D numpy array of values.\n    \"\"\"\n    if key_mapping:\n        input_dict = {key_mapping.get(k, k): v for k, v in input_dict.items()}\n    \n    return np.array(list(input_dict.values()))\n\n# Example usage\ninput_dict = {'a': 1, 'b': 2, 'c': 3}\nkey_mapping = {'a': 'x', 'b': 'y'}  # Optional mapping\nresult = dict_to_numpy_array(input_dict, key_mapping)\nprint(result)  # Output: [1 2 3]\n",
+                "functions": [
+                    [
+                        "get",
+                        null
+                    ],
+                    [
+                        "items",
+                        null
+                    ],
+                    [
+                        "array",
+                        null
+                    ],
+                    [
+                        "list",
+                        "np"
+                    ],
+                    [
+                        "values",
+                        null
+                    ],
+                    [
+                        "dict_to_numpy_array",
+                        "dict_to_numpy_array"
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Convert a dictionary of dictionaries to a 2d numpy array with optional mapping.",
+        "Function Name": "dict_to_numpy_array2",
+        "Function Description": "Convert a dictionary of dictionaries to a 2d numpy array with optional mapping.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\nimport numpy as np\n\ndef dict_to_2d_array(data_dict, mapping=None):\n    # Create a directed graph from the dictionary\n    G = nx.DiGraph(data_dict)\n\n    # Get the nodes in the order as per the mapping if provided\n    if mapping:\n        nodes = mapping\n    else:\n        nodes = list(G.nodes())\n\n    # Initialize a 2D numpy array\n    array_size = len(nodes)\n    array = np.zeros((array_size, array_size))\n\n    # Fill the numpy array with the weights from the dictionary\n    for i, node_i in enumerate(nodes):\n        for j, node_j in enumerate(nodes):\n            if G.has_edge(node_i, node_j):\n                array[i, j] = G[node_i][node_j].get('weight', 1)  # Default weight is 1\n\n    return array\n",
+                "functions": [
+                    [
+                        "DiGraph",
+                        null
+                    ],
+                    [
+                        "list",
+                        null
+                    ],
+                    [
+                        "nodes",
+                        null
+                    ],
+                    [
+                        "len",
+                        null
+                    ],
+                    [
+                        "zeros",
+                        null
+                    ],
+                    [
+                        "enumerate",
+                        null
+                    ],
+                    [
+                        "has_edge",
+                        null
+                    ],
+                    [
+                        "get",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Compute the shortest path lengths to target from all reachable nodes.",
+        "Function Name": "single_target_shortest_path_length",
+        "Function Description": "Compute the shortest path lengths to target from all reachable nodes.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\ndef shortest_path_lengths(graph, target_node):\n    # Compute shortest path lengths from all reachable nodes to the target node\n    path_lengths = nx.single_source_shortest_path_length(graph.reverse(), target_node)\n    return path_lengths\n\n# Example usage:\nif __name__ == \"__main__\":\n    G = nx.DiGraph()\n    G.add_edges_from([(1, 2), (1, 3), (2, 4), (3, 4), (4, 5)])\n    target = 5\n    lengths = shortest_path_lengths(G, target)\n    print(lengths)\n",
+                "functions": [
+                    [
+                        "single_source_shortest_path_length",
+                        null
+                    ],
+                    [
+                        "reverse",
+                        null
+                    ],
+                    [
+                        "DiGraph",
+                        null
+                    ],
+                    [
+                        "add_edges_from",
+                        null
+                    ],
+                    [
+                        "shortest_path_lengths",
+                        "shortest_path_lengths"
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    },
+    {
+        "Package": "networkx",
+        "Instruction": "Compute shortest paths in the graph.",
+        "Function Name": "shortest_path",
+        "Function Description": "Compute shortest paths in the graph.",
+        "Solutions": {
+            "Solution1": {
+                "code": "import networkx as nx\n\n# Create a graph\nG = nx.Graph()\n\n# Add edges and weights to the graph\nG.add_edge('A', 'B', weight=1)\nG.add_edge('A', 'C', weight=4)\nG.add_edge('B', 'C', weight=2)\nG.add_edge('B', 'D', weight=5)\nG.add_edge('C', 'D', weight=1)\n\n# Compute shortest paths from a source node\nsource_node = 'A'\nshortest_paths = nx.single_source_dijkstra_path(G, source_node)\n\n# Display the shortest paths from the source node to all other nodes\nfor target_node, path in shortest_paths.items():\n    print(f\"Shortest path from {source_node} to {target_node}: {path}\")\n",
+                "functions": [
+                    [
+                        "Graph",
+                        null
+                    ],
+                    [
+                        "add_edge",
+                        null
+                    ],
+                    [
+                        "single_source_dijkstra_path",
+                        null
+                    ],
+                    [
+                        "items",
+                        null
+                    ],
+                    [
+                        "print",
+                        null
+                    ]
+                ]
+            }
+        },
+        "banned_functions": []
+    }
+]

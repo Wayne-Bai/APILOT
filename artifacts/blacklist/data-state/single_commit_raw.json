@@ -1,0 +1,322 @@
+{
+    "RepoInfo": {
+        "name": "networkx",
+        "description": "Network Analysis in Python",
+        "language": "Python",
+        "stars": 13408,
+        "forks": 3110,
+        "url": "https://github.com/networkx/networkx"
+    },
+    "CommitsInfo": [
+        {
+            "Commit SHA": "cc846a15d48adad8f25a792d9a2849b9b84421fe",
+            "Author": "Sandeep Murthy",
+            "Date": "2020-08-29 08:54:24",
+            "Message": "Update `algorithms/minors.py` - make `equivalence_classes` a public method",
+            "FileChanges": [
+                {
+                    "File": "networkx/algorithms/minors.py",
+                    "Changes": [
+                        "-__all__ = [\"contracted_edge\", \"contracted_nodes\", \"identified_nodes\", \"quotient_graph\"]",
+                        "+__all__ = [",
+                        "+    \"contracted_edge\",",
+                        "+    \"contracted_nodes\",",
+                        "+    \"equivalence_classes\",",
+                        "+    \"identified_nodes\",",
+                        "+    \"quotient_graph\"",
+                        "+]"
+                    ]
+                }
+            ]
+        },
+        {
+            "Commit SHA": "939488a46fd753af0bde95673759366a126cc2c4",
+            "Author": "Sandeep Murthy",
+            "Date": "2020-08-30 09:54:57",
+            "Message": "Update `algorithms/minors.py` (update docstring for `equivalence_classes`) + add `equivalence_relation` to module doc source",
+            "FileChanges": [
+                {
+                    "File": "doc/reference/algorithms/minors.rst",
+                    "Changes": [
+                        "+   equivalence_relation"
+                    ]
+                },
+                {
+                    "File": "networkx/algorithms/minors.py",
+                    "Changes": [
+                        "-    \"\"\"Returns the set of equivalence classes of the given `iterable` under",
+                        "-    the specified equivalence relation.",
+                        "+    \"\"\"Returns the set of equivalence classes, or blocks, of the equivalence",
+                        "+    relation `relation` when applied to the elements of `iterable`.",
+                        "-    `relation` must be a Boolean-valued function that takes two argument. It",
+                        "-    must represent an equivalence relation (that is, the relation induced by",
+                        "-    the function must be reflexive, symmetric, and transitive).",
+                        "+    Parameters",
+                        "+    ----------",
+                        "+    iterable : list, tuple, or set",
+                        "+        An iterable of elements/nodes.",
+                        "+",
+                        "+    relation : function",
+                        "+        A Boolean-valued function that implements an equivalence relation",
+                        "+        (reflexive, symmetric, transitive binary relation) on the elements",
+                        "+        of `iterable` - it must take two elements and return `True` if",
+                        "+        they are related, or `False` if not.",
+                        "+",
+                        "+    Returns",
+                        "+    -------",
+                        "+    set of frozensets",
+                        "+        A set of frozensets representing the partition induced by the equivalence",
+                        "+        relation function `relation` on the elements of `iterable`. Each",
+                        "+        member set in the return set represents an equivalence class, or",
+                        "+        block, of the partition.",
+                        "-    The return value is a set of sets. It is a partition of the elements of",
+                        "-    `iterable`; duplicate elements will be ignored so it makes the most sense",
+                        "-    for `iterable` to be a :class:`set`.",
+                        "+        Duplicate elements will be ignored so it makes the most sense for",
+                        "+        `iterable` to be a :class:`set`.",
+                        "+    Examples",
+                        "+    --------",
+                        "+    Let `X` be the ring of integers from `0` to `9`, modulo 3, and consider",
+                        "+    an equivalence relation `R` on `X` of congruence modulo 3: this means that",
+                        "+    two integers `x` and `y` in `X` are equivalent under `R` if they leave the",
+                        "+    same remainder when divided by `3`, i.e.::",
+                        "+",
+                        "+        (x - y) mod 3 = 0",
+                        "+",
+                        "+    The equivalence classes of this relation are `{0, 3, 6, 9}`, `{1, 4, 7}`,",
+                        "+    `{2, 5, 8}`: `0`, `3`, `6`, `9` are all divisible by `3` so leave a zero",
+                        "+    remainder; `1`, `4`, `7` all leave a remainder of `1`; while `2`, `5`",
+                        "+    and `8` all leave the remainder `2`. We can see this by calling",
+                        "+    `equivalence_classes` with `iterable` as X and `relation` as a function",
+                        "+    implementation of `R`.",
+                        "+",
+                        "+        >>> def mod3(x, y): return (x - y) % 3 == 0",
+                        "+        >>> X = set(range(10))",
+                        "+        >>> equivalence_classes(X, mod3)",
+                        "+        >>> {frozenset({1, 4, 7}), frozenset({2, 5, 8}), frozenset({0, 3, 6, 9})",
+                        "+",
+                        "+    In this example, the only possible remainders of division modulo `3` are",
+                        "+    `0`, `1`, `2`, and therefore the blocks of the relation can actually be",
+                        "+    identified with certain elements in the blocks: namely, `{0, 3, 6, 9}` can",
+                        "+    be identified with `0`, as all these integers are congruent to `0` modulo",
+                        "+    `3`; `{1, 4, 7}` can be identified with `1`, as all these integers are",
+                        "+    congruent to `1` modulo `3`; `{2, 5, 8}` can be identified with `2`, as",
+                        "+    all these integers are congruent to `2` modulo `3`. The set of block",
+                        "+    labels `{0, 1, 2}` is also a finite ring modulo `3`."
+                    ]
+                }
+            ]
+        },
+        {
+            "Commit SHA": "0a19ac83fa90ec83db020a701819c4b002b65ded",
+            "Author": "Sandeep Murthy",
+            "Date": "2020-08-30 10:25:10",
+            "Message": "Update `algorithms/minors.py` - tweak `quotient_graph` to accept partitions as dicts keyed by block labels and block lists/tuples/sets as values",
+            "FileChanges": [
+                {
+                    "File": "networkx/algorithms/minors.py",
+                    "Changes": [
+                        "-    partition : function or list of sets",
+                        "+    partition : function, or dict or list of lists, tuples or sets",
+                        "+        If a dict of lists/tuples/sets, the keys can be any meaningful",
+                        "+        block labels, but the values must be the block lists/tuples/sets",
+                        "+        (one list/tuple/set per block), and the blocks must form a valid",
+                        "+        partition of the nodes of the graph. That is, each node must be",
+                        "+        in exactly one block of the partition.",
+                        "+",
+                        "+    Here is the sample example but using partition as a dict of block sets.",
+                        "+",
+                        "+        >>> G = nx.path_graph(6)",
+                        "+        >>> partition = {0: {0, 1}, 2: {2, 3}, 4: {4, 5}}",
+                        "+        >>> M = nx.quotient_graph(G, partition, relabel=True)",
+                        "+        >>> list(M.edges())",
+                        "+        [(0, 1), (1, 2)]",
+                        "+",
+                        "-    # If the user provided an equivalence relation as a function compute",
+                        "+    # If the user provided an equivalence relation as a function to compute",
+                        "+    # If the partition is a dict, it is assumed to be one where the keys are",
+                        "+    # user-defined block labels, and values are block lists, i.e. lists of",
+                        "+    # graph nodes related under the graph equivalence relation",
+                        "+    if isinstance(partition, dict):",
+                        "+        partition = [block for block in partition.values()]",
+                        "+"
+                    ]
+                }
+            ]
+        },
+        {
+            "Commit SHA": "4f3a9bfc28f390fd9c43220e59510203bba51b5b",
+            "Author": "Sandeep Murthy",
+            "Date": "2020-08-31 08:26:40",
+            "Message": "Fix `equivalence_classes` docstring in `algorithms/minors.py`",
+            "FileChanges": [
+                {
+                    "File": "networkx/algorithms/minors.py",
+                    "Changes": [
+                        "-    Let `X` be the ring of integers from `0` to `9`, modulo 3, and consider",
+                        "-    an equivalence relation `R` on `X` of congruence modulo 3: this means that",
+                        "-    two integers `x` and `y` in `X` are equivalent under `R` if they leave the",
+                        "-    same remainder when divided by `3`, i.e.::",
+                        "-",
+                        "-        (x - y) mod 3 = 0",
+                        "+    Let `X` be the set of integers from `0` to `9`, and consider an equivalence",
+                        "+    relation `R` on `X` of congruence modulo `3`: this means that two integers",
+                        "+    `x` and `y` in `X` are equivalent under `R` if they leave the same",
+                        "+    remainder when divided by `3`, i.e. `(x - y) mod 3 = 0`.",
+                        "-    `{2, 5, 8}`: `0`, `3`, `6`, `9` are all divisible by `3` so leave a zero",
+                        "-    remainder; `1`, `4`, `7` all leave a remainder of `1`; while `2`, `5`",
+                        "-    and `8` all leave the remainder `2`. We can see this by calling",
+                        "-    `equivalence_classes` with `iterable` as X and `relation` as a function",
+                        "-    implementation of `R`.",
+                        "+    `{2, 5, 8}`: `0`, `3`, `6`, `9` are all divisible by `3` and leave zero",
+                        "+    remainder; `1`, `4`, `7` leave remainder `1`; while `2`, `5` and `8` leave",
+                        "+    remainder `2`. We can see this by calling `equivalence_classes` with",
+                        "+    with `X` and a function implementation of `R`.::",
+                        "-        >>> def mod3(x, y): return (x - y) % 3 == 0",
+                        "-        >>> equivalence_classes(X, mod3)",
+                        "-        >>> {frozenset({1, 4, 7}), frozenset({2, 5, 8}), frozenset({0, 3, 6, 9})",
+                        "-",
+                        "-    In this example, the only possible remainders of division modulo `3` are",
+                        "-    `0`, `1`, `2`, and therefore the blocks of the relation can actually be",
+                        "-    identified with certain elements in the blocks: namely, `{0, 3, 6, 9}` can",
+                        "-    be identified with `0`, as all these integers are congruent to `0` modulo",
+                        "-    `3`; `{1, 4, 7}` can be identified with `1`, as all these integers are",
+                        "-    congruent to `1` modulo `3`; `{2, 5, 8}` can be identified with `2`, as",
+                        "-    all these integers are congruent to `2` modulo `3`. The set of block",
+                        "-    labels `{0, 1, 2}` is also a finite ring modulo `3`.",
+                        "+        >>> def mod3(x, y): return (x - y) % 3 == 0",
+                        "+        >>> equivalence_classes(X, mod3)    # doctest: +SKIP",
+                        "+        {frozenset({1, 4, 7}), frozenset({2, 5, 8}), frozenset({0, 3, 6, 9})} # doctest: +SKIP",
+                        "+",
+                        "+    ::"
+                    ]
+                }
+            ]
+        },
+        {
+            "Commit SHA": "23d828c9d044005bb38bd03e499718827184a977",
+            "Author": "Sandeep Murthy",
+            "Date": "2020-08-31 09:06:50",
+            "Message": "Update `quotient_graph` docstring in `algorithms/minors.py`",
+            "FileChanges": [
+                {
+                    "File": "networkx/algorithms/minors.py",
+                    "Changes": [
+                        "+    Partitions can be represented in various ways:",
+                        "+    ::",
+                        "+",
+                        "+        (0) a list/tuple/set of block lists/tuples/sets",
+                        "+        (1) a dict with block labels as keys and blocks lists/tuples/sets as values",
+                        "+        (2) a dict with block lists/tuples/sets as keys and block labels as values",
+                        "+        (3) a function from nodes in the original iterable to block labels",
+                        "+        (4) an equivalence relation function on the target iterable",
+                        "+",
+                        "+    As `quotient_graph` is designed to accept partitions represented as (0), (1) or",
+                        "+    (4) only, the `equivalence_classes` function can be used to get the partitions",
+                        "+    in the right form, in order to call `quotient_graph`.",
+                        "+",
+                        "-    # user-defined block labels, and values are block lists, i.e. lists of",
+                        "-    # graph nodes related under the graph equivalence relation",
+                        "+    # user-defined block labels, and values are block lists, tuples or sets."
+                    ]
+                }
+            ]
+        },
+        {
+            "Commit SHA": "2528bf729490d5eff76c6f68948fc0b7514fc6b0",
+            "Author": "Sandeep Murthy",
+            "Date": "2020-09-01 05:34:49",
+            "Message": "Docstring tweaks in `algorithms/minors.py`",
+            "FileChanges": [
+                {
+                    "File": "doc/reference/algorithms/minors.rst",
+                    "Changes": [
+                        "-   equivalence_relation",
+                        "+   equivalence_classes"
+                    ]
+                },
+                {
+                    "File": "networkx/algorithms/minors.py",
+                    "Changes": [
+                        "-    \"\"\"Returns the set of equivalence classes, or blocks, of the equivalence",
+                        "-    relation `relation` when applied to the elements of `iterable`.",
+                        "+    \"\"\"Returns equivalence classes of `iterable` given by `relation`.",
+                        "+",
+                        "+    The equivalence classes, or blocks, consist of objects from `iterable`",
+                        "+    which are all equivalent. They are defined to be equivalent if the",
+                        "+    `relation` function returns `True` when passed any two objects from that",
+                        "+    class, and `False` otherwise. To define an equivalence relation the",
+                        "+    function must be reflexive, symmetric and transitive.",
+                        "-        {frozenset({1, 4, 7}), frozenset({2, 5, 8}), frozenset({0, 3, 6, 9})} # doctest: +SKIP",
+                        "+        {frozenset({1, 4, 7}), frozenset({8, 2, 5}), frozenset({0, 9, 3, 6})} # doctest: +SKIP"
+                    ]
+                }
+            ]
+        },
+        {
+            "Commit SHA": "bcd523b8a889183ff3373cbb031ad54ae1d9fa62",
+            "Author": "Sandeep Murthy",
+            "Date": "2020-09-01 17:45:43",
+            "Message": "Tweak `equivalence_classes` docstring in `algorithms/minors.py` + update tests",
+            "FileChanges": [
+                {
+                    "File": "networkx/algorithms/minors.py",
+                    "Changes": [
+                        "-    \"\"\"Returns equivalence classes of `iterable` given by `relation`.",
+                        "+    \"\"\"Returns equivalence classes of `relation` when applied to `iterable`."
+                    ]
+                },
+                {
+                    "File": "networkx/algorithms/tests/test_minors.py",
+                    "Changes": [
+                        "+    def test_path__partition_provided_as_dict_of_lists(self):",
+                        "+        G = nx.path_graph(6)",
+                        "+        partition = {",
+                        "+            0: [0, 1],",
+                        "+            2: [2, 3],",
+                        "+            4: [4, 5]",
+                        "+        }",
+                        "+        M = nx.quotient_graph(G, partition, relabel=True)",
+                        "+        assert_nodes_equal(M, [0, 1, 2])",
+                        "+        assert_edges_equal(M.edges(), [(0, 1), (1, 2)])",
+                        "+        for n in M:",
+                        "+            assert M.nodes[n][\"nedges\"] == 1",
+                        "+            assert M.nodes[n][\"nnodes\"] == 2",
+                        "+            assert M.nodes[n][\"density\"] == 1",
+                        "+",
+                        "+    def test_path__partition_provided_as_dict_of_tuples(self):",
+                        "+        G = nx.path_graph(6)",
+                        "+        partition = {",
+                        "+            0: (0, 1),",
+                        "+            2: (2, 3),",
+                        "+            4: (4, 5)",
+                        "+        }",
+                        "+        M = nx.quotient_graph(G, partition, relabel=True)",
+                        "+        assert_nodes_equal(M, [0, 1, 2])",
+                        "+        assert_edges_equal(M.edges(), [(0, 1), (1, 2)])",
+                        "+        for n in M:",
+                        "+            assert M.nodes[n][\"nedges\"] == 1",
+                        "+            assert M.nodes[n][\"nnodes\"] == 2",
+                        "+            assert M.nodes[n][\"density\"] == 1",
+                        "+",
+                        "+    def test_path__partition_provided_as_dict_of_sets(self):",
+                        "+        G = nx.path_graph(6)",
+                        "+        partition = {",
+                        "+            0: {0, 1},",
+                        "+            2: {2, 3},",
+                        "+            4: {4, 5}",
+                        "+        }",
+                        "+        M = nx.quotient_graph(G, partition, relabel=True)",
+                        "+        assert_nodes_equal(M, [0, 1, 2])",
+                        "+        assert_edges_equal(M.edges(), [(0, 1), (1, 2)])",
+                        "+        for n in M:",
+                        "+            assert M.nodes[n][\"nedges\"] == 1",
+                        "+            assert M.nodes[n][\"nnodes\"] == 2",
+                        "+            assert M.nodes[n][\"density\"] == 1",
+                        "+"
+                    ]
+                }
+            ]
+        }
+    ]
+}

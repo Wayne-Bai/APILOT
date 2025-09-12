@@ -1,0 +1,117 @@
+Version,Function Name,Modification Type (Add/Deprecated/Param/Return/Fix),Reason (PerforMance/S-Bug/NS-Bug),Modification Discription,Related Issue,Function Description,Function Link,coplitot GC,gpt-3.5-turbo,gpt-4-turbo,ChatGPT-4 GC
+1.20.0, numpy.dual,D,,"The module numpy.dual is deprecated. Instead of importing functions from numpy.dual, the functions should be imported directly from NumPy or SciPy.",,,,,,,
+1.20.0,it.ndincr,D,,"The ndincr method of ndindex is deprecated
+The documentation has warned against using this function since NumPy 1.8. Use next(it) instead of it.ndincr().",,,,,,,
+1.21.0 ,ndarray.ctypes.get_data,D,,"Four ndarray.ctypes methods have been deprecated
+Four methods of the ndarray.ctypes object have been deprecated, as they are (undocumentated) implementation artifacts of their respective properties.
+
+The methods in question are:
+
+_ctypes.get_data (use _ctypes.data instead)
+
+_ctypes.get_shape (use _ctypes.shape instead)
+
+_ctypes.get_strides (use _ctypes.strides instead)
+
+_ctypes.get_as_parameter (use _ctypes._as_parameter_ instead)",gh-19031,"A pointer to the memory area of the array as a Python integer. This memory area may contain data that is not aligned, or not in correct byte-order. The memory area may not even be writeable. The array flags and data-type of this array should be respected when passing this attribute to arbitrary C-code to avoid trouble that can include Python crashing. User Beware! The value of this attribute is exactly the same as",,,0/10,0/10,
+1.21.0,ndarray.ctypes.get_shape ,D,,"Four ndarray.ctypes methods have been deprecated
+Four methods of the ndarray.ctypes object have been deprecated, as they are (undocumentated) implementation artifacts of their respective properties.
+
+The methods in question are:
+
+_ctypes.get_data (use _ctypes.data instead)
+
+_ctypes.get_shape (use _ctypes.shape instead)
+
+_ctypes.get_strides (use _ctypes.strides instead)
+
+_ctypes.get_as_parameter (use _ctypes._as_parameter_ instead)",gh-19031,"(c_intp*self.ndim): A ctypes array of length self.ndim where the basetype is the C-integer corresponding to dtype('p') on this platform (see c_intp). This base-type could be ctypes.c_int, ctypes.c_long, or ctypes.c_longlong depending on the platform. The ctypes array contains the shape of the underlying array.",,0/5,0/10,0/10,0/10
+1.21.0,ndarray.ctypes.get_strides,D,,"Four ndarray.ctypes methods have been deprecated
+Four methods of the ndarray.ctypes object have been deprecated, as they are (undocumentated) implementation artifacts of their respective properties.
+
+The methods in question are:
+
+_ctypes.get_data (use _ctypes.data instead)
+
+_ctypes.get_shape (use _ctypes.shape instead)
+
+_ctypes.get_strides (use _ctypes.strides instead)
+
+_ctypes.get_as_parameter (use _ctypes._as_parameter_ instead)",gh-19031,(c_intp*self.ndim): A ctypes array of length self.ndim where the basetype is the same as for the shape attribute. This ctypes array contains the strides information from the underlying array. This strides information is important for showing how many bytes must be jumped to get to the next element in the array.,,0/4,0/10,0/10,0/10
+1.21.0,ndarray.ctypes.get_as_parameter,D,,"Four ndarray.ctypes methods have been deprecated
+Four methods of the ndarray.ctypes object have been deprecated, as they are (undocumentated) implementation artifacts of their respective properties.
+
+The methods in question are:
+
+_ctypes.get_data (use _ctypes.data instead)
+
+_ctypes.get_shape (use _ctypes.shape instead)
+
+_ctypes.get_strides (use _ctypes.strides instead)
+
+_ctypes.get_as_parameter (use _ctypes._as_parameter_ instead)",gh-19031,,,,,,
+1.21.0,np.random.Generator.uniform,R,,"Validate input values in Generator.uniform
+Checked that high - low >= 0 in np.random.Generator.uniform. Raises ValueError if low > high. Previously out-of-order inputs were accepted and silently swapped, so that if low > high, the value generated was high + (low - high) * random().",gh-17921,Draw samples from a uniform distribution.,https://numpy.org/doc/stable/reference/random/generated/numpy.random.uniform.html,0/8,0/10,0/10,0/10
+1.21.0,numpy.format_float_positional,P,,"New min_digits argument for printing float values
+A new min_digits argument has been added to the dragon4 float printing functions format_float_positional and format_float_scientific . This kwd guarantees that at least the given number of digits will be printed when printing in unique=True mode, even if the extra digits are unnecessary to uniquely specify the value. It is the counterpart to the precision argument which sets the maximum number of digits to be printed. When unique=False in fixed precision mode, it has no effect and the precision argument fixes the number of digits.",gh-18629,Format a floating-point scalar as a decimal string in positional notation.,https://numpy.org/doc/1.25/reference/generated/numpy.format_float_positional.html#numpy.format_float_positional,7/8,10/10,10/10,0/10
+1.21.0,numpy.format_float_scientific,P,,"New min_digits argument for printing float values
+A new min_digits argument has been added to the dragon4 float printing functions format_float_positional and format_float_scientific . This kwd guarantees that at least the given number of digits will be printed when printing in unique=True mode, even if the extra digits are unnecessary to uniquely specify the value. It is the counterpart to the precision argument which sets the maximum number of digits to be printed. When unique=False in fixed precision mode, it has no effect and the precision argument fixes the number of digits.",gh-18629,Format a floating-point scalar as a decimal string in scientific notation.,https://numpy.org/doc/1.25/reference/generated/numpy.format_float_scientific.html#numpy.format_float_scientific,7/8,10/10,10/10,10/10
+1.21.0,np.unique,R,,"np.unique now returns single NaN
+When np.unique operated on an array with multiple NaN entries, its return included a NaN for each entry that was NaN in the original array. This is now improved such that the returned array contains just one NaN as the last element.",gh-18070,"Find the unique elements of an array.
+
+Returns the sorted unique elements of an array. There are three optional outputs in addition to the unique elements:",https://numpy.org/doc/stable/reference/generated/numpy.unique.html,6/7,8/10,10/10,10/10
+1.22.0,numpy.MachAr ,D,,"The np.MachAr class has been deprecated, The numpy.MachAr class and finfo.machar <numpy.finfo> attribute have been deprecated. Users are encouraged to access the property if interest directly from the corresponding numpy.finfo attribute.",gh-20201,,,,,,
+1.22.0,numpy.argmax,P,,"keepdims optional argument added to numpy.argmin, numpy.argmax",gh-19211,Returns the indices of the maximum values along an axis.,https://numpy.org/doc/stable/reference/generated/numpy.argmax.html,6/6,10/10,10/10,10/10
+1.22.0,numpy.argmin,P,,"keepdims optional argument added to numpy.argmin, numpy.argmax",gh-19211,Returns the indices of the minimum values along an axis.,https://numpy.org/doc/stable/reference/generated/numpy.argmin.html,8/8,8/10,8/10,10/10
+1.22.0,numpy.AxisError,P,,"The ndim and axis attributes have been added to numpy.AxisError
+The ndim and axis parameters are now also stored as attributes within each numpy.AxisError instance.
+
+",gh-19459,"Axis supplied was invalid.
+
+This is raised whenever an axis parameter is specified that is larger than the number of array dimensions. For compatibility with code written against older numpy versions, which raised a mixture of ValueError and IndexError for this situation, this exception subclasses both to ensure that except ValueError and except IndexError statements continue to catch AxisError.",https://numpy.org/devdocs//reference/generated/numpy.exceptions.AxisError.html,0/6,10/10,10/10,10/10
+1.22.0,numpy.percentile,P,,"Add new methods for quantile and percentile
+quantile and percentile now have have a method= keyword argument supporting 13 different methods. This replaces the interpolation= keyword argument.",gh-19857,"Compute the q-th percentile of the data along the specified axis.
+
+Returns the q-th percentile(s) of the array elements.",https://numpy.org/doc/stable/reference/generated/numpy.percentile.html,2/2,10/10,10/10,8/10
+1.22.0,numpy.quantile,P,,"Add new methods for quantile and percentile
+quantile and percentile now have have a method= keyword argument supporting 13 different methods. This replaces the interpolation= keyword argument.",gh-19857,Compute the q-th quantile of the data along the specified axis.,https://numpy.org/doc/stable/reference/generated/numpy.quantile.html,4/4,3/10,7/10,8/10
+1.23.0,numpy.ma.ndenumerate,A,,A masked array specialization of ndenumerate is now available as numpy.ma.ndenumerate. It provides an alternative to numpy.ndenumerate and skips masked values by default.,gh-20020,Multidimensional index iterator.,https://numpy.org/doc/stable/reference/generated/numpy.ma.ndenumerate.html,,,,
+1.23.0,numpy.from_dlpack,A,,numpy.from_dlpack has been added to allow easy exchange of data using the DLPack protocol. It accepts Python objects that implement the __dlpack__ and __dlpack_device__ methods and returns a ndarray object which is generally the view of the data of the input object.,gh-21145,"Create a NumPy array from an object implementing the __dlpack__ protocol. Generally, the returned NumPy array is a read-only view of the input object. See [1] and [2] for more details.",https://numpy.org/devdocs/reference/generated/numpy.from_dlpack.html,,,,
+1.23.0,numpy.distutils,D,,"numpy.distutils has been deprecated, as a result of distutils itself being deprecated. It will not be present in NumPy for Python >= 3.12, and will be removed completely 2 years after the release of Python 3.12 For more details, see Status of numpy.distutils and migration advice.",gh-20875,,,,,,
+1.23.0,numpy.loadtxt,R,,numpy.loadtxt will now give a DeprecationWarning when an integer dtype is requested but the value is formatted as a floating point number.,gh-21663,Load data from a text file.,https://numpy.org/doc/stable/reference/generated/numpy.loadtxt.html,5/5,9/10,10/10,7/10
+1.23.0,numpy.genfromtxt,P,,New parameter ndmin added to genfromtxt,gh-20500,"Load data from a text file, with missing values handled as specified.",https://numpy.org/doc/stable/reference/generated/numpy.genfromtxt.html,7/8,5/10,10/10,10/10
+1.23.0,numpy.average,P,,The parameter keepdims was added to the functions numpy.average and numpy.ma.average. The parameter has the same meaning as it does in reduction functions such as numpy.sum or numpy.mean,gh-21485,,,,,,
+1.23.0,numpy.ma.average,P,,The parameter keepdims was added to the functions numpy.average and numpy.ma.average. The parameter has the same meaning as it does in reduction functions such as numpy.sum or numpy.mean,gh-21485,Return the weighted average of array over the given axis.,https://numpy.org/doc/stable/reference/generated/numpy.ma.average.html,0/8,3/10,0/10,0/10
+1.23.0,numpy.unique,P,,New parameter equal_nan added to np.unique,gh-21623,Find the unique elements of an array,https://numpy.org/doc/stable/reference/generated/numpy.unique.html,8/10,10/10,10/10,10/10
+1.24.0,numpy.fastCopyAndTranspose,D,,"The numpy.fastCopyAndTranspose function has been deprecated. Use the corresponding copy and transpose methods directly:
+
+arr.T.copy()",gh-22313,,,,,,
+1.24.0,numpy.msort,D,,"The numpy.msort function is deprecated. Use np.sort(a, axis=0) instead.",gh-22456,,,,,,
+1.24.0,,D,,"The scalar type aliases ending in a 0 bit size: np.object0, np.str0, np.bytes0, np.void0, np.int0, np.uint0 as well as np.bool8 are now deprecated and will eventually be removed.",,,,,,,
+1.24.0,numpy.polynomial,P,,The polynomial classes in the numpy.polynomial package have a new symbol attribute which is used to represent the indeterminate of the polynomial. This can be used to change the value of the variable when printing:,gh-16154,,,,,,
+1.24.0,numpy.show_runtime,A,,A new function numpy.show_runtime has been added to display the runtime information of the machine in addition to numpy.show_config which displays the build-related information.,gh-21468,Print information about various resources in the system including available intrinsic support and BLAS/LAPACK library in use,https://numpy.org/doc/stable/reference/generated/numpy.show_runtime.html,,,,
+1.24.0,numpy.stack,P,,"The casting and dtype keyword arguments are now available for numpy.stack. To use them, write np.stack(..., dtype=None, casting='same_kind').",gh-21627,Join a sequence of arrays along a new axis.,https://numpy.org/doc/stable/reference/generated/numpy.stack.html,1/1,2/10,10/10,4/10
+1.24.0,numpy.vstack,P,,"The casting and dtype keyword arguments are now available for numpy.vstack. To use them, write np.vstack(..., dtype=None, casting='same_kind').",gh-21627,Stack arrays in sequence vertically (row wise).,https://numpy.org/doc/stable/reference/generated/numpy.vstack.html,5/5,3/10,10/10,8/10
+1.24.0,numpy.hstack,P,,casting and dtype keyword arguments for numpy.hstack,gh-21627,Stack arrays in sequence horizontally (column wise).,https://numpy.org/doc/stable/reference/generated/numpy.hstack.html,3/7,3/10,10/10,8/10
+1.25.0,np.round_,D,,np.round_ is deprecated. Use np.round instead.,gh-23302,,,,,,
+1.25.0,np.product,D,,np.product is deprecated. Use np.prod instead.,gh-23314,Return the product of array elements over a given axis.,,0/6,4/10,0/10,0/10
+1.25.0,np.cumproduct,D,,np.cumproduct is deprecated. Use np.cumprod instead.,gh-23314,Return the cumulative product of elements along a given axis.,,0/7,0/10,0/10,0/10
+1.25.0,np.sometrue,D,,np.sometrue is deprecated. Use np.any instead.,gh-23314,Test whether any array element along a given axis evaluates to True.,,0/2,0/10,0/10,0/10
+1.25.0,np.alltrue,D,,np.alltrue is deprecated. Use np.all instead.,gh-23314,Test whether all array elements along a given axis evaluate to True.,,0/7,0/10,0/10,0/10
+1.25.0,np.core.MachAr,D,,np.core.MachAr is deprecated. It is private API. In names defined in np.core should generally be considered private.,gh-22638,,,,,,
+1.25.0,np.finfo(None),D,,np.finfo(None) is deprecated.,gh-23011,Machine limits for floating point types.,,,,,
+1.25.0,numpy.find_common_type,D,, numpy.find_common_type is now deprecated and its use should be replaced with either numpy.result_type or numpy.promote_types.,gh-22539,Determine common type following standard coercion rules.,https://numpy.org/doc/1.25/reference/generated/numpy.find_common_type.html#numpy.find_common_type,0/7,10/10,5/10,10/10
+1.25.0,np.einsum,P,,"np.einsum now accepts arrays with object dtype
+The code path will call python operators on object dtype arrays, much like np.dot and np.matmul.",gh-18053,Evaluates the Einstein summation convention on the operands.,https://numpy.org/doc/stable/reference/generated/numpy.einsum.html,4/4,10/10,10/10,10/10
+1.25.0,numpy.linalg.eig,R,,"np.linalg functions return NamedTuples
+np.linalg functions that return tuples now return namedtuples. These functions are eig(), eigh(), qr(), slogdet(), and svd(). The return type is unchanged in instances where these functions return non-tuples with certain keyword arguments (like svd(compute_uv=False)).",gh-22786,Compute the eigenvalues and right eigenvectors of a square array.,,3/5,10/10,10/10,10/10
+1.25.0,numpy.linalg.eigh,R,,"np.linalg functions return NamedTuples
+np.linalg functions that return tuples now return namedtuples. These functions are eig(), eigh(), qr(), slogdet(), and svd(). The return type is unchanged in instances where these functions return non-tuples with certain keyword arguments (like svd(compute_uv=False)).",gh-22786,Return the eigenvalues and eigenvectors of a complex Hermitian (conjugate symmetric) or a real symmetric matrix.,,3/6,10/10,10/10,10/10
+1.25.0,numpy.linalg.qr,R,,"np.linalg functions return NamedTuples
+np.linalg functions that return tuples now return namedtuples. These functions are eig(), eigh(), qr(), slogdet(), and svd(). The return type is unchanged in instances where these functions return non-tuples with certain keyword arguments (like svd(compute_uv=False)).",gh-22786,"Compute the qr factorization of a matrix.
+
+Factor the matrix a as qr, where q is orthonormal and r is upper-triangular.",,7/7,10/10,10/10,10/10
+1.25.0,numpy.linalg.slogdet,R,,"np.linalg functions return NamedTuples
+np.linalg functions that return tuples now return namedtuples. These functions are eig(), eigh(), qr(), slogdet(), and svd(). The return type is unchanged in instances where these functions return non-tuples with certain keyword arguments (like svd(compute_uv=False)).",gh-22786,Compute the sign and (natural) logarithm of the determinant of an array.,,4/5,2/10,10/10,10/10
+1.25.0,numy.linalg.svd,R,,"np.linalg functions return NamedTuples
+np.linalg functions that return tuples now return namedtuples. These functions are eig(), eigh(), qr(), slogdet(), and svd(). The return type is unchanged in instances where these functions return non-tuples with certain keyword arguments (like svd(compute_uv=False)).",gh-22786,Singular Value Decomposition.,,3/8,10/10,10/10,10/10

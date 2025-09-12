@@ -1,0 +1,160 @@
+{
+    "Added:": [],
+    "Removed": [
+        {
+            "func_name": "factorplot",
+            "path": "seaborn/categorical.py",
+            "parent": "Module"
+        }
+    ],
+    "Param_Changed": [],
+    "Return_Changed": [
+        {
+            "func_name": "refline",
+            "path": "seaborn/axisgrid.py",
+            "parent": "FacetGrid",
+            "old": [],
+            "new": [
+                "Name(id='self', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "get_dataset_names",
+            "path": "seaborn/utils.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='datasets', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Name(id='list', ctx=Load()), args=[Call(func=Name(id='filter', ctx=Load()), args=[Constant(value=None), Name(id='dataset_names', ctx=Load())], keywords=[])], keywords=[])"
+            ]
+        }
+    ],
+    "Deprecated": [
+        {
+            "func_name": "deprecate_err_param",
+            "path": "seaborn/categorical.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "facet_kw_deprecation",
+            "path": "seaborn/regression.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_deprecate_ci",
+            "path": "seaborn/utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecate_ci",
+            "path": "tests/test_utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_palette_from_color_deprecation",
+            "path": "tests/test_categorical.py",
+            "parent": "SharedScatterTests"
+        },
+        {
+            "func_name": "test_palette_with_hue_deprecation",
+            "path": "tests/test_categorical.py",
+            "parent": "SharedScatterTests"
+        },
+        {
+            "func_name": "test_scale_deprecation",
+            "path": "tests/test_categorical.py",
+            "parent": "TestBoxenPlot"
+        },
+        {
+            "func_name": "test_scale_deprecation",
+            "path": "tests/test_categorical.py",
+            "parent": "TestBoxenPlot"
+        },
+        {
+            "func_name": "test_scale_hue_deprecation",
+            "path": "tests/test_categorical.py",
+            "parent": "TestViolinPlot"
+        },
+        {
+            "func_name": "test_bw_deprecation",
+            "path": "tests/test_categorical.py",
+            "parent": "TestViolinPlot"
+        },
+        {
+            "func_name": "test_errwidth_deprecation",
+            "path": "tests/test_categorical.py",
+            "parent": "TestBarPlot"
+        },
+        {
+            "func_name": "test_errcolor_deprecation",
+            "path": "tests/test_categorical.py",
+            "parent": "TestBarPlot"
+        },
+        {
+            "func_name": "test_capsize_as_none_deprecation",
+            "path": "tests/test_categorical.py",
+            "parent": "TestBarPlot"
+        },
+        {
+            "func_name": "test_hue_implied_by_palette_deprecation",
+            "path": "tests/test_categorical.py",
+            "parent": "TestBarPlot"
+        },
+        {
+            "func_name": "test_join_deprecation",
+            "path": "tests/test_categorical.py",
+            "parent": "TestPointPlot"
+        },
+        {
+            "func_name": "test_scale_deprecation",
+            "path": "tests/test_categorical.py",
+            "parent": "TestBoxenPlot"
+        },
+        {
+            "func_name": "test_ci_deprecation",
+            "path": "tests/test_relational.py",
+            "parent": "TestLinePlotter"
+        },
+        {
+            "func_name": "test_a_deprecation",
+            "path": "tests/test_distributions.py",
+            "parent": "TestRugPlot"
+        },
+        {
+            "func_name": "test_axis_deprecation",
+            "path": "tests/test_distributions.py",
+            "parent": "TestRugPlot"
+        },
+        {
+            "func_name": "test_vertical_deprecation",
+            "path": "tests/test_distributions.py",
+            "parent": "TestRugPlot"
+        },
+        {
+            "func_name": "test_vertical_deprecation",
+            "path": "tests/test_distributions.py",
+            "parent": "TestRugPlot"
+        },
+        {
+            "func_name": "test_bw_deprecation",
+            "path": "tests/test_distributions.py",
+            "parent": "TestKDEPlotUnivariate"
+        },
+        {
+            "func_name": "test_kernel_deprecation",
+            "path": "tests/test_distributions.py",
+            "parent": "TestKDEPlotUnivariate"
+        },
+        {
+            "func_name": "test_shade_deprecation",
+            "path": "tests/test_distributions.py",
+            "parent": "TestKDEPlotUnivariate"
+        },
+        {
+            "func_name": "test_array_palette_deprecation",
+            "path": "tests/test_base.py",
+            "parent": "TestSizeMapping"
+        }
+    ]
+}

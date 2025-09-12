@@ -1,0 +1,4240 @@
+{
+    "Added:": [
+        {
+            "func_name": "pa_version_under16p0",
+            "path": "pandas/compat/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "mean",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "_raise_invalid_indexer",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "AbstractMethodError",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "grouped_min_max",
+            "path": "pandas/core/_numba/kernels/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "comp_method_OBJECT_ARRAY",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_scalar",
+            "path": "pandas/core/dtypes/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "TD64NS_DTYPE",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "DatetimeIndexResamplerGroupby",
+            "path": "pandas/api/typing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "TimedeltaIndexResamplerGroupby",
+            "path": "pandas/api/typing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "invalid_comparison",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "assert_categorical_equal",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_timedelta64_ns_dtype",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "DataFrame",
+            "path": "pandas/api/interchange/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "maybe_produces_warning",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "wide_to_long",
+            "path": "pandas/core/reshape/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ENDIAN",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "pa_version_under14p0",
+            "path": "pandas/compat/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "read_sql_table",
+            "path": "pandas/io/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "AttributeConflictWarning",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "NARROW_NP_DTYPES",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__invert__",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "read_sql",
+            "path": "pandas/io/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "kleene_or",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "HolidayCalendarFactory",
+            "path": "pandas/tseries/holiday.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "truediv",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "sunday_to_monday",
+            "path": "pandas/tseries/holiday.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "FloatAttrArray",
+            "path": "pandas/tests/extension/array_with_attr/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "period_range",
+            "path": "pandas/core/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "with_csv_dialect",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ARITHMETIC_BINOPS",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "logical_op",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "BusinessMonthEnd",
+            "path": "pandas/tseries/offsets.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "box_expected",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_all_strings",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Appender",
+            "path": "pandas/util/_decorators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "assert_timedelta_array_equal",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "factorize",
+            "path": "pandas/core/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "rsub",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "maybe_sequence_to_range",
+            "path": "pandas/core/indexes/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_dataclass",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "IS64",
+            "path": "pandas/compat/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "round_trip_pathlib",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_sparse",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "io",
+            "path": "pandas/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "to_pickle",
+            "path": "pandas/io/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "rdiv",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "assert_class_equal",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "grouped_sum",
+            "path": "pandas/core/_numba/kernels/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "UInt32Dtype",
+            "path": "pandas/core/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ParserWarning",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecate_nonkeyword_arguments",
+            "path": "pandas/util/_decorators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "FLOAT_EA_DTYPES",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "MO",
+            "path": "pandas/tseries/holiday.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "get_supported_dtype",
+            "path": "pandas/_libs/tslibs/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_float",
+            "path": "pandas/core/dtypes/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_string_or_object_np_dtype",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "qcut",
+            "path": "pandas/core/reshape/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "infer_objects",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "is_re_compilable",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "classes",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_difference_compat",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "get_op_from_name",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "CustomBusinessMonthBegin",
+            "path": "pandas/tseries/offsets.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_interval_dtype",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "cumprod",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "INT64_DTYPE",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "make_flex_doc",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "JsonReader",
+            "path": "pandas/api/typing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "get_dtype",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "rename_axis",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "is_hashable",
+            "path": "pandas/core/dtypes/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "assert_equal",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "DATETIME64_DTYPES",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "rfloordiv",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "lreshape",
+            "path": "pandas/core/reshape/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "decompress_file",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "prod",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "PeriodIndexResamplerGroupby",
+            "path": "pandas/api/typing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "assert_almost_equal",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "IntIndex",
+            "path": "pandas/core/arrays/sparse/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_iterator",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "future_version_msg",
+            "path": "pandas/util/_decorators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "StataReader",
+            "path": "pandas/api/typing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "stata",
+            "path": "pandas/io/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "UndefinedVariableError",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "TU",
+            "path": "pandas/tseries/holiday.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "var",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "OptionError",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_timedelta64_dtype",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "rtruediv",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "safe_sort_index",
+            "path": "pandas/core/indexes/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "errors",
+            "path": "pandas/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SparseFrameAccessor",
+            "path": "pandas/core/arrays/sparse/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "UNSIGNED_INT_EA_DTYPES",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "doc",
+            "path": "pandas/util/_decorators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "extensions",
+            "path": "pandas/api/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Int16Dtype",
+            "path": "pandas/core/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "PY311",
+            "path": "pandas/compat/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "HDFStore",
+            "path": "pandas/io/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "pa_version_under10p1",
+            "path": "pandas/compat/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "NA",
+            "path": "pandas/core/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_dtype_equal",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "median",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "kleene_xor",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_ea_or_datetimelike_dtype",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "UInt16Dtype",
+            "path": "pandas/core/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "WE",
+            "path": "pandas/tseries/holiday.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "cummax",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "deprecate",
+            "path": "pandas/util/_decorators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "mod",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "formats",
+            "path": "pandas/io/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "setitem",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "StringDtype",
+            "path": "pandas/core/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "sliding_var",
+            "path": "pandas/core/_numba/kernels/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "le",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "Substitution",
+            "path": "pandas/util/_decorators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "kleene_and",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "PerformanceWarning",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_scipy_sparse",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "read_html",
+            "path": "pandas/io/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "next_workday",
+            "path": "pandas/tseries/holiday.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Resampler",
+            "path": "pandas/api/typing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "BusinessMonthBegin",
+            "path": "pandas/tseries/offsets.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "UNSIGNED_INT_NUMPY_DTYPES",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "shares_memory",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "merge",
+            "path": "pandas/core/reshape/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "rxor",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_string_dtype",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "grouped_var",
+            "path": "pandas/core/_numba/kernels/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_complex",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "DateDtype",
+            "path": "pandas/tests/extension/date/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "DateArray",
+            "path": "pandas/tests/extension/date/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "read_spss",
+            "path": "pandas/io/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ALL_NUMPY_DTYPES",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ArrowExtensionArray",
+            "path": "pandas/arrays/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "divmod",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "InvalidColumnName",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SIGNED_INT_EA_DTYPES",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "to_timedelta",
+            "path": "pandas/core/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ExponentialMovingWindowGroupby",
+            "path": "pandas/api/typing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "PY312",
+            "path": "pandas/compat/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "read_feather",
+            "path": "pandas/io/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "StructAccessor",
+            "path": "pandas/core/arrays/arrow/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "sub",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "PYPY",
+            "path": "pandas/compat/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "get_dummies",
+            "path": "pandas/core/reshape/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_float_dtype",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "FloatAttrDtype",
+            "path": "pandas/tests/extension/array_with_attr/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "rand_",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "to_numeric",
+            "path": "pandas/core/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "PyperclipException",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "cut",
+            "path": "pandas/core/reshape/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "validate_all_hashable",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ChainedAssignmentError",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_superperiod",
+            "path": "pandas/tseries/frequencies.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_get_level_names",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "NoBufferPresent",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ensure_python_int",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SIGNED_INT_NUMPY_DTYPES",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "rdivmod",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Expanding",
+            "path": "pandas/api/typing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "fill_binop",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__array_ufunc__",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "assert_is_sorted",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "cummin",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "plotting",
+            "path": "pandas/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "UInt64Dtype",
+            "path": "pandas/core/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "read_sas",
+            "path": "pandas/io/sas/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "assert_datetime_array_equal",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Float32Dtype",
+            "path": "pandas/core/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "NumExprClobberingError",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_engine_type",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "UnsupportedFunctionCall",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "BooleanDtype",
+            "path": "pandas/core/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "UnsortedIndexError",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SASReader",
+            "path": "pandas/api/typing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "timedelta_range",
+            "path": "pandas/core/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "get_locales",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "skew",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "IncompatibilityWarning",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "assert_produces_warning",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "TimeGrouper",
+            "path": "pandas/api/typing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "make_sparse_index",
+            "path": "pandas/core/arrays/sparse/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "style",
+            "path": "pandas/io/formats/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SpecificationError",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "write_to_compressed",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "from_dummies",
+            "path": "pandas/core/reshape/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_object_dtype",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ujson_dumps",
+            "path": "pandas/io/json/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_number",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "external_error_raised",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "sliding_mean",
+            "path": "pandas/core/_numba/kernels/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "disallow_ndim_indexing",
+            "path": "pandas/core/indexers/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "get_period_alias",
+            "path": "pandas/tseries/frequencies.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "infer_freq",
+            "path": "pandas/tseries/frequencies.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "before_nearest_workday",
+            "path": "pandas/tseries/holiday.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "WASM",
+            "path": "pandas/compat/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "periods_per_second",
+            "path": "pandas/_libs/tslibs/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "json",
+            "path": "pandas/io/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "RollingGroupby",
+            "path": "pandas/api/typing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "read_pickle",
+            "path": "pandas/io/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "InvalidComparison",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "comparison_op",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "FrozenList",
+            "path": "pandas/api/typing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "add",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "TIMEDELTA64_DTYPES",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "PossibleDataLossError",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "astype_overflowsafe",
+            "path": "pandas/_libs/tslibs/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "pa_version_under13p0",
+            "path": "pandas/compat/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "assert_dict_equal",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_categorical_dtype",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_decimal",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ALL_INT_NUMPY_DTYPES",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "OBJECT_DTYPES",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "FR",
+            "path": "pandas/tseries/holiday.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "CSSWarning",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "read_parquet",
+            "path": "pandas/io/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "DateParseError",
+            "path": "pandas/core/tools/datetimes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_get_default_index_names",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "concat",
+            "path": "pandas/core/reshape/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "NumbaUtilError",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "previous_friday",
+            "path": "pandas/tseries/holiday.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_dict_like",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_references",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "is_numeric_dtype",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "assert_period_array_equal",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_supported_dtype",
+            "path": "pandas/_libs/tslibs/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ensure_str",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "read_xml",
+            "path": "pandas/io/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_subperiod",
+            "path": "pandas/tseries/frequencies.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ArrowDtype",
+            "path": "pandas/core/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_wrap_join_result",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "_can_use_libjoin",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "ne",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "FLOAT_NUMPY_DTYPES",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "std",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "is_datetime64_dtype",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_datetime64_ns_dtype",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ParserError",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_get_values_for_csv",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "next_monday_or_tuesday",
+            "path": "pandas/tseries/holiday.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "assert_copy",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "cumsum",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "assert_numpy_array_equal",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_unsigned_integer_dtype",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "rpow",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_flex_method",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "_get_rows_with_mask",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "IndexingError",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "case_when",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "BlockIndex",
+            "path": "pandas/core/arrays/sparse/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "set_eng_float_format",
+            "path": "pandas/core/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "NullFrequencyError",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "PyperclipWindowsException",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "at",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "offsets",
+            "path": "pandas/tseries/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SparseAccessor",
+            "path": "pandas/core/arrays/sparse/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ValueLabelTypeMismatch",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "previous_workday",
+            "path": "pandas/tseries/holiday.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "get_unit_from_dtype",
+            "path": "pandas/_libs/tslibs/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "DataError",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "merge_ordered",
+            "path": "pandas/core/reshape/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "waitForNewPaste",
+            "path": "pandas/io/clipboard/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "radd",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_join_empty",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "cache_readonly",
+            "path": "pandas/util/_decorators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ensure_clean",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "kurt",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "DT64NS_DTYPE",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "info",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "set_timezone",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__call__",
+            "path": "pandas/util/_decorators.py",
+            "parent": "Substitution"
+        },
+        {
+            "func_name": "LossySetitemError",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "COMPLEX_DTYPES",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "get_cython_table_params",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "CategoricalConversionWarning",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "melt",
+            "path": "pandas/core/reshape/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_dti_setop_align_tzs",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "_constructor_sliced",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "SubclassedDataFrame"
+        },
+        {
+            "func_name": "show_versions",
+            "path": "pandas/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "BOOL_DTYPES",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "iat",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "testing",
+            "path": "pandas/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "EmptyDataError",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_datetime64tz_dtype",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_na_value",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "is_bool",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_raise_scalar_data_error",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "set_locale",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "getitem",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "arrays",
+            "path": "pandas/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "api",
+            "path": "pandas/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_can_hold_strings",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "_maybe_downcast_for_indexing",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "read_orc",
+            "path": "pandas/io/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "NP_NAT_OBJECTS",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "weekend_to_monday",
+            "path": "pandas/tseries/holiday.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_integer_dtype",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_sequence",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_1d_only_ea_dtype",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ALL_REAL_NUMPY_DTYPES",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "can_set_locale",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "needs_i8_conversion",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_int64_dtype",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Float64Dtype",
+            "path": "pandas/core/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "get_array_op",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Int32Dtype",
+            "path": "pandas/core/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "eval",
+            "path": "pandas/core/computation/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_datetime64_any_dtype",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "to_array",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "sliding_sum",
+            "path": "pandas/core/_numba/kernels/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "interchange",
+            "path": "pandas/api/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "assert_is_valid_plot_return_object",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "lt",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "is_array_like",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "get_finest_unit",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "raises_chained_assignment_error",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "from_dataframe",
+            "path": "pandas/api/interchange/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "DtypeWarning",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "maybe_prepare_scalar_for_op",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "iloc",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_nested_list_like",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "sum",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "is_complex_dtype",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ujson_loads",
+            "path": "pandas/io/json/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Int64Dtype",
+            "path": "pandas/core/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ExpandingGroupby",
+            "path": "pandas/api/typing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "rmul",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "interval_range",
+            "path": "pandas/core/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_named_tuple",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "pa_version_under14p1",
+            "path": "pandas/compat/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "round_trip_pickle",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "after_nearest_workday",
+            "path": "pandas/tseries/holiday.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "guess_datetime_format",
+            "path": "pandas/_libs/tslibs/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "rmod",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ge",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "STRING_DTYPES",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_constructor_expanddim_from_mgr",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "pivot",
+            "path": "pandas/core/reshape/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "get_op_result_name",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SA",
+            "path": "pandas/tseries/holiday.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_period_dtype",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "assert_contains_all",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "NumpyExtensionArray",
+            "path": "pandas/arrays/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "assert_interval_array_equal",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_join_via_get_indexer",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "IntCastingNaNError",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "arithmetic_op",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "assert_indexing_slices_equivalent",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "gt",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "SubclassedSeries",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_align_for_op",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "to_datetime",
+            "path": "pandas/core/tools/datetimes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_re",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ExponentialMovingWindow",
+            "path": "pandas/api/typing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "CustomBusinessMonthEnd",
+            "path": "pandas/tseries/offsets.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "indexers",
+            "path": "pandas/api/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "grouped_mean",
+            "path": "pandas/core/_numba/kernels/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "loc",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "typing",
+            "path": "pandas/api/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_extension_array_dtype",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "UInt8Dtype",
+            "path": "pandas/core/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "read_clipboard",
+            "path": "pandas/io/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "unpack_tuple_and_ellipses",
+            "path": "pandas/core/indexers/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "unpack_zerodim_and_defer",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "convert_rows_list_to_csv_str",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "NULL_OBJECTS",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Rolling",
+            "path": "pandas/api/typing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "read_sql_query",
+            "path": "pandas/io/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "next_monday",
+            "path": "pandas/tseries/holiday.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_unitless",
+            "path": "pandas/_libs/tslibs/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "infer_dtype_from_object",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "BYTES_DTYPES",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "crosstab",
+            "path": "pandas/core/reshape/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "DuplicateLabelError",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Flags",
+            "path": "pandas/core/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "get_obj",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_constructor_from_mgr",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "pandas_dtype",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "IndexSlice",
+            "path": "pandas/core/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "sliding_min_max",
+            "path": "pandas/core/_numba/kernels/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "tseries",
+            "path": "pandas/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "frequencies",
+            "path": "pandas/tseries/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "DatabaseError",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "waitForPaste",
+            "path": "pandas/io/clipboard/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ListAccessor",
+            "path": "pandas/core/arrays/arrow/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "PossiblePrecisionLoss",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "should_cache",
+            "path": "pandas/core/tools/datetimes.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "merge_asof",
+            "path": "pandas/core/reshape/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "read_hdf",
+            "path": "pandas/io/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "NAType",
+            "path": "pandas/api/typing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ensure_float64",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "periods_per_day",
+            "path": "pandas/_libs/tslibs/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_file_like",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "sem",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "add_overflowsafe",
+            "path": "pandas/_libs/tslibs/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "tz_convert_from_utc",
+            "path": "pandas/_libs/tslibs/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "raise_assert_detail",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecate_kwarg",
+            "path": "pandas/util/_decorators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "assert_sp_array_equal",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "read_stata",
+            "path": "pandas/io/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "eq",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "ClosedFileError",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_format_flat",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "SubclassedDataFrame",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_list_like",
+            "path": "pandas/core/dtypes/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "types",
+            "path": "pandas/api/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "assert_metadata_equivalent",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Int8Dtype",
+            "path": "pandas/core/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "mul",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "date_range",
+            "path": "pandas/core/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "get_calendar",
+            "path": "pandas/tseries/holiday.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ror_",
+            "path": "pandas/core/ops/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SU",
+            "path": "pandas/tseries/holiday.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "assert_attr_equal",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ISMUSL",
+            "path": "pandas/compat/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "TH",
+            "path": "pandas/tseries/holiday.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Window",
+            "path": "pandas/api/typing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "pa_version_under11p0",
+            "path": "pandas/compat/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "pow",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "floordiv",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "MergeError",
+            "path": "pandas/errors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_bool_dtype",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "pivot_table",
+            "path": "pandas/core/reshape/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ALL_INT_EA_DTYPES",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_any_real_numeric_dtype",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "default_index",
+            "path": "pandas/core/indexes/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_signed_integer_dtype",
+            "path": "pandas/core/dtypes/common.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "bdate_range",
+            "path": "pandas/core/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "PY310",
+            "path": "pandas/compat/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "nearest_workday",
+            "path": "pandas/tseries/holiday.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_append",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        }
+    ],
+    "Removed": [
+        {
+            "func_name": "holds_integer",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "_reset_cacher",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "np_version_under1p20",
+            "path": "pandas/compat/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_maybe_update_cacher",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "is_null_datetimelike",
+            "path": "pandas/_libs/tslibs/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__xor__",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "set_value",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "CategoricalBlock",
+            "path": "pandas/core/internals/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_check_is_chained_assignment_possible",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "PandasArray",
+            "path": "pandas/arrays/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_type_compatible",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "NumericIndex",
+            "path": "pandas/core/indexes/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_monotonic",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "UInt64Index",
+            "path": "pandas/core/indexes/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "BaseStringArrayMethods",
+            "path": "pandas/core/strings/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "bfill",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "_get_attributes_dict",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "loads",
+            "path": "pandas/io/json/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_exact_shape_match",
+            "path": "pandas/core/indexers/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "resample",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "_is_cached",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "_clear_item_cache",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "Block",
+            "path": "pandas/core/internals/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_get_values",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "ExtensionBlock",
+            "path": "pandas/core/internals/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecate_ndim_indexing",
+            "path": "pandas/core/indexers/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__inv__",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "pa_version_under4p0",
+            "path": "pandas/compat/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "StringMethods",
+            "path": "pandas/core/strings/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_get_values_for_loc",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "_format_space",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "_string_data_error",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "is_floating",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "SingleArrayManager",
+            "path": "pandas/core/internals/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "align",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "_convert_dtypes",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "clip",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "_deprecated_arg",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "is_mixed",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "pa_version_under3p0",
+            "path": "pandas/compat/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_has_complex_internals",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "_take_with_is_copy",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "replace",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "_replace_single",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "__or__",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "asi8",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "_json_normalize",
+            "path": "pandas/io/json/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "to_native_types",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "_require_scalar",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "is_boolean",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "SingleDataManager",
+            "path": "pandas/core/internals/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "create_block_manager_from_blocks",
+            "path": "pandas/core/internals/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ArrayManager",
+            "path": "pandas/core/internals/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Float64Index",
+            "path": "pandas/core/indexes/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "DataManager",
+            "path": "pandas/core/internals/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_get_cacher",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "is_interval",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "dumps",
+            "path": "pandas/io/json/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_set_axis",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "pa_version_under1p0",
+            "path": "pandas/compat/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_format_native_types",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "_maybe_promote",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "_wrap_joined_index",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "asfreq",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "is_numeric",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "np_array_datetime64_compat",
+            "path": "pandas/compat/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "DatetimeTZBlock",
+            "path": "pandas/core/internals/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_is_mixed_type",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "get_value",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "ObjectBlock",
+            "path": "pandas/core/internals/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_set_as_cached",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "interpolate",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "is_object",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "mask",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "format",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "np_version_under1p19",
+            "path": "pandas/compat/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "NumericBlock",
+            "path": "pandas/core/internals/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_invalid_indexer",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "pa_version_under2p0",
+            "path": "pandas/compat/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ffill",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "iteritems",
+            "path": "pandas/core/series.py",
+            "parent": "Series"
+        },
+        {
+            "func_name": "is_categorical",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "np_datetime64_compat",
+            "path": "pandas/compat/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__and__",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "Int64Index",
+            "path": "pandas/core/indexes/api.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_all_dates",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "_get_grouper_for_level",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "_scalar_data_error",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index"
+        },
+        {
+            "func_name": "NUMEXPR_VERSION",
+            "path": "pandas/core/computation/check.py",
+            "parent": "Module"
+        }
+    ],
+    "Param_Changed": [
+        {
+            "func_name": "_format_with_header",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "self",
+                "header",
+                "na_rep"
+            ],
+            "new": [
+                "self"
+            ]
+        },
+        {
+            "func_name": "update",
+            "path": "pandas/util/_decorators.py",
+            "parent": "Substitution",
+            "old": [
+                "self",
+                "other"
+            ],
+            "new": [
+                "self"
+            ]
+        },
+        {
+            "func_name": "to_dict",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "self",
+                "into"
+            ],
+            "new": [
+                "self"
+            ]
+        },
+        {
+            "func_name": "join",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "self",
+                "other",
+                "how",
+                "level",
+                "return_indexers",
+                "sort"
+            ],
+            "new": [
+                "self",
+                "other"
+            ]
+        },
+        {
+            "func_name": "set_names",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "self",
+                "names",
+                "level",
+                "inplace"
+            ],
+            "new": [
+                "self",
+                "names"
+            ]
+        },
+        {
+            "func_name": "apply",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "self",
+                "func",
+                "convert_dtype",
+                "args"
+            ],
+            "new": [
+                "self",
+                "func",
+                "args"
+            ]
+        },
+        {
+            "func_name": "rename",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "self",
+                "name",
+                "inplace"
+            ],
+            "new": [
+                "self",
+                "name"
+            ]
+        },
+        {
+            "func_name": "sort_values",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "self",
+                "return_indexer",
+                "ascending",
+                "na_position",
+                "key"
+            ],
+            "new": [
+                "self"
+            ]
+        },
+        {
+            "func_name": "_maybe_cast_slice_bound",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "self",
+                "label",
+                "side",
+                "kind"
+            ],
+            "new": [
+                "self",
+                "label",
+                "side"
+            ]
+        },
+        {
+            "func_name": "reset_index",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "self",
+                "level",
+                "drop",
+                "name",
+                "inplace"
+            ],
+            "new": [
+                "self",
+                "level"
+            ]
+        },
+        {
+            "func_name": "count",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "self",
+                "level"
+            ],
+            "new": [
+                "self"
+            ]
+        },
+        {
+            "func_name": "to_markdown",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "self",
+                "buf",
+                "mode",
+                "index",
+                "storage_options"
+            ],
+            "new": [
+                "self",
+                "buf"
+            ]
+        },
+        {
+            "func_name": "to_string",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "self",
+                "buf",
+                "na_rep",
+                "float_format",
+                "header",
+                "index",
+                "length",
+                "dtype",
+                "name",
+                "max_rows",
+                "min_rows"
+            ],
+            "new": [
+                "self",
+                "buf"
+            ]
+        },
+        {
+            "func_name": "get_objs_combined_axis",
+            "path": "pandas/core/indexes/api.py",
+            "parent": "Module",
+            "old": [
+                "objs",
+                "intersect",
+                "axis",
+                "sort",
+                "copy"
+            ],
+            "new": [
+                "objs",
+                "intersect",
+                "axis",
+                "sort"
+            ]
+        },
+        {
+            "func_name": "_simple_new",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "cls",
+                "values",
+                "name"
+            ],
+            "new": [
+                "cls",
+                "values",
+                "name",
+                "refs"
+            ]
+        },
+        {
+            "func_name": "compare",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "self",
+                "other",
+                "align_axis",
+                "keep_shape",
+                "keep_equal"
+            ],
+            "new": [
+                "self",
+                "other",
+                "align_axis",
+                "keep_shape",
+                "keep_equal",
+                "result_names"
+            ]
+        },
+        {
+            "func_name": "drop_duplicates",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "self",
+                "keep"
+            ],
+            "new": [
+                "self"
+            ]
+        },
+        {
+            "func_name": "slice_indexer",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "self",
+                "start",
+                "end",
+                "step",
+                "kind"
+            ],
+            "new": [
+                "self",
+                "start",
+                "end",
+                "step"
+            ]
+        },
+        {
+            "func_name": "_join_non_unique",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "self",
+                "other",
+                "how"
+            ],
+            "new": [
+                "self",
+                "other",
+                "how",
+                "sort"
+            ]
+        },
+        {
+            "func_name": "get_loc",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "self",
+                "key",
+                "method",
+                "tolerance"
+            ],
+            "new": [
+                "self",
+                "key"
+            ]
+        },
+        {
+            "func_name": "sortlevel",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "self",
+                "level",
+                "ascending",
+                "sort_remaining"
+            ],
+            "new": [
+                "self",
+                "level",
+                "ascending",
+                "sort_remaining",
+                "na_position"
+            ]
+        },
+        {
+            "func_name": "test",
+            "path": "pandas/util/_tester.py",
+            "parent": "Module",
+            "old": [
+                "extra_args"
+            ],
+            "new": [
+                "extra_args",
+                "run_doctests"
+            ]
+        },
+        {
+            "func_name": "get_slice_bound",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "self",
+                "label",
+                "side",
+                "kind"
+            ],
+            "new": [
+                "self",
+                "label",
+                "side"
+            ]
+        },
+        {
+            "func_name": "_set_name",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "self",
+                "name",
+                "inplace"
+            ],
+            "new": [
+                "self",
+                "name",
+                "inplace",
+                "deep"
+            ]
+        },
+        {
+            "func_name": "sort_index",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "self",
+                "axis",
+                "level",
+                "ascending",
+                "inplace",
+                "kind",
+                "na_position",
+                "sort_remaining",
+                "ignore_index",
+                "key"
+            ],
+            "new": [
+                "self"
+            ]
+        },
+        {
+            "func_name": "__array_wrap__",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "self",
+                "result",
+                "context"
+            ],
+            "new": [
+                "self",
+                "result",
+                "context",
+                "return_scalar"
+            ]
+        },
+        {
+            "func_name": "__init__",
+            "path": "pandas/errors/__init__.py",
+            "parent": "AbstractMethodError",
+            "old": [
+                "self",
+                "version"
+            ],
+            "new": [
+                "self",
+                "class_instance",
+                "methodtype"
+            ]
+        },
+        {
+            "func_name": "unstack",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "self",
+                "level",
+                "fill_value"
+            ],
+            "new": [
+                "self",
+                "level",
+                "fill_value",
+                "sort"
+            ]
+        },
+        {
+            "func_name": "__array__",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "self",
+                "dtype"
+            ],
+            "new": [
+                "self",
+                "dtype",
+                "copy"
+            ]
+        },
+        {
+            "func_name": "set_axis",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "self",
+                "labels",
+                "axis",
+                "inplace"
+            ],
+            "new": [
+                "self",
+                "labels"
+            ]
+        },
+        {
+            "func_name": "fillna",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "self",
+                "value",
+                "downcast"
+            ],
+            "new": [
+                "self",
+                "value"
+            ]
+        },
+        {
+            "func_name": "slice_locs",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "self",
+                "start",
+                "end",
+                "step",
+                "kind"
+            ],
+            "new": [
+                "self",
+                "start",
+                "end",
+                "step"
+            ]
+        },
+        {
+            "func_name": "_reindex_indexer",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "self",
+                "new_index",
+                "indexer",
+                "copy"
+            ],
+            "new": [
+                "self",
+                "new_index",
+                "indexer"
+            ]
+        }
+    ],
+    "Return_Changed": [
+        {
+            "func_name": "_should_fallback_to_positional",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "BoolOp(op=And(), values=[UnaryOp(op=Not(), operand=Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='holds_integer', ctx=Load()), args=[], keywords=[])), UnaryOp(op=Not(), operand=Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='is_boolean', ctx=Load()), args=[], keywords=[]))])"
+            ],
+            "new": [
+                "Compare(left=Attribute(value=Name(id='self', ctx=Load()), attr='inferred_type', ctx=Load()), ops=[NotIn()], comparators=[Set(elts=[Constant(value='integer'), Constant(value='mixed-integer'), Constant(value='floating'), Constant(value='complex')])])"
+            ]
+        },
+        {
+            "func_name": "idxmax",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "Subscript(value=Attribute(value=Name(id='self', ctx=Load()), attr='index', ctx=Load()), slice=Name(id='i', ctx=Load()), ctx=Load())"
+            ],
+            "new": [
+                "Subscript(value=Attribute(value=Name(id='self', ctx=Load()), attr='index', ctx=Load()), slice=Name(id='iloc', ctx=Load()), ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "astype",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Call(func=Name(id='Index', ctx=Load()), args=[Name(id='casted', ctx=Load())], keywords=[keyword(arg='name', value=Attribute(value=Name(id='self', ctx=Load()), attr='name', ctx=Load())), keyword(arg='dtype', value=Name(id='dtype', ctx=Load()))])"
+            ],
+            "new": [
+                "Name(id='result', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "diff",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Call(func=Attribute(value=Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='_constructor', ctx=Load()), args=[Name(id='result', ctx=Load())], keywords=[keyword(arg='index', value=Attribute(value=Name(id='self', ctx=Load()), attr='index', ctx=Load()))]), attr='__finalize__', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[keyword(arg='method', value=Constant(value='diff'))])"
+            ],
+            "new": [
+                "Call(func=Name(id='Index', ctx=Load()), args=[Call(func=Attribute(value=Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='to_series', ctx=Load()), args=[], keywords=[]), attr='diff', ctx=Load()), args=[Name(id='periods', ctx=Load())], keywords=[])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "_get_join_target",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='_get_engine_target', ctx=Load()), args=[], keywords=[])"
+            ],
+            "new": [
+                "Name(id='target', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "idxmin",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "Subscript(value=Attribute(value=Name(id='self', ctx=Load()), attr='index', ctx=Load()), slice=Name(id='i', ctx=Load()), ctx=Load())"
+            ],
+            "new": [
+                "Subscript(value=Attribute(value=Name(id='self', ctx=Load()), attr='index', ctx=Load()), slice=Name(id='iloc', ctx=Load()), ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "all",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Call(func=Attribute(value=Name(id='np', ctx=Load()), attr='all', ctx=Load()), args=[Attribute(value=Name(id='self', ctx=Load()), attr='values', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='np', ctx=Load()), attr='all', ctx=Load()), args=[Name(id='vals', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "to_period",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "Call(func=Attribute(value=Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='_constructor', ctx=Load()), args=[Name(id='new_values', ctx=Load())], keywords=[keyword(arg='index', value=Name(id='new_index', ctx=Load()))]), attr='__finalize__', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[keyword(arg='method', value=Constant(value='to_period'))])"
+            ],
+            "new": [
+                "Name(id='new_obj', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "symmetric_difference",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Name(id='result', ctx=Load())"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "any",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Call(func=Attribute(value=Name(id='np', ctx=Load()), attr='any', ctx=Load()), args=[Attribute(value=Name(id='self', ctx=Load()), attr='values', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='np', ctx=Load()), attr='any', ctx=Load()), args=[Name(id='vals', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "_wrap_setop_result",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [],
+            "new": [
+                "Name(id='result', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "_get_values_tuple",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "Call(func=Attribute(value=Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='_constructor', ctx=Load()), args=[Subscript(value=Attribute(value=Name(id='self', ctx=Load()), attr='_values', ctx=Load()), slice=Name(id='indexer', ctx=Load()), ctx=Load())], keywords=[keyword(arg='index', value=Name(id='new_index', ctx=Load()))]), attr='__finalize__', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='new_ser', ctx=Load()), attr='__finalize__', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "searchsorted",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "Call(func=Attribute(value=Name(id='algorithms', ctx=Load()), attr='searchsorted', ctx=Load()), args=[Attribute(value=Name(id='self', ctx=Load()), attr='_values', ctx=Load()), Name(id='value', ctx=Load())], keywords=[keyword(arg='side', value=Name(id='side', ctx=Load())), keyword(arg='sorter', value=Name(id='sorter', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='base', ctx=Load()), attr='IndexOpsMixin', ctx=Load()), attr='searchsorted', ctx=Load()), args=[Name(id='self', ctx=Load()), Name(id='value', ctx=Load())], keywords=[keyword(arg='side', value=Name(id='side', ctx=Load())), keyword(arg='sorter', value=Name(id='sorter', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "_arith_method",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Call(func=Attribute(value=Name(id='Index', ctx=Load()), attr='_with_infer', ctx=Load()), args=[Name(id='result', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Call(func=Name(id='super', ctx=Load()), args=[], keywords=[]), attr='_arith_method', ctx=Load()), args=[Name(id='other', ctx=Load()), Name(id='op', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "to_dict",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "Call(func=Name(id='into_c', ctx=Load()), args=[GeneratorExp(elt=Tuple(elts=[Name(id='k', ctx=Load()), Call(func=Name(id='maybe_box_native', ctx=Load()), args=[Name(id='v', ctx=Load())], keywords=[])], ctx=Load()), generators=[comprehension(target=Tuple(elts=[Name(id='k', ctx=Store()), Name(id='v', ctx=Store())], ctx=Store()), iter=Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='items', ctx=Load()), args=[], keywords=[]), ifs=[], is_async=0)])], keywords=[])"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "nsmallest",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "Call(func=Attribute(value=Call(func=Attribute(value=Name(id='algorithms', ctx=Load()), attr='SelectNSeries', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[keyword(arg='n', value=Name(id='n', ctx=Load())), keyword(arg='keep', value=Name(id='keep', ctx=Load()))]), attr='nsmallest', ctx=Load()), args=[], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Call(func=Attribute(value=Name(id='selectn', ctx=Load()), attr='SelectNSeries', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[keyword(arg='n', value=Name(id='n', ctx=Load())), keyword(arg='keep', value=Name(id='keep', ctx=Load()))]), attr='nsmallest', ctx=Load()), args=[], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "_is_memory_usage_qualified",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='is_object', ctx=Load()), args=[], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='is_object_dtype', ctx=Load()), args=[Attribute(value=Name(id='self', ctx=Load()), attr='dtype', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "mode",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "Call(func=Attribute(value=Name(id='algorithms', ctx=Load()), attr='mode', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[keyword(arg='dropna', value=Name(id='dropna', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='_constructor', ctx=Load()), args=[Name(id='res_values', ctx=Load())], keywords=[keyword(arg='index', value=Call(func=Name(id='range', ctx=Load()), args=[Call(func=Name(id='len', ctx=Load()), args=[Name(id='res_values', ctx=Load())], keywords=[])], keywords=[])), keyword(arg='name', value=Attribute(value=Name(id='self', ctx=Load()), attr='name', ctx=Load())), keyword(arg='copy', value=Constant(value=False)), keyword(arg='dtype', value=Attribute(value=Name(id='self', ctx=Load()), attr='dtype', ctx=Load()))]), attr='__finalize__', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[keyword(arg='method', value=Constant(value='mode'))])"
+            ]
+        },
+        {
+            "func_name": "apply",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "Call(func=Attribute(value=Call(func=Name(id='SeriesApply', ctx=Load()), args=[Name(id='self', ctx=Load()), Name(id='func', ctx=Load()), Name(id='convert_dtype', ctx=Load()), Name(id='args', ctx=Load()), Name(id='kwargs', ctx=Load())], keywords=[]), attr='apply', ctx=Load()), args=[], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Call(func=Name(id='SeriesApply', ctx=Load()), args=[Name(id='self', ctx=Load()), Name(id='func', ctx=Load())], keywords=[keyword(arg='by_row', value=Name(id='by_row', ctx=Load())), keyword(arg='args', value=Name(id='args', ctx=Load())), keyword(arg='kwargs', value=Name(id='kwargs', ctx=Load()))]), attr='apply', ctx=Load()), args=[], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "combine",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='_constructor', ctx=Load()), args=[Name(id='res_values', ctx=Load())], keywords=[keyword(arg='index', value=Name(id='new_index', ctx=Load())), keyword(arg='name', value=Name(id='new_name', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='_constructor', ctx=Load()), args=[Name(id='res_values', ctx=Load())], keywords=[keyword(arg='index', value=Name(id='new_index', ctx=Load())), keyword(arg='name', value=Name(id='new_name', ctx=Load())), keyword(arg='copy', value=Constant(value=False))])"
+            ]
+        },
+        {
+            "func_name": "delete",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Call(func=Attribute(value=Call(func=Name(id='type', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[]), attr='_simple_new', ctx=Load()), args=[Name(id='res_values', ctx=Load())], keywords=[keyword(arg='name', value=Attribute(value=Name(id='self', ctx=Load()), attr='name', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='_constructor', ctx=Load()), attr='_simple_new', ctx=Load()), args=[Name(id='res_values', ctx=Load())], keywords=[keyword(arg='name', value=Attribute(value=Name(id='self', ctx=Load()), attr='name', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "round",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Name(id='result', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='_constructor', ctx=Load()), args=[Call(func=Attribute(value=Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='to_series', ctx=Load()), args=[], keywords=[]), attr='round', ctx=Load()), args=[Name(id='decimals', ctx=Load())], keywords=[])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "rename",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='set_names', ctx=Load()), args=[List(elts=[Name(id='name', ctx=Load())], ctx=Load())], keywords=[keyword(arg='inplace', value=Name(id='inplace', ctx=Load()))])"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "autocorr",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='corr', ctx=Load()), args=[Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='shift', ctx=Load()), args=[Name(id='lag', ctx=Load())], keywords=[])], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='corr', ctx=Load()), args=[Call(func=Name(id='cast', ctx=Load()), args=[Name(id='Series', ctx=Load()), Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='shift', ctx=Load()), args=[Name(id='lag', ctx=Load())], keywords=[])], keywords=[])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "count",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "Call(func=Attribute(value=Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='_constructor', ctx=Load()), args=[Name(id='out', ctx=Load())], keywords=[keyword(arg='index', value=Name(id='lev', ctx=Load())), keyword(arg='dtype', value=Constant(value='int64'))]), attr='__finalize__', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[keyword(arg='method', value=Constant(value='count'))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Call(func=Attribute(value=Call(func=Name(id='notna', ctx=Load()), args=[Attribute(value=Name(id='self', ctx=Load()), attr='_values', ctx=Load())], keywords=[]), attr='sum', ctx=Load()), args=[], keywords=[]), attr='astype', ctx=Load()), args=[Constant(value='int64')], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "map",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Call(func=Attribute(value=Name(id='Index', ctx=Load()), attr='_with_infer', ctx=Load()), args=[Name(id='new_values', ctx=Load())], keywords=[keyword(value=Name(id='attributes', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='Index', ctx=Load()), attr='_with_infer', ctx=Load()), args=[Name(id='new_values', ctx=Load())], keywords=[keyword(arg='dtype', value=Name(id='dtype', ctx=Load())), keyword(arg='copy', value=Constant(value=False)), keyword(arg='name', value=Attribute(value=Name(id='self', ctx=Load()), attr='name', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "min",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Call(func=Attribute(value=Call(func=Name(id='super', ctx=Load()), args=[], keywords=[]), attr='min', ctx=Load()), args=[], keywords=[keyword(arg='skipna', value=Name(id='skipna', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='nanops', ctx=Load()), attr='nanmin', ctx=Load()), args=[Attribute(value=Name(id='self', ctx=Load()), attr='_values', ctx=Load())], keywords=[keyword(arg='skipna', value=Name(id='skipna', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "to_markdown",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "Call(func=Attribute(value=Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='to_frame', ctx=Load()), args=[], keywords=[]), attr='to_markdown', ctx=Load()), args=[Name(id='buf', ctx=Load()), Name(id='mode', ctx=Load()), Name(id='index', ctx=Load())], keywords=[keyword(arg='storage_options', value=Name(id='storage_options', ctx=Load())), keyword(value=Name(id='kwargs', ctx=Load()))])"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "combine_first",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "Call(func=Attribute(value=Name(id='this', ctx=Load()), attr='where', ctx=Load()), args=[Call(func=Name(id='notna', ctx=Load()), args=[Name(id='this', ctx=Load())], keywords=[]), Name(id='other', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='combined', ctx=Load()), attr='__finalize__', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[keyword(arg='method', value=Constant(value='combine_first'))])"
+            ]
+        },
+        {
+            "func_name": "repeat",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Call(func=Attribute(value=Call(func=Name(id='type', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[]), attr='_simple_new', ctx=Load()), args=[Name(id='res_values', ctx=Load())], keywords=[keyword(arg='name', value=Attribute(value=Name(id='self', ctx=Load()), attr='name', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='_constructor', ctx=Load()), attr='_simple_new', ctx=Load()), args=[Name(id='res_values', ctx=Load())], keywords=[keyword(arg='name', value=Attribute(value=Name(id='self', ctx=Load()), attr='name', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "get_objs_combined_axis",
+            "path": "pandas/core/indexes/api.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_get_combined_index', ctx=Load()), args=[Name(id='obs_idxes', ctx=Load())], keywords=[keyword(arg='intersect', value=Name(id='intersect', ctx=Load())), keyword(arg='sort', value=Name(id='sort', ctx=Load())), keyword(arg='copy', value=Name(id='copy', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Name(id='_get_combined_index', ctx=Load()), args=[Name(id='obs_idxes', ctx=Load())], keywords=[keyword(arg='intersect', value=Name(id='intersect', ctx=Load())), keyword(arg='sort', value=Name(id='sort', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "compare",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "Call(func=Attribute(value=Call(func=Name(id='super', ctx=Load()), args=[], keywords=[]), attr='compare', ctx=Load()), args=[], keywords=[keyword(arg='other', value=Name(id='other', ctx=Load())), keyword(arg='align_axis', value=Name(id='align_axis', ctx=Load())), keyword(arg='keep_shape', value=Name(id='keep_shape', ctx=Load())), keyword(arg='keep_equal', value=Name(id='keep_equal', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Call(func=Name(id='super', ctx=Load()), args=[], keywords=[]), attr='compare', ctx=Load()), args=[], keywords=[keyword(arg='other', value=Name(id='other', ctx=Load())), keyword(arg='align_axis', value=Name(id='align_axis', ctx=Load())), keyword(arg='keep_shape', value=Name(id='keep_shape', ctx=Load())), keyword(arg='keep_equal', value=Name(id='keep_equal', ctx=Load())), keyword(arg='result_names', value=Name(id='result_names', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "__str__",
+            "path": "pandas/errors/__init__.py",
+            "parent": "AbstractMethodError",
+            "old": [
+                "Attribute(value=Name(id='self', ctx=Load()), attr='_version', ctx=Load())"
+            ],
+            "new": [
+                "JoinedStr(values=[Constant(value='This '), FormattedValue(value=Attribute(value=Name(id='self', ctx=Load()), attr='methodtype', ctx=Load()), conversion=-1), Constant(value=' must be defined in the concrete class '), FormattedValue(value=Name(id='name', ctx=Load()), conversion=-1)])"
+            ]
+        },
+        {
+            "func_name": "_constructor",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "SubclassedSeries",
+            "old": [
+                "Call(func=Name(id='type', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Lambda(args=arguments(posonlyargs=[], args=[], vararg=arg(arg='args'), kwonlyargs=[], kw_defaults=[], kwarg=arg(arg='kwargs'), defaults=[]), body=Call(func=Name(id='SubclassedSeries', ctx=Load()), args=[Starred(value=Name(id='args', ctx=Load()), ctx=Load())], keywords=[keyword(value=Name(id='kwargs', ctx=Load()))]))"
+            ]
+        },
+        {
+            "func_name": "cov",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "Call(func=Attribute(value=Name(id='nanops', ctx=Load()), attr='nancov', ctx=Load()), args=[Attribute(value=Name(id='this', ctx=Load()), attr='values', ctx=Load()), Attribute(value=Name(id='other', ctx=Load()), attr='values', ctx=Load())], keywords=[keyword(arg='min_periods', value=Name(id='min_periods', ctx=Load())), keyword(arg='ddof', value=Name(id='ddof', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='nanops', ctx=Load()), attr='nancov', ctx=Load()), args=[Name(id='this_values', ctx=Load()), Name(id='other_values', ctx=Load())], keywords=[keyword(arg='min_periods', value=Name(id='min_periods', ctx=Load())), keyword(arg='ddof', value=Name(id='ddof', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "_get_engine_target",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Attribute(value=Name(id='self', ctx=Load()), attr='_values', ctx=Load())"
+            ],
+            "new": [
+                "Name(id='vals', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "_engine",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='_engine_type', ctx=Load()), args=[Lambda(args=arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[]), body=Name(id='target_values', ctx=Load())), Call(func=Name(id='len', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[])], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='_engine_type', ctx=Load()), args=[Name(id='target_values', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "_constructor_expanddim",
+            "path": "pandas/_testing/__init__.py",
+            "parent": "SubclassedSeries",
+            "old": [
+                "Name(id='DataFrame', ctx=Load())"
+            ],
+            "new": [
+                "Lambda(args=arguments(posonlyargs=[], args=[], vararg=arg(arg='args'), kwonlyargs=[], kw_defaults=[], kwarg=arg(arg='kwargs'), defaults=[]), body=Call(func=Name(id='SubclassedDataFrame', ctx=Load()), args=[Starred(value=Name(id='args', ctx=Load()), ctx=Load())], keywords=[keyword(value=Name(id='kwargs', ctx=Load()))]))"
+            ]
+        },
+        {
+            "func_name": "explode",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='_constructor', ctx=Load()), args=[Name(id='values', ctx=Load())], keywords=[keyword(arg='index', value=Name(id='index', ctx=Load())), keyword(arg='name', value=Attribute(value=Name(id='self', ctx=Load()), attr='name', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='_constructor', ctx=Load()), args=[Name(id='values', ctx=Load())], keywords=[keyword(arg='index', value=Name(id='index', ctx=Load())), keyword(arg='name', value=Attribute(value=Name(id='self', ctx=Load()), attr='name', ctx=Load())), keyword(arg='copy', value=Constant(value=False))])"
+            ]
+        },
+        {
+            "func_name": "_can_hold_na",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='_mgr', ctx=Load()), attr='_can_hold_na', ctx=Load())"
+            ],
+            "new": [
+                "Constant(value=True)"
+            ]
+        },
+        {
+            "func_name": "get_loc",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Name(id='loc', ctx=Load())"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "_slice",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='_get_values', ctx=Load()), args=[Name(id='slobj', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='out', ctx=Load()), attr='__finalize__', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "_get_value",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='index', ctx=Load()), attr='_get_values_for_loc', ctx=Load()), args=[Name(id='self', ctx=Load()), Name(id='loc', ctx=Load()), Name(id='label', ctx=Load())], keywords=[])"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "_dir_additions_for_owner",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "SetComp(elt=Name(id='c', ctx=Load()), generators=[comprehension(target=Name(id='c', ctx=Store()), iter=Subscript(value=Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='unique', ctx=Load()), args=[], keywords=[keyword(arg='level', value=Constant(value=0))]), slice=Slice(upper=Constant(value=100)), ctx=Load()), ifs=[BoolOp(op=And(), values=[Call(func=Name(id='isinstance', ctx=Load()), args=[Name(id='c', ctx=Load()), Name(id='str', ctx=Load())], keywords=[]), Call(func=Attribute(value=Name(id='c', ctx=Load()), attr='isidentifier', ctx=Load()), args=[], keywords=[])])], is_async=0)])"
+            ],
+            "new": [
+                "SetComp(elt=Name(id='c', ctx=Load()), generators=[comprehension(target=Name(id='c', ctx=Store()), iter=Subscript(value=Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='unique', ctx=Load()), args=[], keywords=[keyword(arg='level', value=Constant(value=0))]), slice=Slice(upper=Call(func=Name(id='get_option', ctx=Load()), args=[Constant(value='display.max_dir_items')], keywords=[])), ctx=Load()), ifs=[BoolOp(op=And(), values=[Call(func=Name(id='isinstance', ctx=Load()), args=[Name(id='c', ctx=Load()), Name(id='str', ctx=Load())], keywords=[]), Call(func=Attribute(value=Name(id='c', ctx=Load()), attr='isidentifier', ctx=Load()), args=[], keywords=[])])], is_async=0)])"
+            ]
+        },
+        {
+            "func_name": "sortlevel",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='sort_values', ctx=Load()), args=[], keywords=[keyword(arg='return_indexer', value=Constant(value=True)), keyword(arg='ascending', value=Name(id='ascending', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='sort_values', ctx=Load()), args=[], keywords=[keyword(arg='return_indexer', value=Constant(value=True)), keyword(arg='ascending', value=Name(id='ascending', ctx=Load())), keyword(arg='na_position', value=Name(id='na_position', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "__getitem__",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [],
+            "new": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='_constructor', ctx=Load()), attr='_simple_new', ctx=Load()), args=[Name(id='result', ctx=Load())], keywords=[keyword(arg='name', value=Attribute(value=Name(id='self', ctx=Load()), attr='_name', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "insert",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Call(func=Attribute(value=Name(id='Index', ctx=Load()), attr='_with_infer', ctx=Load()), args=[Name(id='idx', ctx=Load())], keywords=[keyword(arg='name', value=Attribute(value=Name(id='self', ctx=Load()), attr='name', ctx=Load()))])"
+            ],
+            "new": [
+                "Name(id='out', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "sort_index",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "Call(func=Attribute(value=Call(func=Name(id='super', ctx=Load()), args=[], keywords=[]), attr='sort_index', ctx=Load()), args=[Name(id='axis', ctx=Load()), Name(id='level', ctx=Load()), Name(id='ascending', ctx=Load()), Name(id='inplace', ctx=Load()), Name(id='kind', ctx=Load()), Name(id='na_position', ctx=Load()), Name(id='sort_remaining', ctx=Load()), Name(id='ignore_index', ctx=Load()), Name(id='key', ctx=Load())], keywords=[])"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "__array_wrap__",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Call(func=Name(id='Index', ctx=Load()), args=[Name(id='result', ctx=Load())], keywords=[keyword(value=Name(id='attrs', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Name(id='Index', ctx=Load()), args=[Name(id='result', ctx=Load())], keywords=[keyword(arg='name', value=Attribute(value=Name(id='self', ctx=Load()), attr='name', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "swaplevel",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "Call(func=Attribute(value=Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='_constructor', ctx=Load()), args=[Attribute(value=Name(id='self', ctx=Load()), attr='_values', ctx=Load())], keywords=[keyword(arg='index', value=Name(id='new_index', ctx=Load())), keyword(arg='copy', value=Name(id='copy', ctx=Load()))]), attr='__finalize__', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[keyword(arg='method', value=Constant(value='swaplevel'))])"
+            ],
+            "new": [
+                "Name(id='result', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "_construct_result",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Name(id='out', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Name(id='Index', ctx=Load()), args=[Name(id='result', ctx=Load())], keywords=[keyword(arg='name', value=Name(id='name', ctx=Load())), keyword(arg='dtype', value=Attribute(value=Name(id='result', ctx=Load()), attr='dtype', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "ravel",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Call(func=Attribute(value=Name(id='values', ctx=Load()), attr='ravel', ctx=Load()), args=[], keywords=[keyword(arg='order', value=Name(id='order', ctx=Load()))])"
+            ],
+            "new": [
+                "Subscript(value=Name(id='self', ctx=Load()), slice=Slice(), ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "_binop",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "Call(func=Attribute(value=Name(id='this', ctx=Load()), attr='_construct_result', ctx=Load()), args=[Name(id='result', ctx=Load()), Name(id='name', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='cast', ctx=Load()), args=[Name(id='Series', ctx=Load()), Name(id='out', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "__new__",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [],
+            "new": [
+                "Name(id='result', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "unstack",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "Call(func=Name(id='unstack', ctx=Load()), args=[Name(id='self', ctx=Load()), Name(id='level', ctx=Load()), Name(id='fill_value', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='unstack', ctx=Load()), args=[Name(id='self', ctx=Load()), Name(id='level', ctx=Load()), Name(id='fill_value', ctx=Load()), Name(id='sort', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "nlargest",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "Call(func=Attribute(value=Call(func=Attribute(value=Name(id='algorithms', ctx=Load()), attr='SelectNSeries', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[keyword(arg='n', value=Name(id='n', ctx=Load())), keyword(arg='keep', value=Name(id='keep', ctx=Load()))]), attr='nlargest', ctx=Load()), args=[], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Call(func=Attribute(value=Name(id='selectn', ctx=Load()), attr='SelectNSeries', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[keyword(arg='n', value=Name(id='n', ctx=Load())), keyword(arg='keep', value=Name(id='keep', ctx=Load()))]), attr='nlargest', ctx=Load()), args=[], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "to_timestamp",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "Call(func=Attribute(value=Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='_constructor', ctx=Load()), args=[Name(id='new_values', ctx=Load())], keywords=[keyword(arg='index', value=Name(id='new_index', ctx=Load()))]), attr='__finalize__', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[keyword(arg='method', value=Constant(value='to_timestamp'))])"
+            ],
+            "new": [
+                "Name(id='new_obj', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "values",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Attribute(value=Name(id='self', ctx=Load()), attr='_data', ctx=Load())"
+            ],
+            "new": [
+                "Name(id='data', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "_getitem_slice",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Call(func=Attribute(value=Call(func=Name(id='type', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[]), attr='_simple_new', ctx=Load()), args=[Name(id='res', ctx=Load())], keywords=[keyword(arg='name', value=Attribute(value=Name(id='self', ctx=Load()), attr='_name', ctx=Load()))])"
+            ],
+            "new": [
+                "Name(id='result', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "set_axis",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [],
+            "new": [
+                "Call(func=Attribute(value=Call(func=Name(id='super', ctx=Load()), args=[], keywords=[]), attr='set_axis', ctx=Load()), args=[Name(id='labels', ctx=Load())], keywords=[keyword(arg='axis', value=Name(id='axis', ctx=Load())), keyword(arg='copy', value=Name(id='copy', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "identical",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "BoolOp(op=And(), values=[Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='equals', ctx=Load()), args=[Name(id='other', ctx=Load())], keywords=[]), Call(func=Name(id='all', ctx=Load()), args=[GeneratorExp(elt=Compare(left=Call(func=Name(id='getattr', ctx=Load()), args=[Name(id='self', ctx=Load()), Name(id='c', ctx=Load()), Constant(value=None)], keywords=[]), ops=[Eq()], comparators=[Call(func=Name(id='getattr', ctx=Load()), args=[Name(id='other', ctx=Load()), Name(id='c', ctx=Load()), Constant(value=None)], keywords=[])]), generators=[comprehension(target=Name(id='c', ctx=Store()), iter=Attribute(value=Name(id='self', ctx=Load()), attr='_comparables', ctx=Load()), ifs=[], is_async=0)])], keywords=[]), Compare(left=Call(func=Name(id='type', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[]), ops=[Eq()], comparators=[Call(func=Name(id='type', ctx=Load()), args=[Name(id='other', ctx=Load())], keywords=[])])])"
+            ],
+            "new": [
+                "BoolOp(op=And(), values=[Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='equals', ctx=Load()), args=[Name(id='other', ctx=Load())], keywords=[]), Call(func=Name(id='all', ctx=Load()), args=[GeneratorExp(elt=Compare(left=Call(func=Name(id='getattr', ctx=Load()), args=[Name(id='self', ctx=Load()), Name(id='c', ctx=Load()), Constant(value=None)], keywords=[]), ops=[Eq()], comparators=[Call(func=Name(id='getattr', ctx=Load()), args=[Name(id='other', ctx=Load()), Name(id='c', ctx=Load()), Constant(value=None)], keywords=[])]), generators=[comprehension(target=Name(id='c', ctx=Store()), iter=Attribute(value=Name(id='self', ctx=Load()), attr='_comparables', ctx=Load()), ifs=[], is_async=0)])], keywords=[]), Compare(left=Call(func=Name(id='type', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[]), ops=[Eq()], comparators=[Call(func=Name(id='type', ctx=Load()), args=[Name(id='other', ctx=Load())], keywords=[])]), Compare(left=Attribute(value=Name(id='self', ctx=Load()), attr='dtype', ctx=Load()), ops=[Eq()], comparators=[Attribute(value=Name(id='other', ctx=Load()), attr='dtype', ctx=Load())])])"
+            ]
+        },
+        {
+            "func_name": "_shallow_copy",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='_simple_new', ctx=Load()), args=[Name(id='values', ctx=Load())], keywords=[keyword(arg='name', value=Name(id='name', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='_simple_new', ctx=Load()), args=[Name(id='values', ctx=Load())], keywords=[keyword(arg='name', value=Name(id='name', ctx=Load())), keyword(arg='refs', value=Attribute(value=Name(id='self', ctx=Load()), attr='_references', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "_reindex_indexer",
+            "path": "pandas/core/series.py",
+            "parent": "Series",
+            "old": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='_constructor', ctx=Load()), args=[Name(id='new_values', ctx=Load())], keywords=[keyword(arg='index', value=Name(id='new_index', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='_constructor', ctx=Load()), args=[Name(id='new_values', ctx=Load())], keywords=[keyword(arg='index', value=Name(id='new_index', ctx=Load())), keyword(arg='copy', value=Constant(value=False))])"
+            ]
+        },
+        {
+            "func_name": "max",
+            "path": "pandas/core/indexes/base.py",
+            "parent": "Index",
+            "old": [
+                "Call(func=Attribute(value=Call(func=Name(id='super', ctx=Load()), args=[], keywords=[]), attr='max', ctx=Load()), args=[], keywords=[keyword(arg='skipna', value=Name(id='skipna', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='nanops', ctx=Load()), attr='nanmax', ctx=Load()), args=[Attribute(value=Name(id='self', ctx=Load()), attr='_values', ctx=Load())], keywords=[keyword(arg='skipna', value=Name(id='skipna', ctx=Load()))])"
+            ]
+        }
+    ],
+    "Deprecated": [
+        {
+            "func_name": "test_validate_all_ignore_deprecated",
+            "path": "scripts/tests/test_validate_docstrings.py",
+            "parent": "TestValidator"
+        },
+        {
+            "func_name": "_is_deprecated",
+            "path": "doc/source/conf.py",
+            "parent": "PandasAutosummary"
+        },
+        {
+            "func_name": "_add_deprecation_prefixes",
+            "path": "doc/source/conf.py",
+            "parent": "PandasAutosummary"
+        },
+        {
+            "func_name": "_check_copy_deprecation",
+            "path": "pandas/core/generic.py",
+            "parent": "NDFrame"
+        },
+        {
+            "func_name": "deprecate",
+            "path": "pandas/util/_decorators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecate_kwarg",
+            "path": "pandas/util/_decorators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecate_nonkeyword_arguments",
+            "path": "pandas/util/_decorators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_deprecate_kwarg",
+            "path": "pandas/util/_decorators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecate_order",
+            "path": "pandas/tests/test_algos.py",
+            "parent": "TestFactorize"
+        },
+        {
+            "func_name": "test_getitem_ndim_deprecated",
+            "path": "pandas/tests/series/indexing/test_getitem.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_getitem_dict_and_set_deprecated",
+            "path": "pandas/tests/series/indexing/test_getitem.py",
+            "parent": "TestGetitemDeprecatedIndexers"
+        },
+        {
+            "func_name": "test_getitem_dict_and_set_deprecated",
+            "path": "pandas/tests/series/indexing/test_indexing.py",
+            "parent": "TestDeprecatedIndexers"
+        },
+        {
+            "func_name": "test_getitem_dict_and_set_deprecated_multiindex",
+            "path": "pandas/tests/series/indexing/test_indexing.py",
+            "parent": "TestDeprecatedIndexers"
+        },
+        {
+            "func_name": "test_agg_mapping_func_deprecated",
+            "path": "pandas/tests/apply/test_series_apply.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_agg_mapping_func_deprecated",
+            "path": "pandas/tests/apply/test_frame_apply.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_resample_t_l_deprecated",
+            "path": "pandas/tests/resample/test_period_index.py",
+            "parent": "TestPeriodIndex"
+        },
+        {
+            "func_name": "test_resample_lowercase_frequency_deprecated",
+            "path": "pandas/tests/resample/test_period_index.py",
+            "parent": "TestPeriodIndex"
+        },
+        {
+            "func_name": "test_resample_M_Q_Y_deprecated",
+            "path": "pandas/tests/resample/test_datetime_index.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_resample_BM_BQ_deprecated",
+            "path": "pandas/tests/resample/test_datetime_index.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "new_func_with_deprecation",
+            "path": "pandas/tests/util/test_deprecate.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecate_ok",
+            "path": "pandas/tests/util/test_deprecate.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecate_no_docstring",
+            "path": "pandas/tests/util/test_deprecate.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecate_wrong_docstring",
+            "path": "pandas/tests/util/test_deprecate.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecate_kwarg",
+            "path": "pandas/tests/util/test_deprecate_kwarg.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_dict_deprecate_kwarg",
+            "path": "pandas/tests/util/test_deprecate_kwarg.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_missing_deprecate_kwarg",
+            "path": "pandas/tests/util/test_deprecate_kwarg.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_callable_deprecate_kwarg",
+            "path": "pandas/tests/util/test_deprecate_kwarg.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_callable_deprecate_kwarg_fail",
+            "path": "pandas/tests/util/test_deprecate_kwarg.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_bad_deprecate_kwarg",
+            "path": "pandas/tests/util/test_deprecate_kwarg.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecate_keyword",
+            "path": "pandas/tests/util/test_deprecate_kwarg.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecate_option",
+            "path": "pandas/tests/config/test_config.py",
+            "parent": "TestConfig"
+        },
+        {
+            "func_name": "test_literal_html_deprecation",
+            "path": "pandas/tests/io/test_html.py",
+            "parent": "TestReadHtml"
+        },
+        {
+            "func_name": "test_keyword_deprecation",
+            "path": "pandas/tests/io/formats/test_to_string.py",
+            "parent": "TestDataFrameToStringFormatters"
+        },
+        {
+            "func_name": "test_keyword_deprecation",
+            "path": "pandas/tests/io/formats/test_to_markdown.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecated_kwargs",
+            "path": "pandas/tests/io/excel/test_readers.py",
+            "parent": "TestReaders"
+        },
+        {
+            "func_name": "test_default_epoch_date_format_deprecated",
+            "path": "pandas/tests/io/json/test_pandas.py",
+            "parent": "TestPandasContainer"
+        },
+        {
+            "func_name": "test_copy_deprecation",
+            "path": "pandas/tests/copy_view/test_copy_deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_copy_deprecation_reindex_like_align",
+            "path": "pandas/tests/copy_view/test_copy_deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_copy_deprecation_merge_concat",
+            "path": "pandas/tests/copy_view/test_copy_deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_alignment_deprecation_enforced",
+            "path": "pandas/tests/frame/test_ufunc.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_alignment_deprecation_many_inputs_enforced",
+            "path": "pandas/tests/frame/test_ufunc.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_shift_dt64values_int_fill_deprecated",
+            "path": "pandas/tests/frame/methods/test_shift.py",
+            "parent": "TestDataFrameShift"
+        },
+        {
+            "func_name": "test_asfreq_frequency_M_Q_Y_deprecated",
+            "path": "pandas/tests/frame/methods/test_asfreq.py",
+            "parent": "TestAsFreq"
+        },
+        {
+            "func_name": "test_getitem_dict_and_set_deprecated",
+            "path": "pandas/tests/frame/indexing/test_getitem.py",
+            "parent": "TestGetitemDeprecatedIndexers"
+        },
+        {
+            "func_name": "test_getitem_dict_and_set_deprecated",
+            "path": "pandas/tests/frame/indexing/test_indexing.py",
+            "parent": "TestDeprecatedIndexers"
+        },
+        {
+            "func_name": "test_getitem_dict_and_set_deprecated_multiindex",
+            "path": "pandas/tests/frame/indexing/test_indexing.py",
+            "parent": "TestDeprecatedIndexers"
+        },
+        {
+            "func_name": "test_where_int_downcasting_deprecated",
+            "path": "pandas/tests/frame/indexing/test_where.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecate_numeric_only_series",
+            "path": "pandas/tests/groupby/test_numeric_only.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_group_shift_with_multiple_periods_and_both_fill_and_freq_deprecated",
+            "path": "pandas/tests/groupby/methods/test_groupby_shift_diff.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_agg_dict_renaming_deprecation",
+            "path": "pandas/tests/groupby/aggregate/test_other.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_shift_fill_int_deprecated",
+            "path": "pandas/tests/arrays/test_datetimelike.py",
+            "parent": "SharedTests"
+        },
+        {
+            "func_name": "test_date_range_frequency_M_Q_Y_A_deprecated",
+            "path": "pandas/tests/arrays/test_datetimes.py",
+            "parent": "TestDatetimeArray"
+        },
+        {
+            "func_name": "test_date_range_uppercase_frequency_deprecated",
+            "path": "pandas/tests/arrays/test_datetimes.py",
+            "parent": "TestDatetimeArray"
+        },
+        {
+            "func_name": "test_date_range_lowercase_frequency_deprecated",
+            "path": "pandas/tests/arrays/test_datetimes.py",
+            "parent": "TestDatetimeArray"
+        },
+        {
+            "func_name": "test_deprecated_from_api_types",
+            "path": "pandas/tests/api/test_types.py",
+            "parent": "TestTypes"
+        },
+        {
+            "func_name": "test_units_H_S_deprecated_from_attrname_to_abbrevs",
+            "path": "pandas/tests/tslibs/test_resolution.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_parsing_tzlocal_deprecated",
+            "path": "pandas/tests/tslibs/test_parsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_to_offset_lowercase_frequency_deprecated",
+            "path": "pandas/tests/tslibs/test_to_offset.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_to_offset_uppercase_frequency_deprecated",
+            "path": "pandas/tests/tslibs/test_to_offset.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_get_loc_naive_dti_aware_str_deprecated",
+            "path": "pandas/tests/indexing/test_datetime.py",
+            "parent": "TestDatetimeIndex"
+        },
+        {
+            "func_name": "test_units_H_S_deprecated",
+            "path": "pandas/tests/scalar/timedelta/test_constructors.py",
+            "parent": "TestTimedeltaConstructorUnitKeyword"
+        },
+        {
+            "func_name": "test_resolution_deprecated",
+            "path": "pandas/tests/scalar/timedelta/test_timedelta.py",
+            "parent": "TestTimedeltas"
+        },
+        {
+            "func_name": "test_period_deprecated_freq",
+            "path": "pandas/tests/scalar/period/test_period.py",
+            "parent": "TestPeriodProperties"
+        },
+        {
+            "func_name": "test_utcnow_deprecated",
+            "path": "pandas/tests/scalar/timestamp/test_constructors.py",
+            "parent": "TestTimestampClassMethodConstructors"
+        },
+        {
+            "func_name": "test_utcfromtimestamp_deprecated",
+            "path": "pandas/tests/scalar/timestamp/test_constructors.py",
+            "parent": "TestTimestampClassMethodConstructors"
+        },
+        {
+            "func_name": "test_value_counts_object_inference_deprecated",
+            "path": "pandas/tests/base/test_value_counts.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_getitem_deprecated_float",
+            "path": "pandas/tests/indexes/test_indexing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_getitem_2d_deprecated",
+            "path": "pandas/tests/indexes/test_old_base.py",
+            "parent": "TestBase"
+        },
+        {
+            "func_name": "test_deprecated_fastpath",
+            "path": "pandas/tests/indexes/test_base.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_getitem_2d_deprecated",
+            "path": "pandas/tests/indexes/interval/test_indexing.py",
+            "parent": "TestGetItem"
+        },
+        {
+            "func_name": "test_freq_setter_deprecated",
+            "path": "pandas/tests/indexes/period/test_freq_attr.py",
+            "parent": "TestFreq"
+        },
+        {
+            "func_name": "test_uppercase_freq_deprecated_from_time_series",
+            "path": "pandas/tests/indexes/period/test_period_range.py",
+            "parent": "TestPeriodRangeDisallowedFreqs"
+        },
+        {
+            "func_name": "test_lowercase_freq_deprecated_from_time_series",
+            "path": "pandas/tests/indexes/period/test_period_range.py",
+            "parent": "TestPeriodRangeDisallowedFreqs"
+        },
+        {
+            "func_name": "test_date_range_frequency_M_SM_BQ_BY_deprecated",
+            "path": "pandas/tests/indexes/datetimes/test_date_range.py",
+            "parent": "TestDateRanges"
+        },
+        {
+            "func_name": "test_to_offset_with_lowercase_deprecated_freq",
+            "path": "pandas/tests/indexes/datetimes/test_date_range.py",
+            "parent": "TestDateRanges"
+        },
+        {
+            "func_name": "test_CBH_deprecated",
+            "path": "pandas/tests/indexes/datetimes/test_datetime.py",
+            "parent": "TestDatetimeIndex"
+        },
+        {
+            "func_name": "test_BM_BQ_BY_deprecated",
+            "path": "pandas/tests/indexes/datetimes/test_datetime.py",
+            "parent": "TestDatetimeIndex"
+        },
+        {
+            "func_name": "test_to_period_frequency_M_Q_Y_deprecated",
+            "path": "pandas/tests/indexes/datetimes/methods/test_to_period.py",
+            "parent": "TestToPeriod"
+        },
+        {
+            "func_name": "test_timedelta_units_H_S_deprecated",
+            "path": "pandas/tests/indexes/timedeltas/test_timedelta_range.py",
+            "parent": "TestTimedeltas"
+        },
+        {
+            "func_name": "test_timedelta_range_H_deprecated",
+            "path": "pandas/tests/indexes/timedeltas/test_timedelta_range.py",
+            "parent": "TestTimedeltas"
+        },
+        {
+            "func_name": "test_timedelta_range_deprecated_freq",
+            "path": "pandas/tests/indexes/timedeltas/test_timedelta_range.py",
+            "parent": "TestTimedeltas"
+        },
+        {
+            "func_name": "deprecate_option",
+            "path": "pandas/_config/config.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_get_deprecated_option",
+            "path": "pandas/_config/config.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_warn_if_deprecated",
+            "path": "pandas/_config/config.py",
+            "parent": "Module"
+        }
+    ]
+}

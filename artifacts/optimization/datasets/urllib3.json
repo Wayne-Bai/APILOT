@@ -1,0 +1,113 @@
+{
+    "Added:": [
+        {
+            "func_name": "__or__",
+            "path": "src/urllib3/_collections.py",
+            "parent": "HTTPHeaderDict"
+        },
+        {
+            "func_name": "_prepare_for_method_change",
+            "path": "src/urllib3/_collections.py",
+            "parent": "HTTPHeaderDict"
+        },
+        {
+            "func_name": "__ror__",
+            "path": "src/urllib3/_collections.py",
+            "parent": "HTTPHeaderDict"
+        },
+        {
+            "func_name": "setdefault",
+            "path": "src/urllib3/_collections.py",
+            "parent": "HTTPHeaderDict"
+        },
+        {
+            "func_name": "__ior__",
+            "path": "src/urllib3/_collections.py",
+            "parent": "HTTPHeaderDict"
+        }
+    ],
+    "Removed": [
+        {
+            "func_name": "ProxyHandler",
+            "path": "dummyserver/proxy.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "run_proxy",
+            "path": "dummyserver/proxy.py",
+            "parent": "Module"
+        }
+    ],
+    "Param_Changed": [
+        {
+            "func_name": "request",
+            "path": "src/urllib3/_request_methods.py",
+            "parent": "RequestMethods",
+            "old": [
+                "self",
+                "method",
+                "url",
+                "body",
+                "fields",
+                "headers"
+            ],
+            "new": [
+                "self",
+                "method",
+                "url",
+                "body",
+                "fields",
+                "headers",
+                "json"
+            ]
+        }
+    ],
+    "Return_Changed": [],
+    "Deprecated": [
+        {
+            "func_name": "test_deprecated_no_scheme",
+            "path": "test/test_poolmanager.py",
+            "parent": "TestPoolManager"
+        },
+        {
+            "func_name": "test_pool_property_deprecation_warning",
+            "path": "test/test_exceptions.py",
+            "parent": "TestNewConnectionError"
+        },
+        {
+            "func_name": "test_format_header_param_rfc2231_deprecated",
+            "path": "test/test_fields.py",
+            "parent": "TestRequestField"
+        },
+        {
+            "func_name": "test_format_header_param_html5_deprecated",
+            "path": "test/test_fields.py",
+            "parent": "TestRequestField"
+        },
+        {
+            "func_name": "test_redirect_relative_url_no_deprecation",
+            "path": "test/with_dummyserver/test_connectionpool.py",
+            "parent": "TestConnectionPool"
+        },
+        {
+            "func_name": "test_request_chunked_is_deprecated",
+            "path": "test/with_dummyserver/test_connectionpool.py",
+            "parent": "TestConnectionPool"
+        },
+        {
+            "func_name": "test_ssl_version_is_deprecated",
+            "path": "test/with_dummyserver/test_https.py",
+            "parent": "BaseTestHTTPS"
+        },
+        {
+            "func_name": "test_ssl_version_with_protocol_tls_or_client_not_deprecated",
+            "path": "test/with_dummyserver/test_https.py",
+            "parent": "BaseTestHTTPS"
+        },
+        {
+            "func_name": "test_no_tls_version_deprecation_with_ssl_context",
+            "path": "test/with_dummyserver/test_https.py",
+            "parent": "BaseTestHTTPS"
+        }
+    ]
+}

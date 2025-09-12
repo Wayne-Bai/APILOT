@@ -1,0 +1,2206 @@
+{
+    "Added:": [
+        {
+            "func_name": "gen_batches",
+            "path": "sklearn/utils/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "HalfBinomialLoss",
+            "path": "sklearn/_loss/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "PredictionErrorDisplay",
+            "path": "sklearn/metrics/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_call_func_on_transformers",
+            "path": "sklearn/compose/_column_transformer.py",
+            "parent": "ColumnTransformer"
+        },
+        {
+            "func_name": "HalfTweedieLoss",
+            "path": "sklearn/_loss/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "sort_graph_by_row_values",
+            "path": "sklearn/neighbors/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "d2_tweedie_score",
+            "path": "sklearn/metrics/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_compute_transformed_categories",
+            "path": "sklearn/preprocessing/_encoders.py",
+            "parent": "OneHotEncoder"
+        },
+        {
+            "func_name": "_set_drop_idx",
+            "path": "sklearn/preprocessing/_encoders.py",
+            "parent": "OneHotEncoder"
+        },
+        {
+            "func_name": "get_metadata_routing",
+            "path": "sklearn/compose/_column_transformer.py",
+            "parent": "ColumnTransformer"
+        },
+        {
+            "func_name": "TunedThresholdClassifierCV",
+            "path": "sklearn/model_selection/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_map_drop_idx_to_infrequent",
+            "path": "sklearn/preprocessing/_encoders.py",
+            "parent": "OneHotEncoder"
+        },
+        {
+            "func_name": "HalfSquaredError",
+            "path": "sklearn/_loss/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Bunch",
+            "path": "sklearn/utils/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "HalfMultinomialLoss",
+            "path": "sklearn/_loss/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "LearningCurveDisplay",
+            "path": "sklearn/model_selection/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "MiniBatchNMF",
+            "path": "sklearn/decomposition/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_add_prefix_for_feature_names_out",
+            "path": "sklearn/compose/_column_transformer.py",
+            "parent": "ColumnTransformer"
+        },
+        {
+            "func_name": "set_output",
+            "path": "sklearn/compose/_column_transformer.py",
+            "parent": "ColumnTransformer"
+        },
+        {
+            "func_name": "safe_mask",
+            "path": "sklearn/utils/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_get_remainder_cols",
+            "path": "sklearn/compose/_column_transformer.py",
+            "parent": "ColumnTransformer"
+        },
+        {
+            "func_name": "_compute_n_features_outs",
+            "path": "sklearn/preprocessing/_encoders.py",
+            "parent": "OneHotEncoder"
+        },
+        {
+            "func_name": "ArgKminClassMode",
+            "path": "sklearn/metrics/_pairwise_distances_reduction/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ValidationCurveDisplay",
+            "path": "sklearn/model_selection/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "metadata_routing",
+            "path": "sklearn/utils/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "HalfPoissonLoss",
+            "path": "sklearn/_loss/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "FixedThresholdClassifier",
+            "path": "sklearn/model_selection/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "safe_sqr",
+            "path": "sklearn/utils/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_can_fit_transform",
+            "path": "sklearn/pipeline.py",
+            "parent": "Pipeline"
+        },
+        {
+            "func_name": "_get_remainder_cols_dtype",
+            "path": "sklearn/compose/_column_transformer.py",
+            "parent": "ColumnTransformer"
+        },
+        {
+            "func_name": "get_scorer_names",
+            "path": "sklearn/metrics/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "get_feature_names_out",
+            "path": "sklearn/preprocessing/_polynomial.py",
+            "parent": "PolynomialFeatures"
+        },
+        {
+            "func_name": "TargetEncoder",
+            "path": "sklearn/preprocessing/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "sqeuclidean_row_norms",
+            "path": "sklearn/metrics/_pairwise_distances_reduction/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ArgKmin",
+            "path": "sklearn/metrics/_pairwise_distances_reduction/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "named_transformers",
+            "path": "sklearn/pipeline.py",
+            "parent": "FeatureUnion"
+        },
+        {
+            "func_name": "HalfTweedieLossIdentity",
+            "path": "sklearn/_loss/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "HalfGammaLoss",
+            "path": "sklearn/_loss/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "d2_absolute_error_score",
+            "path": "sklearn/metrics/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "RadiusNeighborsClassMode",
+            "path": "sklearn/metrics/_pairwise_distances_reduction/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_remove_dropped_categories",
+            "path": "sklearn/preprocessing/_encoders.py",
+            "parent": "OneHotEncoder"
+        },
+        {
+            "func_name": "assert_run_python_script_without_output",
+            "path": "sklearn/utils/_testing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_split",
+            "path": "sklearn/model_selection/_split.py",
+            "parent": "TimeSeriesSplit"
+        },
+        {
+            "func_name": "_get_estimator",
+            "path": "sklearn/ensemble/_iforest.py",
+            "parent": "IsolationForest"
+        },
+        {
+            "func_name": "_check_get_feature_name_combiner",
+            "path": "sklearn/preprocessing/_encoders.py",
+            "parent": "OneHotEncoder"
+        },
+        {
+            "func_name": "_get_empty_routing",
+            "path": "sklearn/compose/_column_transformer.py",
+            "parent": "ColumnTransformer"
+        },
+        {
+            "func_name": "_GeneralizedLinearRegressor",
+            "path": "sklearn/linear_model/_glm/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "gen_even_slices",
+            "path": "sklearn/utils/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "PinballLoss",
+            "path": "sklearn/_loss/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "class_likelihood_ratios",
+            "path": "sklearn/metrics/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_get_feature_name_out_for_transformer",
+            "path": "sklearn/compose/_column_transformer.py",
+            "parent": "ColumnTransformer"
+        },
+        {
+            "func_name": "DecisionBoundaryDisplay",
+            "path": "sklearn/inspection/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "AbsoluteError",
+            "path": "sklearn/_loss/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_solve_lstsq",
+            "path": "sklearn/discriminant_analysis.py",
+            "parent": "LinearDiscriminantAnalysis"
+        },
+        {
+            "func_name": "HDBSCAN",
+            "path": "sklearn/cluster/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "HuberLoss",
+            "path": "sklearn/_loss/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "RadiusNeighbors",
+            "path": "sklearn/metrics/_pairwise_distances_reduction/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "d2_log_loss_score",
+            "path": "sklearn/metrics/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "d2_pinball_score",
+            "path": "sklearn/metrics/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "assert_no_warnings",
+            "path": "sklearn/utils/_testing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_check_method_params",
+            "path": "sklearn/pipeline.py",
+            "parent": "Pipeline"
+        },
+        {
+            "func_name": "BisectingKMeans",
+            "path": "sklearn/cluster/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "root_mean_squared_log_error",
+            "path": "sklearn/metrics/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "UnsetMetadataPassedError",
+            "path": "sklearn/exceptions.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "BaseDistancesReductionDispatcher",
+            "path": "sklearn/metrics/_pairwise_distances_reduction/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_score_samples",
+            "path": "sklearn/ensemble/_iforest.py",
+            "parent": "IsolationForest"
+        },
+        {
+            "func_name": "root_mean_squared_error",
+            "path": "sklearn/metrics/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_n_features_out",
+            "path": "sklearn/decomposition/_truncated_svd.py",
+            "parent": "TruncatedSVD"
+        }
+    ],
+    "Removed": [
+        {
+            "func_name": "matches",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "norm",
+            "path": "sklearn/feature_extraction/text.py",
+            "parent": "TfidfVectorizer"
+        },
+        {
+            "func_name": "removeQuotes",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "MatchFirst",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ParseExpression",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "setDebug",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "dictOf",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "withAttribute",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__lookup",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "reset",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "OnlyOnce"
+        },
+        {
+            "func_name": "__ror__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "copy",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "__new__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "stripHTMLTags",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "pyparsing_common"
+        },
+        {
+            "func_name": "Literal",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SkipTo",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "asList",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "setDebugActions",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "x_mean_",
+            "path": "sklearn/cross_decomposition/_pls.py",
+            "parent": "_PLS"
+        },
+        {
+            "func_name": "bytescale",
+            "path": "sklearn/externals/_pilutil.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__getattr__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseBaseException"
+        },
+        {
+            "func_name": "__rxor__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "pop",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "streamline",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "_pairwise",
+            "path": "sklearn/preprocessing/_data.py",
+            "parent": "KernelCenterer"
+        },
+        {
+            "func_name": "cppStyleComment",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "QuotedString",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "addParseAction",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "setName",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "ParseSyntaxException",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "TokenConverter",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "n_features_",
+            "path": "sklearn/tree/_classes.py",
+            "parent": "DecisionTreeClassifier"
+        },
+        {
+            "func_name": "convertToDatetime",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "pyparsing_common"
+        },
+        {
+            "func_name": "resetCache",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "insert",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "col",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "nums",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__invert__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "plot_confusion_matrix",
+            "path": "sklearn/metrics/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ParseResults",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Regex",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "makeHTMLTags",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "pyparsing_common",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "htmlComment",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "makeXMLTags",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "operatorPrecedence",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "setBreak",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "Dict",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__xor__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "setWhitespaceChars",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "GeneralizedLinearRegressor",
+            "path": "sklearn/linear_model/_glm/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "replaceHTMLEntity",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Word",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "markInputline",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseBaseException"
+        },
+        {
+            "func_name": "x_std_",
+            "path": "sklearn/cross_decomposition/_pls.py",
+            "parent": "_PLS"
+        },
+        {
+            "func_name": "infixNotation",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "stringEnd",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "scanString",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "__iadd__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "hexnums",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "alphas",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_check_fit_params",
+            "path": "sklearn/pipeline.py",
+            "parent": "Pipeline"
+        },
+        {
+            "func_name": "cStyleComment",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "postParse",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "originalTextFor",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "And",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__and__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "printables",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "setDefaultWhitespaceChars",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "replaceWith",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "empty",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "setFailAction",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "countedArray",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "y_mean_",
+            "path": "sklearn/cross_decomposition/_pls.py",
+            "parent": "_PLS"
+        },
+        {
+            "func_name": "__rmul__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "coef_",
+            "path": "sklearn/multiclass.py",
+            "parent": "OneVsRestClassifier"
+        },
+        {
+            "func_name": "stringStart",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "enablePackrat",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "pprint",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "dblSlashComment",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "append",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "x_scores_",
+            "path": "sklearn/cross_decomposition/_pls.py",
+            "parent": "_PLS"
+        },
+        {
+            "func_name": "tokenMap",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__ior__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "MatchFirst"
+        },
+        {
+            "func_name": "ChangedBehaviorWarning",
+            "path": "sklearn/exceptions.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "setParseAction",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "opAssoc",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__req__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "oneOf",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Suppress",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "intercept_",
+            "path": "sklearn/multiclass.py",
+            "parent": "OneVsRestClassifier"
+        },
+        {
+            "func_name": "n_input_features_",
+            "path": "sklearn/preprocessing/_polynomial.py",
+            "parent": "PolynomialFeatures"
+        },
+        {
+            "func_name": "__rand__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "Forward",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_iteritems",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "runTests",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "quotedString",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Optional",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "if_delegate_has_method",
+            "path": "sklearn/utils/metaestimators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "WordEnd",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "parseImpl",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "matchOnlyAtCol",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "LineEnd",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "leaveWhitespace",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "__ixor__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Or"
+        },
+        {
+            "func_name": "_parseCache",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "__hash__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "Combine",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "plot_det_curve",
+            "path": "sklearn/metrics/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "traceParseAction",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Group",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "getName",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "plot_roc_curve",
+            "path": "sklearn/metrics/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "lineno",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_from_exception",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseBaseException"
+        },
+        {
+            "func_name": "setResultsName",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "LineStart",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "validate",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "restOfLine",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "plot_partial_dependence",
+            "path": "sklearn/inspection/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_itervalues",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "__radd__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "CaselessLiteral",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "suppress",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "NoMatch",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__or__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "asDict",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "_asStringList",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "GoToColumn",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "downcaseTokens",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "nestedExpr",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "toimage",
+            "path": "sklearn/externals/_pilutil.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "srange",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_parseNoCache",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "parseString",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "imresize",
+            "path": "sklearn/externals/_pilutil.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "NotAny",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "smooth_idf",
+            "path": "sklearn/feature_extraction/text.py",
+            "parent": "TfidfVectorizer"
+        },
+        {
+            "func_name": "check_matplotlib_support",
+            "path": "sklearn/utils/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "CharsNotIn",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "anyOpenTag",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "parseFile",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "preParse",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "_skipIgnorables",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "_solve_lsqr",
+            "path": "sklearn/discriminant_analysis.py",
+            "parent": "LinearDiscriminantAnalysis"
+        },
+        {
+            "func_name": "__setitem__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "clear",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "matchPreviousExpr",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "canParseNext",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "ParseException",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Token",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "setDefaultKeywordChars",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Keyword"
+        },
+        {
+            "func_name": "indices_to_mask",
+            "path": "sklearn/utils/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "RecursiveGrammarException",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "indentedBlock",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ignore",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "_validate_keywords",
+            "path": "sklearn/preprocessing/_encoders.py",
+            "parent": "OneHotEncoder"
+        },
+        {
+            "func_name": "StringStart",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__bool__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "__ne__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "parseWithTabs",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "transformString",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "line",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_update_doc",
+            "path": "sklearn/utils/deprecation.py",
+            "parent": "deprecated"
+        },
+        {
+            "func_name": "get_feature_names",
+            "path": "sklearn/preprocessing/_polynomial.py",
+            "parent": "PolynomialFeatures"
+        },
+        {
+            "func_name": "upcaseTokens",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "load_boston",
+            "path": "sklearn/datasets/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ParseBaseException",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__lshift__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Forward"
+        },
+        {
+            "func_name": "__ilshift__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Forward"
+        },
+        {
+            "func_name": "addCondition",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "CaselessKeyword",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__eq__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "OnlyOnce",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "SCORERS",
+            "path": "sklearn/metrics/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "y_std_",
+            "path": "sklearn/cross_decomposition/_pls.py",
+            "parent": "_PLS"
+        },
+        {
+            "func_name": "__add__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "withClass",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__delitem__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "alphas8bit",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "tryParse",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "locatedExpr",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "CloseMatch",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "lineStart",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "unicodeString",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "White",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ParserElement",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "imsave",
+            "path": "sklearn/externals/_pilutil.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "get",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "__rsub__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "commonHTMLEntity",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "inlineLiteralsUsing",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "__sub__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "StringEnd",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "sublinear_tf",
+            "path": "sklearn/feature_extraction/text.py",
+            "parent": "TfidfVectorizer"
+        },
+        {
+            "func_name": "javaStyleComment",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "lineEnd",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "punc8bit",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "extend",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "alphanums",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_compute_drop_idx",
+            "path": "sklearn/preprocessing/_encoders.py",
+            "parent": "OneHotEncoder"
+        },
+        {
+            "func_name": "assert_run_python_script",
+            "path": "sklearn/utils/_testing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "y_scores_",
+            "path": "sklearn/cross_decomposition/_pls.py",
+            "parent": "_PLS"
+        },
+        {
+            "func_name": "anyCloseTag",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "NonBLASDotWarning",
+            "path": "sklearn/exceptions.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__mul__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "dblQuotedString",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ParseElementEnhance",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__contains__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "use_idf",
+            "path": "sklearn/feature_extraction/text.py",
+            "parent": "TfidfVectorizer"
+        },
+        {
+            "func_name": "__dir__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseBaseException"
+        },
+        {
+            "func_name": "FollowedBy",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "checkRecursion",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "matchPreviousLiteral",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_iterkeys",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "Or",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "delimitedList",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "pythonStyleComment",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ungroup",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "OneOrMore",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__rne__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "convertToDate",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "pyparsing_common"
+        },
+        {
+            "func_name": "__reversed__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "Keyword",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "imread",
+            "path": "sklearn/externals/_pilutil.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__getnewargs__",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "haskeys",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "ZeroOrMore",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "nullDebugAction",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "searchString",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParserElement"
+        },
+        {
+            "func_name": "sglQuotedString",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "WordStart",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "plot_precision_recall_curve",
+            "path": "sklearn/metrics/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "fromimage",
+            "path": "sklearn/externals/_pilutil.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "commaSeparatedList",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "asXML",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "ParseResults"
+        },
+        {
+            "func_name": "Empty",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Each",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "lobpcg",
+            "path": "sklearn/externals/_lobpcg.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "sigma_",
+            "path": "sklearn/naive_bayes.py",
+            "parent": "GaussianNB"
+        },
+        {
+            "func_name": "ParseFatalException",
+            "path": "doc/tutorial/machine_learning_map/pyparsing.py",
+            "parent": "Module"
+        }
+    ],
+    "Param_Changed": [
+        {
+            "func_name": "_check_parameters",
+            "path": "sklearn/cluster/_bicluster.py",
+            "parent": "BaseSpectral",
+            "old": [
+                "self"
+            ],
+            "new": [
+                "self",
+                "n_samples"
+            ]
+        },
+        {
+            "func_name": "_set_oob_score_and_attributes",
+            "path": "sklearn/ensemble/_forest.py",
+            "parent": "BaseForest",
+            "old": [
+                "self",
+                "X",
+                "y"
+            ],
+            "new": [
+                "self",
+                "X",
+                "y",
+                "scoring_function"
+            ]
+        },
+        {
+            "func_name": "__call__",
+            "path": "sklearn/utils/deprecation.py",
+            "parent": "deprecated",
+            "old": [
+                "self",
+                "name"
+            ],
+            "new": [
+                "self",
+                "obj"
+            ]
+        },
+        {
+            "func_name": "transform",
+            "path": "sklearn/cross_decomposition/_pls.py",
+            "parent": "_PLS",
+            "old": [
+                "self",
+                "X",
+                "Y",
+                "copy"
+            ],
+            "new": [
+                "self",
+                "X",
+                "y",
+                "Y",
+                "copy"
+            ]
+        },
+        {
+            "func_name": "_parallel_func",
+            "path": "sklearn/pipeline.py",
+            "parent": "FeatureUnion",
+            "old": [
+                "self",
+                "X",
+                "y",
+                "fit_params",
+                "func"
+            ],
+            "new": [
+                "self",
+                "X",
+                "y",
+                "func",
+                "routed_params"
+            ]
+        },
+        {
+            "func_name": "_iter",
+            "path": "sklearn/compose/_column_transformer.py",
+            "parent": "ColumnTransformer",
+            "old": [
+                "self",
+                "fitted",
+                "replace_strings",
+                "column_as_strings"
+            ],
+            "new": [
+                "self",
+                "fitted",
+                "column_as_labels",
+                "skip_drop",
+                "skip_empty_columns"
+            ]
+        },
+        {
+            "func_name": "__getitem__",
+            "path": "sklearn/model_selection/_search.py",
+            "parent": "ParameterGrid",
+            "old": [
+                "self",
+                "i"
+            ],
+            "new": [
+                "self",
+                "ind"
+            ]
+        },
+        {
+            "func_name": "_fit",
+            "path": "sklearn/preprocessing/_data.py",
+            "parent": "PowerTransformer",
+            "old": [
+                "self",
+                "X",
+                "compute_sources"
+            ],
+            "new": [
+                "self",
+                "X",
+                "y",
+                "force_transform"
+            ]
+        },
+        {
+            "func_name": "split",
+            "path": "sklearn/model_selection/_split.py",
+            "parent": "_UnsupportedGroupCVMixin",
+            "old": [
+                "self",
+                "instring",
+                "maxsplit",
+                "includeSeparators"
+            ],
+            "new": [
+                "self",
+                "X",
+                "y",
+                "groups"
+            ]
+        },
+        {
+            "func_name": "_check_input",
+            "path": "sklearn/preprocessing/_data.py",
+            "parent": "PowerTransformer",
+            "old": [
+                "self",
+                "X",
+                "in_fit",
+                "check_positive",
+                "check_shape",
+                "check_method"
+            ],
+            "new": [
+                "self",
+                "X",
+                "in_fit",
+                "check_positive",
+                "check_shape"
+            ]
+        },
+        {
+            "func_name": "__init__",
+            "path": "sklearn/neighbors/_lof.py",
+            "parent": "LocalOutlierFactor",
+            "old": [
+                "self",
+                "pstr",
+                "loc",
+                "msg",
+                "elem"
+            ],
+            "new": [
+                "self",
+                "n_neighbors"
+            ]
+        },
+        {
+            "func_name": "_fit_transform",
+            "path": "sklearn/decomposition/_fastica.py",
+            "parent": "FastICA",
+            "old": [
+                "self",
+                "X",
+                "y",
+                "func",
+                "fitted",
+                "column_as_strings"
+            ],
+            "new": [
+                "self",
+                "X",
+                "compute_sources"
+            ]
+        }
+    ],
+    "Return_Changed": [
+        {
+            "func_name": "__iter__",
+            "path": "sklearn/model_selection/_search.py",
+            "parent": "ParameterGrid",
+            "old": [
+                "Call(func=Name(id='iter', ctx=Load()), args=[Attribute(value=Name(id='self', ctx=Load()), attr='__toklist', ctx=Load())], keywords=[])"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "make_column_transformer",
+            "path": "sklearn/compose/_column_transformer.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='ColumnTransformer', ctx=Load()), args=[Name(id='transformer_list', ctx=Load())], keywords=[keyword(arg='n_jobs', value=Name(id='n_jobs', ctx=Load())), keyword(arg='remainder', value=Name(id='remainder', ctx=Load())), keyword(arg='sparse_threshold', value=Name(id='sparse_threshold', ctx=Load())), keyword(arg='verbose', value=Name(id='verbose', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Name(id='ColumnTransformer', ctx=Load()), args=[Name(id='transformer_list', ctx=Load())], keywords=[keyword(arg='n_jobs', value=Name(id='n_jobs', ctx=Load())), keyword(arg='remainder', value=Name(id='remainder', ctx=Load())), keyword(arg='sparse_threshold', value=Name(id='sparse_threshold', ctx=Load())), keyword(arg='verbose', value=Name(id='verbose', ctx=Load())), keyword(arg='verbose_feature_names_out', value=Name(id='verbose_feature_names_out', ctx=Load())), keyword(arg='force_int_remainder_cols', value=Name(id='force_int_remainder_cols', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "_limit_features",
+            "path": "sklearn/feature_extraction/text.py",
+            "parent": "CountVectorizer",
+            "old": [
+                "Tuple(elts=[Subscript(value=Name(id='X', ctx=Load()), slice=Tuple(elts=[Slice(), Name(id='kept_indices', ctx=Load())], ctx=Load()), ctx=Load()), Name(id='removed_terms', ctx=Load())], ctx=Load())"
+            ],
+            "new": [
+                "Subscript(value=Name(id='X', ctx=Load()), slice=Tuple(elts=[Slice(), Name(id='kept_indices', ctx=Load())], ctx=Load()), ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "_transformers",
+            "path": "sklearn/compose/_column_transformer.py",
+            "parent": "ColumnTransformer",
+            "old": [
+                "ListComp(elt=Tuple(elts=[Name(id='name', ctx=Load()), Name(id='trans', ctx=Load())], ctx=Load()), generators=[comprehension(target=Tuple(elts=[Name(id='name', ctx=Store()), Name(id='trans', ctx=Store()), Name(id='_', ctx=Store())], ctx=Store()), iter=Attribute(value=Name(id='self', ctx=Load()), attr='transformers', ctx=Load()), ifs=[], is_async=0)])"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "_parallel_args",
+            "path": "sklearn/ensemble/_iforest.py",
+            "parent": "IsolationForest",
+            "old": [
+                "Call(func=Name(id='_joblib_parallel_args', ctx=Load()), args=[], keywords=[keyword(arg='prefer', value=Constant(value='threads'))])"
+            ],
+            "new": [
+                "Dict(keys=[Constant(value='prefer')], values=[Constant(value='threads')])"
+            ]
+        },
+        {
+            "func_name": "_final_estimator",
+            "path": "sklearn/pipeline.py",
+            "parent": "Pipeline",
+            "old": [
+                "IfExp(test=Compare(left=Name(id='estimator', ctx=Load()), ops=[Is()], comparators=[Constant(value=None)]), body=Constant(value='passthrough'), orelse=Name(id='estimator', ctx=Load()))"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "_parallel_func",
+            "path": "sklearn/pipeline.py",
+            "parent": "FeatureUnion",
+            "old": [
+                "Call(func=Call(func=Name(id='Parallel', ctx=Load()), args=[], keywords=[keyword(arg='n_jobs', value=Attribute(value=Name(id='self', ctx=Load()), attr='n_jobs', ctx=Load()))]), args=[GeneratorExp(elt=Call(func=Call(func=Name(id='delayed', ctx=Load()), args=[Name(id='func', ctx=Load())], keywords=[]), args=[Name(id='transformer', ctx=Load()), Name(id='X', ctx=Load()), Name(id='y', ctx=Load()), Name(id='weight', ctx=Load())], keywords=[keyword(arg='message_clsname', value=Constant(value='FeatureUnion')), keyword(arg='message', value=Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='_log_message', ctx=Load()), args=[Name(id='name', ctx=Load()), Name(id='idx', ctx=Load()), Call(func=Name(id='len', ctx=Load()), args=[Name(id='transformers', ctx=Load())], keywords=[])], keywords=[])), keyword(value=Name(id='fit_params', ctx=Load()))]), generators=[comprehension(target=Tuple(elts=[Name(id='idx', ctx=Store()), Tuple(elts=[Name(id='name', ctx=Store()), Name(id='transformer', ctx=Store()), Name(id='weight', ctx=Store())], ctx=Store())], ctx=Store()), iter=Call(func=Name(id='enumerate', ctx=Load()), args=[Name(id='transformers', ctx=Load()), Constant(value=1)], keywords=[]), ifs=[], is_async=0)])], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Call(func=Name(id='Parallel', ctx=Load()), args=[], keywords=[keyword(arg='n_jobs', value=Attribute(value=Name(id='self', ctx=Load()), attr='n_jobs', ctx=Load()))]), args=[GeneratorExp(elt=Call(func=Call(func=Name(id='delayed', ctx=Load()), args=[Name(id='func', ctx=Load())], keywords=[]), args=[Name(id='transformer', ctx=Load()), Name(id='X', ctx=Load()), Name(id='y', ctx=Load()), Name(id='weight', ctx=Load())], keywords=[keyword(arg='message_clsname', value=Constant(value='FeatureUnion')), keyword(arg='message', value=Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='_log_message', ctx=Load()), args=[Name(id='name', ctx=Load()), Name(id='idx', ctx=Load()), Call(func=Name(id='len', ctx=Load()), args=[Name(id='transformers', ctx=Load())], keywords=[])], keywords=[])), keyword(arg='params', value=Subscript(value=Name(id='routed_params', ctx=Load()), slice=Name(id='name', ctx=Load()), ctx=Load()))]), generators=[comprehension(target=Tuple(elts=[Name(id='idx', ctx=Store()), Tuple(elts=[Name(id='name', ctx=Store()), Name(id='transformer', ctx=Store()), Name(id='weight', ctx=Store())], ctx=Store())], ctx=Store()), iter=Call(func=Name(id='enumerate', ctx=Load()), args=[Name(id='transformers', ctx=Load()), Constant(value=1)], keywords=[]), ifs=[], is_async=0)])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "fastica",
+            "path": "sklearn/decomposition/_fastica.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "Name(id='returned_values', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "isotonic_regression",
+            "path": "sklearn/isotonic.py",
+            "parent": "Module",
+            "old": [
+                "Subscript(value=Name(id='y', ctx=Load()), slice=Name(id='order', ctx=Load()), ctx=Load())"
+            ],
+            "new": [
+                "Name(id='y', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "__getstate__",
+            "path": "sklearn/isotonic.py",
+            "parent": "IsotonicRegression",
+            "old": [
+                "Tuple(elts=[Attribute(value=Name(id='self', ctx=Load()), attr='__toklist', ctx=Load()), Tuple(elts=[Call(func=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='__tokdict', ctx=Load()), attr='copy', ctx=Load()), args=[], keywords=[]), BoolOp(op=Or(), values=[BoolOp(op=And(), values=[Compare(left=Attribute(value=Name(id='self', ctx=Load()), attr='__parent', ctx=Load()), ops=[IsNot()], comparators=[Constant(value=None)]), Call(func=Attribute(value=Name(id='self', ctx=Load()), attr='__parent', ctx=Load()), args=[], keywords=[])]), Constant(value=None)]), Attribute(value=Name(id='self', ctx=Load()), attr='__accumNames', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='__name', ctx=Load())], ctx=Load())], ctx=Load())"
+            ],
+            "new": [
+                "Name(id='state', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "__getitem__",
+            "path": "sklearn/model_selection/_search.py",
+            "parent": "ParameterGrid",
+            "old": [
+                "Subscript(value=Attribute(value=Name(id='self', ctx=Load()), attr='tup', ctx=Load()), slice=Name(id='i', ctx=Load()), ctx=Load())"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "__repr__",
+            "path": "sklearn/model_selection/_split.py",
+            "parent": "BaseCrossValidator",
+            "old": [
+                "Call(func=Name(id='_ustr', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_build_repr', ctx=Load()), args=[Name(id='self', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "_fit",
+            "path": "sklearn/preprocessing/_data.py",
+            "parent": "PowerTransformer",
+            "old": [
+                "Name(id='S', ctx=Load())"
+            ],
+            "new": [
+                "Name(id='X', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "__str__",
+            "path": "sklearn/externals/_packaging/version.py",
+            "parent": "LegacyVersion",
+            "old": [
+                "BinOp(left=Constant(value='%s (at char %d), (line:%d, col:%d)'), op=Mod(), right=Tuple(elts=[Attribute(value=Name(id='self', ctx=Load()), attr='msg', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='loc', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='lineno', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='column', ctx=Load())], ctx=Load()))"
+            ],
+            "new": [
+                "Attribute(value=Name(id='self', ctx=Load()), attr='_version', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "__len__",
+            "path": "sklearn/model_selection/_search.py",
+            "parent": "ParameterGrid",
+            "old": [
+                "Call(func=Name(id='len', ctx=Load()), args=[Attribute(value=Name(id='self', ctx=Load()), attr='__toklist', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='sum', ctx=Load()), args=[GeneratorExp(elt=IfExp(test=Name(id='p', ctx=Load()), body=Call(func=Name(id='product', ctx=Load()), args=[GeneratorExp(elt=Call(func=Name(id='len', ctx=Load()), args=[Name(id='v', ctx=Load())], keywords=[]), generators=[comprehension(target=Name(id='v', ctx=Store()), iter=Call(func=Attribute(value=Name(id='p', ctx=Load()), attr='values', ctx=Load()), args=[], keywords=[]), ifs=[], is_async=0)])], keywords=[]), orelse=Constant(value=1)), generators=[comprehension(target=Name(id='p', ctx=Store()), iter=Attribute(value=Name(id='self', ctx=Load()), attr='param_grid', ctx=Load()), ifs=[], is_async=0)])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "split",
+            "path": "sklearn/model_selection/_split.py",
+            "parent": "_UnsupportedGroupCVMixin",
+            "old": [],
+            "new": [
+                "Call(func=Attribute(value=Call(func=Name(id='super', ctx=Load()), args=[], keywords=[]), attr='split', ctx=Load()), args=[Name(id='X', ctx=Load()), Name(id='y', ctx=Load())], keywords=[keyword(arg='groups', value=Name(id='groups', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "_validate_y",
+            "path": "sklearn/ensemble/_bagging.py",
+            "parent": "BaseBagging",
+            "old": [],
+            "new": [
+                "Name(id='y', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "_fit_transform",
+            "path": "sklearn/decomposition/_fastica.py",
+            "parent": "FastICA",
+            "old": [],
+            "new": [
+                "Name(id='S', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "idf_",
+            "path": "sklearn/feature_extraction/text.py",
+            "parent": "TfidfVectorizer",
+            "old": [
+                "Call(func=Attribute(value=Name(id='np', ctx=Load()), attr='ravel', ctx=Load()), args=[Call(func=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='_idf_diag', ctx=Load()), attr='sum', ctx=Load()), args=[], keywords=[keyword(arg='axis', value=Constant(value=0))])], keywords=[])"
+            ],
+            "new": [
+                "Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='_tfidf', ctx=Load()), attr='idf_', ctx=Load())"
+            ]
+        }
+    ],
+    "Deprecated": [
+        {
+            "func_name": "test_make_scorer_deprecation",
+            "path": "sklearn/metrics/tests/test_score_objects.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_precision_recall_curve_deprecation_warning",
+            "path": "sklearn/metrics/tests/test_ranking.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_brier_score_loss_deprecation_warning",
+            "path": "sklearn/metrics/tests/test_classification.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_mean_squared_deprecation_squared",
+            "path": "sklearn/metrics/tests/test_regression.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecated_samme_r_algorithm",
+            "path": "sklearn/ensemble/tests/test_weight_boosting.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_inverse_transform_Xt_deprecation",
+            "path": "sklearn/cluster/tests/test_feature_agglomeration.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecation_warning_metric_None",
+            "path": "sklearn/cluster/tests/test_hierarchical.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_hdbscan_warning_on_deprecated_algorithm_name",
+            "path": "sklearn/cluster/tests/test_hdbscan.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_make_sparse_spd_matrix_deprecation_warning",
+            "path": "sklearn/datasets/tests/test_samples_generator.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_pipeline_inverse_transform_Xt_deprecation",
+            "path": "sklearn/tests/test_pipeline.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_multi_class_deprecated",
+            "path": "sklearn/linear_model/tests/test_logistic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_loss_attribute_deprecation",
+            "path": "sklearn/linear_model/tests/test_sgd.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_passive_aggressive_deprecated_average",
+            "path": "sklearn/linear_model/tests/test_sgd.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_copy_X_deprecated",
+            "path": "sklearn/linear_model/tests/test_theil_sen.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_ridge_store_cv_values_deprecated",
+            "path": "sklearn/linear_model/tests/test_ridge.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_ridge_cv_values_deprecated",
+            "path": "sklearn/linear_model/tests/test_ridge.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_passive_aggressive_deprecated_average",
+            "path": "sklearn/linear_model/tests/test_passive_aggressive.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_is_deprecated",
+            "path": "sklearn/utils/deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_deprecate_Xt_in_inverse_transform",
+            "path": "sklearn/utils/deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_set_deprecated",
+            "path": "sklearn/utils/_bunch.py",
+            "parent": "Bunch"
+        },
+        {
+            "func_name": "_mark_if_deprecated",
+            "path": "sklearn/utils/_param_validation.py",
+            "parent": "Options"
+        },
+        {
+            "func_name": "_deprecate_positional_args",
+            "path": "sklearn/utils/validation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_inner_deprecate_positional_args",
+            "path": "sklearn/utils/validation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecated",
+            "path": "sklearn/utils/tests/test_deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_is_deprecated",
+            "path": "sklearn/utils/tests/test_deprecation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_is_pypy_deprecated",
+            "path": "sklearn/utils/tests/test_utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_tosequence_deprecated",
+            "path": "sklearn/utils/tests/test_utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_parallel_backend_deprecated",
+            "path": "sklearn/utils/tests/test_utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecate_positional_args_warns_for_function",
+            "path": "sklearn/utils/tests/test_validation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecate_positional_args_warns_for_function_version",
+            "path": "sklearn/utils/tests/test_validation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecate_positional_args_warns_for_class",
+            "path": "sklearn/utils/tests/test_validation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_stroptions_deprecated_subset",
+            "path": "sklearn/utils/tests/test_param_validation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_boolean_constraint_deprecated_int",
+            "path": "sklearn/utils/tests/test_param_validation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_deprecated_method",
+            "path": "sklearn/utils/tests/test_param_validation.py",
+            "parent": "_Class"
+        },
+        {
+            "func_name": "test_check_fit_score_takes_y_works_on_deprecated_fit",
+            "path": "sklearn/utils/tests/test_estimator_checks.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_bunch_attribute_deprecation",
+            "path": "sklearn/utils/tests/test_bunch.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "decorator_no_deprecation_warning",
+            "path": "sklearn/utils/tests/test_testing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "decorator_no_deprecation_multiple_warning",
+            "path": "sklearn/utils/tests/test_testing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "context_manager_no_deprecation_warning",
+            "path": "sklearn/utils/tests/test_testing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "context_manager_no_deprecation_multiple_warning",
+            "path": "sklearn/utils/tests/test_testing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_tnse_n_iter_deprecated",
+            "path": "sklearn/manifold/tests/test_t_sne.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_KBD_inverse_transform_Xt_deprecation",
+            "path": "sklearn/preprocessing/tests/test_discretization.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_check_params_groups_deprecation",
+            "path": "sklearn/model_selection/_validation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_fit_param_deprecation",
+            "path": "sklearn/model_selection/tests/test_validation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_inverse_transform_Xt_deprecation",
+            "path": "sklearn/model_selection/tests/test_search.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_NMF_inverse_transform_Xt_deprecation",
+            "path": "sklearn/decomposition/tests/test_nmf.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_spca_max_iter_None_deprecation",
+            "path": "sklearn/decomposition/tests/test_sparse_pca.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_deprecate_Y_when_optional",
+            "path": "sklearn/cross_decomposition/_pls.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_deprecate_Y_when_required",
+            "path": "sklearn/cross_decomposition/_pls.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_pls_fit_warning_on_deprecated_Y_argument",
+            "path": "sklearn/cross_decomposition/tests/test_pls.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_pls_transform_warning_on_deprecated_Y_argument",
+            "path": "sklearn/cross_decomposition/tests/test_pls.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_pls_inverse_transform_warning_on_deprecated_Y_argument",
+            "path": "sklearn/cross_decomposition/tests/test_pls.py",
+            "parent": "Module"
+        }
+    ]
+}

@@ -1,0 +1,1583 @@
+{
+    "Please generate python code with pandas to fulfill the purpose Load pickled pandas object (or any object) from file., start code with importing the pandas": [
+        "read_pickle"
+    ],
+    "Please generate python code with numpy to fulfill the purpose Pad an array., start code with importing the numpy": [
+        "pad"
+    ],
+    "Please generate python code with numpy to fulfill the purpose Load arrays or pickled objects from .npy, .npz or pickled files., start code with importing the numpy": [
+        "load"
+    ],
+    "Please generate python code with numpy to fulfill the purpose Return a sorted copy of an array., start code with importing the numpy": [
+        "sort"
+    ],
+    "Please generate python code with Pillow to fulfill the purpose Evaluates an image expression., start code with importing the Pillow": [
+        "eval"
+    ],
+    "Please generate python code with Pillow to fulfill the purpose Use a module that is used to store and manipulate 2-dimensional vector data., start code with importing the Pillow": [],
+    "Please generate python code with pysaml2 to fulfill the purpose Parses a SOAP enveloped SAML thing and returns the thing as\r\na string., start code with importing the pysaml2": [],
+    "Please generate python code with joblib to fulfill the purpose Reconstruct a Python object from a file persisted with joblib.dump., start code with importing the joblib": [
+        "load"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Use scipy compiles and executes C/C++ code on the fly., start code with importing the scipy": [
+        "inline"
+    ],
+    "Please generate python code with cobbler to fulfill the purpose Generate a script from a autoinstall script template for a given profile or system., start code with importing the cobbler": [],
+    "Please generate python code with urllib3 to fulfill the purpose Get a connection from the pool and perform an HTTP request with custom cross-host redirect logic and only sends the request-uri portion of the URL.. This is the lowest level call for making a request, so you’ll need to specify all the raw details., start code with importing the urllib3": [
+        "PoolManager"
+    ],
+    "Please generate python code with Jinja2 to fulfill the purpose A bytecode cache that stores bytecode on the filesystem. It accepts two arguments: The directory where the cache items are stored and a pattern string that is used to build the filename., start code with importing the Jinja2": [],
+    "Please generate python code with tornado to fulfill the purpose Sets the given response header name and value.All header values are converted to strings., start code with importing the tornado": [
+        "set_header"
+    ],
+    "Please generate python code with nltk to fulfill the purpose A sentence tokenizer which uses an unsupervised algorithm to build a model for abbreviation words, collocations, and words that start sentences; and then uses that model to find sentence boundaries. This approach has been shown to work well for many European languages., start code with importing the nltk": [
+        "PunktSentenceTokenizer",
+        "train"
+    ],
+    "Please generate python code with nltk to fulfill the purpose Trains the Brill tagger on the corpus train_sents, producing at most max_rules transformations, each of which reduces the net number of errors in the corpus by at least min_score, and each of which has accuracy not lower than min_ac, start code with importing the nltk": [
+        "train"
+    ],
+    "Please generate python code with plone to fulfill the purpose The isURLInPortal method in Plone is used in several places. It checks if a url is (probably) within the current Plone Site. If so, then this url is safe to redirect to, or is safe to show on a page., start code with importing the plone": [
+        "isURLInPortal"
+    ],
+    "Please generate python code with pyyaml to fulfill the purpose load yaml file, start code with importing the pyyaml": [],
+    "Please generate python code with pyyaml to fulfill the purpose load all yaml file, start code with importing the pyyaml": [],
+    "Please generate python code with rhodecode to fulfill the purpose Gets an existing repository by its name or repository_id. The members section so the output returns users groups or users associated with that repository., start code with importing the rhodecode": [],
+    "Please generate python code with rhodecode to fulfill the purpose Updates a repository with the given information., start code with importing the rhodecode": [
+        "get_repo"
+    ],
+    "Please generate python code with pyrad to fulfill the purpose Create a packet ID., start code with importing the pyrad": [],
+    "Please generate python code with pyrad to fulfill the purpose Create a packet authenticator., start code with importing the pyrad": [],
+    "Please generate python code with mitmproxy to fulfill the purpose Validate headers to avoid request smuggling attacks. Raises a ValueError if they are malformed., start code with importing the mitmproxy": [],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Forwards data to the output port determined by pred. Show the lower-level API, start code with importing the tensorflow": [
+        "constant",
+        "Switch"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Returns the dlpack capsule representing the tensor.. Show me the lower-level API, start code with importing the tensorflow": [
+        "to_dlpack",
+        "constant"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Returns the dlpack capsule representing the tensor. Show me the lower-level API, start code with importing the tensorflow": [
+        "to_dlpack",
+        "constant"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Converts each entry in the given tensor to strings. Show me the lower-level API, start code with importing the tensorflow": [
+        "constant",
+        "as_string"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Store the input tensor in the state of the current session. Show me the lower-level TensorFlow operation that provides a way to capture a tensor's value in a session and return a handle to that value , start code with importing the tensorflow": [
+        "constant"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Creates ngrams from ragged string data. Show me the lower-level TensorFlow operation that can be used to construct n-grams from batches of string data. , start code with importing the tensorflow": [
+        "range",
+        "constant"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Quantizes then dequantizes a tensor., start code with importing the tensorflow": [
+        "constant"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Extracts crops from the input image tensor and resizes them., start code with importing the tensorflow": [
+        "range",
+        "constant",
+        "crop_and_resize"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Creates a constant tensor from a tensor-like object., start code with importing the tensorflow": [
+        "constant"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Encodes a RaggedTensor into a variant Tensor., start code with importing the tensorflow": [
+        "RaggedTensorToVariant"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Generates sparse cross from a list of sparse and dense tensors., start code with importing the tensorflow": [
+        "range",
+        "constant",
+        "SparseCross"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Computes the gradients of convolution with respect to the filter., start code with importing the tensorflow": [
+        "Conv2DBackpropFilter"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Computes the gradients of convolution with respect to the input., start code with importing the tensorflow": [
+        "constant"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Computes a 2-D convolution given 4-D input and filter tensors., start code with importing the tensorflow": [
+        "Conv2D"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Computes a 2D convolution given quantized 4D input and filter tensors., start code with importing the tensorflow": [
+        "QuantizedConv2D"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Returns x * y element-wise, working on quantized buffers., start code with importing the tensorflow": [
+        "constant",
+        "QuantizedMul"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Resize quantized images to size using quantized bilinear interpolation., start code with importing the tensorflow": [
+        "QuantizedResizeBilinear",
+        "constant",
+        "QuantizeAndDequantizeV2"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Draw bounding boxes on a batch of images., start code with importing the tensorflow": [
+        "constant"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Creates ngrams from ragged string data.., start code with importing the tensorflow": [],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Performs greedy decoding on the logits given in inputs., start code with importing the tensorflow": [],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Returns the gradient of QuantizeAndDequantizeV4., start code with importing the tensorflow": [],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Adds Tensor 'bias' to Tensor 'input' for Quantized types., start code with importing the tensorflow": [],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Quantized Batch normalization., start code with importing the tensorflow": [],
+    "Please generate python code with tensorflow to fulfill the purpose Convert raw bytes from input tensor into numeric tensors., start code with importing the tensorflow": [
+        "map_fn",
+        "decode_raw",
+        "as_string"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Return substrings from Tensor of strings., start code with importing the tensorflow": [
+        "substr",
+        "constant"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Transposes a, where a is a Tensor., start code with importing the tensorflow": [
+        "constant",
+        "transpose"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Transforms elems by applying fn to each element unstacked on axis 0., start code with importing the tensorflow": [],
+    "Please generate python code with tensorflow to fulfill the purpose Constructs a tensor by tiling a given tensor., start code with importing the tensorflow": [
+        "tile",
+        "constant"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Resize images to size using the specified method., start code with importing the tensorflow": [
+        "resize"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Creates a summary file writer for the given log directory., start code with importing the tensorflow": [
+        "create_file_writer"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Creates a sequence of numbers., start code with importing the tensorflow": [
+        "range"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Computes the sum along segments of a tensor., start code with importing the tensorflow": [],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Performs fractional average pooling on the input., start code with importing the tensorflow": [
+        "FractionalAvgPool"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Split a SparseTensor into num_split tensors along one dimension., start code with importing the tensorflow": [
+        "range"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Encode a tensor of ints into unicode strings., start code with importing the tensorflow": [
+        "constant",
+        "as_string"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Create a dense tensor from a ragged tensor, possibly altering its shape., start code with importing the tensorflow": [
+        "constant",
+        "RaggedTensorToTensor"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Inverse real-valued fast Fourier transform., start code with importing the tensorflow": [
+        "constant"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Real-valued fast Fourier transform., start code with importing the tensorflow": [
+        "constant"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Computes the (possibly normalized) Levenshtein Edit Distance., start code with importing the tensorflow": [
+        "range",
+        "tile",
+        "EditDistance"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Fills empty rows in the input 2-D SparseTensor with a default value., start code with importing the tensorflow": [
+        "range",
+        "transpose"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Distributed version of Stochastic Dual Coordinate Ascent (SDCA) optimizer for, start code with importing the tensorflow": [
+        "range",
+        "constant",
+        "__init__"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Reverses variable length slices.., start code with importing the tensorflow": [
+        "constant",
+        "ReverseSequence"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Computes gradient of the FractionalAvgPool function., start code with importing the tensorflow": [
+        "constant",
+        "FractionalAvgPoolGrad"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Computes gradients of the maxpooling function., start code with importing the tensorflow": [
+        "constant",
+        "MaxPoolGrad"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Computes gradient of the FractionalMaxPool function., start code with importing the tensorflow": [
+        "FractionalMaxPoolGrad"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Dequantize the 'input' tensor into a float or bfloat16 Tensor., start code with importing the tensorflow": [
+        "Dequantize"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Quantizes then dequantizes a tensor., start code with importing the tensorflow": [
+        "constant",
+        "Dequantize"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Calculates the CTC Loss (log probability) for each batch entry., start code with importing the tensorflow": [
+        "transpose"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Performs sparse-output bin counting for a sparse tensor input., start code with importing the tensorflow": [
+        "SparseFillEmptyRows",
+        "SparseCountSparseOutput"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Component-wise divides a SparseTensor by a dense Tensor., start code with importing the tensorflow": [
+        "constant",
+        "SparseDenseCwiseDiv"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Compresses a dataset element., start code with importing the tensorflow": [
+        "StringNGrams",
+        "constant",
+        "CompressElement"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Reshapes a SparseTensor to represent values in a new dense shape., start code with importing the tensorflow": [
+        "constant",
+        "SparseReshape"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Gather ragged slices from params axis 0 according to indices., start code with importing the tensorflow": [
+        "constant",
+        "RaggedGather"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Divides sparse updates into the variable referenced by resource., start code with importing the tensorflow": [
+        "constant",
+        "ResourceScatterUpdate"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Creates a dataset that splits a SparseTensor into elements row-wise., start code with importing the tensorflow": [],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Uncompresses a compressed dataset element., start code with importing the tensorflow": [
+        "constant"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Gather slices from the variable pointed to by resource according to indices., start code with importing the tensorflow": [
+        "constant",
+        "ResourceGather"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Assigns sparse updates to the variable referenced by resource., start code with importing the tensorflow": [
+        "constant"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Converts a RaggedTensor into a SparseTensor with the same values., start code with importing the tensorflow": [
+        "RaggedTensorToSparse"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Converts an array of flat indices into a tuple of coordinate arrays., start code with importing the tensorflow": [
+        "constant",
+        "transpose"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Method in tf.raw_ops, Applies upper_bound(sorted_search_values, values) along each row., start code with importing the tensorflow": [
+        "UpperBound"
+    ],
+    "Please generate python code with Jinja2 to fulfill the purpose Pass the Context as the first argument to the decorated function when called while rendering a template.\n\n, start code with importing the Jinja2": [],
+    "Please generate python code with Jinja2 to fulfill the purpose Pass the context as the first argument to the decorated function., start code with importing the Jinja2": [],
+    "Please generate python code with Jinja2 to fulfill the purpose Pass the EvalContext as the first argument to the decorated function when called while rendering a template., start code with importing the Jinja2": [
+        "contextfilter"
+    ],
+    "Please generate python code with Jinja2 to fulfill the purpose Pass the Environment as the first argument to the decorated function when called while rendering a template., start code with importing the Jinja2": [],
+    "Please generate python code with Jinja2 to fulfill the purpose Create a new overlay environment that shares all the data with the current environment except for cache and the overridden attributes. Extensions cannot be removed for an overlayed environment. An overlayed environment automatically gets all the extensions of the environment it is linked to plus optional extra extensions.\n\nCreating overlays should happen after the initial environment was set up completely. Not all attributes are truly linked, some are just copied over so modifications on the original environment may not shine through., start code with importing the Jinja2": [
+        "overlay"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Hide the entire index, or specific keys in the index from rendering., start code with importing the pandas": [
+        "reset_index",
+        "hide_index"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Hide the column headers or specific keys in the columns from rendering., start code with importing the pandas": [],
+    "Please generate python code with pandas to fulfill the purpose Hide the entire index / column headers, or specific rows / columns from display., start code with importing the pandas": [
+        "hide_columns",
+        "hide_index"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Write Styler to a file, buffer or string in HTML-CSS format., start code with importing the pandas": [
+        "to_html"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Draw bar chart in the cell backgrounds., start code with importing the pandas": [
+        "bar"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Write Styler to a file, buffer or string in LaTeX format., start code with importing the pandas": [
+        "to_latex"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Read a comma-separated values (csv) file into DataFrame.\n\nAlso supports optionally iterating or breaking of the file into chunks.\n, start code with importing the pandas": [
+        "read_csv"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Read an Excel file into a pandas DataFrame., start code with importing the pandas": [
+        "read_excel"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Return the elements in the given positional indices along an axis., start code with importing the pandas": [],
+    "Please generate python code with pandas to fulfill the purpose Write records stored in a DataFrame to a SQL database.\n\n, start code with importing the pandas": [
+        "to_sql"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Split strings around given separator/delimiter.\n, start code with importing the pandas": [
+        "split"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Resample time-series data., start code with importing the pandas": [
+        "date_range",
+        "resample"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Create a DataFrame with the levels of the MultiIndex as columns.\n\nColumn ordering is determined by the DataFrame constructor with data as a dict., start code with importing the pandas": [],
+    "Please generate python code with pandas to fulfill the purpose Generate a new DataFrame or Series with the index reset., start code with importing the pandas": [
+        "reset_index"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Reset the index, or a level of it.\n\nReset the index of the DataFrame, and use the default one instead. If the DataFrame has a MultiIndex, this method can remove one or more levels.\n\n, start code with importing the pandas": [
+        "reset_index"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Provide rolling window calculations., start code with importing the pandas": [
+        "sum",
+        "rolling"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Compute pairwise correlation of columns, excluding NA/null values., start code with importing the pandas": [
+        "corr"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Compute pairwise correlation., start code with importing the pandas": [
+        "corr"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Compute pairwise covariance of columns, excluding NA/null values., start code with importing the pandas": [
+        "cov",
+        "dropna"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Return index of first occurrence of minimum over requested axis., start code with importing the pandas": [
+        "idxmin"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Return index of first occurrence of maximum over requested axis., start code with importing the pandas": [
+        "idxmax",
+        "max"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Return index of first occurrence of minimum over requested axis.\n\nNA/null values are excluded, start code with importing the pandas": [
+        "min",
+        "dropna",
+        "apply",
+        "idxmin"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Compute variance of groups, excluding missing values., start code with importing the pandas": [
+        "var",
+        "dropna"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Compute standard deviation of groups, excluding missing values., start code with importing the pandas": [
+        "std",
+        "dropna"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Compute standard error of the mean of groups, excluding missing values., start code with importing the pandas": [
+        "std",
+        "sem",
+        "apply",
+        "sum"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Return group values at the given quantile, a la numpy.percentile., start code with importing the pandas": [
+        "quantile",
+        "apply"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Join columns of another DataFrame.\n\nJoin columns with other DataFrame either on index or on a key column. Efficiently join multiple DataFrame objects by index at once by passing a list., start code with importing the pandas": [
+        "join"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Compute sum of group values., start code with importing the pandas": [
+        "sum",
+        "reset_index"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Compute prod of group values., start code with importing the pandas": [
+        "prod"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Compute min value of group., start code with importing the pandas": [
+        "min"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Compute max value of group., start code with importing the pandas": [
+        "max"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Compute the first non-null entry of each column., start code with importing the pandas": [
+        "idxmax",
+        "dropna",
+        "apply"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Compute the last non-null entry of each column., start code with importing the pandas": [
+        "idxmax",
+        "dropna",
+        "apply"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Added check_like argument to testing.assert_series_equal(), start code with importing the pandas": [
+        "assert_series_equal"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Compare to another DataFrame and show the differences., start code with importing the pandas": [
+        "compare"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Return values at the given quantile over requested axis., start code with importing the pandas": [
+        "quantile"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Assign desired index to given axis., start code with importing the pandas": [],
+    "Please generate python code with pandas to fulfill the purpose Suffix labels with string suffix., start code with importing the pandas": [],
+    "Please generate python code with pandas to fulfill the purpose Prefix labels with string prefix., start code with importing the pandas": [],
+    "Please generate python code with pandas to fulfill the purpose Prefix labels with string prefix.\n\nFor Series, the row labels are prefixed. For DataFrame, the column labels are prefixed., start code with importing the pandas": [],
+    "Please generate python code with pandas to fulfill the purpose Convert the DataFrame to a dictionary., start code with importing the pandas": [
+        "to_dict"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Return a fixed frequency DatetimeIndex., start code with importing the pandas": [
+        "date_range"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Construct an IntervalIndex from an array of splits., start code with importing the pandas": [
+        "from_arrays",
+        "from_breaks"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Construct from two arrays defining the left and right bounds., start code with importing the pandas": [],
+    "Please generate python code with pandas to fulfill the purpose Construct an IntervalIndex from an array-like of tuples., start code with importing the pandas": [
+        "from_tuples"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Attempt to infer better dtypes for object columns., start code with importing the pandas": [
+        "read_csv"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Return Series with duplicate values removed., start code with importing the pandas": [
+        "drop_duplicates"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Remove missing values., start code with importing the pandas": [
+        "dropna"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Read SQL query or database table into a DataFrame., start code with importing the pandas": [
+        "read_sql_query"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Read SQL query into a DataFrame.\n\n, start code with importing the pandas": [
+        "read_sql_query"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Convert a JSON string to pandas object., start code with importing the pandas": [
+        "read_json"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Return a scalar result of performing the reduction operation., start code with importing the pandas": [
+        "sum",
+        "read_csv"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Return an array representing the data in the Index., start code with importing the pandas": [
+        "values"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Return the first n rows., start code with importing the pandas": [
+        "head"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Return the last n rows., start code with importing the pandas": [
+        "tail"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Apply a function to a Dataframe elementwise., start code with importing the pandas": [
+        "applymap",
+        "apply"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Load a parquet object from the file path, returning a DataFrame., start code with importing the pandas": [
+        "read_parquet"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Map values using input an input mapping or function., start code with importing the pandas": [
+        "apply",
+        "map"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Sort MultiIndex at the requested level.\n\nThe result will respect the original ordering of the associated factor at that level., start code with importing the pandas": [],
+    "Please generate python code with pandas to fulfill the purpose For internal compatibility with the Index API.\n\nSort the Index. This is for compat with MultiIndex, start code with importing the pandas": [],
+    "Please generate python code with pandas to fulfill the purpose Read HTML tables into a list of DataFrame objects., start code with importing the pandas": [
+        "read_html"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Stack the prescribed level(s) from columns to index., start code with importing the pandas": [
+        "stack"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Pivot a level of the (necessarily hierarchical) index labels.\n\nReturns a DataFrame having a new level of column labels whose inner-most level consists of the pivoted index labels., start code with importing the pandas": [],
+    "Please generate python code with pandas to fulfill the purpose Make a Categorical type from codes and categories or dtype., start code with importing the pandas": [],
+    "Please generate python code with pandas to fulfill the purpose Write object to an Excel sheet.\n\n, start code with importing the pandas": [
+        "to_excel"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Invoke function on values of Series., start code with importing the pandas": [
+        "apply"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Apply a function along an axis of the DataFrame., start code with importing the pandas": [
+        "apply"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Return whether all elements are Truthy., start code with importing the pandas": [
+        "values",
+        "all",
+        "apply"
+    ],
+    "Please generate python code with pandas to fulfill the purpose Return whether any element is Truthy., start code with importing the pandas": [
+        "values",
+        "any"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Classify a set of observations into k clusters using the k-means algorithm., start code with importing the scipy": [
+        "kmeans"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Performs k-means on a set of observation vectors forming k clusters., start code with importing the scipy": [
+        "kmeans"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Compute the Jensen-Shannon distance (metric) between two probability arrays. This is the square root of the Jensen-Shannon divergence., start code with importing the scipy": [
+        "jensenshannon"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Calculate a generalized inverse of a matrix using its singular-value decomposition and including all ‘large’ singular values., start code with importing the scipy": [],
+    "Please generate python code with scipy to fulfill the purpose Compute the (Moore-Penrose) pseudo-inverse of a matrix., start code with importing the scipy": [],
+    "Please generate python code with scipy to fulfill the purpose Compute the (Moore-Penrose) pseudo-inverse of a Hermitian matrix., start code with importing the scipy": [
+        "pinvh"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Calculate the relative z-scores., start code with importing the scipy": [],
+    "Please generate python code with scipy to fulfill the purpose Compute the coefficient of variation., start code with importing the scipy": [
+        "variation"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Compute the weighted geometric mean along the specified axis.\n, start code with importing the scipy": [
+        "gmean"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Compute the 1-D discrete Fourier Transform., start code with importing the scipy": [],
+    "Please generate python code with scipy to fulfill the purpose Check the correctness of a gradient function by comparing it against a (forward) finite-difference approximation of the gradient., start code with importing the scipy": [],
+    "Please generate python code with scipy to fulfill the purpose Compute the Kulsinski dissimilarity between two boolean 1-D arrays. Provide 10 solutions, start code with importing the scipy": [
+        "kulsinski"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Latin hypercube sampling (LHS)., start code with importing the scipy": [
+        "LatinHypercube"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Solve the sparse linear system Ax=b, where b may be a vector or a matrix., start code with importing the scipy": [],
+    "Please generate python code with scipy to fulfill the purpose Find k eigenvalues and eigenvectors of the square matrix A., start code with importing the scipy": [],
+    "Please generate python code with scipy to fulfill the purpose approximates the inverse of a continuous statistical distribution’s CDF with a Hermite spline. Order of the hermite spline can be specified by passing the order parameter., start code with importing the scipy": [],
+    "Please generate python code with scipy to fulfill the purpose Use non-linear least squares to fit a function, f, to data., start code with importing the scipy": [
+        "curve_fit"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Finds the global minimum of a multivariate function., start code with importing the scipy": [],
+    "Please generate python code with scipy to fulfill the purpose Return the Laplacian of a directed graph., start code with importing the scipy": [
+        "laplacian"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Initialize from quaternions., start code with importing the scipy": [
+        "from_quat"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Represent as quaternions., start code with importing the scipy": [],
+    "Please generate python code with scipy to fulfill the purpose Calculate the weighted harmonic mean along the specified axis., start code with importing the scipy": [
+        "hmean",
+        "gmean"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Engine for generating (scrambled) Sobol’ sequences., start code with importing the scipy": [
+        "Sobol"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Compute a definite integral., start code with importing the scipy": [
+        "quad"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Returns a design matrix as a CSR format sparse array., start code with importing the scipy": [],
+    "Please generate python code with scipy to fulfill the purpose Compute the (coefficients of) smoothing cubic spline function using lam to control the tradeoff between the amount of smoothness of the curve and its proximity to the data. In case lam is None, using the GCV criteria to find it., start code with importing the scipy": [],
+    "Please generate python code with scipy to fulfill the purpose 1-D Gaussian filter., start code with importing the scipy": [
+        "filters",
+        "gaussian_filter1d",
+        "gaussian_filter"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Multidimensional Gaussian filter., start code with importing the scipy": [
+        "gaussian_filter"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Latin hypercube sampling (LHS), start code with importing the scipy": [
+        "LatinHypercube"
+    ],
+    "Please generate python code with scipy to fulfill the purpose A generic Quasi-Monte Carlo sampler class meant for subclassing., start code with importing the scipy": [
+        "Sobol"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Interpolate over a 2-D grid., start code with importing the scipy": [
+        "interp2d"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Calculate a multidimensional rank filter., start code with importing the scipy": [
+        "rank_filter"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Calculate a multidimensional percentile filter., start code with importing the scipy": [],
+    "Please generate python code with scipy to fulfill the purpose Calculate a multidimensional median filter., start code with importing the scipy": [
+        "median_filter"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Multidimensional uniform filter., start code with importing the scipy": [
+        "uniform_filter"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Calculate a multidimensional minimum filter., start code with importing the scipy": [
+        "minimum_filter"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Calculate a multidimensional maximum filter., start code with importing the scipy": [
+        "maximum_filter"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Solve a linear least-squares problem with bounds on the variables., start code with importing the scipy": [
+        "lsq_linear"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Finds the global minimum of a function using SHG optimization.\n, start code with importing the scipy": [
+        "shgo"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Is x of a sparse matrix type?, start code with importing the scipy": [],
+    "Please generate python code with scipy to fulfill the purpose Construct (N, M) matrix filled with ones at and below the kth diagonal. The matrix has A[i,j] == 1 for j <= i + k, start code with importing the scipy": [
+        "tril"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Make a copy of a matrix with elements below the kth diagonal zeroed., start code with importing the scipy": [
+        "triu",
+        "tril"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Make a copy of a matrix with elements above the kth diagonal zeroed., start code with importing the scipy": [
+        "triu"
+    ],
+    "Please generate python code with scipy to fulfill the purpose B-spline basis function of order n., start code with importing the scipy": [],
+    "Please generate python code with scipy to fulfill the purpose A quadratic B-spline.\n\nThis is a special case of bspline, and equivalent to bspline(x, 2)., start code with importing the scipy": [
+        "bspline"
+    ],
+    "Please generate python code with scipy to fulfill the purpose A cubic B-spline.\n\nThis is a special case of bspline, and equivalent to bspline(x, 3)., start code with importing the scipy": [
+        "bspline"
+    ],
+    "Please generate python code with scipy to fulfill the purpose Integrate y(x) using samples along the given axis and the composite Simpson’s rule. If x is None, spacing of dx is assumed., start code with importing the scipy": [],
+    "Please generate python code with scipy to fulfill the purpose Simulate output of a continuous-time linear system, by using the ODE solver scipy.integrate.odeint., start code with importing the scipy": [],
+    "Please generate python code with scipy to fulfill the purpose Impulse response of a single-input, continuous-time linear system., start code with importing the scipy": [],
+    "Please generate python code with scipy to fulfill the purpose Step response of continuous-time system., start code with importing the scipy": [],
+    "Please generate python code with tensorflow to fulfill the purpose Dot-product attention layer, a.k.a. Luong-style attention., start code with importing the tensorflow": [],
+    "Please generate python code with tensorflow to fulfill the purpose Additive attention layer, a.k.a. Bahdanau-style attention., start code with importing the tensorflow": [],
+    "Please generate python code with tensorflow to fulfill the purpose Keras initializer serialization / deserialization., start code with importing the tensorflow": [
+        "initializers"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Ordinal number to order the virtual device. LogicalDevice with lower ordinal number will receive a lower device id. Physical device id and location in the list is used to break ties. Currently only supported for Nvidia GPUs., start code with importing the tensorflow": [],
+    "Please generate python code with tensorflow to fulfill the purpose Enable visualizations for TensorBoard., start code with importing the tensorflow": [
+        "compile"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Abstract optimizer base class., start code with importing the tensorflow": [
+        "zeros_like",
+        "optimizers",
+        "Optimizer"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose The learning rate schedule base class., start code with importing the tensorflow": [
+        "LearningRateSchedule",
+        "optimizers"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Multiplication operator\nElement-wise multiplication operation., start code with importing the tensorflow": [],
+    "Please generate python code with tensorflow to fulfill the purpose Decorator to define a function with a custom gradient., start code with importing the tensorflow": [
+        "custom_gradient"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose When True, the function may use type annotations from `func` to optimize the tracing performance. For example, arguments annotated with `tf.Tensor` will automatically be converted to a Tensor., start code with importing the tensorflow": [
+        "Tensor",
+        "function"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Compiles a function into a callable TensorFlow graph., start code with importing the tensorflow": [
+        "function"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Represents the type of object(s) for tf.function tracing purposes., start code with importing the tensorflow": [
+        "function"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Enables experimental MLIR-Based TensorFlow Compiler Optimizations., start code with importing the tensorflow": [],
+    "Please generate python code with tensorflow to fulfill the purpose Disables experimental MLIR-Based TensorFlow Compiler Optimizations., start code with importing the tensorflow": [],
+    "Please generate python code with tensorflow to fulfill the purpose Initializes accelerators and communication fabrics for DTensor., start code with importing the tensorflow": [
+        "initialize_accelerator_system",
+        "dtensor"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Base class for differentiable graph functions., start code with importing the tensorflow": [
+        "function"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Looks up embeddings for the given ids and weights from a list of tensors., start code with importing the tensorflow": [
+        "zip"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Lookup embedding results, accounting for invalid IDs and empty features., start code with importing the tensorflow": [
+        "zeros_like",
+        "Variable"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Creates a Dataset by zipping together the given datasets., start code with importing the tensorflow": [
+        "zip",
+        "data"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Randomly shuffling input data, start code with importing the tensorflow": [
+        "data",
+        "shuffle"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Finds values and indices of the k largest entries for the last dimension., start code with importing the tensorflow": [
+        "top_k"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Represents the layout information of a DTensor., start code with importing the tensorflow": [
+        "Mesh",
+        "compile",
+        "dtensor"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Represents a Mesh configuration over a certain list of Mesh Dimensions., start code with importing the tensorflow": [],
+    "Please generate python code with tensorflow to fulfill the purpose Returns a serialized Protobuf binary string representation., start code with importing the tensorflow": [
+        "compile"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Base class for TensorFlow ExtensionType classes., start code with importing the tensorflow": [],
+    "Please generate python code with tensorflow to fulfill the purpose Implements the Scikit-Learn classifier interface, akin to sklearn.base.ClassifierMixin., start code with importing the tensorflow": [
+        "compile"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Implements the Scikit-Learn classifier interface, akin to sklearn.base.RegressorMixin., start code with importing the tensorflow": [
+        "compile",
+        "Variable"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Public API for tf.keras.dtensor.experimental.optimizers namespace., start code with importing the tensorflow": [
+        "optimizers"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Apply the layout to all the tf.Variables created under the scope., start code with importing the tensorflow": [
+        "Variable"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose represents a multidimensional array of elements., start code with importing the tensorflow": [],
+    "Please generate python code with tensorflow to fulfill the purpose Continues the execution with more feeds and fetches., start code with importing the tensorflow": [],
+    "Please generate python code with tensorflow to fulfill the purpose Sets up a graph with feeds and fetches for partial run., start code with importing the tensorflow": [
+        "partial_run",
+        "partial_run_setup",
+        "Variable"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Wraps a python function into a TensorFlow op that executes it eagerly., start code with importing the tensorflow": [
+        "numpy_function",
+        "nest",
+        "py_function",
+        "function"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Wraps a python function and uses it as a TensorFlow op., start code with importing the tensorflow": [
+        "py_function",
+        "function"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Public API for tf._api.v2.experimental.dtensor namespace, start code with importing the tensorflow": [
+        "Layout",
+        "Mesh",
+        "ones",
+        "dtensor"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Creates a tensor with all elements set to one (1)., start code with importing the tensorflow": [
+        "ones"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Creates a tensor with all elements set to zero., start code with importing the tensorflow": [],
+    "Please generate python code with tensorflow to fulfill the purpose Creates a tensor filled with a scalar value., start code with importing the tensorflow": [],
+    "Please generate python code with tensorflow to fulfill the purpose Creates a tensor of all ones that has the same shape as the input., start code with importing the tensorflow": [],
+    "Please generate python code with tensorflow to fulfill the purpose Public API for tf._api.v2.nest namespace, start code with importing the tensorflow": [
+        "nest"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Public API for tf._api.v2.data namespace, start code with importing the tensorflow": [
+        "data",
+        "shuffle"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Configures the model for training., start code with importing the tensorflow": [
+        "compile"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Base class for polymorphic graph functions., start code with importing the tensorflow": [],
+    "Please generate python code with tensorflow to fulfill the purpose Whether to start background threads of asynchronous transformations upon iterator creation, as opposed to during the first call to next(). Defaults to False. This improves the latency of the initial 'next()' calls at the expense of requiring more memory to hold prefetched elements between the time of iterator construction and usage., start code with importing the tensorflow": [
+        "data"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Options for saving to SavedModel., start code with importing the tensorflow": [
+        "compile"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Initializer that generates tensors with constant values., start code with importing the tensorflow": [
+        "constant_initializer",
+        "Variable"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Starts a trace to record computation graphs and profiling information., start code with importing the tensorflow": [],
+    "Please generate python code with tensorflow to fulfill the purpose Stops and exports the active trace as a Summary and/or profile file., start code with importing the tensorflow": [],
+    "Please generate python code with tensorflow to fulfill the purpose a high-level API that encapsulates model training, evaluation, prediction, and exporting., start code with importing the tensorflow": [
+        "optimizers",
+        "compile",
+        "data",
+        "shuffle"
+    ],
+    "Please generate python code with tensorflow to fulfill the purpose Options for constructing a Checkpoint., start code with importing the tensorflow": [
+        "optimizers",
+        "Variable"
+    ],
+    "Please generate python code with nltk to fulfill the purpose The Treebank detokenizer uses the reverse regex operations corresponding to the Treebank tokenizer's regexes., start code with importing the nltk": [
+        "TreebankWordDetokenizer"
+    ],
+    "Please generate python code with nltk to fulfill the purpose Tokenizer for tweets., start code with importing the nltk": [
+        "TweetTokenizer"
+    ],
+    "Please generate python code with nltk to fulfill the purpose Calculate the Information Content value for a synset., start code with importing the nltk": [],
+    "Please generate python code with nltk to fulfill the purpose Retrieves synset based on a given sense_key., start code with importing the nltk": [
+        "synset_from_sense_key"
+    ],
+    "Please generate python code with seaborn to fulfill the purpose Draw a categorical scatterplot using jitter to reduce overplotting.\n\nA strip plot can be drawn on its own, but it is also a good complement to a box or violin plot in cases where you want to show all observations along with some representation of the underlying distribution., start code with importing the seaborn": [
+        "stripplot"
+    ],
+    "Please generate python code with seaborn to fulfill the purpose Draw a categorical scatterplot with points adjusted to be non-overlapping.\n\n, start code with importing the seaborn": [
+        "stripplot"
+    ],
+    "Please generate python code with seaborn to fulfill the purpose Draw a categorical scatterplot with points adjusted to be non-overlapping., start code with importing the seaborn": [
+        "stripplot"
+    ],
+    "Please generate python code with seaborn to fulfill the purpose Show point estimates and errors as rectangular bars., start code with importing the seaborn": [
+        "barplot"
+    ],
+    "Please generate python code with seaborn to fulfill the purpose Show point estimates and errors using lines with markers., start code with importing the seaborn": [],
+    "Please generate python code with seaborn to fulfill the purpose Configure the appearance of tick labels for the scale’s axis or legend., start code with importing the seaborn": [
+        "boxplot"
+    ],
+    "Please generate python code with seaborn to fulfill the purpose Draw an enhanced box plot for larger datasets., start code with importing the seaborn": [
+        "boxplot",
+        "boxenplot"
+    ],
+    "Please generate python code with seaborn to fulfill the purpose Draw a patch representing a KDE and add observations or box plot statistics., start code with importing the seaborn": [
+        "boxplot"
+    ],
+    "Please generate python code with seaborn to fulfill the purpose Show the counts of observations in each categorical bin using bars., start code with importing the seaborn": [
+        "countplot"
+    ],
+    "Please generate python code with Flask to fulfill the purpose Updates the values in the config from a JSON file. This function behaves as if the JSON object was a dictionary and passed to the from_mapping() function., start code with importing the Flask": [],
+    "Please generate python code with Flask to fulfill the purpose Safely join zero or more untrusted path components to a base directory to avoid escaping the base directory.\n, start code with importing the Flask": [],
+    "Please generate python code with Flask to fulfill the purpose return the total number of seconds covered for the specified duration of time instance, start code with importing the Flask": [
+        "total_seconds"
+    ],
+    "Please generate python code with Flask to fulfill the purpose Send the contents of a file to the client., start code with importing the Flask": [
+        "send_from_directory",
+        "send_file"
+    ],
+    "Please generate python code with Flask to fulfill the purpose Send a file from within a directory using send_file()., start code with importing the Flask": [
+        "send_from_directory",
+        "send_file"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Return True iff G has an Eulerian path.An Eulerian path is a path in a graph which uses each edge of a graph exactly once. If source is specified, then this function checks whether an Eulerian path that starts at node source exists., start code with importing the networkx": [
+        "has_eulerian_path"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Determines the triadic census of a directed graph. The triadic census is a count of how many of the 16 possible types of triads are present in a directed graph. If a list of nodes is passed, then only those triads are taken into account which have elements of nodelist in them., start code with importing the networkx": [
+        "triadic_census"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Compute harmonic centrality for nodes., start code with importing the networkx": [
+        "harmonic_centrality"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Returns a random graph using Barabási–Albert preferential attachment, start code with importing the networkx": [
+        "barabasi_albert_graph"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Returns a random graph using dual Barabási–Albert preferential attachment, start code with importing the networkx": [
+        "dual_barabasi_albert_graph"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Draw the nodes of the graph G., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Returns the quotient graph of G under the specified equivalence relation on nodes., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Compute the spectral_ordering of a graph. The spectral ordering of a graph is an ordering of its nodes where nodes in the same weakly connected components appear contiguous and ordered by their corresponding elements in the Fiedler vector of the component., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Returns the graph edge list as a Pandas DataFrame., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Returns the Binomial Tree of order n., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Returns the coverage and performance of a partition of G., start code with importing the networkx": [
+        "coverage",
+        "performance"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Generates community sets determined by label propagation, start code with importing the networkx": [
+        "label_propagation_communities"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Creates a directed prefix tree from a list of paths., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Find communities in G using greedy modularity maximization., start code with importing the networkx": [
+        "greedy_modularity_communities"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Returns subgraph communicability for all pairs of nodes in G., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Returns adjacency matrix of G., start code with importing the networkx": [
+        "adjacency_matrix",
+        "to_numpy_matrix"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Returns numeric mixing matrix for attribute., start code with importing the networkx": [
+        "attr_matrix"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Returns mixing matrix for attribute., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Return the graph adjacency matrix as a NumPy matrix., start code with importing the networkx": [
+        "to_numpy_matrix"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Return a graph from numpy matrix. The numpy matrix is interpreted as an adjacency matrix for the graph., start code with importing the networkx": [
+        "from_numpy_matrix"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Returns True if and only if the given object is an iterator  object, start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Return True if list is a list of ints., start code with importing the networkx": [
+        "is_list_of_ints"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Read graph in YAML format from path. YAML is a data serialization format designed for human readability and interaction with scripting languages, start code with importing the networkx": [
+        "read_yaml"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Write graph G in YAML format to path. YAML is a data serialization format designed for human readability and interaction with scripting languages, start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Read graph object in Python pickle format. Pickles are a serialized byte stream of a Python object. This format will preserve Python objects used as nodes or edges., start code with importing the networkx": [
+        "info"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Write graph in Python pickle format. Pickles are a serialized byte stream of a Python object. This format will preserve Python objects used as nodes or edges., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Generates a networkx.DiGraph from shapefiles. Point geometries are translated into nodes, lines into edges. Coordinate tuples are used as keys. Attributes are preserved, line geometries are simplified into start and end coordinates. Accepts a single shapefile or directory of many shapefiles., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Generate edges for each line in geom and written as a helper for read_shp, start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Writes a networkx.DiGraph to two shapefiles, edges and nodes. Nodes and edges are expected to have a Well Known Binary (Wkb) or Well Known Text (Wkt) key in order to generate geometries. Also acceptable are nodes with a numeric tuple key (x,y)., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Return the PageRank of the nodes in the graph. PageRank computes a ranking of the nodes in the graph G based on the structure of the incoming links. It was originally designed as an algorithm to rank web pages., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Returns data in JIT JSON format., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Read a graph from JIT JSON., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Consume the iterator entirely., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Return True if obj is iterable with a well-defined len()., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Returns the performance of a partition. The performance of a partition is the ratio of the number of intra-community edges plus inter-community non-edges with the total number of potential edges., start code with importing the networkx": [
+        "edge_boundary"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Returns the coverage of a partition. The coverage of a partition is the ratio of the number of intra-community edges to the total number of edges in the graph., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Generate a unique node label., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Create an empty Generator object, start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Opens filename using system’s default program., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Returns the HITS hub matrix., start code with importing the networkx": [
+        "hits"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Return the HITS authority matrix., start code with importing the networkx": [
+        "hits"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Consistently ordered variants of the default base classes. The Ordered (Di/Multi/MultiDi) Graphs give a consistent order for reporting of nodes and edges. The order of node reporting agrees with node adding, but for edges, the order is not necessarily the order that the edges were added. The Ordered (Di/Multi/MultiDi) Graphs give a consistent order for reporting of nodes and edges. The order of node reporting agrees with node adding, but for edges, the order is not necessarily the order that the edges were added., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Read and write NetworkX graphs in YAML format., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Decorator to preserve the numpy.random state during a function., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Assert that two numbers (or two ordered sequences of numbers) are equal to each other within some tolerance., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Return adjacency matrix of graph as a numpy matrix., start code with importing the networkx": [
+        "adjacency_matrix",
+        "to_numpy_matrix"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Calculate SimRank of nodes in G using matrices with numpy., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Compute the average degree connectivity of graph. The average degree connectivity is the average nearest neighbor degree of nodes with degree k., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Return a dictionary of scaled positions keyed by node, start code with importing the networkx": [
+        "spring_layout"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Returns the Google matrix of the graph., start code with importing the networkx": [
+        "to_numpy_matrix",
+        "google_matrix"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Returns the attribute matrix using attributes from G as a numpy array.If only G is passed in, then the adjacency matrix is constructed., start code with importing the networkx": [
+        "to_numpy_matrix"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Decorator to generate a numpy.random.RandomState instance., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Return the graph adjacency matrix as a SciPy sparse matrix., start code with importing the networkx": [
+        "adjacency_matrix",
+        "to_scipy_sparse_matrix"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Return a graph from scipy sparse matrix adjacency list., start code with importing the networkx": [
+        "from_scipy_sparse_matrix"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Return the small graph described by graph_description., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Return a small undirected graph described by graph_description., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Return the graph adjacency matrix as a NumPy recarray., start code with importing the networkx": [
+        "adjacency_matrix"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Print short summary of information for the graph G or the node n., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Computing a minimum-weight maximal matching of G., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Compute requested extreme distance metric of undirected graph G, start code with importing the networkx": [
+        "diameter"
+    ],
+    "Please generate python code with networkx to fulfill the purpose Convert a dictionary of numbers to a 1d numpy array with optional mapping., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Convert a dictionary of dictionaries to a 2d numpy array with optional mapping., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Compute the shortest path lengths to target from all reachable nodes., start code with importing the networkx": [],
+    "Please generate python code with networkx to fulfill the purpose Compute shortest paths in the graph., start code with importing the networkx": [
+        "shortest_path"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Build a decision tree classifier from the training set (X, y)., start code with importing the scikit-learn": [
+        "fit",
+        "DecisionTreeClassifier"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Build a decision tree regressor from the training set (X, y), start code with importing the scikit-learn": [
+        "fit",
+        "DecisionTreeRegressor"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Naive Bayes classifier for categorical features., start code with importing the scikit-learn": [
+        "predict",
+        "fit",
+        "CategoricalNB"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Naive Bayes classifier for multivariate Bernoulli models., start code with importing the scikit-learn": [
+        "BernoulliNB",
+        "predict",
+        "fit"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose The Complement Naive Bayes classifier described in Rennie et al. (2003).\n\nThe Complement Naive Bayes classifier was designed to correct the “severe assumptions” made by the standard Multinomial Naive Bayes classifier. It is particularly suited for imbalanced data sets., start code with importing the scikit-learn": [
+        "predict",
+        "fit",
+        "ComplementNB"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Naive Bayes classifier for multinomial models., start code with importing the scikit-learn": [
+        "MultinomialNB",
+        "predict",
+        "fit"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Plot partial dependence plots., start code with importing the scikit-learn": [
+        "plot_partial_dependence",
+        "fit",
+        "GradientBoostingRegressor"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Meta-transformer for selecting features based on importance weights., start code with importing the scikit-learn": [
+        "fit",
+        "SelectFromModel"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Feature ranking with recursive feature elimination., start code with importing the scikit-learn": [
+        "fit",
+        "RFE",
+        "LogisticRegression"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Recursive feature elimination with cross-validation to select features., start code with importing the scikit-learn": [
+        "RFECV",
+        "fit",
+        "LogisticRegression"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Gradient Boosting for regression.\n\nThis estimator builds an additive model in a forward stage-wise fashion; it allows for the optimization of arbitrary differentiable loss functions. In each stage a regression tree is fit on the negative gradient of the given loss function.\n, start code with importing the scikit-learn": [
+        "predict",
+        "fit",
+        "GradientBoostingRegressor",
+        "load_boston"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose PLS regression.\n\nPLSRegression is also known as PLS2 or PLS1, depending on the number of targets., start code with importing the scikit-learn": [
+        "PLSRegression",
+        "predict",
+        "fit"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Partial Least Squares transformer and regressor., start code with importing the scikit-learn": [
+        "PLSRegression",
+        "predict",
+        "fit",
+        "load_boston"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Canonical Correlation Analysis, also known as “Mode B” PLS., start code with importing the scikit-learn": [
+        "fit",
+        "CCA"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Partial Least Square SVD., start code with importing the scikit-learn": [
+        "PLSRegression",
+        "fit"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Sparse inverse covariance w/ cross-validated choice of the l1 penalty., start code with importing the scikit-learn": [
+        "fit",
+        "GraphicalLassoCV"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Mini-Batch K-Means clustering., start code with importing the scikit-learn": [
+        "MiniBatchKMeans",
+        "predict",
+        "fit"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Agglomerate features.\n\nRecursively merges pair of clusters of features., start code with importing the scikit-learn": [
+        "AgglomerativeClustering",
+        "fit"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Apply clustering to a projection of the normalized Laplacian., start code with importing the scikit-learn": [
+        "AgglomerativeClustering",
+        "fit"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Applies transformers to columns of an array or pandas DataFrame., start code with importing the scikit-learn": [
+        "ColumnTransformer"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Load and return the boston house-prices dataset (regression)., start code with importing the scikit-learn": [
+        "load_boston"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Dictionary learning.\n\nFinds a dictionary (a set of atoms) that performs well at sparsely encoding the fitted data., start code with importing the scikit-learn": [
+        "MiniBatchDictionaryLearning",
+        "fit",
+        "DictionaryLearning"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Mini-batch dictionary learning., start code with importing the scikit-learn": [
+        "MiniBatchDictionaryLearning",
+        "fit"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Solve a dictionary learning matrix factorization problem., start code with importing the scikit-learn": [
+        "MiniBatchDictionaryLearning",
+        "fit",
+        "DictionaryLearning"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Solve a dictionary learning matrix factorization problem online.\n, start code with importing the scikit-learn": [
+        "MiniBatchDictionaryLearning",
+        "fit",
+        "DictionaryLearning"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Non-Negative Matrix Factorization (NMF).\n\nFind two non-negative matrices, i.e. matrices with all non-negative elements, (W, H) whose product approximates the non-negative matrix X. This factorization can be used for example for dimensionality reduction, source separation or topic extraction.\n\n, start code with importing the scikit-learn": [
+        "NMF"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose \"Non-Negative Matrix Factorization (NMF).\n\nFind two non-negative matrices, i.e. matrices with all non-negative elements, (W, H) whose product approximates the non-negative matrix X. This factorization can be used for example for dimensionality reduction, source separation or topic extraction.\n\n\", start code with importing the scikit-learn": [
+        "NMF",
+        "non_negative_factorization"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Regressor that makes predictions using simple rules., start code with importing the scikit-learn": [
+        "predict",
+        "fit",
+        "DecisionTreeRegressor"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Histogram-based Gradient Boosting Classification Tree., start code with importing the scikit-learn": [
+        "predict",
+        "fit"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Plot Confusion Matrix., start code with importing the scikit-learn": [
+        "predict",
+        "plot",
+        "plot_confusion_matrix"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Plot Precision Recall Curve for binary classifiers., start code with importing the scikit-learn": [
+        "fit",
+        "plot",
+        "LogisticRegression"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Plot Receiver operating characteristic (ROC) curve., start code with importing the scikit-learn": [
+        "fit",
+        "plot",
+        "LogisticRegression"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Gaussian Naive Bayes (GaussianNB).\n\nCan perform online updates to model parameters via partial_fit. , start code with importing the scikit-learn": [
+        "GaussianNB",
+        "predict",
+        "fit"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Classifier implementing a vote among neighbors within a given radius., start code with importing the scikit-learn": [
+        "predict",
+        "fit",
+        "RadiusNeighborsClassifier"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Generate polynomial and interaction features.\n\nGenerate a new feature matrix consisting of all polynomial combinations of the features with degree less than or equal to the specified degree. For example, if an input sample is two dimensional and of the form [a, b], the degree-2 polynomial features are [1, a, b, a^2, ab, b^2]., start code with importing the scikit-learn": [
+        "PolynomialFeatures"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Detect the soft boundary of the set of samples X., start code with importing the scikit-learn": [
+        "fit"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose A decision tree classifier., start code with importing the scikit-learn": [
+        "predict",
+        "fit",
+        "DecisionTreeClassifier"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose A decision tree regressor., start code with importing the scikit-learn": [
+        "predict",
+        "fit",
+        "DecisionTreeRegressor"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose An extremely randomized tree classifier., start code with importing the scikit-learn": [
+        "predict",
+        "fit"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose An extremely randomized tree regressor., start code with importing the scikit-learn": [
+        "predict",
+        "fit"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Perform a shortest-path graph search on a positive directed or undirected graph., start code with importing the scikit-learn": [],
+    "Please generate python code with scikit-learn to fulfill the purpose Compute true and predicted probabilities for a calibration curve.\n\nThe method assumes the inputs come from a binary classifier, and discretize the [0, 1] interval into bins.\n\n, start code with importing the scikit-learn": [
+        "calibration_curve",
+        "fit",
+        "LogisticRegression"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Generate a signal as a sparse combination of dictionary elements., start code with importing the scikit-learn": [
+        "fit"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Gradient Boosting for classification., start code with importing the scikit-learn": [
+        "predict",
+        "fit",
+        "GradientBoostingClassifier"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Gradient Boosting for regression., start code with importing the scikit-learn": [
+        "predict",
+        "fit",
+        "GradientBoostingRegressor"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Univariate imputer for completing missing values with simple strategies.\n\nReplace missing values using a descriptive statistic (e.g. mean, median, or most frequent) along each column, or using a constant value., start code with importing the scikit-learn": [
+        "SimpleImputer",
+        "fit"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Lasso model fit with Lars using BIC or AIC for model selection., start code with importing the scikit-learn": [
+        "fit",
+        "LassoLarsIC"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Isomap Embedding.\n\n, start code with importing the scikit-learn": [
+        "Isomap"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose  (coefficient of determination) regression score function.\n\nBest possible score is 1.0 and it can be negative (because the model can be arbitrarily worse). In the general case when the true y is non-constant, a constant model that always predicts the average y disregarding the input features would get a \n score of 0.0., start code with importing the scikit-learn": [
+        "predict",
+        "fit",
+        "load_boston"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Explained variance regression score function. , start code with importing the scikit-learn": [
+        "predict",
+        "fit",
+        "load_boston",
+        "explained_variance_score"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Get the names of all available scorers.\n\n, start code with importing the scikit-learn": [
+        "SCORERS"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Check if estimator adheres to scikit-learn conventions., start code with importing the scikit-learn": [
+        "check_estimator"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Create a decorator for methods that are delegated to a sub-estimator, start code with importing the scikit-learn": [
+        "fit"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Probability calibration with isotonic regression or logistic regression., start code with importing the scikit-learn": [
+        "fit",
+        "LogisticRegression"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Agglomerative Clustering.\n\nRecursively merges pair of clusters of sample data; uses linkage distance., start code with importing the scikit-learn": [
+        "AgglomerativeClustering",
+        "fit"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Sparse Principal Components Analysis (SparsePCA).\n\nFinds the set of sparse components that can optimally reconstruct the data. The amount of sparseness is controllable by the coefficient of the L1 penalty, given by the parameter alpha., start code with importing the scikit-learn": [
+        "fit"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Principal component analysis (PCA).\n\nLinear dimensionality reduction using Singular Value Decomposition of the data to project it to a lower dimensional space. The input data is centered but not scaled for each feature before applying the SVD., start code with importing the scikit-learn": [
+        "fit"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Logistic Regression (aka logit, MaxEnt) classifier., start code with importing the scikit-learn": [
+        "predict",
+        "fit",
+        "LogisticRegression"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Compute the L1 distances between the vectors in X and Y., start code with importing the scikit-learn": [],
+    "Please generate python code with scikit-learn to fulfill the purpose Encode categorical features as a one-hot numeric array., start code with importing the scikit-learn": [],
+    "Please generate python code with scikit-learn to fulfill the purpose Compute density of a sparse vector., start code with importing the scikit-learn": [],
+    "Please generate python code with scikit-learn to fulfill the purpose Predict the closest cluster each sample in X belongs to., start code with importing the scikit-learn": [
+        "predict",
+        "fit"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Inverse the transformation and return a vector of size n_features., start code with importing the scikit-learn": [
+        "fit",
+        "inverse_transform"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Sparse inverse covariance estimation with an l1-penalized estimator., start code with importing the scikit-learn": [
+        "GraphicalLasso",
+        "fit",
+        "GraphicalLassoCV"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose L1-penalized covariance estimator., start code with importing the scikit-learn": [
+        "GraphicalLasso",
+        "fit"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Generate a signal as a sparse combination of dictionary elements.\n\nReturns a matrix Y = DX, such that D is of shape (n_features, n_components), X is of shape (n_components, n_samples) and each column of X has exactly n_nonzero_coefs non-zero elements., start code with importing the scikit-learn": [
+        "fit",
+        "make_sparse_coded_signal"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Transform data back to its original space., start code with importing the scikit-learn": [
+        "inverse_transform"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Partial dependence of features.\n\nPartial dependence of a feature (or a set of features) corresponds to the average response of an estimator for each possible value of the feature., start code with importing the scikit-learn": [
+        "GradientBoostingRegressor",
+        "partial_dependence",
+        "plot_partial_dependence",
+        "fit",
+        "plot"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Bayesian ridge regression.\n\nFit a Bayesian ridge model. See the Notes section for details on this implementation and the optimization of the regularization parameters lambda (precision of the weights) and alpha (precision of the noise)., start code with importing the scikit-learn": [
+        "predict",
+        "fit",
+        "BayesianRidge"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Bayesian ARD regression.\n\nFit the weights of a regression model, using an ARD prior. The weights of the regression model are assumed to be in Gaussian distributions. Also estimate the parameters lambda (precisions of the distributions of the weights) and alpha (precision of the distribution of the noise). The estimation is done by an iterative procedures (Evidence Maximization), start code with importing the scikit-learn": [
+        "BayesianRidge",
+        "fit"
+    ],
+    "Please generate python code with scikit-learn to fulfill the purpose Learning Curve visualization., start code with importing the scikit-learn": [
+        "plot"
+    ],
+    "Please generate python code with urllib3 to fulfill the purpose Returns an unmodifiable view of the HTTP headers and corresponding values., start code with importing the urllib3": [
+        "request"
+    ],
+    "Please generate python code with urllib3 to fulfill the purpose Returns the value of header for the response., start code with importing the urllib3": [
+        "request"
+    ],
+    "Please generate python code with urllib3 to fulfill the purpose Verify that cert (in decoded format as returned by SSLSocket.getpeercert()) matches the hostname. RFC 2818 and RFC 6125 rules are followed, but IP addresses are not accepted for hostname.\nCertificateError is raised on failure. On success, the function returns nothing., start code with importing the urllib3": [
+        "request"
+    ],
+    "Please generate python code with urllib3 to fulfill the purpose Connection manager for Google App Engine sandbox applications., start code with importing the urllib3": [
+        "pool",
+        "request"
+    ],
+    "Please generate python code with urllib3 to fulfill the purpose Given an http.client.HTTPResponse instance r, return a corresponding urllib3.response.HTTPResponse object., start code with importing the urllib3": [
+        "getheaders",
+        "read",
+        "request"
+    ],
+    "Please generate python code with urllib3 to fulfill the purpose Get a urllib3.connectionpool.ConnectionPool based on the provided pool key., start code with importing the urllib3": [],
+    "Please generate python code with urllib3 to fulfill the purpose A convenience, top-level request method. It uses a module-global PoolManager instance. Therefore, its side effects could be shared across dependencies relying on it. To avoid side effects create a new PoolManager instance and use it instead. The method does not accept low-level **urlopen_kw keyword arguments., start code with importing the urllib3": [
+        "request"
+    ],
+    "Please generate python code with urllib3 to fulfill the purpose Module for using pyOpenSSL as a TLS backend., start code with importing the urllib3": [
+        "create_urllib3_context",
+        "request"
+    ],
+    "Please generate python code with urllib3 to fulfill the purpose NTLM authenticating pool, contributed by erikcederstran, start code with importing the urllib3": [
+        "request"
+    ],
+    "Please generate python code with urllib3 to fulfill the purpose Warned when making a HTTPS request without SNI available., start code with importing the urllib3": [
+        "DEFAULT_CIPHERS",
+        "SNIMissingWarning",
+        "request"
+    ],
+    "Please generate python code with urllib3 to fulfill the purpose This makes platform-native TLS available to urllib3 users on macOS without the use of a compiler., start code with importing the urllib3": [
+        "request"
+    ],
+    "Please generate python code with urllib3 to fulfill the purpose Supported SSL versions at the server configuration parameter, start code with importing the urllib3": [
+        "create_urllib3_context",
+        "request",
+        "ssl_version",
+        "HTTPSConnection"
+    ],
+    "Please generate python code with urllib3 to fulfill the purpose Alternative to the common request method, which sends the body with chunked encoding and not as one block, start code with importing the urllib3": [
+        "request"
+    ],
+    "Please generate python code with urllib3 to fulfill the purpose Get the response from the server., start code with importing the urllib3": [
+        "request"
+    ],
+    "Please generate python code with urllib3 to fulfill the purpose Like SSLContext.maximum_version except it is the lowest supported version or TLSVersion.MINIMUM_SUPPORTED., start code with importing the urllib3": [
+        "create_urllib3_context",
+        "minimum_version",
+        "request"
+    ],
+    "Please generate python code with urllib3 to fulfill the purpose Creates and configures an ssl.SSLContext instance for use with urllib3., start code with importing the urllib3": [],
+    "Please generate python code with urllib3 to fulfill the purpose This module provides access to Transport Layer Security (often known as “Secure Sockets Layer”) encryption and peer authentication facilities for network sockets, both client-side and server-side. This module uses the OpenSSL library. It is available on all modern Unix systems, Windows, macOS, and probably additional platforms, as long as OpenSSL is installed on that platform., start code with importing the urllib3": [
+        "request"
+    ],
+    "Please generate python code with urllib3 to fulfill the purpose This will send a request to the server using the HTTP request method method and the request URI url. The provided url must be an absolute path to conform with RFC 2616 §5.1.2 (unless connecting to an HTTP proxy server or using the OPTIONS or CONNECT methods), start code with importing the urllib3": [
+        "request"
+    ],
+    "Please generate python code with urllib3 to fulfill the purpose Enforce content length checking. Body returned by server must match value of Content-Length header, if present. Otherwise, raise error., start code with importing the urllib3": [
+        "read",
+        "request"
+    ],
+    "Please generate python code with urllib3 to fulfill the purpose Module for using pyOpenSSL as a TLS backend. This module was relevant before the standard library ssl module supported SNI, but now that we’ve dropped support for Python 2.7 all relevant Python versions support SNI so this module is no longer recommended., start code with importing the urllib3": [
+        "request"
+    ],
+    "Please generate python code with urllib3 to fulfill the purpose Errors are written to the agent log file for problems that occur with data received from a socket client., start code with importing the urllib3": [
+        "error",
+        "request"
+    ],
+    "Please generate python code with urllib3 to fulfill the purpose An HTTPConnection instance represents one transaction with an HTTP server. It should be instantiated by passing it a host and optional port number. If no port number is passed, the port is extracted from the host string if it has the form host:port, else the default HTTP port (80) is used. If the optional timeout parameter is given, blocking operations (like connection attempts) will timeout after that many seconds (if it is not given, the global default timeout setting is used). The optional source_address parameter may be a tuple of a (host, port) to use as the source address the HTTP connection is made from. The optional blocksize parameter sets the buffer size in bytes for sending a file-like message body., start code with importing the urllib3": [
+        "request"
+    ],
+    "Please generate python code with urllib3 to fulfill the purpose A subclass of HTTPConnection that uses SSL for communication with secure servers. Default port is 443. If context is specified, it must be a ssl.SSLContext instance describing the various SSL options., start code with importing the urllib3": [
+        "HTTPConnection"
+    ],
+    "Please generate python code with urllib3 to fulfill the purpose Should be called after a request is sent to get the response from the server. Returns an HTTPResponse instance., start code with importing the urllib3": [
+        "request"
+    ],
+    "Please generate python code with urllib3 to fulfill the purpose name and port of a proxied server as specified in the proxy_pass directive;, start code with importing the urllib3": [],
+    "Please generate python code with urllib3 to fulfill the purpose Whether to match the peer cert’s hostname in SSLSocket.do_handshake(). The context’s verify_mode must be set to CERT_OPTIONAL or CERT_REQUIRED, and you must pass server_hostname to wrap_socket() in order to match the hostname. Enabling hostname checking automatically sets verify_mode from CERT_NONE to CERT_REQUIRED. It cannot be set back to CERT_NONE as long as hostname checking is enabled. The PROTOCOL_TLS_CLIENT protocol enables hostname checking by default. With other protocols, hostname checking must be enabled explicitly., start code with importing the urllib3": [
+        "create_urllib3_context",
+        "HTTPSConnection",
+        "request",
+        "check_hostname"
+    ],
+    "Please generate python code with urllib3 to fulfill the purpose Hostname of the server: str type, or None for server-side socket or if the hostname was not specified in the constructor., start code with importing the urllib3": [
+        "request"
+    ],
+    "Please generate python code with urllib3 to fulfill the purpose Reads and returns the response body, or up to the next amt bytes., start code with importing the urllib3": [
+        "request"
+    ],
+    "Please generate python code with numpy to fulfill the purpose A pointer to the memory area of the array as a Python integer. This memory area may contain data that is not aligned, or not in correct byte-order. The memory area may not even be writeable. The array flags and data-type of this array should be respected when passing this attribute to arbitrary C-code to avoid trouble that can include Python crashing. User Beware! The value of this attribute is exactly the same as, start code with importing the numpy": [],
+    "Please generate python code with numpy to fulfill the purpose (c_intp*self.ndim): A ctypes array of length self.ndim where the basetype is the C-integer corresponding to dtype('p') on this platform (see c_intp). This base-type could be ctypes.c_int, ctypes.c_long, or ctypes.c_longlong depending on the platform. The ctypes array contains the shape of the underlying array., start code with importing the numpy": [],
+    "Please generate python code with numpy to fulfill the purpose (c_intp*self.ndim): A ctypes array of length self.ndim where the basetype is the same as for the shape attribute. This ctypes array contains the strides information from the underlying array. This strides information is important for showing how many bytes must be jumped to get to the next element in the array., start code with importing the numpy": [
+        "get_strides"
+    ],
+    "Please generate python code with numpy to fulfill the purpose Draw samples from a uniform distribution., start code with importing the numpy": [
+        "uniform"
+    ],
+    "Please generate python code with numpy to fulfill the purpose Format a floating-point scalar as a decimal string in positional notation., start code with importing the numpy": [
+        "format_float_positional"
+    ],
+    "Please generate python code with numpy to fulfill the purpose Format a floating-point scalar as a decimal string in scientific notation., start code with importing the numpy": [
+        "format_float_scientific"
+    ],
+    "Please generate python code with numpy to fulfill the purpose Find the unique elements of an array.\n\nReturns the sorted unique elements of an array. There are three optional outputs in addition to the unique elements:, start code with importing the numpy": [
+        "unique"
+    ],
+    "Please generate python code with numpy to fulfill the purpose Returns the indices of the maximum values along an axis., start code with importing the numpy": [
+        "argmax"
+    ],
+    "Please generate python code with numpy to fulfill the purpose Returns the indices of the minimum values along an axis., start code with importing the numpy": [
+        "argmin"
+    ],
+    "Please generate python code with numpy to fulfill the purpose Axis supplied was invalid.\n\nThis is raised whenever an axis parameter is specified that is larger than the number of array dimensions. For compatibility with code written against older numpy versions, which raised a mixture of ValueError and IndexError for this situation, this exception subclasses both to ensure that except ValueError and except IndexError statements continue to catch AxisError., start code with importing the numpy": [
+        "AxisError"
+    ],
+    "Please generate python code with numpy to fulfill the purpose Compute the q-th percentile of the data along the specified axis.\n\nReturns the q-th percentile(s) of the array elements., start code with importing the numpy": [
+        "percentile"
+    ],
+    "Please generate python code with numpy to fulfill the purpose Compute the q-th quantile of the data along the specified axis., start code with importing the numpy": [
+        "percentile",
+        "quantile"
+    ],
+    "Please generate python code with numpy to fulfill the purpose Load data from a text file., start code with importing the numpy": [
+        "loadtxt"
+    ],
+    "Please generate python code with numpy to fulfill the purpose Load data from a text file, with missing values handled as specified., start code with importing the numpy": [
+        "genfromtxt",
+        "loadtxt"
+    ],
+    "Please generate python code with numpy to fulfill the purpose Return the weighted average of array over the given axis., start code with importing the numpy": [
+        "average"
+    ],
+    "Please generate python code with numpy to fulfill the purpose Find the unique elements of an array, start code with importing the numpy": [
+        "unique"
+    ],
+    "Please generate python code with numpy to fulfill the purpose Join a sequence of arrays along a new axis., start code with importing the numpy": [
+        "stack"
+    ],
+    "Please generate python code with numpy to fulfill the purpose Stack arrays in sequence vertically (row wise)., start code with importing the numpy": [
+        "vstack"
+    ],
+    "Please generate python code with numpy to fulfill the purpose Stack arrays in sequence horizontally (column wise)., start code with importing the numpy": [
+        "hstack"
+    ],
+    "Please generate python code with numpy to fulfill the purpose Return the product of array elements over a given axis., start code with importing the numpy": [
+        "product"
+    ],
+    "Please generate python code with numpy to fulfill the purpose Return the cumulative product of elements along a given axis., start code with importing the numpy": [],
+    "Please generate python code with numpy to fulfill the purpose Test whether any array element along a given axis evaluates to True., start code with importing the numpy": [],
+    "Please generate python code with numpy to fulfill the purpose Test whether all array elements along a given axis evaluate to True., start code with importing the numpy": [],
+    "Please generate python code with numpy to fulfill the purpose Machine limits for floating point types., start code with importing the numpy": [],
+    "Please generate python code with numpy to fulfill the purpose Determine common type following standard coercion rules., start code with importing the numpy": [],
+    "Please generate python code with numpy to fulfill the purpose Evaluates the Einstein summation convention on the operands., start code with importing the numpy": [
+        "einsum"
+    ],
+    "Please generate python code with numpy to fulfill the purpose Compute the eigenvalues and right eigenvectors of a square array., start code with importing the numpy": [
+        "eig"
+    ],
+    "Please generate python code with numpy to fulfill the purpose Return the eigenvalues and eigenvectors of a complex Hermitian (conjugate symmetric) or a real symmetric matrix., start code with importing the numpy": [
+        "eig",
+        "eigh"
+    ],
+    "Please generate python code with numpy to fulfill the purpose Compute the qr factorization of a matrix.\n\nFactor the matrix a as qr, where q is orthonormal and r is upper-triangular., start code with importing the numpy": [
+        "qr"
+    ],
+    "Please generate python code with numpy to fulfill the purpose Compute the sign and (natural) logarithm of the determinant of an array., start code with importing the numpy": [
+        "slogdet"
+    ],
+    "Please generate python code with numpy to fulfill the purpose Singular Value Decomposition., start code with importing the numpy": [
+        "svd"
+    ],
+    "Please generate python code with werkzeug to fulfill the purpose Make the response object ready to be pickled. Does the following:\r\n\r\nBuffer the response into a list, ignoring implicity_sequence_conversion and direct_passthrough.\r\n\r\nSet the Content-Length header.\r\n\r\nGenerate an ETag header if one is not already set., start code with importing the werkzeug": [],
+    "Please generate python code with werkzeug to fulfill the purpose Create an exception that is a subclass of the calling HTTP exception and the exception argument., start code with importing the werkzeug": [],
+    "Please generate python code with werkzeug to fulfill the purpose Formats the time to match the RFC1123 date format., start code with importing the werkzeug": [],
+    "Please generate python code with werkzeug to fulfill the purpose Like pbkdf2_bin, but returns a hex-encoded string., start code with importing the werkzeug": [],
+    "Please generate python code with werkzeug to fulfill the purpose Returns a binary digest for the PBKDF2 hash algorithm of data with the given salt. It iterates iterations times and produces a key of keylen bytes. By default, SHA-256 is used as hash function; a different hashlib hashfunc can be provided., start code with importing the werkzeug": [
+        "pbkdf2_hex"
+    ],
+    "Please generate python code with werkzeug to fulfill the purpose compares strings in somewhat constant time. This requires that the length of at least one string is known in advance., start code with importing the werkzeug": [
+        "safe_str_cmp"
+    ],
+    "Please generate python code with werkzeug to fulfill the purpose Bind the arguments provided into a dict when passed a function, start code with importing the werkzeug": [],
+    "Please generate python code with werkzeug to fulfill the purpose String-template format a string, start code with importing the werkzeug": [],
+    "Please generate python code with werkzeug to fulfill the purpose Parses the incoming JSON request data and returns it., start code with importing the werkzeug": [],
+    "Please generate python code with werkzeug to fulfill the purpose Returns the `SCRIPT_NAME` from the WSGI environment and properly\ndecodes it., start code with importing the werkzeug": [],
+    "Please generate python code with werkzeug to fulfill the purpose Returns the `QUERY_STRING` from the WSGI environment., start code with importing the werkzeug": [],
+    "Please generate python code with werkzeug to fulfill the purpose Returns the next segment on the `PATH_INFO` or `None` if there is none., start code with importing the werkzeug": [],
+    "Please generate python code with werkzeug to fulfill the purpose Extracts the path info from the given URL (or WSGI environment) and path., start code with importing the werkzeug": [
+        "extract_path_info"
+    ],
+    "Please generate python code with werkzeug to fulfill the purpose Parses a range header into a ContentRange object or None if parsing is not possible., start code with importing the werkzeug": [],
+    "Please generate python code with werkzeug to fulfill the purpose Convert an IRI to a URI, start code with importing the werkzeug": [
+        "iri_to_uri"
+    ],
+    "Please generate python code with werkzeug to fulfill the purpose Safely iterates line-based over an input stream., start code with importing the werkzeug": [],
+    "Please generate python code with werkzeug to fulfill the purpose Works like make_line_iter() but accepts a separator which divides chunks., start code with importing the werkzeug": [],
+    "Please generate python code with werkzeug to fulfill the purpose Unquotes a header value., start code with importing the werkzeug": [],
+    "Please generate python code with werkzeug to fulfill the purpose Quote a header value if necessary., start code with importing the werkzeug": [
+        "dump_header",
+        "quote_header_value"
+    ],
+    "Please generate python code with werkzeug to fulfill the purpose Dump an HTTP header again, start code with importing the werkzeug": [],
+    "Please generate python code with werkzeug to fulfill the purpose Parse lists of key, value pairs as described by RFC 2068 Section 2 and convert them into a python dict., start code with importing the werkzeug": [],
+    "Please generate python code with cryptography to fulfill the purpose Decrypts a Fernet token. If successfully decrypted you will receive the original plaintext as the result, otherwise an exception will be raised. It is safe to use this data immediately as Fernet verifies that the data has not been tampered with prior to returning it., start code with importing the cryptography": [
+        "decrypt"
+    ],
+    "Please generate python code with cryptography to fulfill the purpose X.509 Certificate Builder, start code with importing the cryptography": [
+        "not_valid_before",
+        "CertificateBuilder",
+        "generate_private_key",
+        "not_valid_after"
+    ],
+    "Please generate python code with cryptography to fulfill the purpose Returns a builder for configuring how values are encrypted with this format. You must call this method on an element of the enumeration., start code with importing the cryptography": [
+        "decrypt"
+    ],
+    "Please generate python code with cryptography to fulfill the purpose Encodes an elliptic curve point to a byte string as described in SEC 1 v2.0 section 2.3.3. This method only supports uncompressed points., start code with importing the cryptography": [
+        "generate_private_key"
+    ],
+    "Please generate python code with cryptography to fulfill the purpose Decodes a byte string as described in SEC 1 v2.0 section 2.3.3 and returns an EllipticCurvePublicNumbers. This method only supports uncompressed points., start code with importing the cryptography": [
+        "from_encoded_point"
+    ],
+    "Please generate python code with cryptography to fulfill the purpose Deserialize a public key from OpenSSH (RFC 4253 and PROTOCOL.certkeys) encoded data to an instance of the public key type., start code with importing the cryptography": [
+        "load_ssh_public_key"
+    ],
+    "Please generate python code with cryptography to fulfill the purpose Deserialize a private key from OpenSSH encoded data to an instance of the private key type., start code with importing the cryptography": [
+        "load_ssh_private_key"
+    ],
+    "Please generate python code with cryptography to fulfill the purpose A DSA public key., start code with importing the cryptography": [
+        "generate_private_key"
+    ],
+    "Please generate python code with cryptography to fulfill the purpose A DSA private key., start code with importing the cryptography": [
+        "generate_private_key"
+    ],
+    "Please generate python code with cryptography to fulfill the purpose Deserialize a PEM encoded PKCS7 blob to a list of certificates. PKCS7 can contain many other types of data, including CRLs, but this function will ignore everything except certificates., start code with importing the cryptography": [
+        "load_pem_pkcs7_certificates"
+    ],
+    "Please generate python code with cryptography to fulfill the purpose Deserialize a DER encoded PKCS7 blob to a list of certificates. PKCS7 can contain many other types of data, including CRLs, but this function will ignore everything except certificates., start code with importing the cryptography": [
+        "load_der_pkcs7_certificates"
+    ],
+    "Please generate python code with cryptography to fulfill the purpose A naïve datetime representing the beginning of the validity period for the certificate in UTC. This value is inclusive., start code with importing the cryptography": [
+        "not_valid_before",
+        "CertificateBuilder",
+        "generate_private_key",
+        "not_valid_after"
+    ],
+    "Please generate python code with cryptography to fulfill the purpose A naïve datetime representing the end of the validity period for the certificate in UTC. This value is inclusive., start code with importing the cryptography": [
+        "not_valid_before",
+        "CertificateBuilder",
+        "generate_private_key",
+        "not_valid_after"
+    ],
+    "Please generate python code with cryptography to fulfill the purpose A naïve datetime representing the date this certificates was revoked., start code with importing the cryptography": [
+        "not_valid_after",
+        "revocation_date"
+    ],
+    "Please generate python code with cryptography to fulfill the purpose A naïve datetime representing when the next update to this CRL is expected., start code with importing the cryptography": [
+        "not_valid_before",
+        "CertificateBuilder",
+        "last_update",
+        "generate_private_key",
+        "next_update",
+        "not_valid_after"
+    ],
+    "Please generate python code with cryptography to fulfill the purpose A naïve datetime representing when this CRL was last updated., start code with importing the cryptography": [
+        "last_update",
+        "generate_private_key",
+        "next_update"
+    ],
+    "Please generate python code with cryptography to fulfill the purpose Generates a new RSA private key., start code with importing the cryptography": [
+        "generate_private_key"
+    ],
+    "Please generate python code with tornado to fulfill the purpose Binds this server to the given port on the given address., start code with importing the tornado": [
+        "start"
+    ],
+    "Please generate python code with tornado to fulfill the purpose Makes this the IOLoop for the current thread., start code with importing the tornado": [
+        "start"
+    ],
+    "Please generate python code with tornado to fulfill the purpose Clears the IOLoop for the current thread.\n, start code with importing the tornado": [
+        "clear_current"
+    ],
+    "Please generate python code with tornado to fulfill the purpose Returns True if the given string is a well-formed IP address., start code with importing the tornado": [
+        "start"
+    ],
+    "Please generate python code with tornado to fulfill the purpose Returns the given signed cookie if it validates, or None., start code with importing the tornado": [
+        "start",
+        "get_secure_cookie"
+    ],
+    "Please generate python code with tornado to fulfill the purpose Signs and timestamps a cookie so it cannot be forged., start code with importing the tornado": [
+        "start"
+    ],
+    "Please generate python code with tornado to fulfill the purpose Attempt to delete all the cookies the user sent with this request.\n, start code with importing the tornado": [],
+    "Please generate python code with tornado to fulfill the purpose Client-side websocket support., start code with importing the tornado": [
+        "start"
+    ],
+    "Please generate python code with tornado to fulfill the purpose Makes a WSGI-compatible application runnable on Tornado’s HTTP server., start code with importing the tornado": [
+        "WSGIContainer",
+        "start"
+    ],
+    "Please generate python code with tornado to fulfill the purpose Calls the given callback on the next I/O loop iteration., start code with importing the tornado": [
+        "start"
+    ],
+    "Please generate python code with tornado to fulfill the purpose Redirects the user to obtain OAuth authorization for this service., start code with importing the tornado": [
+        "start",
+        "authorize_redirect"
+    ],
+    "Please generate python code with tornado to fulfill the purpose Twitter OAuth authentication.\n\n, start code with importing the tornado": [
+        "start",
+        "TwitterMixin"
+    ],
+    "Please generate python code with Pillow to fulfill the purpose Load texture from a Quake2 WAL texture file., start code with importing the Pillow": [],
+    "Please generate python code with Pillow to fulfill the purpose Color palette for palette mapped images, start code with importing the Pillow": [
+        "ImagePalette"
+    ],
+    "Please generate python code with Pillow to fulfill the purpose Display given file., start code with importing the Pillow": [],
+    "Please generate python code with Pillow to fulfill the purpose Create a bitmap for the text., start code with importing the Pillow": [
+        "textsize",
+        "getsize"
+    ],
+    "Please generate python code with Pillow to fulfill the purpose Draws a rounded rectangle., start code with importing the Pillow": [
+        "rounded_rectangle"
+    ],
+    "Please generate python code with Pillow to fulfill the purpose Calculates the bounding box of the non-zero regions in the image., start code with importing the Pillow": [
+        "getbbox"
+    ],
+    "Please generate python code with torch to fulfill the purpose Divides each element of the input input by the corresponding element of other., start code with importing the torch": [],
+    "Please generate python code with torch to fulfill the purpose Detaches the Tensor from the graph that created it, making it a leaf. Views cannot be detached in-place., start code with importing the torch": [],
+    "Please generate python code with torch to fulfill the purpose Check gradients computed via small finite differences against analytical gradients wrt tensors in inputs that are of floating point or complex type and with requires_grad=True., start code with importing the torch": [
+        "data",
+        "backward",
+        "grad"
+    ],
+    "Please generate python code with torch to fulfill the purpose Check gradients of gradients computed via small finite differences against analytical gradients wrt tensors in inputs and grad_outputs that are of floating point or complex type and with requires_grad=True., start code with importing the torch": [
+        "backward",
+        "grad"
+    ],
+    "Please generate python code with torch to fulfill the purpose Computes and returns the sum of gradients of outputs with respect to the inputs., start code with importing the torch": [
+        "data",
+        "backward",
+        "grad"
+    ],
+    "Please generate python code with torch to fulfill the purpose Returns the tensor as a NumPy ndarray.\n\n, start code with importing the torch": [
+        "numpy"
+    ],
+    "Please generate python code with torch to fulfill the purpose Creates a one-dimensional tensor of size steps whose values are evenly spaced from start to end, inclusive., start code with importing the torch": [
+        "linspace"
+    ],
+    "Please generate python code with torch to fulfill the purpose Creates a one-dimensional tensor of size steps whose values are evenly spaced from base start to base end, inclusive, on a logarithmic scale with base base.\n, start code with importing the torch": [
+        "linspace",
+        "logspace"
+    ],
+    "Please generate python code with torch to fulfill the purpose Randomly zero out entire channels (a channel is a 2D feature map). Each channel will be zeroed out independently on every forward call with probability p using samples from a Bernoulli distribution., start code with importing the torch": [],
+    "Please generate python code with torch to fulfill the purpose Applies Group Normalization over a mini-batch of inputs, start code with importing the torch": [
+        "GroupNorm"
+    ],
+    "Please generate python code with torch to fulfill the purpose Clamps all elements in input into the range [ min, max ]. , start code with importing the torch": [
+        "clamp"
+    ],
+    "Please generate python code with torch to fulfill the purpose Computes the eigenvalue decomposition of a square matrix if it exists.\n\n, start code with importing the torch": [
+        "eig"
+    ],
+    "Please generate python code with torch to fulfill the purpose Computes the numerical rank of a matrix., start code with importing the torch": [
+        "matrix_rank"
+    ],
+    "Please generate python code with torch to fulfill the purpose Computes a solution to the least squares problem of a system of linear equations.\n\n, start code with importing the torch": [],
+    "Please generate python code with torch to fulfill the purpose Returns a new 1-D tensor which indexes the input tensor according to the boolean mask mask which is a BoolTensor., start code with importing the torch": [],
+    "Please generate python code with torch to fulfill the purpose Copies elements from source into self tensor at positions where the mask is True. , start code with importing the torch": [
+        "masked_scatter_",
+        "data"
+    ],
+    "Please generate python code with torch to fulfill the purpose Fills elements of self tensor with value where mask is True. The shape of mask must be broadcastable with the shape of the underlying tensor., start code with importing the torch": [
+        "masked_fill_"
+    ],
+    "Please generate python code with torch to fulfill the purpose Computes the sum of gradients of given tensors with respect to graph leaves., start code with importing the torch": [
+        "data",
+        "backward",
+        "grad"
+    ]
+}

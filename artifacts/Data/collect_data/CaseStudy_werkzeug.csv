@@ -1,0 +1,33 @@
+Version,Function Name,Modification Type (Add/Deprecated/Param/Return/Fix),Reason (PerforMance/S-Bug/NS-Bug),Modification Discription,Related Issue,Function Description,Function Link,coplitot GC,gpt-turbo GC,ChatGPT-4 GC,GPT4
+2.1.0,Response.freeze(),P,,Remove the no_etag parameter from Response.freeze(),,"Make the response object ready to be pickled. Does the following:
+
+Buffer the response into a list, ignoring implicity_sequence_conversion and direct_passthrough.
+
+Set the Content-Length header.
+
+Generate an ETag header if one is not already set.",,0/9,,,0/9
+2.1.0,HTTPException.wrap,D,,Remove the HTTPException.wrap class method.,,Create an exception that is a subclass of the calling HTTP exception and the exception argument.,,0/10,,,0/10
+2.1.0,cookie_date,D,,Remove the cookie_date function. Use http_date instead.,,Formats the time to match the RFC1123 date format.,,0/6,,,0/8
+2.1.0,pbkdf2_hex,D,,"Remove the pbkdf2_hex, pbkdf2_bin, and safe_str_cmp functions. Use equivalents in hashlib and hmac modules instead.",,"Like pbkdf2_bin, but returns a hex-encoded string.",,3/7,,,0/10
+2.1.0,pbkdf2_bin,D,,"Remove the pbkdf2_hex, pbkdf2_bin, and safe_str_cmp functions. Use equivalents in hashlib and hmac modules instead.",,"Returns a binary digest for the PBKDF2 hash algorithm of data with the given salt. It iterates iterations times and produces a key of keylen bytes. By default, SHA-256 is used as hash function; a different hashlib hashfunc can be provided.",,7/9,,,10/10
+2.1.0,safe_str_cmp,D,,"Remove the pbkdf2_hex, pbkdf2_bin, and safe_str_cmp functions. Use equivalents in hashlib and hmac modules instead.",,compares strings in somewhat constant time. This requires that the length of at least one string is known in advance.,,0/7,,,10/10
+2.1.0,invalidate_cached_property,D,,Remove the invalidate_cached_property function. Use del obj.attr instead.,,,,,,,
+2.1.0,bind_arguments,D,,Remove bind_arguments and validate_arguments. Use Signature.bind() and inspect.signature() instead.,,Bind the arguments provided into a dict when passed a function,,1/9,,,0/10
+2.1.0,validate_arguments,D,,,,,,,,,
+2.1.0,format_string,D,,"Remove format_string, use string.Template instead.",,String-template format a string,,0/8,,,0/10
+2.1.0,Request.get_json() ,R,,Request.get_json() will raise a 400 BadRequest error if the Content-Type header is not application/json. This makes a very common source of confusion more visible.,,Parses the incoming JSON request data and returns it.,,3/9,,,1/10
+2.2.0,get_script_name,D,,"Deprecated get_script_name, get_query_string, peek_path_info, pop_path_info, and extract_path_info.",#2461,"Returns the `SCRIPT_NAME` from the WSGI environment and properly
+decodes it.",,1/4,,,0/10
+2.2.0,get_query_string,D,,"Deprecated get_script_name, get_query_string, peek_path_info, pop_path_info, and extract_path_info.",#2461,Returns the `QUERY_STRING` from the WSGI environment.,,1/6,,,0/10
+2.2.0,peek_path_info,D,,"Deprecated get_script_name, get_query_string, peek_path_info, pop_path_info, and extract_path_info.",#2461,Returns the next segment on the `PATH_INFO` or `None` if there is none.,,0/10,,,0/10
+2.2.0,extract_path_info,D,,"Deprecated get_script_name, get_query_string, peek_path_info, pop_path_info, and extract_path_info.",#2461,Extracts the path info from the given URL (or WSGI environment) and path.,,0/10,,,0/10
+2.2.3,parse_content_range_header,R,,"parse_content_range_header returns None for a value like bytes */-1 where the length is invalid, instead of raising an AssertionError. ",#2531,Parses a range header into a ContentRange object or None if parsing is not possible.,,0/10,,,0/10
+2.3.0,werkzeug.urls,D,,"Deprecate the werkzeug.urls module, except for the uri_to_iri and iri_to_uri functions. Use the urllib.parse library instead.",#2600,,,,,,
+2.3.0,iri_to_uri,P,,Deprecate the safe_conversion parameter of iri_to_uri. The Location header is converted to IRI using the same process as everywhere else.,#2609,Convert an IRI to a URI,,5/10,,,10/10
+2.3.0,werkzeug.wsgi.make_line_iter ,D,,Deprecate werkzeug.wsgi.make_line_iter and make_chunk_iter.,#2613,Safely iterates line-based over an input stream.,,0/10,,,10/10
+2.3.0,werkzeug.wsgi.make_chunk_iter,D,,Deprecate werkzeug.wsgi.make_line_iter and make_chunk_iter.,#2613,Works like make_line_iter() but accepts a separator which divides chunks.,,1/10,,,0/7
+2.3.0,Request.get_json() ,R,,"Request.get_json() will raise a 415 Unsupported Media Type error if the Content-Type header is not application/json, instead of a generic 400.",#2550,,,,,,
+2.3.0,unquote_header_value ,P,,The is_filename parameter to unquote_header_value is deprecated.,#2614,Unquotes a header value.,,0/8,,,10/10
+2.3.0,quote_header_value,P,,"Deprecate the extra_chars parameter and passing bytes to quote_header_value, the allow_token parameter to dump_header, and the cls parameter and passing bytes to parse_dict_header.",#2618,Quote a header value if necessary.,,1/9,,,10/10
+2.3.0,dump_header,P,,"Deprecate the extra_chars parameter and passing bytes to quote_header_value, the allow_token parameter to dump_header, and the cls parameter and passing bytes to parse_dict_header.",#2618,Dump an HTTP header again,,5/10,,,2/10
+2.3.0,parse_dict_header,P,,"Deprecate the extra_chars parameter and passing bytes to quote_header_value, the allow_token parameter to dump_header, and the cls parameter and passing bytes to parse_dict_header.",#2618,"Parse lists of key, value pairs as described by RFC 2068 Section 2 and convert them into a python dict.",,0/10,,,8/10

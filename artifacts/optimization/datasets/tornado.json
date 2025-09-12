@@ -1,0 +1,175 @@
+{
+    "Added:": [
+        {
+            "func_name": "curl_httpclient",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "escape",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "testing",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "queues",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "tcpclient",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "web",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "http1connection",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "concurrent",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "simple_httpclient",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "netutil",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "httputil",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "locale",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "process",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "platform",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "httpserver",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "autoreload",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "util",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "iostream",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "ioloop",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "tcpserver",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "httpclient",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "auth",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "log",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "options",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "locks",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "template",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "routing",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "gen",
+            "path": "tornado/__init__.py",
+            "parent": "Module"
+        }
+    ],
+    "Removed": [
+        {
+            "func_name": "set_close_exec",
+            "path": "tornado/platform/auto.py",
+            "parent": "Module"
+        }
+    ],
+    "Param_Changed": [],
+    "Return_Changed": [],
+    "Deprecated": [
+        {
+            "func_name": "test_if_modified_since_naive_deprecated",
+            "path": "tornado/test/httpclient_test.py",
+            "parent": "HTTPRequestTestCase"
+        },
+        {
+            "func_name": "ignore_deprecation",
+            "path": "tornado/test/util.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_set_cookie_deprecated",
+            "path": "tornado/test/web_test.py",
+            "parent": "CookieTest"
+        },
+        {
+            "func_name": "test_utc_naive_datetime_deprecated",
+            "path": "tornado/test/httputil_test.py",
+            "parent": "FormatTimestampTest"
+        }
+    ]
+}

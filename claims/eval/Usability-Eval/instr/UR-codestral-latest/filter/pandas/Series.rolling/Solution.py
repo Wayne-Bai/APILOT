@@ -1,0 +1,6 @@
+import pandas as pd
+
+# Assume df is your DataFrame and 'column_name' is the name of the column you want to calculate the rolling mean for
+
+# Calculate the rolling mean with a window size of 3
+df['rolling_mean'] = df['column_name'].rolling(window=3).mean()

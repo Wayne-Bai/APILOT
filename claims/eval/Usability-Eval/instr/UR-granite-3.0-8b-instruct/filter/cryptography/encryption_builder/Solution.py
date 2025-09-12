@@ -1,0 +1,28 @@
+from cryptography.hazmat.primitives.asymmetric import rsa
+from cryptography.hazmat.primitives import serialization
+from cryptography.hazmat.primitives.asymmetric import padding
+
+def generate_public_key():
+    private_key = rsa.generate_private_key(
+        public_exponent=65537,
+        key_size=2048,
+    )
+    public_key = private_key.public_key()
+    return public_key
+
+def encrypt_message(message, public_key):
+    encrypted = public_key.encrypt(
+        message,
+        padding.OAEP(
+            mgf=padding.MGF1(algorithm=padding.SHA256()),
+            algorithm=padding.SHA256(),
+            label=None
+        )
+    )
+    return encrypted
+
+# Example usage:
+public_key = generate_public_key()
+message = b"Hello, World!"
+encrypted_message = encrypt_message(message, public_key)
+print(encrypted_message)

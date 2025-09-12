@@ -1,0 +1,46 @@
+Version,Function Name,Modification Type (Add/Deprecated/Param/Return/Fix),Reason (PerforMance/S-Bug/NS-Bug),Modification Discription,Related Issue,Function Description,Function Link,coplitot GC,gpt-4,gpt-3.5-turbo GC,ChatGPT-4 GC,,,,
+1.7,torch.fft,A,,"FFT-related functionality is commonly used in a variety of scientific fields like signal processing. While PyTorch has historically supported a few FFT-related functions, the 1.7 release adds a new torch.fft module that implements FFT-related functions with the same API as NumPy.
+
+This new module must be imported to be used in the 1.7 release, since its name conflicts with the historic (and now deprecated) torch.fft function.
+",,Discrete Fourier transforms and related functions.,https://pytorch.org/docs/stable/fft.html,,,,,,,,
+1.9,torch.divide,R,,torch.divide with rounding_mode='floor' now returns infinity when a non-zero number is divided by zero,,Divides each element of the input input by the corresponding element of other.,https://pytorch.org/docs/stable/generated/torch.divide.html,0/10,,,0/10,,,10,10
+1.9.1,torch.mm,F,M,fix mm not correctly report TORCH_CHECK failure issue,#61394,Performs a matrix multiplication of the matrices input and mat2.,https://pytorch.org/docs/stable/generated/torch.mm.html,,,,,,,,
+1.10.0,Tensor.detach_,R,,In-place detach (detach_) now errors for views that return multiple outputs,#58285,"Detaches the Tensor from the graph that created it, making it a leaf. Views cannot be detached in-place.",https://pytorch.org/docs/stable/generated/torch.Tensor.detach_.html#torch.Tensor.detach_,0/7,,,0/10,,,10,10
+1.10.0,torch.autograd.gradcheck,P,,Optional arguments to autograd.gradcheck and autograd.gradgradcheck are now kwarg-only,#65290,Check gradients computed via small finite differences against analytical gradients wrt tensors in inputs that are of floating point or complex type and with requires_grad=True.,https://pytorch.org/docs/stable/generated/torch.autograd.gradcheck.html,4/9,,,8/8,,,8,8
+1.10.0,torch.autograd.gradgradcheck,P,,Optional arguments to autograd.gradcheck and autograd.gradgradcheck are now kwarg-only,#65290,Check gradients of gradients computed via small finite differences against analytical gradients wrt tensors in inputs and grad_outputs that are of floating point or complex type and with requires_grad=True.,https://pytorch.org/docs/stable/generated/torch.autograd.gradgradcheck.html,,,,9/9,,,9,9
+1.10.0,torch.autograd.grad,R,,Raise error when inputs to autograd.grad are empty,#52016,Computes and returns the sum of gradients of outputs with respect to the inputs.,https://pytorch.org/docs/stable/generated/torch.autograd.grad.html,7/10,,,10/10,,,10,10
+1.10.0,torch.tensorgrad,R,,Raise TypeError instead of RuntimeError when assigning to a Tensor’s grad field with wrong type,#64876,,https://pytorch.org/docs/stable/generated/torch.Tensor.grad.html,,,,,,,,
+,,,,,,,,,,,,,,,
+1.10.0,tensor.numpy,,,tensor.numpy() now throws RuntimeError when called on a tensor with conjugate or negative bit set,#61925,"Returns the tensor as a NumPy ndarray.
+
+",https://pytorch.org/docs/stable/generated/torch.Tensor.numpy.html,,,,,,,,
+1.10.0,"torch.{is,set}_deterministic",D,,"Remove deprecated torch.{is,set}_deterministic",#62158,,,,,,,,,,
+1.10.0,torch.any,F,,"torch.any/torch.all behavior changed slightly to be more consistent for zero-dimension, uint8 tensors. ",#64642,Tests if any element in input evaluates to True.,https://pytorch.org/docs/stable/generated/torch.any.html,,,,,,,,
+1.10.0,torch.all,F,,"torch.any/torch.all behavior changed slightly to be more consistent for zero-dimension, uint8 tensors. ",#64642,Tests if all elements in input evaluate to True.,https://pytorch.org/docs/stable/generated/torch.all.html,,,,,,,,
+1.11,,,,Disabled the support for getitem in FX Graph Mode Quantization,,,,,,,,,,,
+1.11,torch.linspace,P,,steps argument is no longer optional in torch.linspace and torch.logspace,,"Creates a one-dimensional tensor of size steps whose values are evenly spaced from start to end, inclusive.",https://pytorch.org/docs/stable/generated/torch.linspace.html,9/10,,,9/10,,,10,10
+1.11,torch.logspace,P,,steps argument is no longer optional in torch.linspace and torch.logspace,,"Creates a one-dimensional tensor of size steps whose values are evenly spaced from base start to base end, inclusive, on a logarithmic scale with base base.
+",https://pytorch.org/docs/stable/generated/torch.logspace.html,8/9,,,8/10,,,10,10
+1.11,,F,,Fixed python deepcopy to correctly copy all attributes on Tensor objects,#65584,,,,,,,,,,
+1.12,torch.ops.aten.{foo},P,,Functions in torch.ops.aten.{foo} no longer accept self as a kwarg,,,,,,,,,,,
+1.12,torch.nn.functional.cosine_similarity,F,,F.cosine_similarity: Improve numerical stability,#31378,"Returns cosine similarity between x1 and x2, computed along dim.",https://pytorch.org/docs/stable/generated/torch.nn.functional.cosine_similarity.html,,,,,,,,
+1.12,nn.Dropout2d,R,,nn.Dropout2d: Return to 1.10 behavior: perform 1D channel-wise dropout for 3D inputs,,Randomly zero out entire channels (a channel is a 2D feature map). Each channel will be zeroed out independently on every forward call with probability p using samples from a Bernoulli distribution.,https://pytorch.org/docs/stable/generated/torch.nn.Dropout2d.html,3/9,,,0/5,,,5,5
+1.12,torch.nn.GroupNorm,,,nn.GroupNorm: Report an error if num_channels is not divisible by num_groups,,Applies Group Normalization over a mini-batch of inputs,https://pytorch.org/docs/stable/generated/torch.nn.GroupNorm.html,,,,,,,,
+1.12,torch.clamp,R,,Updated type promotion for torch.clamp,#77035,"Clamps all elements in input into the range [ min, max ]. ",https://pytorch.org/docs/stable/generated/torch.clamp.html,7/9,,,8/10,,,10,10
+1.13,torch.Tensor.data,,,Disallow setting the .data of a tensor that requires_grad=True with an integer tensor (#78436),#78436,,,,,,,,,,
+1.13,torch.eig,D,,"Remove deprecated torch.eig, torch.matrix_rank, torch.lstsq",#70982,"Computes the eigenvalue decomposition of a square matrix if it exists.
+
+",,4/10,,,0/10,,,10,10
+1.13,torch.matrix_rank,D,,"Remove deprecated torch.eig, torch.matrix_rank, torch.lstsq",#70981,Computes the numerical rank of a matrix.,,1/10,,,0/10,,,10,10
+1.13,torch.lstsq,D,,"Remove deprecated torch.eig, torch.matrix_rank, torch.lstsq",#70980,"Computes a solution to the least squares problem of a system of linear equations.
+
+",,2/10,,,0/9,,,9,9
+1.13,torch.floor_divide,F,,Updated torch.floor_divide to perform floor division,#78411,"Computes input divided by other, elementwise, and floors the result.",https://pytorch.org/docs/stable/generated/torch.floor_divide.html,,,,,,,,
+2.1,torch.unique,F,,Fix the result of torch.unique to make it consistent with NumPy when dim is specified ,#101693,Returns the unique elements of the input tensor.,https://pytorch.org/docs/stable/generated/torch.unique.html,,,,,,,,
+2.1,torch.masked_select,P,,"Disallow non-bool masks in torch.masked_{select, scatter, fill} ",#96112,Returns a new 1-D tensor which indexes the input tensor according to the boolean mask mask which is a BoolTensor.,https://pytorch.org/docs/stable/generated/torch.masked_select.html,8/10,,,0/10,,,10,10
+2.1,torch.masked_scatter_,P,,"Disallow non-bool masks in torch.masked_{select, scatter, fill} ",#97999,Copies elements from source into self tensor at positions where the mask is True. ,https://pytorch.org/docs/stable/generated/torch.Tensor.masked_scatter_.html#torch.Tensor.masked_scatter_,4/8,,,10/10,,,10,10
+2.1,torch.masked_fill_,P,,"Disallow non-bool masks in torch.masked_{select, scatter, fill} ",#96594,Fills elements of self tensor with value where mask is True. The shape of mask must be broadcastable with the shape of the underlying tensor.,https://pytorch.org/docs/stable/generated/torch.Tensor.masked_fill_.html#torch.Tensor.masked_fill_,3/8,,,10/10,,,10,10
+2.1,DistributedDataParallel,F,,Only sync buffers when broadcast_buffers is True ,#100729,,,,,,,,,,
+2.1,torch.autograd.backward,R,,"Disable torch.autograd.{backward, grad} for complex scalar output",#92753,Computes the sum of gradients of given tensors with respect to graph leaves.,,1/9,,,0/10,,,10,10
+2.1,torch.autograd.grad,R,,"Disable torch.autograd.{backward, grad} for complex scalar output",#92753,Computes and returns the sum of gradients of outputs with respect to the inputs.,,,,,,,,,
+,,,,,,,,0.4420289855,,,0.4768211921,,,,151

@@ -1,0 +1,2570 @@
+{
+    "Added:": [
+        {
+            "func_name": "find_negative_cycle",
+            "path": "networkx/algorithms/shortest_paths/weighted.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__delattr__",
+            "path": "networkx/utils/configs.py",
+            "parent": "Config"
+        },
+        {
+            "func_name": "__setitem__",
+            "path": "networkx/utils/configs.py",
+            "parent": "Config"
+        },
+        {
+            "func_name": "maximal_extendability",
+            "path": "networkx/algorithms/bipartite/extendability.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "keys",
+            "path": "networkx/utils/configs.py",
+            "parent": "Config"
+        },
+        {
+            "func_name": "_can_backend_run",
+            "path": "networkx/utils/backends.py",
+            "parent": "_dispatchable"
+        },
+        {
+            "func_name": "__forbidden",
+            "path": "networkx/algorithms/planarity.py",
+            "parent": "PlanarEmbedding"
+        },
+        {
+            "func_name": "_should_backend_run",
+            "path": "networkx/utils/backends.py",
+            "parent": "_dispatchable"
+        },
+        {
+            "func_name": "geometric_edges",
+            "path": "networkx/generators/geometric.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "getrandbits",
+            "path": "networkx/utils/misc.py",
+            "parent": "PythonRandomViaNumpyBits"
+        },
+        {
+            "func_name": "__dir__",
+            "path": "networkx/utils/configs.py",
+            "parent": "Config"
+        },
+        {
+            "func_name": "gutman_index",
+            "path": "networkx/algorithms/wiener.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "find_minimal_d_separator",
+            "path": "networkx/algorithms/d_separation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__init_subclass__",
+            "path": "networkx/utils/configs.py",
+            "parent": "Config"
+        },
+        {
+            "func_name": "seed",
+            "path": "networkx/utils/misc.py",
+            "parent": "PythonRandomViaNumpyBits"
+        },
+        {
+            "func_name": "deprecate_positional_args",
+            "path": "networkx/utils/decorators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "cd_index",
+            "path": "networkx/algorithms/time_dependent.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "generic_bfs_edges",
+            "path": "networkx/algorithms/traversal/breadth_first_search.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "girth",
+            "path": "networkx/algorithms/cycles.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "tree_broadcast_time",
+            "path": "networkx/algorithms/broadcasting.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_deserialize",
+            "path": "networkx/utils/configs.py",
+            "parent": "Config"
+        },
+        {
+            "func_name": "total_spanning_tree_weight",
+            "path": "networkx/linalg/laplacianmatrix.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "write_network_text",
+            "path": "networkx/readwrite/text.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "random_regular_expander_graph",
+            "path": "networkx/generators/expanders.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "PythonRandomViaNumpyBits",
+            "path": "networkx/utils/misc.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "maybe_regular_expander",
+            "path": "networkx/generators/expanders.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "modular_product",
+            "path": "networkx/algorithms/operators/product.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "all_pairs_all_shortest_paths",
+            "path": "networkx/algorithms/shortest_paths/generic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "single_source_all_shortest_paths",
+            "path": "networkx/algorithms/shortest_paths/generic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__reduce__",
+            "path": "networkx/utils/backends.py",
+            "parent": "_dispatchable"
+        },
+        {
+            "func_name": "minimal_d_separator",
+            "path": "networkx/algorithms/d_separation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_convert_graph",
+            "path": "networkx/utils/backends.py",
+            "parent": "_dispatchable"
+        },
+        {
+            "func_name": "edge_betweenness_partition",
+            "path": "networkx/algorithms/community/divisive.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__eq__",
+            "path": "networkx/utils/configs.py",
+            "parent": "Config"
+        },
+        {
+            "func_name": "__reversed__",
+            "path": "networkx/utils/configs.py",
+            "parent": "Config"
+        },
+        {
+            "func_name": "random_unlabeled_rooted_forest",
+            "path": "networkx/generators/trees.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "number_of_walks",
+            "path": "networkx/algorithms/walks.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "items",
+            "path": "networkx/utils/configs.py",
+            "parent": "Config"
+        },
+        {
+            "func_name": "kneser_graph",
+            "path": "networkx/generators/classic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_convert_arguments",
+            "path": "networkx/utils/backends.py",
+            "parent": "_dispatchable"
+        },
+        {
+            "func_name": "__signature__",
+            "path": "networkx/utils/backends.py",
+            "parent": "_dispatchable"
+        },
+        {
+            "func_name": "random_labeled_rooted_tree",
+            "path": "networkx/generators/trees.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "geometric_soft_configuration_graph",
+            "path": "networkx/generators/geometric.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "vf2pp_is_isomorphic",
+            "path": "networkx/algorithms/isomorphism/vf2pp.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "corona_product",
+            "path": "networkx/algorithms/operators/product.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "Config",
+            "path": "networkx/utils/configs.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_make_doc",
+            "path": "networkx/utils/backends.py",
+            "parent": "_dispatchable"
+        },
+        {
+            "func_name": "vf2pp_isomorphism",
+            "path": "networkx/algorithms/isomorphism/vf2pp.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_planar",
+            "path": "networkx/algorithms/planarity.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__doc__",
+            "path": "networkx/utils/backends.py",
+            "parent": "_dispatchable"
+        },
+        {
+            "func_name": "tutte_polynomial",
+            "path": "networkx/algorithms/polynomials.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "compute_v_structures",
+            "path": "networkx/algorithms/dag.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_minimal_d_separator",
+            "path": "networkx/algorithms/d_separation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_d_separator",
+            "path": "networkx/algorithms/d_separation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__setattr__",
+            "path": "networkx/utils/configs.py",
+            "parent": "Config"
+        },
+        {
+            "func_name": "vf2pp_all_isomorphisms",
+            "path": "networkx/algorithms/isomorphism/vf2pp.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "weisfeiler_lehman_subgraph_hashes",
+            "path": "networkx/algorithms/graph_hashing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_convert_and_call",
+            "path": "networkx/utils/backends.py",
+            "parent": "_dispatchable"
+        },
+        {
+            "func_name": "visibility_graph",
+            "path": "networkx/generators/time_series.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "random_unlabeled_rooted_tree",
+            "path": "networkx/generators/trees.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "tree_broadcast_center",
+            "path": "networkx/algorithms/broadcasting.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "out_edges",
+            "path": "networkx/classes/digraph.py",
+            "parent": "DiGraph"
+        },
+        {
+            "func_name": "setstate",
+            "path": "networkx/utils/misc.py",
+            "parent": "PythonRandomViaNumpyBits"
+        },
+        {
+            "func_name": "fast_label_propagation_communities",
+            "path": "networkx/algorithms/community/label_propagation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "spectral_bisection",
+            "path": "networkx/linalg/algebraicconnectivity.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "from_scipy_sparse_array",
+            "path": "networkx/convert_matrix.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "chordless_cycles",
+            "path": "networkx/algorithms/cycles.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "random_spanning_tree",
+            "path": "networkx/algorithms/tree/mst.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "chromatic_polynomial",
+            "path": "networkx/algorithms/polynomials.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "edge_current_flow_betweenness_partition",
+            "path": "networkx/algorithms/community/divisive.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "bfs_labeled_edges",
+            "path": "networkx/algorithms/traversal/breadth_first_search.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "generate_network_text",
+            "path": "networkx/readwrite/text.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "to_latex_raw",
+            "path": "networkx/drawing/nx_latex.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_lazy_import",
+            "path": "networkx/lazy_imports.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "add_half_edge",
+            "path": "networkx/algorithms/planarity.py",
+            "parent": "PlanarEmbedding"
+        },
+        {
+            "func_name": "bfs_layout",
+            "path": "networkx/drawing/layout.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "write_latex",
+            "path": "networkx/drawing/nx_latex.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "to_latex",
+            "path": "networkx/drawing/nx_latex.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "attach",
+            "path": "networkx/lazy_imports.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_convert_and_call_for_tests",
+            "path": "networkx/utils/backends.py",
+            "parent": "_dispatchable"
+        },
+        {
+            "func_name": "tadpole_graph",
+            "path": "networkx/generators/classic.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "bfs_layers",
+            "path": "networkx/algorithms/traversal/breadth_first_search.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__delitem__",
+            "path": "networkx/utils/configs.py",
+            "parent": "Config"
+        },
+        {
+            "func_name": "effective_graph_resistance",
+            "path": "networkx/algorithms/distance_measures.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "laplacian_centrality",
+            "path": "networkx/algorithms/centrality/laplacian.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "config",
+            "path": "networkx/utils/configs.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "kemeny_constant",
+            "path": "networkx/algorithms/distance_measures.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "minimal_branching",
+            "path": "networkx/algorithms/tree/branchings.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_dispatchable",
+            "path": "networkx/utils/backends.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "directed_edge_swap",
+            "path": "networkx/algorithms/swap.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "getstate",
+            "path": "networkx/utils/misc.py",
+            "parent": "PythonRandomViaNumpyBits"
+        },
+        {
+            "func_name": "number_of_spanning_trees",
+            "path": "networkx/algorithms/tree/mst.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "arf_layout",
+            "path": "networkx/drawing/layout.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_regular_expander",
+            "path": "networkx/generators/expanders.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "__new__",
+            "path": "networkx/utils/backends.py",
+            "parent": "_dispatchable"
+        },
+        {
+            "func_name": "to_scipy_sparse_array",
+            "path": "networkx/convert_matrix.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "random_labeled_rooted_forest",
+            "path": "networkx/generators/trees.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "join_trees",
+            "path": "networkx/algorithms/tree/operations.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "values",
+            "path": "networkx/utils/configs.py",
+            "parent": "Config"
+        },
+        {
+            "func_name": "random_unlabeled_tree",
+            "path": "networkx/generators/trees.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "schultz_index",
+            "path": "networkx/algorithms/wiener.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_check_config",
+            "path": "networkx/utils/configs.py",
+            "parent": "Config"
+        },
+        {
+            "func_name": "random_labeled_tree",
+            "path": "networkx/generators/trees.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_clear_cache",
+            "path": "networkx/utils/misc.py",
+            "parent": "Module"
+        }
+    ],
+    "Removed": [
+        {
+            "func_name": "performance",
+            "path": "networkx/algorithms/community/quality.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "from_numpy_matrix",
+            "path": "networkx/convert_matrix.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "forest_str",
+            "path": "networkx/readwrite/text.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "authority_matrix",
+            "path": "networkx/algorithms/link_analysis/hits_alg.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "from_scipy_sparse_matrix",
+            "path": "networkx/convert_matrix.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "empty_generator",
+            "path": "networkx/utils/misc.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "to_numpy_recarray",
+            "path": "networkx/convert_matrix.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "pagerank_scipy",
+            "path": "networkx/algorithms/link_analysis/pagerank_alg.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "cliques_containing_node",
+            "path": "networkx/algorithms/clique.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "make_str",
+            "path": "networkx/utils/misc.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "dict_to_numpy_array1",
+            "path": "networkx/utils/misc.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "graph_clique_number",
+            "path": "networkx/algorithms/clique.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "greedy_coloring_with_interchange",
+            "path": "networkx/algorithms/coloring/greedy_coloring_with_interchange.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "almost_equal",
+            "path": "networkx/testing/utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "extrema_bounding",
+            "path": "networkx/algorithms/distance_measures.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "assert_nodes_equal",
+            "path": "networkx/testing/utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "write_shp",
+            "path": "networkx/readwrite/nx_shp.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "assert_edges_equal",
+            "path": "networkx/testing/utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_iterator",
+            "path": "networkx/utils/misc.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "hits_numpy",
+            "path": "networkx/algorithms/link_analysis/hits_alg.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "k_nearest_neighbors",
+            "path": "networkx/algorithms/assortativity/connectivity.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "pagerank_numpy",
+            "path": "networkx/algorithms/link_analysis/pagerank_alg.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "to_tuple",
+            "path": "networkx/utils/misc.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "graph_number_of_cliques",
+            "path": "networkx/algorithms/clique.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "generate_unique_node",
+            "path": "networkx/utils/misc.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_string_like",
+            "path": "networkx/utils/misc.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "hub_matrix",
+            "path": "networkx/algorithms/link_analysis/hits_alg.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "project",
+            "path": "networkx/algorithms/bipartite/projection.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "dict_to_numpy_array2",
+            "path": "networkx/utils/misc.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "edge_betweenness",
+            "path": "networkx/algorithms/centrality/betweenness.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "consume",
+            "path": "networkx/utils/misc.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "numeric_mixing_matrix",
+            "path": "networkx/algorithms/assortativity/mixing.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "to_scipy_sparse_matrix",
+            "path": "networkx/convert_matrix.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "info",
+            "path": "networkx/classes/function.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "preserve_random_state",
+            "path": "networkx/utils/decorators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "assert_graphs_equal",
+            "path": "networkx/testing/utils.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "write_gpickle",
+            "path": "networkx/readwrite/gpickle.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_naive_greedy_modularity_communities",
+            "path": "networkx/algorithms/community/modularity_max.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "hits_scipy",
+            "path": "networkx/algorithms/link_analysis/hits_alg.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "is_list_of_ints",
+            "path": "networkx/utils/misc.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "reversed",
+            "path": "networkx/utils/contextmanagers.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "betweenness_centrality_source",
+            "path": "networkx/algorithms/centrality/betweenness_subset.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "random_state",
+            "path": "networkx/utils/decorators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "find_cores",
+            "path": "networkx/algorithms/core.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "simrank_similarity_numpy",
+            "path": "networkx/algorithms/similarity.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "adj_matrix",
+            "path": "networkx/linalg/graphmatrix.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "read_shp",
+            "path": "networkx/readwrite/nx_shp.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "to_numpy_matrix",
+            "path": "networkx/convert_matrix.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "jit_graph",
+            "path": "networkx/readwrite/json_graph/jit.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "default_opener",
+            "path": "networkx/utils/misc.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "jit_data",
+            "path": "networkx/readwrite/json_graph/jit.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "read_gpickle",
+            "path": "networkx/readwrite/gpickle.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "make_small_graph",
+            "path": "networkx/generators/small.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "iterable",
+            "path": "networkx/utils/misc.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "coverage",
+            "path": "networkx/algorithms/community/quality.py",
+            "parent": "Module"
+        }
+    ],
+    "Param_Changed": [
+        {
+            "func_name": "min_weight_matching",
+            "path": "networkx/algorithms/matching.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "maxcardinality",
+                "weight"
+            ],
+            "new": [
+                "G",
+                "weight"
+            ]
+        },
+        {
+            "func_name": "subgraph_view",
+            "path": "networkx/classes/graphviews.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "filter_node",
+                "filter_edge"
+            ],
+            "new": [
+                "G"
+            ]
+        },
+        {
+            "func_name": "naive_greedy_modularity_communities",
+            "path": "networkx/algorithms/community/modularity_max.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "resolution"
+            ],
+            "new": [
+                "G",
+                "resolution",
+                "weight"
+            ]
+        },
+        {
+            "func_name": "copy",
+            "path": "networkx/algorithms/planarity.py",
+            "parent": "Interval",
+            "old": [
+                "self",
+                "as_view"
+            ],
+            "new": [
+                "self"
+            ]
+        },
+        {
+            "func_name": "get_node_attributes",
+            "path": "networkx/classes/function.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "name"
+            ],
+            "new": [
+                "G",
+                "name",
+                "default"
+            ]
+        },
+        {
+            "func_name": "node_link_graph",
+            "path": "networkx/readwrite/json_graph/node_link.py",
+            "parent": "Module",
+            "old": [
+                "data",
+                "directed",
+                "multigraph",
+                "attrs"
+            ],
+            "new": [
+                "data",
+                "directed",
+                "multigraph"
+            ]
+        },
+        {
+            "func_name": "simple_cycles",
+            "path": "networkx/algorithms/cycles.py",
+            "parent": "Module",
+            "old": [
+                "G"
+            ],
+            "new": [
+                "G",
+                "length_bound"
+            ]
+        },
+        {
+            "func_name": "scale_free_graph",
+            "path": "networkx/generators/directed.py",
+            "parent": "Module",
+            "old": [
+                "n",
+                "alpha",
+                "beta",
+                "gamma",
+                "delta_in",
+                "delta_out",
+                "create_using",
+                "seed"
+            ],
+            "new": [
+                "n",
+                "alpha",
+                "beta",
+                "gamma",
+                "delta_in",
+                "delta_out",
+                "seed",
+                "initial_graph"
+            ]
+        },
+        {
+            "func_name": "draw_networkx_labels",
+            "path": "networkx/drawing/nx_pylab.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "pos",
+                "labels",
+                "font_size",
+                "font_color",
+                "font_family",
+                "font_weight",
+                "alpha",
+                "bbox",
+                "horizontalalignment",
+                "verticalalignment",
+                "ax",
+                "clip_on"
+            ],
+            "new": [
+                "G",
+                "pos",
+                "labels",
+                "font_size",
+                "font_color",
+                "font_family",
+                "font_weight",
+                "alpha",
+                "bbox",
+                "horizontalalignment",
+                "verticalalignment",
+                "ax",
+                "clip_on",
+                "hide_ticks"
+            ]
+        },
+        {
+            "func_name": "steiner_tree",
+            "path": "networkx/algorithms/approximation/steinertree.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "terminal_nodes",
+                "weight"
+            ],
+            "new": [
+                "G",
+                "terminal_nodes",
+                "weight",
+                "method"
+            ]
+        },
+        {
+            "func_name": "_siftdown",
+            "path": "networkx/utils/mapped_queue.py",
+            "parent": "MappedQueue",
+            "old": [
+                "self",
+                "pos"
+            ],
+            "new": [
+                "self",
+                "start_pos",
+                "pos"
+            ]
+        },
+        {
+            "func_name": "tree_data",
+            "path": "networkx/readwrite/json_graph/tree.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "root",
+                "attrs",
+                "ident",
+                "children"
+            ],
+            "new": [
+                "G",
+                "root",
+                "ident",
+                "children"
+            ]
+        },
+        {
+            "func_name": "tree_graph",
+            "path": "networkx/readwrite/json_graph/tree.py",
+            "parent": "Module",
+            "old": [
+                "data",
+                "attrs",
+                "ident",
+                "children"
+            ],
+            "new": [
+                "data",
+                "ident",
+                "children"
+            ]
+        },
+        {
+            "func_name": "find_cliques_recursive",
+            "path": "networkx/algorithms/clique.py",
+            "parent": "Module",
+            "old": [
+                "G"
+            ],
+            "new": [
+                "G",
+                "nodes"
+            ]
+        },
+        {
+            "func_name": "greedy_modularity_communities",
+            "path": "networkx/algorithms/community/modularity_max.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "weight",
+                "resolution",
+                "n_communities"
+            ],
+            "new": [
+                "G",
+                "weight",
+                "resolution",
+                "cutoff",
+                "best_n"
+            ]
+        },
+        {
+            "func_name": "non_randomness",
+            "path": "networkx/algorithms/non_randomness.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "k"
+            ],
+            "new": [
+                "G",
+                "k",
+                "weight"
+            ]
+        },
+        {
+            "func_name": "draw_shell",
+            "path": "networkx/drawing/nx_pylab.py",
+            "parent": "Module",
+            "old": [
+                "G"
+            ],
+            "new": [
+                "G",
+                "nlist"
+            ]
+        },
+        {
+            "func_name": "second_order_centrality",
+            "path": "networkx/algorithms/centrality/second_order.py",
+            "parent": "Module",
+            "old": [
+                "G"
+            ],
+            "new": [
+                "G",
+                "weight"
+            ]
+        },
+        {
+            "func_name": "cytoscape_graph",
+            "path": "networkx/readwrite/json_graph/cytoscape.py",
+            "parent": "Module",
+            "old": [
+                "data",
+                "attrs",
+                "name",
+                "ident"
+            ],
+            "new": [
+                "data",
+                "name",
+                "ident"
+            ]
+        },
+        {
+            "func_name": "is_semiconnected",
+            "path": "networkx/algorithms/components/semiconnected.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "topo_order"
+            ],
+            "new": [
+                "G"
+            ]
+        },
+        {
+            "func_name": "louvain_communities",
+            "path": "networkx/algorithms/community/louvain.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "weight",
+                "resolution",
+                "threshold",
+                "seed"
+            ],
+            "new": [
+                "G",
+                "weight",
+                "resolution",
+                "threshold",
+                "max_level",
+                "seed"
+            ]
+        },
+        {
+            "func_name": "from_numpy_array",
+            "path": "networkx/convert_matrix.py",
+            "parent": "Module",
+            "old": [
+                "A",
+                "parallel_edges",
+                "create_using"
+            ],
+            "new": [
+                "A",
+                "parallel_edges",
+                "create_using",
+                "edge_attr"
+            ]
+        },
+        {
+            "func_name": "cytoscape_data",
+            "path": "networkx/readwrite/json_graph/cytoscape.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "attrs",
+                "name",
+                "ident"
+            ],
+            "new": [
+                "G",
+                "name",
+                "ident"
+            ]
+        },
+        {
+            "func_name": "random_triad",
+            "path": "networkx/algorithms/triads.py",
+            "parent": "Module",
+            "old": [
+                "G"
+            ],
+            "new": [
+                "G",
+                "seed"
+            ]
+        },
+        {
+            "func_name": "quotient_graph",
+            "path": "networkx/algorithms/minors/contraction.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "partition",
+                "edge_relation",
+                "node_data",
+                "edge_data",
+                "relabel",
+                "create_using"
+            ],
+            "new": [
+                "G",
+                "partition",
+                "edge_relation",
+                "node_data",
+                "edge_data",
+                "weight",
+                "relabel",
+                "create_using"
+            ]
+        },
+        {
+            "func_name": "periphery",
+            "path": "networkx/algorithms/distance_measures.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "e",
+                "usebounds"
+            ],
+            "new": [
+                "G",
+                "e",
+                "usebounds",
+                "weight"
+            ]
+        },
+        {
+            "func_name": "to_pandas_edgelist",
+            "path": "networkx/convert_matrix.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "source",
+                "target",
+                "nodelist",
+                "dtype",
+                "order",
+                "edge_key"
+            ],
+            "new": [
+                "G",
+                "source",
+                "target",
+                "nodelist",
+                "dtype",
+                "edge_key"
+            ]
+        },
+        {
+            "func_name": "push",
+            "path": "networkx/utils/mapped_queue.py",
+            "parent": "MappedQueue",
+            "old": [
+                "self",
+                "elt"
+            ],
+            "new": [
+                "self",
+                "elt",
+                "priority"
+            ]
+        },
+        {
+            "func_name": "__getitem__",
+            "path": "networkx/utils/configs.py",
+            "parent": "Config",
+            "old": [
+                "self",
+                "n"
+            ],
+            "new": [
+                "self",
+                "key"
+            ]
+        },
+        {
+            "func_name": "s_metric",
+            "path": "networkx/algorithms/smetric.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "normalized"
+            ],
+            "new": [
+                "G"
+            ]
+        },
+        {
+            "func_name": "draw_networkx_edge_labels",
+            "path": "networkx/drawing/nx_pylab.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "pos",
+                "edge_labels",
+                "label_pos",
+                "font_size",
+                "font_color",
+                "font_family",
+                "font_weight",
+                "alpha",
+                "bbox",
+                "horizontalalignment",
+                "verticalalignment",
+                "ax",
+                "rotate",
+                "clip_on"
+            ],
+            "new": [
+                "G",
+                "pos",
+                "edge_labels",
+                "label_pos",
+                "font_size",
+                "font_color",
+                "font_family",
+                "font_weight",
+                "alpha",
+                "bbox",
+                "horizontalalignment",
+                "verticalalignment",
+                "ax",
+                "rotate",
+                "clip_on",
+                "node_size",
+                "nodelist",
+                "connectionstyle",
+                "hide_ticks"
+            ]
+        },
+        {
+            "func_name": "generate_random_paths",
+            "path": "networkx/algorithms/similarity.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "sample_size",
+                "path_length",
+                "index_map"
+            ],
+            "new": [
+                "G",
+                "sample_size",
+                "path_length",
+                "index_map",
+                "weight",
+                "seed"
+            ]
+        },
+        {
+            "func_name": "node_link_data",
+            "path": "networkx/readwrite/json_graph/node_link.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "attrs"
+            ],
+            "new": [
+                "G"
+            ]
+        },
+        {
+            "func_name": "panther_similarity",
+            "path": "networkx/algorithms/similarity.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "source",
+                "k",
+                "path_length",
+                "c",
+                "delta",
+                "eps"
+            ],
+            "new": [
+                "G",
+                "source",
+                "k",
+                "path_length",
+                "c",
+                "delta",
+                "eps",
+                "weight"
+            ]
+        },
+        {
+            "func_name": "get_edge_attributes",
+            "path": "networkx/classes/function.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "name"
+            ],
+            "new": [
+                "G",
+                "name",
+                "default"
+            ]
+        },
+        {
+            "func_name": "union",
+            "path": "networkx/algorithms/operators/binary.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "H",
+                "rename",
+                "name"
+            ],
+            "new": [
+                "G",
+                "H",
+                "rename"
+            ]
+        },
+        {
+            "func_name": "center",
+            "path": "networkx/algorithms/distance_measures.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "e",
+                "usebounds"
+            ],
+            "new": [
+                "G",
+                "e",
+                "usebounds",
+                "weight"
+            ]
+        },
+        {
+            "func_name": "radius",
+            "path": "networkx/algorithms/distance_measures.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "e",
+                "usebounds"
+            ],
+            "new": [
+                "G",
+                "e",
+                "usebounds",
+                "weight"
+            ]
+        },
+        {
+            "func_name": "update",
+            "path": "networkx/utils/mapped_queue.py",
+            "parent": "MappedQueue",
+            "old": [
+                "self",
+                "elt",
+                "new"
+            ],
+            "new": [
+                "self",
+                "elt",
+                "new",
+                "priority"
+            ]
+        },
+        {
+            "func_name": "eccentricity",
+            "path": "networkx/algorithms/distance_measures.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "v",
+                "sp"
+            ],
+            "new": [
+                "G",
+                "v",
+                "sp",
+                "weight"
+            ]
+        },
+        {
+            "func_name": "node_clique_number",
+            "path": "networkx/algorithms/clique.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "nodes",
+                "cliques"
+            ],
+            "new": [
+                "G",
+                "nodes",
+                "cliques",
+                "separate_nodes"
+            ]
+        },
+        {
+            "func_name": "find_cliques",
+            "path": "networkx/algorithms/clique.py",
+            "parent": "Module",
+            "old": [
+                "G"
+            ],
+            "new": [
+                "G",
+                "nodes"
+            ]
+        },
+        {
+            "func_name": "draw_networkx_edges",
+            "path": "networkx/drawing/nx_pylab.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "pos",
+                "edgelist",
+                "width",
+                "edge_color",
+                "style",
+                "alpha",
+                "arrowstyle",
+                "arrowsize",
+                "edge_cmap",
+                "edge_vmin",
+                "edge_vmax",
+                "ax",
+                "arrows",
+                "label",
+                "node_size",
+                "nodelist",
+                "node_shape",
+                "connectionstyle",
+                "min_source_margin",
+                "min_target_margin"
+            ],
+            "new": [
+                "G",
+                "pos",
+                "edgelist",
+                "width",
+                "edge_color",
+                "style",
+                "alpha",
+                "arrowstyle",
+                "arrowsize",
+                "edge_cmap",
+                "edge_vmin",
+                "edge_vmax",
+                "ax",
+                "arrows",
+                "label",
+                "node_size",
+                "nodelist",
+                "node_shape",
+                "connectionstyle",
+                "min_source_margin",
+                "min_target_margin",
+                "hide_ticks"
+            ]
+        },
+        {
+            "func_name": "draw_networkx_nodes",
+            "path": "networkx/drawing/nx_pylab.py",
+            "parent": "Module",
+            "old": [
+                "G",
+                "pos",
+                "nodelist",
+                "node_size",
+                "node_color",
+                "node_shape",
+                "alpha",
+                "cmap",
+                "vmin",
+                "vmax",
+                "ax",
+                "linewidths",
+                "edgecolors",
+                "label",
+                "margins"
+            ],
+            "new": [
+                "G",
+                "pos",
+                "nodelist",
+                "node_size",
+                "node_color",
+                "node_shape",
+                "alpha",
+                "cmap",
+                "vmin",
+                "vmax",
+                "ax",
+                "linewidths",
+                "edgecolors",
+                "label",
+                "margins",
+                "hide_ticks"
+            ]
+        }
+    ],
+    "Return_Changed": [
+        {
+            "func_name": "degree_assortativity_coefficient",
+            "path": "networkx/algorithms/assortativity/correlation.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='numeric_ac', ctx=Load()), args=[Name(id='M', ctx=Load())], keywords=[keyword(arg='mapping', value=Name(id='mapping', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Name(id='_numeric_ac', ctx=Load()), args=[Name(id='M', ctx=Load())], keywords=[keyword(arg='mapping', value=Name(id='mapping', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "min_weight_matching",
+            "path": "networkx/algorithms/matching.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='max_weight_matching', ctx=Load()), args=[Name(id='InvG', ctx=Load()), Name(id='maxcardinality', ctx=Load()), Name(id='weight', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='max_weight_matching', ctx=Load()), args=[Name(id='InvG', ctx=Load())], keywords=[keyword(arg='maxcardinality', value=Constant(value=True)), keyword(arg='weight', value=Name(id='weight', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "eigenvector_centrality_numpy",
+            "path": "networkx/algorithms/centrality/eigenvector.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='dict', ctx=Load()), args=[Call(func=Name(id='zip', ctx=Load()), args=[Name(id='G', ctx=Load()), BinOp(left=Name(id='largest', ctx=Load()), op=Div(), right=Name(id='norm', ctx=Load()))], keywords=[])], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='dict', ctx=Load()), args=[Call(func=Name(id='zip', ctx=Load()), args=[Name(id='G', ctx=Load()), Call(func=Attribute(value=BinOp(left=Name(id='largest', ctx=Load()), op=Div(), right=Name(id='norm', ctx=Load())), attr='tolist', ctx=Load()), args=[], keywords=[])], keywords=[])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "nodes_with_selfloops",
+            "path": "networkx/classes/function.py",
+            "parent": "Module",
+            "old": [
+                "GeneratorExp(elt=Name(id='n', ctx=Load()), generators=[comprehension(target=Tuple(elts=[Name(id='n', ctx=Store()), Name(id='nbrs', ctx=Store())], ctx=Store()), iter=Call(func=Attribute(value=Attribute(value=Name(id='G', ctx=Load()), attr='adj', ctx=Load()), attr='items', ctx=Load()), args=[], keywords=[]), ifs=[Compare(left=Name(id='n', ctx=Load()), ops=[In()], comparators=[Name(id='nbrs', ctx=Load())])], is_async=0)])"
+            ],
+            "new": [
+                "GeneratorExp(elt=Name(id='n', ctx=Load()), generators=[comprehension(target=Tuple(elts=[Name(id='n', ctx=Store()), Name(id='nbrs', ctx=Store())], ctx=Store()), iter=Call(func=Attribute(value=Attribute(value=Name(id='G', ctx=Load()), attr='_adj', ctx=Load()), attr='items', ctx=Load()), args=[], keywords=[]), ifs=[Compare(left=Name(id='n', ctx=Load()), ops=[In()], comparators=[Name(id='nbrs', ctx=Load())])], is_async=0)])"
+            ]
+        },
+        {
+            "func_name": "sigma",
+            "path": "networkx/algorithms/smallworld.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='sigma', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Name(id='float', ctx=Load()), args=[Name(id='sigma', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "copy",
+            "path": "networkx/algorithms/planarity.py",
+            "parent": "Interval",
+            "old": [
+                "Name(id='G', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Name(id='Interval', ctx=Load()), args=[Attribute(value=Name(id='self', ctx=Load()), attr='low', ctx=Load()), Attribute(value=Name(id='self', ctx=Load()), attr='high', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "wiener_index",
+            "path": "networkx/algorithms/wiener.py",
+            "parent": "Module",
+            "old": [
+                "IfExp(test=Name(id='is_directed', ctx=Load()), body=Name(id='total', ctx=Load()), orelse=BinOp(left=Name(id='total', ctx=Load()), op=Div(), right=Constant(value=2)))"
+            ],
+            "new": [
+                "IfExp(test=Call(func=Attribute(value=Name(id='G', ctx=Load()), attr='is_directed', ctx=Load()), args=[], keywords=[]), body=Name(id='total', ctx=Load()), orelse=BinOp(left=Name(id='total', ctx=Load()), op=Div(), right=Constant(value=2)))"
+            ]
+        },
+        {
+            "func_name": "_siftup",
+            "path": "networkx/utils/mapped_queue.py",
+            "parent": "MappedQueue",
+            "old": [
+                "Name(id='pos', ctx=Load())"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "adjacency_matrix",
+            "path": "networkx/linalg/graphmatrix.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Attribute(value=Name(id='nx', ctx=Load()), attr='to_scipy_sparse_matrix', ctx=Load()), args=[Name(id='G', ctx=Load())], keywords=[keyword(arg='nodelist', value=Name(id='nodelist', ctx=Load())), keyword(arg='dtype', value=Name(id='dtype', ctx=Load())), keyword(arg='weight', value=Name(id='weight', ctx=Load()))])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='nx', ctx=Load()), attr='to_scipy_sparse_array', ctx=Load()), args=[Name(id='G', ctx=Load())], keywords=[keyword(arg='nodelist', value=Name(id='nodelist', ctx=Load())), keyword(arg='dtype', value=Name(id='dtype', ctx=Load())), keyword(arg='weight', value=Name(id='weight', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "union_all",
+            "path": "networkx/algorithms/operators/all.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='U', ctx=Load())"
+            ],
+            "new": [
+                "Name(id='R', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "weisfeiler_lehman_graph_hash",
+            "path": "networkx/algorithms/graph_hashing.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='h', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Name(id='_hash_label', ctx=Load()), args=[Call(func=Name(id='str', ctx=Load()), args=[Call(func=Name(id='tuple', ctx=Load()), args=[Name(id='subgraph_hash_counts', ctx=Load())], keywords=[])], keywords=[]), Name(id='digest_size', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "local_and_global_consistency",
+            "path": "networkx/algorithms/node_classification.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='predicted', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Subscript(value=Name(id='label_dict', ctx=Load()), slice=Call(func=Attribute(value=Name(id='np', ctx=Load()), attr='argmax', ctx=Load()), args=[Name(id='F', ctx=Load())], keywords=[keyword(arg='axis', value=Constant(value=1))]), ctx=Load()), attr='tolist', ctx=Load()), args=[], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "is_perfect_matching",
+            "path": "networkx/algorithms/matching.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='all', ctx=Load()), args=[GeneratorExp(elt=Compare(left=Subscript(value=Name(id='counts', ctx=Load()), slice=Name(id='v', ctx=Load()), ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), generators=[comprehension(target=Name(id='v', ctx=Store()), iter=Name(id='G', ctx=Load()), ifs=[], is_async=0)])], keywords=[])"
+            ],
+            "new": [
+                "Compare(left=Call(func=Name(id='len', ctx=Load()), args=[Name(id='nodes', ctx=Load())], keywords=[]), ops=[Eq()], comparators=[Call(func=Name(id='len', ctx=Load()), args=[Name(id='G', ctx=Load())], keywords=[])])"
+            ]
+        },
+        {
+            "func_name": "is_path",
+            "path": "networkx/classes/function.py",
+            "parent": "Module",
+            "old": [
+                "Constant(value=True)"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "dfs_predecessors",
+            "path": "networkx/algorithms/traversal/depth_first_search.py",
+            "parent": "Module",
+            "old": [
+                "DictComp(key=Name(id='t', ctx=Load()), value=Name(id='s', ctx=Load()), generators=[comprehension(target=Tuple(elts=[Name(id='s', ctx=Store()), Name(id='t', ctx=Store())], ctx=Store()), iter=Call(func=Name(id='dfs_edges', ctx=Load()), args=[Name(id='G', ctx=Load()), Name(id='source', ctx=Load()), Name(id='depth_limit', ctx=Load())], keywords=[]), ifs=[], is_async=0)])"
+            ],
+            "new": [
+                "DictComp(key=Name(id='t', ctx=Load()), value=Name(id='s', ctx=Load()), generators=[comprehension(target=Tuple(elts=[Name(id='s', ctx=Store()), Name(id='t', ctx=Store())], ctx=Store()), iter=Call(func=Name(id='dfs_edges', ctx=Load()), args=[Name(id='G', ctx=Load()), Name(id='source', ctx=Load()), Name(id='depth_limit', ctx=Load())], keywords=[keyword(arg='sort_neighbors', value=Name(id='sort_neighbors', ctx=Load()))]), ifs=[], is_async=0)])"
+            ]
+        },
+        {
+            "func_name": "random",
+            "path": "networkx/utils/misc.py",
+            "parent": "PythonRandomViaNumpyBits",
+            "old": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='_rng', ctx=Load()), attr='random_sample', ctx=Load()), args=[], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='_rng', ctx=Load()), attr='random', ctx=Load()), args=[], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "maximum_branching",
+            "path": "networkx/algorithms/tree/branchings.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='B', ctx=Load())"
+            ],
+            "new": [
+                "Name(id='H', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "disjoint_union_all",
+            "path": "networkx/algorithms/operators/all.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='U', ctx=Load())"
+            ],
+            "new": [
+                "Name(id='R', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "rescale_layout_dict",
+            "path": "networkx/drawing/layout.py",
+            "parent": "Module",
+            "old": [
+                "DictComp(key=Name(id='k', ctx=Load()), value=Call(func=Name(id='tuple', ctx=Load()), args=[Name(id='v', ctx=Load())], keywords=[]), generators=[comprehension(target=Tuple(elts=[Name(id='k', ctx=Store()), Name(id='v', ctx=Store())], ctx=Store()), iter=Call(func=Name(id='zip', ctx=Load()), args=[Call(func=Attribute(value=Name(id='pos', ctx=Load()), attr='keys', ctx=Load()), args=[], keywords=[]), Name(id='pos_v', ctx=Load())], keywords=[]), ifs=[], is_async=0)])"
+            ],
+            "new": [
+                "Call(func=Name(id='dict', ctx=Load()), args=[Call(func=Name(id='zip', ctx=Load()), args=[Name(id='pos', ctx=Load()), Name(id='pos_v', ctx=Load())], keywords=[])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "triangles",
+            "path": "networkx/algorithms/cluster.py",
+            "parent": "Module",
+            "old": [
+                "DictComp(key=Name(id='v', ctx=Load()), value=BinOp(left=Name(id='t', ctx=Load()), op=FloorDiv(), right=Constant(value=2)), generators=[comprehension(target=Tuple(elts=[Name(id='v', ctx=Store()), Name(id='d', ctx=Store()), Name(id='t', ctx=Store()), Name(id='_', ctx=Store())], ctx=Store()), iter=Call(func=Name(id='_triangles_and_degree_iter', ctx=Load()), args=[Name(id='G', ctx=Load()), Name(id='nodes', ctx=Load())], keywords=[]), ifs=[], is_async=0)])"
+            ],
+            "new": [
+                "Call(func=Name(id='dict', ctx=Load()), args=[Name(id='triangle_counts', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "disjoint_union",
+            "path": "networkx/algorithms/operators/binary.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='R', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='nx', ctx=Load()), attr='disjoint_union_all', ctx=Load()), args=[List(elts=[Name(id='G', ctx=Load()), Name(id='H', ctx=Load())], ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "_siftdown",
+            "path": "networkx/utils/mapped_queue.py",
+            "parent": "MappedQueue",
+            "old": [
+                "Name(id='pos', ctx=Load())"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "single_source_shortest_path_length",
+            "path": "networkx/algorithms/shortest_paths/unweighted.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='dict', ctx=Load()), args=[Call(func=Name(id='_single_shortest_path_length', ctx=Load()), args=[Attribute(value=Name(id='G', ctx=Load()), attr='adj', ctx=Load()), Name(id='nextlevel', ctx=Load()), Name(id='cutoff', ctx=Load())], keywords=[])], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='dict', ctx=Load()), args=[Call(func=Name(id='_single_shortest_path_length', ctx=Load()), args=[Attribute(value=Name(id='G', ctx=Load()), attr='_adj', ctx=Load()), Name(id='nextlevel', ctx=Load()), Name(id='cutoff', ctx=Load())], keywords=[])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "katz_centrality_numpy",
+            "path": "networkx/algorithms/centrality/katz.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='centrality', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Name(id='dict', ctx=Load()), args=[Call(func=Name(id='zip', ctx=Load()), args=[Name(id='nodelist', ctx=Load()), Call(func=Attribute(value=BinOp(left=Name(id='centrality', ctx=Load()), op=Div(), right=Name(id='norm', ctx=Load())), attr='tolist', ctx=Load()), args=[], keywords=[])], keywords=[])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "tree_data",
+            "path": "networkx/readwrite/json_graph/tree.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='data', ctx=Load())"
+            ],
+            "new": [
+                "Dict(keys=[None, Name(id='ident', ctx=Load()), Name(id='children', ctx=Load())], values=[Subscript(value=Attribute(value=Name(id='G', ctx=Load()), attr='nodes', ctx=Load()), slice=Name(id='root', ctx=Load()), ctx=Load()), Name(id='root', ctx=Load()), Call(func=Name(id='add_children', ctx=Load()), args=[Name(id='root', ctx=Load()), Name(id='G', ctx=Load())], keywords=[])])"
+            ]
+        },
+        {
+            "func_name": "uniform",
+            "path": "networkx/utils/misc.py",
+            "parent": "PythonRandomInterface",
+            "old": [
+                "BinOp(left=Name(id='a', ctx=Load()), op=Add(), right=BinOp(left=BinOp(left=Name(id='b', ctx=Load()), op=Sub(), right=Name(id='a', ctx=Load())), op=Mult(), right=Call(func=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='_rng', ctx=Load()), attr='random_sample', ctx=Load()), args=[], keywords=[])))"
+            ],
+            "new": [
+                "BinOp(left=Name(id='a', ctx=Load()), op=Add(), right=BinOp(left=BinOp(left=Name(id='b', ctx=Load()), op=Sub(), right=Name(id='a', ctx=Load())), op=Mult(), right=Call(func=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='_rng', ctx=Load()), attr='random', ctx=Load()), args=[], keywords=[])))"
+            ]
+        },
+        {
+            "func_name": "lowest_common_ancestor",
+            "path": "networkx/algorithms/lowest_common_ancestors.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "Name(id='default', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "find_cliques_recursive",
+            "path": "networkx/algorithms/clique.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='expand', ctx=Load()), args=[Call(func=Name(id='set', ctx=Load()), args=[Name(id='G', ctx=Load())], keywords=[]), Call(func=Name(id='set', ctx=Load()), args=[Name(id='G', ctx=Load())], keywords=[])], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='expand', ctx=Load()), args=[Name(id='subg_init', ctx=Load()), Name(id='cand_init', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "compose_all",
+            "path": "networkx/algorithms/operators/all.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='C', ctx=Load())"
+            ],
+            "new": [
+                "Name(id='R', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "edge_current_flow_betweenness_centrality_subset",
+            "path": "networkx/algorithms/centrality/current_flow_betweenness_subset.py",
+            "parent": "Module",
+            "old": [
+                "DictComp(key=Tuple(elts=[Subscript(value=Name(id='ordering', ctx=Load()), slice=Name(id='s', ctx=Load()), ctx=Load()), Subscript(value=Name(id='ordering', ctx=Load()), slice=Name(id='t', ctx=Load()), ctx=Load())], ctx=Load()), value=Name(id='v', ctx=Load()), generators=[comprehension(target=Tuple(elts=[Tuple(elts=[Name(id='s', ctx=Store()), Name(id='t', ctx=Store())], ctx=Store()), Name(id='v', ctx=Store())], ctx=Store()), iter=Call(func=Attribute(value=Name(id='betweenness', ctx=Load()), attr='items', ctx=Load()), args=[], keywords=[]), ifs=[], is_async=0)])"
+            ],
+            "new": [
+                "DictComp(key=Tuple(elts=[Subscript(value=Name(id='ordering', ctx=Load()), slice=Name(id='s', ctx=Load()), ctx=Load()), Subscript(value=Name(id='ordering', ctx=Load()), slice=Name(id='t', ctx=Load()), ctx=Load())], ctx=Load()), value=Name(id='value', ctx=Load()), generators=[comprehension(target=Tuple(elts=[Tuple(elts=[Name(id='s', ctx=Store()), Name(id='t', ctx=Store())], ctx=Store()), Name(id='value', ctx=Store())], ctx=Store()), iter=Call(func=Attribute(value=Name(id='betweenness', ctx=Load()), attr='items', ctx=Load()), args=[], keywords=[]), ifs=[], is_async=0)])"
+            ]
+        },
+        {
+            "func_name": "intersection",
+            "path": "networkx/algorithms/operators/binary.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='R', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='nx', ctx=Load()), attr='intersection_all', ctx=Load()), args=[List(elts=[Name(id='G', ctx=Load()), Name(id='H', ctx=Load())], ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "second_order_centrality",
+            "path": "networkx/algorithms/centrality/second_order.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='dict', ctx=Load()), args=[Call(func=Name(id='zip', ctx=Load()), args=[Attribute(value=Name(id='G', ctx=Load()), attr='nodes', ctx=Load()), ListComp(elt=Call(func=Attribute(value=Name(id='np', ctx=Load()), attr='sqrt', ctx=Load()), args=[BinOp(left=BinOp(left=Constant(value=2), op=Mult(), right=Call(func=Attribute(value=Name(id='np', ctx=Load()), attr='sum', ctx=Load()), args=[Subscript(value=Name(id='M', ctx=Load()), slice=Tuple(elts=[Slice(), Name(id='i', ctx=Load())], ctx=Load()), ctx=Load())], keywords=[])), op=Sub(), right=BinOp(left=Name(id='n', ctx=Load()), op=Mult(), right=BinOp(left=Name(id='n', ctx=Load()), op=Add(), right=Constant(value=1))))], keywords=[]), generators=[comprehension(target=Name(id='i', ctx=Store()), iter=Call(func=Name(id='range', ctx=Load()), args=[Name(id='n', ctx=Load())], keywords=[]), ifs=[], is_async=0)])], keywords=[])], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='dict', ctx=Load()), args=[Call(func=Name(id='zip', ctx=Load()), args=[Attribute(value=Name(id='G', ctx=Load()), attr='nodes', ctx=Load()), GeneratorExp(elt=Call(func=Name(id='float', ctx=Load()), args=[Call(func=Attribute(value=Name(id='np', ctx=Load()), attr='sqrt', ctx=Load()), args=[BinOp(left=BinOp(left=Constant(value=2), op=Mult(), right=Call(func=Attribute(value=Name(id='np', ctx=Load()), attr='sum', ctx=Load()), args=[Subscript(value=Name(id='M', ctx=Load()), slice=Tuple(elts=[Slice(), Name(id='i', ctx=Load())], ctx=Load()), ctx=Load())], keywords=[])), op=Sub(), right=BinOp(left=Name(id='n', ctx=Load()), op=Mult(), right=BinOp(left=Name(id='n', ctx=Load()), op=Add(), right=Constant(value=1))))], keywords=[])], keywords=[]), generators=[comprehension(target=Name(id='i', ctx=Store()), iter=Call(func=Name(id='range', ctx=Load()), args=[Name(id='n', ctx=Load())], keywords=[]), ifs=[], is_async=0)])], keywords=[])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "is_weakly_connected",
+            "path": "networkx/algorithms/components/weakly_connected.py",
+            "parent": "Module",
+            "old": [
+                "Compare(left=Call(func=Name(id='len', ctx=Load()), args=[Subscript(value=Call(func=Name(id='list', ctx=Load()), args=[Call(func=Name(id='weakly_connected_components', ctx=Load()), args=[Name(id='G', ctx=Load())], keywords=[])], keywords=[]), slice=Constant(value=0), ctx=Load())], keywords=[]), ops=[Eq()], comparators=[Call(func=Name(id='len', ctx=Load()), args=[Name(id='G', ctx=Load())], keywords=[])])"
+            ],
+            "new": [
+                "Compare(left=Call(func=Name(id='len', ctx=Load()), args=[Call(func=Name(id='next', ctx=Load()), args=[Call(func=Name(id='weakly_connected_components', ctx=Load()), args=[Name(id='G', ctx=Load())], keywords=[])], keywords=[])], keywords=[]), ops=[Eq()], comparators=[Call(func=Name(id='len', ctx=Load()), args=[Name(id='G', ctx=Load())], keywords=[])])"
+            ]
+        },
+        {
+            "func_name": "is_strongly_connected",
+            "path": "networkx/algorithms/components/strongly_connected.py",
+            "parent": "Module",
+            "old": [
+                "Compare(left=Call(func=Name(id='len', ctx=Load()), args=[Subscript(value=Call(func=Name(id='list', ctx=Load()), args=[Call(func=Name(id='strongly_connected_components', ctx=Load()), args=[Name(id='G', ctx=Load())], keywords=[])], keywords=[]), slice=Constant(value=0), ctx=Load())], keywords=[]), ops=[Eq()], comparators=[Call(func=Name(id='len', ctx=Load()), args=[Name(id='G', ctx=Load())], keywords=[])])"
+            ],
+            "new": [
+                "Compare(left=Call(func=Name(id='len', ctx=Load()), args=[Call(func=Name(id='next', ctx=Load()), args=[Call(func=Name(id='strongly_connected_components', ctx=Load()), args=[Name(id='G', ctx=Load())], keywords=[])], keywords=[])], keywords=[]), ops=[Eq()], comparators=[Call(func=Name(id='len', ctx=Load()), args=[Name(id='G', ctx=Load())], keywords=[])])"
+            ]
+        },
+        {
+            "func_name": "current_flow_betweenness_centrality_subset",
+            "path": "networkx/algorithms/centrality/current_flow_betweenness_subset.py",
+            "parent": "Module",
+            "old": [
+                "DictComp(key=Subscript(value=Name(id='ordering', ctx=Load()), slice=Name(id='k', ctx=Load()), ctx=Load()), value=Name(id='v', ctx=Load()), generators=[comprehension(target=Tuple(elts=[Name(id='k', ctx=Store()), Name(id='v', ctx=Store())], ctx=Store()), iter=Call(func=Attribute(value=Name(id='betweenness', ctx=Load()), attr='items', ctx=Load()), args=[], keywords=[]), ifs=[], is_async=0)])"
+            ],
+            "new": [
+                "DictComp(key=Subscript(value=Name(id='ordering', ctx=Load()), slice=Name(id='node', ctx=Load()), ctx=Load()), value=Name(id='value', ctx=Load()), generators=[comprehension(target=Tuple(elts=[Name(id='node', ctx=Store()), Name(id='value', ctx=Store())], ctx=Store()), iter=Call(func=Attribute(value=Name(id='betweenness', ctx=Load()), attr='items', ctx=Load()), args=[], keywords=[]), ifs=[], is_async=0)])"
+            ]
+        },
+        {
+            "func_name": "approximate_current_flow_betweenness_centrality",
+            "path": "networkx/algorithms/centrality/current_flow_betweenness.py",
+            "parent": "Module",
+            "old": [
+                "DictComp(key=Subscript(value=Name(id='ordering', ctx=Load()), slice=Name(id='k', ctx=Load()), ctx=Load()), value=Call(func=Name(id='float', ctx=Load()), args=[BinOp(left=Name(id='v', ctx=Load()), op=Mult(), right=Name(id='factor', ctx=Load()))], keywords=[]), generators=[comprehension(target=Tuple(elts=[Name(id='k', ctx=Store()), Name(id='v', ctx=Store())], ctx=Store()), iter=Call(func=Attribute(value=Name(id='betweenness', ctx=Load()), attr='items', ctx=Load()), args=[], keywords=[]), ifs=[], is_async=0)])"
+            ],
+            "new": [
+                "DictComp(key=Subscript(value=Name(id='ordering', ctx=Load()), slice=Name(id='k', ctx=Load()), ctx=Load()), value=BinOp(left=Name(id='v', ctx=Load()), op=Mult(), right=Name(id='factor', ctx=Load())), generators=[comprehension(target=Tuple(elts=[Name(id='k', ctx=Store()), Name(id='v', ctx=Store())], ctx=Store()), iter=Call(func=Attribute(value=Name(id='betweenness', ctx=Load()), attr='items', ctx=Load()), args=[], keywords=[]), ifs=[], is_async=0)])"
+            ]
+        },
+        {
+            "func_name": "numeric_assortativity_coefficient",
+            "path": "networkx/algorithms/assortativity/correlation.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='numeric_ac', ctx=Load()), args=[Name(id='M', ctx=Load()), Name(id='mapping', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_numeric_ac', ctx=Load()), args=[Name(id='M', ctx=Load()), Name(id='mapping', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "compose",
+            "path": "networkx/algorithms/operators/binary.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='R', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='nx', ctx=Load()), attr='compose_all', ctx=Load()), args=[List(elts=[Name(id='G', ctx=Load()), Name(id='H', ctx=Load())], ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "is_semiconnected",
+            "path": "networkx/algorithms/components/semiconnected.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='all', ctx=Load()), args=[GeneratorExp(elt=Call(func=Attribute(value=Name(id='G', ctx=Load()), attr='has_edge', ctx=Load()), args=[Name(id='u', ctx=Load()), Name(id='v', ctx=Load())], keywords=[]), generators=[comprehension(target=Tuple(elts=[Name(id='u', ctx=Store()), Name(id='v', ctx=Store())], ctx=Store()), iter=Call(func=Name(id='pairwise', ctx=Load()), args=[Name(id='topo_order', ctx=Load())], keywords=[]), ifs=[], is_async=0)])], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='all', ctx=Load()), args=[GeneratorExp(elt=Call(func=Attribute(value=Name(id='H', ctx=Load()), attr='has_edge', ctx=Load()), args=[Name(id='u', ctx=Load()), Name(id='v', ctx=Load())], keywords=[]), generators=[comprehension(target=Tuple(elts=[Name(id='u', ctx=Store()), Name(id='v', ctx=Store())], ctx=Store()), iter=Call(func=Name(id='pairwise', ctx=Load()), args=[Call(func=Attribute(value=Name(id='nx', ctx=Load()), attr='topological_sort', ctx=Load()), args=[Name(id='H', ctx=Load())], keywords=[])], keywords=[]), ifs=[], is_async=0)])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "louvain_communities",
+            "path": "networkx/algorithms/community/louvain.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Attribute(value=Name(id='q', ctx=Load()), attr='pop', ctx=Load()), args=[], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='final_partition', ctx=Load()), attr='pop', ctx=Load()), args=[], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "is_matching",
+            "path": "networkx/algorithms/matching.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='all', ctx=Load()), args=[GeneratorExp(elt=Compare(left=Call(func=Name(id='len', ctx=Load()), args=[BinOp(left=Call(func=Name(id='set', ctx=Load()), args=[Name(id='e1', ctx=Load())], keywords=[]), op=BitAnd(), right=Call(func=Name(id='set', ctx=Load()), args=[Name(id='e2', ctx=Load())], keywords=[]))], keywords=[]), ops=[Eq()], comparators=[Constant(value=0)]), generators=[comprehension(target=Tuple(elts=[Name(id='e1', ctx=Store()), Name(id='e2', ctx=Store())], ctx=Store()), iter=Call(func=Name(id='combinations', ctx=Load()), args=[Name(id='matching', ctx=Load()), Constant(value=2)], keywords=[]), ifs=[], is_async=0)])], keywords=[])"
+            ],
+            "new": [
+                "Constant(value=True)"
+            ]
+        },
+        {
+            "func_name": "all_pairs_lowest_common_ancestor",
+            "path": "networkx/algorithms/lowest_common_ancestors.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_compute_dag_lca_from_tree_values', ctx=Load()), args=[Name(id='tree_lca', ctx=Load()), Constant(value=False)], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='generate_lca_from_pairs', ctx=Load()), args=[Name(id='G', ctx=Load()), Name(id='pairs', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "quotient_graph",
+            "path": "networkx/algorithms/minors/contraction.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_quotient_graph', ctx=Load()), args=[Name(id='G', ctx=Load()), Name(id='partition', ctx=Load()), Name(id='edge_relation', ctx=Load()), Name(id='node_data', ctx=Load()), Name(id='edge_data', ctx=Load()), Name(id='relabel', ctx=Load()), Name(id='create_using', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_quotient_graph', ctx=Load()), args=[Name(id='G', ctx=Load()), Name(id='partition', ctx=Load()), Name(id='edge_relation', ctx=Load()), Name(id='node_data', ctx=Load()), Name(id='edge_data', ctx=Load()), Name(id='weight', ctx=Load()), Name(id='relabel', ctx=Load()), Name(id='create_using', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "pagerank",
+            "path": "networkx/algorithms/link_analysis/pagerank_alg.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='pagerank_scipy', ctx=Load()), args=[Name(id='G', ctx=Load()), Name(id='alpha', ctx=Load()), Name(id='personalization', ctx=Load()), Name(id='max_iter', ctx=Load()), Name(id='tol', ctx=Load()), Name(id='nstart', ctx=Load()), Name(id='weight', ctx=Load()), Name(id='dangling', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_pagerank_scipy', ctx=Load()), args=[Name(id='G', ctx=Load()), Name(id='alpha', ctx=Load()), Name(id='personalization', ctx=Load()), Name(id='max_iter', ctx=Load()), Name(id='tol', ctx=Load()), Name(id='nstart', ctx=Load()), Name(id='weight', ctx=Load()), Name(id='dangling', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "group_betweenness_centrality",
+            "path": "networkx/algorithms/centrality/group.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "Subscript(value=Name(id='GBC', ctx=Load()), slice=Constant(value=0), ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "flow_hierarchy",
+            "path": "networkx/algorithms/hierarchy.py",
+            "parent": "Module",
+            "old": [
+                "BinOp(left=Constant(value=1.0), op=Sub(), right=BinOp(left=Call(func=Name(id='sum', ctx=Load()), args=[GeneratorExp(elt=Call(func=Attribute(value=Call(func=Attribute(value=Name(id='G', ctx=Load()), attr='subgraph', ctx=Load()), args=[Name(id='c', ctx=Load())], keywords=[]), attr='size', ctx=Load()), args=[Name(id='weight', ctx=Load())], keywords=[]), generators=[comprehension(target=Name(id='c', ctx=Store()), iter=Name(id='scc', ctx=Load()), ifs=[], is_async=0)])], keywords=[]), op=Div(), right=Call(func=Name(id='float', ctx=Load()), args=[Call(func=Attribute(value=Name(id='G', ctx=Load()), attr='size', ctx=Load()), args=[Name(id='weight', ctx=Load())], keywords=[])], keywords=[])))"
+            ],
+            "new": [
+                "BinOp(left=Constant(value=1), op=Sub(), right=BinOp(left=Call(func=Name(id='sum', ctx=Load()), args=[GeneratorExp(elt=Call(func=Attribute(value=Call(func=Attribute(value=Name(id='G', ctx=Load()), attr='subgraph', ctx=Load()), args=[Name(id='c', ctx=Load())], keywords=[]), attr='size', ctx=Load()), args=[Name(id='weight', ctx=Load())], keywords=[]), generators=[comprehension(target=Name(id='c', ctx=Store()), iter=Name(id='scc', ctx=Load()), ifs=[], is_async=0)])], keywords=[]), op=Div(), right=Call(func=Attribute(value=Name(id='G', ctx=Load()), attr='size', ctx=Load()), args=[Name(id='weight', ctx=Load())], keywords=[])))"
+            ]
+        },
+        {
+            "func_name": "__getitem__",
+            "path": "networkx/utils/configs.py",
+            "parent": "Config",
+            "old": [
+                "Subscript(value=Attribute(value=Name(id='self', ctx=Load()), attr='_nodes', ctx=Load()), slice=Name(id='n', ctx=Load()), ctx=Load())"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "min_weighted_vertex_cover",
+            "path": "networkx/algorithms/approximation/vertex_cover.py",
+            "parent": "Module",
+            "old": [
+                "SetComp(elt=Name(id='u', ctx=Load()), generators=[comprehension(target=Tuple(elts=[Name(id='u', ctx=Store()), Name(id='c', ctx=Store())], ctx=Store()), iter=Call(func=Attribute(value=Name(id='cost', ctx=Load()), attr='items', ctx=Load()), args=[], keywords=[]), ifs=[Compare(left=Name(id='c', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)])], is_async=0)])"
+            ],
+            "new": [
+                "Name(id='cover', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "is_threshold_graph",
+            "path": "networkx/algorithms/threshold.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='is_threshold_sequence', ctx=Load()), args=[Call(func=Name(id='list', ctx=Load()), args=[GeneratorExp(elt=Name(id='d', ctx=Load()), generators=[comprehension(target=Tuple(elts=[Name(id='n', ctx=Store()), Name(id='d', ctx=Store())], ctx=Store()), iter=Call(func=Attribute(value=Name(id='G', ctx=Load()), attr='degree', ctx=Load()), args=[], keywords=[]), ifs=[], is_async=0)])], keywords=[])], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='is_threshold_sequence', ctx=Load()), args=[ListComp(elt=Name(id='d', ctx=Load()), generators=[comprehension(target=Tuple(elts=[Name(id='n', ctx=Store()), Name(id='d', ctx=Store())], ctx=Store()), iter=Call(func=Attribute(value=Name(id='G', ctx=Load()), attr='degree', ctx=Load()), args=[], keywords=[]), ifs=[], is_async=0)])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "induced_subgraph",
+            "path": "networkx/classes/function.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='nx', ctx=Load()), attr='graphviews', ctx=Load()), attr='subgraph_view', ctx=Load()), args=[Name(id='G', ctx=Load()), Name(id='induced_nodes', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='nx', ctx=Load()), attr='subgraph_view', ctx=Load()), args=[Name(id='G', ctx=Load())], keywords=[keyword(arg='filter_node', value=Name(id='induced_nodes', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "average_clustering",
+            "path": "networkx/algorithms/bipartite/cluster.py",
+            "parent": "Module",
+            "old": [
+                "BinOp(left=Call(func=Name(id='float', ctx=Load()), args=[Call(func=Name(id='sum', ctx=Load()), args=[GeneratorExp(elt=Subscript(value=Name(id='ccs', ctx=Load()), slice=Name(id='v', ctx=Load()), ctx=Load()), generators=[comprehension(target=Name(id='v', ctx=Store()), iter=Name(id='nodes', ctx=Load()), ifs=[], is_async=0)])], keywords=[])], keywords=[]), op=Div(), right=Call(func=Name(id='len', ctx=Load()), args=[Name(id='nodes', ctx=Load())], keywords=[]))"
+            ],
+            "new": [
+                "BinOp(left=Call(func=Name(id='sum', ctx=Load()), args=[GeneratorExp(elt=Subscript(value=Name(id='ccs', ctx=Load()), slice=Name(id='v', ctx=Load()), ctx=Load()), generators=[comprehension(target=Name(id='v', ctx=Store()), iter=Name(id='nodes', ctx=Load()), ifs=[], is_async=0)])], keywords=[]), op=Div(), right=Call(func=Name(id='len', ctx=Load()), args=[Name(id='nodes', ctx=Load())], keywords=[]))"
+            ]
+        },
+        {
+            "func_name": "restricted_view",
+            "path": "networkx/classes/function.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='nx', ctx=Load()), attr='graphviews', ctx=Load()), attr='subgraph_view', ctx=Load()), args=[Name(id='G', ctx=Load()), Name(id='hide_nodes', ctx=Load()), Name(id='hide_edges', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='nx', ctx=Load()), attr='subgraph_view', ctx=Load()), args=[Name(id='G', ctx=Load())], keywords=[keyword(arg='filter_node', value=Name(id='hide_nodes', ctx=Load())), keyword(arg='filter_edge', value=Name(id='hide_edges', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "d_separated",
+            "path": "networkx/algorithms/d_separation.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "Call(func=Attribute(value=Name(id='nx', ctx=Load()), attr='is_d_separator', ctx=Load()), args=[Name(id='G', ctx=Load()), Name(id='x', ctx=Load()), Name(id='y', ctx=Load()), Name(id='z', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "degree_pearson_correlation_coefficient",
+            "path": "networkx/algorithms/assortativity/correlation.py",
+            "parent": "Module",
+            "old": [
+                "Subscript(value=Call(func=Attribute(value=Attribute(value=Name(id='sp', ctx=Load()), attr='stats', ctx=Load()), attr='pearsonr', ctx=Load()), args=[Name(id='x', ctx=Load()), Name(id='y', ctx=Load())], keywords=[]), slice=Constant(value=0), ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Name(id='float', ctx=Load()), args=[Subscript(value=Call(func=Attribute(value=Attribute(value=Name(id='sp', ctx=Load()), attr='stats', ctx=Load()), attr='pearsonr', ctx=Load()), args=[Name(id='x', ctx=Load()), Name(id='y', ctx=Load())], keywords=[]), slice=Constant(value=0), ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "current_flow_betweenness_centrality",
+            "path": "networkx/algorithms/centrality/current_flow_betweenness.py",
+            "parent": "Module",
+            "old": [
+                "DictComp(key=Subscript(value=Name(id='ordering', ctx=Load()), slice=Name(id='k', ctx=Load()), ctx=Load()), value=Name(id='v', ctx=Load()), generators=[comprehension(target=Tuple(elts=[Name(id='k', ctx=Store()), Name(id='v', ctx=Store())], ctx=Store()), iter=Call(func=Attribute(value=Name(id='betweenness', ctx=Load()), attr='items', ctx=Load()), args=[], keywords=[]), ifs=[], is_async=0)])"
+            ],
+            "new": [
+                "DictComp(key=Subscript(value=Name(id='ordering', ctx=Load()), slice=Name(id='n', ctx=Load()), ctx=Load()), value=BinOp(left=BinOp(left=BinOp(left=Name(id='b', ctx=Load()), op=Sub(), right=Name(id='n', ctx=Load())), op=Mult(), right=Constant(value=2.0)), op=Div(), right=Name(id='nb', ctx=Load())), generators=[comprehension(target=Tuple(elts=[Name(id='n', ctx=Store()), Name(id='b', ctx=Store())], ctx=Store()), iter=Call(func=Attribute(value=Name(id='betweenness', ctx=Load()), attr='items', ctx=Load()), args=[], keywords=[]), ifs=[], is_async=0)])"
+            ]
+        },
+        {
+            "func_name": "current_flow_closeness_centrality",
+            "path": "networkx/algorithms/centrality/current_flow_closeness.py",
+            "parent": "Module",
+            "old": [
+                "DictComp(key=Subscript(value=Name(id='ordering', ctx=Load()), slice=Name(id='k', ctx=Load()), ctx=Load()), value=Call(func=Name(id='float', ctx=Load()), args=[Name(id='v', ctx=Load())], keywords=[]), generators=[comprehension(target=Tuple(elts=[Name(id='k', ctx=Store()), Name(id='v', ctx=Store())], ctx=Store()), iter=Call(func=Attribute(value=Name(id='betweenness', ctx=Load()), attr='items', ctx=Load()), args=[], keywords=[]), ifs=[], is_async=0)])"
+            ],
+            "new": [
+                "DictComp(key=Subscript(value=Name(id='ordering', ctx=Load()), slice=Name(id='node', ctx=Load()), ctx=Load()), value=BinOp(left=Constant(value=1), op=Div(), right=Name(id='value', ctx=Load())), generators=[comprehension(target=Tuple(elts=[Name(id='node', ctx=Store()), Name(id='value', ctx=Store())], ctx=Store()), iter=Call(func=Attribute(value=Name(id='betweenness', ctx=Load()), attr='items', ctx=Load()), args=[], keywords=[]), ifs=[], is_async=0)])"
+            ]
+        },
+        {
+            "func_name": "s_metric",
+            "path": "networkx/algorithms/smetric.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='float', ctx=Load()), args=[Call(func=Name(id='sum', ctx=Load()), args=[ListComp(elt=BinOp(left=Call(func=Attribute(value=Name(id='G', ctx=Load()), attr='degree', ctx=Load()), args=[Name(id='u', ctx=Load())], keywords=[]), op=Mult(), right=Call(func=Attribute(value=Name(id='G', ctx=Load()), attr='degree', ctx=Load()), args=[Name(id='v', ctx=Load())], keywords=[])), generators=[comprehension(target=Tuple(elts=[Name(id='u', ctx=Store()), Name(id='v', ctx=Store())], ctx=Store()), iter=Call(func=Attribute(value=Name(id='G', ctx=Load()), attr='edges', ctx=Load()), args=[], keywords=[]), ifs=[], is_async=0)])], keywords=[])], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='float', ctx=Load()), args=[Call(func=Name(id='sum', ctx=Load()), args=[GeneratorExp(elt=BinOp(left=Call(func=Attribute(value=Name(id='G', ctx=Load()), attr='degree', ctx=Load()), args=[Name(id='u', ctx=Load())], keywords=[]), op=Mult(), right=Call(func=Attribute(value=Name(id='G', ctx=Load()), attr='degree', ctx=Load()), args=[Name(id='v', ctx=Load())], keywords=[])), generators=[comprehension(target=Tuple(elts=[Name(id='u', ctx=Store()), Name(id='v', ctx=Store())], ctx=Store()), iter=Call(func=Attribute(value=Name(id='G', ctx=Load()), attr='edges', ctx=Load()), args=[], keywords=[]), ifs=[], is_async=0)])], keywords=[])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "directed_combinatorial_laplacian_matrix",
+            "path": "networkx/linalg/laplacianmatrix.py",
+            "parent": "Module",
+            "old": [
+                "BinOp(left=Name(id='Phi', ctx=Load()), op=Sub(), right=BinOp(left=BinOp(left=BinOp(left=Name(id='Phi', ctx=Load()), op=Mult(), right=Name(id='P', ctx=Load())), op=Add(), right=BinOp(left=Attribute(value=Name(id='P', ctx=Load()), attr='T', ctx=Load()), op=Mult(), right=Name(id='Phi', ctx=Load()))), op=Div(), right=Constant(value=2.0)))"
+            ],
+            "new": [
+                "BinOp(left=Name(id='Phi', ctx=Load()), op=Sub(), right=BinOp(left=BinOp(left=BinOp(left=Name(id='Phi', ctx=Load()), op=MatMult(), right=Name(id='P', ctx=Load())), op=Add(), right=BinOp(left=Attribute(value=Name(id='P', ctx=Load()), attr='T', ctx=Load()), op=MatMult(), right=Name(id='Phi', ctx=Load()))), op=Div(), right=Constant(value=2.0)))"
+            ]
+        },
+        {
+            "func_name": "trophic_incoherence_parameter",
+            "path": "networkx/algorithms/centrality/trophic.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Attribute(value=Name(id='np', ctx=Load()), attr='std', ctx=Load()), args=[Call(func=Name(id='list', ctx=Load()), args=[Call(func=Attribute(value=Name(id='diffs', ctx=Load()), attr='values', ctx=Load()), args=[], keywords=[])], keywords=[])], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='float', ctx=Load()), args=[Call(func=Attribute(value=Name(id='np', ctx=Load()), attr='std', ctx=Load()), args=[Call(func=Name(id='list', ctx=Load()), args=[Call(func=Attribute(value=Name(id='diffs', ctx=Load()), attr='values', ctx=Load()), args=[], keywords=[])], keywords=[])], keywords=[])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "resistance_distance",
+            "path": "networkx/algorithms/distance_measures.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='rd', ctx=Load())"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "harmonic_function",
+            "path": "networkx/algorithms/node_classification.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='predicted', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Subscript(value=Name(id='label_dict', ctx=Load()), slice=Call(func=Attribute(value=Name(id='np', ctx=Load()), attr='argmax', ctx=Load()), args=[Name(id='F', ctx=Load())], keywords=[keyword(arg='axis', value=Constant(value=1))]), ctx=Load()), attr='tolist', ctx=Load()), args=[], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "union",
+            "path": "networkx/algorithms/operators/binary.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='R', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='nx', ctx=Load()), attr='union_all', ctx=Load()), args=[List(elts=[Name(id='G', ctx=Load()), Name(id='H', ctx=Load())], ctx=Load()), Name(id='rename', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "common_neighbors",
+            "path": "networkx/classes/function.py",
+            "parent": "Module",
+            "old": [
+                "GeneratorExp(elt=Name(id='w', ctx=Load()), generators=[comprehension(target=Name(id='w', ctx=Store()), iter=Subscript(value=Name(id='G', ctx=Load()), slice=Name(id='u', ctx=Load()), ctx=Load()), ifs=[BoolOp(op=And(), values=[Compare(left=Name(id='w', ctx=Load()), ops=[In()], comparators=[Subscript(value=Name(id='G', ctx=Load()), slice=Name(id='v', ctx=Load()), ctx=Load())]), Compare(left=Name(id='w', ctx=Load()), ops=[NotIn()], comparators=[Tuple(elts=[Name(id='u', ctx=Load()), Name(id='v', ctx=Load())], ctx=Load())])])], is_async=0)])"
+            ],
+            "new": [
+                "BinOp(left=Call(func=Attribute(value=Subscript(value=Attribute(value=Name(id='G', ctx=Load()), attr='_adj', ctx=Load()), slice=Name(id='u', ctx=Load()), ctx=Load()), attr='keys', ctx=Load()), args=[], keywords=[]), op=BitAnd(), right=BinOp(left=Call(func=Attribute(value=Subscript(value=Attribute(value=Name(id='G', ctx=Load()), attr='_adj', ctx=Load()), slice=Name(id='v', ctx=Load()), ctx=Load()), attr='keys', ctx=Load()), args=[], keywords=[]), op=Sub(), right=Set(elts=[Name(id='u', ctx=Load()), Name(id='v', ctx=Load())])))"
+            ]
+        },
+        {
+            "func_name": "algebraic_connectivity",
+            "path": "networkx/linalg/algebraicconnectivity.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='sigma', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Name(id='float', ctx=Load()), args=[Name(id='sigma', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "simrank_similarity",
+            "path": "networkx/algorithms/similarity.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='x', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Name(id='float', ctx=Load()), args=[Name(id='x', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "is_valid_directed_joint_degree",
+            "path": "networkx/generators/joint_degree_seq.py",
+            "parent": "Module",
+            "old": [
+                "Constant(value=True)"
+            ],
+            "new": [
+                "Call(func=Name(id='all', ctx=Load()), args=[GeneratorExp(elt=Compare(left=BinOp(left=Subscript(value=Name(id='S', ctx=Load()), slice=Name(id='s', ctx=Load()), ctx=Load()), op=Div(), right=Subscript(value=Name(id='s', ctx=Load()), slice=Constant(value=0), ctx=Load())), ops=[Eq()], comparators=[Subscript(value=Name(id='V', ctx=Load()), slice=Name(id='s', ctx=Load()), ctx=Load())]), generators=[comprehension(target=Name(id='s', ctx=Store()), iter=Name(id='S', ctx=Load()), ifs=[], is_async=0)])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "choice",
+            "path": "networkx/utils/misc.py",
+            "parent": "PythonRandomInterface",
+            "old": [
+                "Subscript(value=Name(id='seq', ctx=Load()), slice=Call(func=Attribute(value=Attribute(value=Name(id='self', ctx=Load()), attr='_rng', ctx=Load()), attr='randint', ctx=Load()), args=[Constant(value=0), Call(func=Name(id='len', ctx=Load()), args=[Name(id='seq', ctx=Load())], keywords=[])], keywords=[]), ctx=Load())"
+            ],
+            "new": [
+                "Subscript(value=Name(id='seq', ctx=Load()), slice=Name(id='idx', ctx=Load()), ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "incremental_closeness_centrality",
+            "path": "networkx/algorithms/centrality/closeness.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='closeness_centrality', ctx=Load())"
+            ],
+            "new": [
+                "Name(id='closeness_dict', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "overall_reciprocity",
+            "path": "networkx/algorithms/reciprocity.py",
+            "parent": "Module",
+            "old": [
+                "BinOp(left=Call(func=Name(id='float', ctx=Load()), args=[Name(id='n_overlap_edge', ctx=Load())], keywords=[]), op=Div(), right=Call(func=Name(id='float', ctx=Load()), args=[Name(id='n_all_edge', ctx=Load())], keywords=[]))"
+            ],
+            "new": [
+                "BinOp(left=Name(id='n_overlap_edge', ctx=Load()), op=Div(), right=Name(id='n_all_edge', ctx=Load()))"
+            ]
+        },
+        {
+            "func_name": "eccentricity",
+            "path": "networkx/algorithms/distance_measures.py",
+            "parent": "Module",
+            "old": [],
+            "new": [
+                "Name(id='e', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "node_clique_number",
+            "path": "networkx/algorithms/clique.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='d', ctx=Load())"
+            ],
+            "new": [
+                "DictComp(key=Name(id='n', ctx=Load()), value=Subscript(value=Name(id='size_for_n', ctx=Load()), slice=Name(id='n', ctx=Load()), ctx=Load()), generators=[comprehension(target=Name(id='n', ctx=Store()), iter=Name(id='nodes', ctx=Load()), ifs=[], is_async=0)])"
+            ]
+        },
+        {
+            "func_name": "descendants_at_distance",
+            "path": "networkx/algorithms/traversal/breadth_first_search.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='current_layer', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Name(id='set', ctx=Load()), args=[], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "google_matrix",
+            "path": "networkx/algorithms/link_analysis/pagerank_alg.py",
+            "parent": "Module",
+            "old": [
+                "BinOp(left=BinOp(left=Name(id='alpha', ctx=Load()), op=Mult(), right=Name(id='M', ctx=Load())), op=Add(), right=BinOp(left=BinOp(left=Constant(value=1), op=Sub(), right=Name(id='alpha', ctx=Load())), op=Mult(), right=Name(id='p', ctx=Load())))"
+            ],
+            "new": [
+                "BinOp(left=BinOp(left=Name(id='alpha', ctx=Load()), op=Mult(), right=Name(id='A', ctx=Load())), op=Add(), right=BinOp(left=BinOp(left=Constant(value=1), op=Sub(), right=Name(id='alpha', ctx=Load())), op=Mult(), right=Name(id='p', ctx=Load())))"
+            ]
+        },
+        {
+            "func_name": "degree_histogram",
+            "path": "networkx/classes/function.py",
+            "parent": "Module",
+            "old": [
+                "ListComp(elt=Call(func=Attribute(value=Name(id='counts', ctx=Load()), attr='get', ctx=Load()), args=[Name(id='i', ctx=Load()), Constant(value=0)], keywords=[]), generators=[comprehension(target=Name(id='i', ctx=Store()), iter=Call(func=Name(id='range', ctx=Load()), args=[BinOp(left=Call(func=Name(id='max', ctx=Load()), args=[Name(id='counts', ctx=Load())], keywords=[]), op=Add(), right=Constant(value=1))], keywords=[]), ifs=[], is_async=0)])"
+            ],
+            "new": [
+                "ListComp(elt=Call(func=Attribute(value=Name(id='counts', ctx=Load()), attr='get', ctx=Load()), args=[Name(id='i', ctx=Load()), Constant(value=0)], keywords=[]), generators=[comprehension(target=Name(id='i', ctx=Store()), iter=Call(func=Name(id='range', ctx=Load()), args=[IfExp(test=Name(id='counts', ctx=Load()), body=BinOp(left=Call(func=Name(id='max', ctx=Load()), args=[Name(id='counts', ctx=Load())], keywords=[]), op=Add(), right=Constant(value=1)), orelse=Constant(value=0))], keywords=[]), ifs=[], is_async=0)])"
+            ]
+        },
+        {
+            "func_name": "omega",
+            "path": "networkx/algorithms/smallworld.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='omega', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Name(id='float', ctx=Load()), args=[Name(id='omega', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "edge_subgraph",
+            "path": "networkx/classes/function.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Attribute(value=Attribute(value=Name(id='nx', ctx=Load()), attr='graphviews', ctx=Load()), attr='subgraph_view', ctx=Load()), args=[Name(id='G', ctx=Load()), Name(id='induced_nodes', ctx=Load()), Name(id='induced_edges', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Attribute(value=Name(id='nx', ctx=Load()), attr='subgraph_view', ctx=Load()), args=[Name(id='G', ctx=Load())], keywords=[keyword(arg='filter_node', value=Name(id='induced_nodes', ctx=Load())), keyword(arg='filter_edge', value=Name(id='induced_edges', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "chordal_graph_cliques",
+            "path": "networkx/algorithms/chordal.py",
+            "parent": "Module",
+            "old": [
+                "SetComp(elt=Name(id='c', ctx=Load()), generators=[comprehension(target=Name(id='c', ctx=Store()), iter=Call(func=Name(id='_chordal_graph_cliques', ctx=Load()), args=[Name(id='G', ctx=Load())], keywords=[]), ifs=[], is_async=0)])"
+            ],
+            "new": []
+        },
+        {
+            "func_name": "non_neighbors",
+            "path": "networkx/classes/function.py",
+            "parent": "Module",
+            "old": [
+                "GeneratorExp(elt=Name(id='nnode', ctx=Load()), generators=[comprehension(target=Name(id='nnode', ctx=Store()), iter=Name(id='graph', ctx=Load()), ifs=[Compare(left=Name(id='nnode', ctx=Load()), ops=[NotIn()], comparators=[Name(id='nbors', ctx=Load())])], is_async=0)])"
+            ],
+            "new": [
+                "BinOp(left=BinOp(left=Call(func=Attribute(value=Attribute(value=Name(id='graph', ctx=Load()), attr='_adj', ctx=Load()), attr='keys', ctx=Load()), args=[], keywords=[]), op=Sub(), right=Call(func=Attribute(value=Subscript(value=Attribute(value=Name(id='graph', ctx=Load()), attr='_adj', ctx=Load()), slice=Name(id='node', ctx=Load()), ctx=Load()), attr='keys', ctx=Load()), args=[], keywords=[])), op=Sub(), right=Set(elts=[Name(id='node', ctx=Load())]))"
+            ]
+        },
+        {
+            "func_name": "is_simple_path",
+            "path": "networkx/algorithms/simple_paths.py",
+            "parent": "Module",
+            "old": [
+                "BoolOp(op=And(), values=[Compare(left=Call(func=Name(id='len', ctx=Load()), args=[Call(func=Name(id='set', ctx=Load()), args=[Name(id='nodes', ctx=Load())], keywords=[])], keywords=[]), ops=[Eq()], comparators=[Call(func=Name(id='len', ctx=Load()), args=[Name(id='nodes', ctx=Load())], keywords=[])]), Call(func=Name(id='all', ctx=Load()), args=[GeneratorExp(elt=Compare(left=Name(id='v', ctx=Load()), ops=[In()], comparators=[Subscript(value=Name(id='G', ctx=Load()), slice=Name(id='u', ctx=Load()), ctx=Load())]), generators=[comprehension(target=Tuple(elts=[Name(id='u', ctx=Store()), Name(id='v', ctx=Store())], ctx=Store()), iter=Call(func=Name(id='pairwise', ctx=Load()), args=[Name(id='nodes', ctx=Load())], keywords=[]), ifs=[], is_async=0)])], keywords=[])])"
+            ],
+            "new": [
+                "Call(func=Name(id='all', ctx=Load()), args=[GeneratorExp(elt=Compare(left=Name(id='v', ctx=Load()), ops=[In()], comparators=[Subscript(value=Name(id='G', ctx=Load()), slice=Name(id='u', ctx=Load()), ctx=Load())]), generators=[comprehension(target=Tuple(elts=[Name(id='u', ctx=Store()), Name(id='v', ctx=Store())], ctx=Store()), iter=Call(func=Name(id='pairwise', ctx=Load()), args=[Name(id='nodes', ctx=Load())], keywords=[]), ifs=[], is_async=0)])], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "__iter__",
+            "path": "networkx/utils/configs.py",
+            "parent": "Config",
+            "old": [
+                "Name(id='self', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Name(id='iter', ctx=Load()), args=[IfExp(test=Attribute(value=Name(id='self', ctx=Load()), attr='_strict', ctx=Load()), body=Attribute(value=Name(id='self', ctx=Load()), attr='__dataclass_fields__', ctx=Load()), orelse=Attribute(value=Name(id='self', ctx=Load()), attr='__dict__', ctx=Load()))], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "edge_current_flow_betweenness_centrality",
+            "path": "networkx/algorithms/centrality/current_flow_betweenness.py",
+            "parent": "Module",
+            "old": [
+                "DictComp(key=Tuple(elts=[Subscript(value=Name(id='ordering', ctx=Load()), slice=Name(id='s', ctx=Load()), ctx=Load()), Subscript(value=Name(id='ordering', ctx=Load()), slice=Name(id='t', ctx=Load()), ctx=Load())], ctx=Load()), value=Call(func=Name(id='float', ctx=Load()), args=[Name(id='v', ctx=Load())], keywords=[]), generators=[comprehension(target=Tuple(elts=[Tuple(elts=[Name(id='s', ctx=Store()), Name(id='t', ctx=Store())], ctx=Store()), Name(id='v', ctx=Store())], ctx=Store()), iter=Call(func=Attribute(value=Name(id='betweenness', ctx=Load()), attr='items', ctx=Load()), args=[], keywords=[]), ifs=[], is_async=0)])"
+            ],
+            "new": [
+                "DictComp(key=Tuple(elts=[Subscript(value=Name(id='ordering', ctx=Load()), slice=Name(id='s', ctx=Load()), ctx=Load()), Subscript(value=Name(id='ordering', ctx=Load()), slice=Name(id='t', ctx=Load()), ctx=Load())], ctx=Load()), value=Name(id='b', ctx=Load()), generators=[comprehension(target=Tuple(elts=[Tuple(elts=[Name(id='s', ctx=Store()), Name(id='t', ctx=Store())], ctx=Store()), Name(id='b', ctx=Store())], ctx=Store()), iter=Call(func=Attribute(value=Name(id='betweenness', ctx=Load()), attr='items', ctx=Load()), args=[], keywords=[]), ifs=[], is_async=0)])"
+            ]
+        },
+        {
+            "func_name": "is_maximal_matching",
+            "path": "networkx/algorithms/matching.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='all', ctx=Load()), args=[GeneratorExp(elt=UnaryOp(op=Not(), operand=Call(func=Name(id='is_matching', ctx=Load()), args=[Name(id='G', ctx=Load()), BinOp(left=Name(id='matching', ctx=Load()), op=BitOr(), right=Set(elts=[Name(id='e', ctx=Load())]))], keywords=[])), generators=[comprehension(target=Name(id='e', ctx=Store()), iter=Name(id='unmatched_edges', ctx=Load()), ifs=[], is_async=0)])], keywords=[])"
+            ],
+            "new": [
+                "Constant(value=True)"
+            ]
+        },
+        {
+            "func_name": "join",
+            "path": "networkx/algorithms/tree/operations.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='R', ctx=Load())"
+            ],
+            "new": [
+                "Call(func=Name(id='join_trees', ctx=Load()), args=[Name(id='rooted_trees', ctx=Load())], keywords=[keyword(arg='label_attribute', value=Name(id='label_attribute', ctx=Load()))])"
+            ]
+        },
+        {
+            "func_name": "snap_aggregation",
+            "path": "networkx/algorithms/summarization.py",
+            "parent": "Module",
+            "old": [
+                "Call(func=Name(id='_snap_build_graph', ctx=Load()), args=[Name(id='G', ctx=Load()), Name(id='groups', ctx=Load()), Name(id='node_attributes', ctx=Load()), Name(id='edge_attributes', ctx=Load()), Name(id='neighbor_info', ctx=Load()), Name(id='edge_types', ctx=Load()), Name(id='prefix', ctx=Load()), Name(id='supernode_attribute', ctx=Load()), Name(id='superedge_attribute', ctx=Load())], keywords=[])"
+            ],
+            "new": [
+                "Call(func=Name(id='_snap_build_graph', ctx=Load()), args=[Name(id='G', ctx=Load()), Name(id='groups', ctx=Load()), Name(id='node_attributes', ctx=Load()), Name(id='edge_attributes', ctx=Load()), Name(id='nbr_info', ctx=Load()), Name(id='edge_types', ctx=Load()), Name(id='prefix', ctx=Load()), Name(id='supernode_attribute', ctx=Load()), Name(id='superedge_attribute', ctx=Load())], keywords=[])"
+            ]
+        },
+        {
+            "func_name": "find_induced_nodes",
+            "path": "networkx/algorithms/chordal.py",
+            "parent": "Module",
+            "old": [
+                "Name(id='Induced_nodes', ctx=Load())"
+            ],
+            "new": [
+                "Name(id='induced_nodes', ctx=Load())"
+            ]
+        },
+        {
+            "func_name": "is_empty",
+            "path": "networkx/classes/function.py",
+            "parent": "Module",
+            "old": [
+                "UnaryOp(op=Not(), operand=Call(func=Name(id='any', ctx=Load()), args=[Call(func=Attribute(value=Attribute(value=Name(id='G', ctx=Load()), attr='adj', ctx=Load()), attr='values', ctx=Load()), args=[], keywords=[])], keywords=[]))"
+            ],
+            "new": [
+                "UnaryOp(op=Not(), operand=Call(func=Name(id='any', ctx=Load()), args=[Call(func=Attribute(value=Attribute(value=Name(id='G', ctx=Load()), attr='_adj', ctx=Load()), attr='values', ctx=Load()), args=[], keywords=[])], keywords=[]))"
+            ]
+        },
+        {
+            "func_name": "is_biconnected",
+            "path": "networkx/algorithms/components/biconnected.py",
+            "parent": "Module",
+            "old": [
+                "Constant(value=False)"
+            ],
+            "new": []
+        }
+    ],
+    "Deprecated": [
+        {
+            "func_name": "test_deprecations",
+            "path": "networkx/algorithms/tests/test_d_separation.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_all_triplets_deprecated",
+            "path": "networkx/algorithms/tests/test_triads.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_random_triad_deprecated",
+            "path": "networkx/algorithms/tests/test_triads.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_normalized_deprecation_warning",
+            "path": "networkx/algorithms/tests/test_smetric.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "test_deprecations",
+            "path": "networkx/algorithms/traversal/tests/test_bfs.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "deprecate_positional_args",
+            "path": "networkx/utils/decorators.py",
+            "parent": "Module"
+        },
+        {
+            "func_name": "_inner_deprecate_positional_args",
+            "path": "networkx/utils/decorators.py",
+            "parent": "Module"
+        }
+    ]
+}

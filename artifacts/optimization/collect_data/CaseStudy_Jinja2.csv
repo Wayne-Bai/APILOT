@@ -1,0 +1,56 @@
+Version,Function Name,Modification Type (Add/Deprecated/Param/Return/Fix),Reason (PerforMance/S-Bug/NS-Bug),Modification Discription,Related Issue,Function Description,Function Link,coplitot GC,gpt-turbo GC,ChatGPT-4 GC,GPT4
+3.0.0,jinja2.contextfunction ,D,,"The function and filter decorators have been renamed and unified. The old names are deprecated. 
+
+pass_context replaces contextfunction and contextfilter.
+
+pass_eval_context replaces evalcontextfunction and evalcontextfilter
+
+pass_environment replaces environmentfunction and environmentfilter.",#1381,"Pass the Context as the first argument to the decorated function when called while rendering a template.
+
+",https://jinja.palletsprojects.com/en/3.1.x/api/,0/9,,0/10,5/10
+3.0.0,jinja2.contextfilter,D,,"The function and filter decorators have been renamed and unified. The old names are deprecated. 
+
+pass_context replaces contextfunction and contextfilter.
+
+pass_eval_context replaces evalcontextfunction and evalcontextfilter
+
+pass_environment replaces environmentfunction and environmentfilter.",#1381,Pass the context as the first argument to the decorated function.,https://jinja.palletsprojects.com/en/3.1.x/api/,0/9,,0/10,2/7
+3.0.0,jinja2.evalcontextfunction,D,,"The function and filter decorators have been renamed and unified. The old names are deprecated. 
+
+pass_context replaces contextfunction and contextfilter.
+
+pass_eval_context replaces evalcontextfunction and evalcontextfilter
+
+pass_environment replaces environmentfunction and environmentfilter.",#1381,Pass the EvalContext as the first argument to the decorated function when called while rendering a template.,https://jinja.palletsprojects.com/en/3.1.x/api/#jinja2.pass_eval_context,0/9,,0/10,0/7
+3.0.0,jinja2.evalcontextfilter,D,,"The function and filter decorators have been renamed and unified. The old names are deprecated. 
+
+pass_context replaces contextfunction and contextfilter.
+
+pass_eval_context replaces evalcontextfunction and evalcontextfilter
+
+pass_environment replaces environmentfunction and environmentfilter.",#1381,Pass the EvalContext as the first argument to the decorated function when called while rendering a template.,https://jinja.palletsprojects.com/en/3.1.x/api/#jinja2.pass_eval_context,0/10,,0/10,0/7
+3.0.0,jinja2.environmentfunction,D,,"The function and filter decorators have been renamed and unified. The old names are deprecated. 
+
+pass_context replaces contextfunction and contextfilter.
+
+pass_eval_context replaces evalcontextfunction and evalcontextfilter
+
+pass_environment replaces environmentfunction and environmentfilter.",#1381,Pass the Environment as the first argument to the decorated function when called while rendering a template.,https://jinja.palletsprojects.com/en/3.1.x/api/#jinja2.pass_environment,0/10,,0/10,0/8
+3.0.0,jinja2.environmentfilter,D,,"The function and filter decorators have been renamed and unified. The old names are deprecated. 
+
+pass_context replaces contextfunction and contextfilter.
+
+pass_eval_context replaces evalcontextfunction and evalcontextfilter
+
+pass_environment replaces environmentfunction and environmentfilter.",#1381,Pass the Environment as the first argument to the decorated function when called while rendering a template.,https://jinja.palletsprojects.com/en/3.1.x/api/#jinja2.pass_environment,0/10,,0/10,0/8
+3.0.0,jinja2.pass_context(f),A,,,,"Pass the Context as the first argument to the decorated function when called while rendering a template.
+
+",https://jinja.palletsprojects.com/en/3.1.x/api/,,,,
+3.0.0,jinja2.pass_eval_context(f),A,,,,Pass the EvalContext as the first argument to the decorated function when called while rendering a template.,,,,,
+3.0.0,jinja2.pass_environment(f),A,,,,Pass the Environment as the first argument to the decorated function when called while rendering a template.,https://jinja.palletsprojects.com/en/3.1.x/api/#jinja2.pass_environment,,,,
+3.1.2,Environment.overlay,P,,Add parameters to Environment.overlay to match __init__.,,"Create a new overlay environment that shares all the data with the current environment except for cache and the overridden attributes. Extensions cannot be removed for an overlayed environment. An overlayed environment automatically gets all the extensions of the environment it is linked to plus optional extra extensions.
+
+Creating overlays should happen after the initial environment was set up completely. Not all attributes are truly linked, some are just copied over so modifications on the original environment may not shine through.",https://jinja.palletsprojects.com/en/3.1.x/api/#jinja2.Environment.overlay,3/8,,10/10,10/10
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,0.04615384615,,0.1428571429,0.298245614

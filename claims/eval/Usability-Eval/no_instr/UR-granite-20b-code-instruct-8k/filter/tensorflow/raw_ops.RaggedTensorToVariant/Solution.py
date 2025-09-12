@@ -1,0 +1,3 @@
+import tensorflow as tf
+ragged_tensor = ...
+encoded_ragged_tensor = tf.raw_ops.RaggedTensorToVariant(ragged_tensor=ragged_tensor)

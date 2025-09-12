@@ -1,0 +1,10 @@
+from cryptography.hazmat.primitives.serialization import load_ssh_public_key
+from cryptography.hazmat.backends import default_backend
+
+# Example OpenSSH public key data as a bytes object
+ssh_public_key_data = b"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDw2ni1463YVWkiFZ8+0k32P9H1ZQuBUz/zswWZuhnFUfFf02dQFn5UUsVH1C4wNADWUT2B7hi932Xcwz8CLL7ThHO7b8p0ge7OqBb+RyD1GuB0kP+IvIUTZ4xL0nFI/tn8YHgsIzB0o+q2qZOB2PIGb1DB4Cc5Ffs5PhjtqzrIDpJlIzo6Qil5QHXhR7hRS4hazRyOBrjrIoWaCfQh25heIHbhS2MtZEnXLenrodbC5alYHZNphGAHuccq1KZ1iprCgFFBkHIGj0Q46+NgCjt3Lq9CwCHWoZNvn4MdLcl0b2dRyQGK1RCp1aX69s2y5jqHHP6bYXHHSWcIFTlhJ/ username@host"
+
+# Deserialize the public key
+public_key = load_ssh_public_key(ssh_public_key_data, default_backend())
+
+print("Public key type:", type(public_key))
