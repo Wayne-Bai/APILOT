@@ -1,12 +1,26 @@
-# LLM-TimeGap: Official Implementation of APILOT
+# APILOT: Official Implementation
 
-This repository contains the official code and experiments for the research paper: **[APILOT: Navigating Large Language Models to Generate Secure Code by Sidestepping Outdated API Pitfalls](https://arxiv.org/pdf/2409.16526)**.
+Official code and evaluation framework for the paper: **[APILOT: Navigating Large Language Models to Generate Secure Code by Sidestepping Outdated API Pitfalls](https://arxiv.org/pdf/2409.16526)**.
 
-## About The Project
 
-Large Language Models (LLMs) are often trained on static, outdated datasets. This leads to a "time gap" where they may recommend code that uses outdated APIs, which can be insecure or non-functional. These outdated APIs can be deprecated, have known vulnerabilities that are patched in later versions, or have modified usage patterns.
+**APILOT: Improving the Security and Usability of LLM Code Suggestions via Outdated API Mitigation**
+Weiheng Bai, Keyang Xuan, Pengxiang Huang, Qiushi Wu, Jianing Wen, Jingjing Wu, Kangjie Lu
+*Annual Computer Security Applications Conference (ACSAC), 2025.* DOI: 10.1109/ACSAC67867.2025.00094
+Preprint: arXiv:2409.16526 (September 2024)
 
-This project introduces **APILOT**, a system that uses a Retrieval-Augmented Generation (RAG) approach to solve this problem. APILOT maintains a real-time, updatable dataset of outdated APIs and uses it to navigate LLMs, guiding them to generate secure, version-aware code. Our evaluation shows that APILOT reduces outdated code recommendations by **89.42%** on average across seven state-of-the-art LLMs.
+## About
+
+Large language models are trained on static snapshots of code and therefore keep
+recommending APIs that have since been deprecated, patched for security reasons, or
+changed in behavior. APILOT is a generation-time defense: it maintains a continuously
+updated dataset of outdated APIs, predicts which requests are at risk, screens and
+re-ranks candidate outputs, and re-queries the model when the screened result is
+unsatisfactory.
+
+**Results (ACSAC 2025).** Evaluated across seventeen open-source and commercial
+language models, APILOT reduces outdated-API recommendations by 75% on average and
+by up to 100% for some models, while improving the usability of the generated code
+by 37% on average and without degrading functionality.
 
 ## Repository Structure
 
