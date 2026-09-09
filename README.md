@@ -1,9 +1,6 @@
 # APILOT: Official Implementation
 
-Official code and evaluation framework for the paper: **[APILOT: Navigating Large Language Models to Generate Secure Code by Sidestepping Outdated API Pitfalls](https://arxiv.org/pdf/2409.16526)**.
-
-
-**APILOT: Improving the Security and Usability of LLM Code Suggestions via Outdated API Mitigation**
+Official code and evaluation framework for the paper: **[APILOT: Improving the Security and Usability of LLM Code Suggestions via Outdated API Mitigation](https://arxiv.org/pdf/2409.16526)**.
 Weiheng Bai, Keyang Xuan, Pengxiang Huang, Qiushi Wu, Jianing Wen, Jingjing Wu, Kangjie Lu
 *Annual Computer Security Applications Conference (ACSAC), 2025.* DOI: 10.1109/ACSAC67867.2025.00094
 Preprint: arXiv:2409.16526 (September 2024)
